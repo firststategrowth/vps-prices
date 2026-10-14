@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "StackRates hosting price index"
+authors:
+  - name: "StackRates (First State Growth LLC)"
+license: CC-BY-4.0
+url: "https://stackrates.ai/data/"
+date-released: 2026-10-14

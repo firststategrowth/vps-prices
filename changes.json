@@ -1,0 +1,42 @@
+[
+  {
+    "date": "2026-06-15",
+    "provider": "hetzner",
+    "planId": "hetzner-cx23",
+    "planName": "CX23",
+    "oldUsd": 4.99,
+    "newUsd": 6.49,
+    "source": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/",
+    "note": "Hetzner price adjustment effective 15 June 2026, Germany/Finland, USD, excluding VAT and IPv4."
+  },
+  {
+    "date": "2026-06-15",
+    "provider": "hetzner",
+    "planId": "hetzner-cx33",
+    "planName": "CX33",
+    "oldUsd": 7.99,
+    "newUsd": 9.99,
+    "source": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/",
+    "note": "Hetzner price adjustment effective 15 June 2026, Germany/Finland, USD, excluding VAT and IPv4."
+  },
+  {
+    "date": "2026-06-15",
+    "provider": "hetzner",
+    "planId": "hetzner-cpx22",
+    "planName": "CPX22",
+    "oldUsd": 9.49,
+    "newUsd": 22.99,
+    "source": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/",
+    "note": "Hetzner price adjustment effective 15 June 2026, Germany/Finland, USD, excluding VAT and IPv4."
+  },
+  {
+    "date": "2026-06-15",
+    "provider": "hetzner",
+    "planId": "hetzner-cpx32",
+    "planName": "CPX32",
+    "oldUsd": 15.99,
+    "newUsd": 41.99,
+    "source": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/",
+    "note": "Hetzner price adjustment effective 15 June 2026, Germany/Finland, USD, excluding VAT and IPv4."
+  }
+]
