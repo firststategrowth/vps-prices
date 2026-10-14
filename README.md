@@ -5,11 +5,11 @@ a month, read from the provider's own pricing page or price API on the date in `
 link in `source_url`. `price_source` says whether a row was read from the page, from the provider's
 price API, or by hand; rows read by hand can be a few days old.
 
-On 14 Oct 2026 the file has 220 plans from 46 providers. Plans the provider shows as sold out
+On 14 Oct 2026 the file has 231 plans from 49 providers. Plans the provider shows as sold out
 on that day are left out.
 
 Three things that change what you pay are in their own columns:
-- `ipv4_extra_usd`: what a public IPv4 address adds to `monthly_usd`. Scaleway bills it on top ($4.08/mo). Hetzner and netcup print their prices with the address included; for them `monthly_usd` and, where present, `billed_eur` are the price without it, and `monthly_usd` + `ipv4_extra_usd` is what they print.
+- `ipv4_extra_usd`: what a public IPv4 address adds to `monthly_usd`. Scaleway ($4.08/mo), phoenixNAP ($5.11/mo) and Mythic Beasts ($2.65/mo) bill it on top. Hetzner and netcup print their prices with the address included; for them `monthly_usd` and, where present, `billed_eur` are the price without it, and `monthly_usd` + `ipv4_extra_usd` is what they print.
   Empty when the provider's page shows no separate charge.
 - `excludes_vat`: true when the provider's page states the price before VAT
 - `commitment_months`: above 1, the price needs a prepaid term (Hostinger KVM 1 is $6.49/mo paid
