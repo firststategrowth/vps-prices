@@ -47,11 +47,11 @@ ovh-vps-1,ovhcloud,OVHcloud,VPS-1,5.35,,,2,4,40,NVMe,,,,Shared vCPU,false,,false
 ovh-vps-2,ovhcloud,OVHcloud,VPS-2,10,,,4,8,75,NVMe,,,,Shared vCPU,false,,false,,2026-10-15,api,https://us.ovhcloud.com/vps/
 ovh-vps-3,ovhcloud,OVHcloud,VPS-3,14.5,,,6,12,100,NVMe,,,,Shared vCPU,false,,false,,2026-10-15,api,https://us.ovhcloud.com/vps/
 ovh-vps-4,ovhcloud,OVHcloud,VPS-4,27.5,,,8,24,200,NVMe,,,,Shared vCPU,false,,false,,2026-10-15,api,https://us.ovhcloud.com/vps/
-upcloud-starter-1,upcloud,UpCloud,Starter 1GB,3.5,,,1,1,10,SSD,,,,Shared vCPU (previous-gen AMD),false,,false,,2026-10-15,page,https://calc.upcloud.com/cloud-servers?currency=USD
-upcloud-starter-2,upcloud,UpCloud,Starter 2GB,7,,,1,2,20,SSD,,,,Shared vCPU (previous-gen AMD),false,,false,,2026-10-15,page,https://calc.upcloud.com/cloud-servers?currency=USD
-upcloud-starter-4,upcloud,UpCloud,Starter 4GB / 2 vCPU,14,,,2,4,30,SSD,,,,Shared vCPU (previous-gen AMD),false,,false,,2026-10-15,page,https://calc.upcloud.com/cloud-servers?currency=USD
-upcloud-starter-8,upcloud,UpCloud,Starter 8GB / 2 vCPU,20,,,2,8,40,SSD,,,,Shared vCPU (previous-gen AMD),false,,false,,2026-10-15,page,https://calc.upcloud.com/cloud-servers?currency=USD
-upcloud-starter-8-4,upcloud,UpCloud,Starter 8GB / 4 vCPU,24,,,4,8,40,SSD,,,,Shared vCPU (previous-gen AMD),false,,false,,2026-10-15,page,https://calc.upcloud.com/cloud-servers?currency=USD
+upcloud-starter-1,upcloud,UpCloud,Starter 1GB,3.5,,,1,1,10,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-10-15,page,https://calc.upcloud.com/cloud-servers?currency=USD
+upcloud-starter-2,upcloud,UpCloud,Starter 2GB,7,,,1,2,20,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-10-15,page,https://calc.upcloud.com/cloud-servers?currency=USD
+upcloud-starter-4,upcloud,UpCloud,Starter 4GB / 2 vCPU,14,,,2,4,30,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-10-15,page,https://calc.upcloud.com/cloud-servers?currency=USD
+upcloud-starter-8,upcloud,UpCloud,Starter 8GB / 2 vCPU,20,,,2,8,40,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-10-15,page,https://calc.upcloud.com/cloud-servers?currency=USD
+upcloud-starter-8-4,upcloud,UpCloud,Starter 8GB / 4 vCPU,24,,,4,8,40,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-10-15,page,https://calc.upcloud.com/cloud-servers?currency=USD
 contabo-vps-4,contabo,Contabo,Cloud VPS 4,6.6,,,4,8,100,SSD,,,,Shared vCPU,true,,false,1,2026-10-15,manual,https://contabo.com/en/vps/cloud-vps-core-4/
 contabo-vps-6,contabo,Contabo,Cloud VPS 6,9,,,6,12,200,SSD,,,,Shared vCPU,true,,false,1,2026-10-15,manual,https://contabo.com/en/vps/cloud-vps-core-6/
 contabo-vps-8,contabo,Contabo,Cloud VPS 8,16.8,,,8,24,300,SSD,,,,Shared vCPU,true,,false,1,2026-10-15,manual,https://contabo.com/en/vps/cloud-vps-core-8/
