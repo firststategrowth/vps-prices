@@ -142,7 +142,6 @@ webdock-pro,webdock,Webdock,VPS Pro,21.94,19.6,,6,10,40,NVMe,7,,,AMD Epyc thread
 hivelocity-sm,hivelocity,Hivelocity,pro.sm.amd,10,,,2,4,40,NVMe,10,,,AMD vCPU,false,,false,,2026-10-15,page,https://www.hivelocity.net/pricing?computeType=vps
 hivelocity-md,hivelocity,Hivelocity,pro.md.amd,20,,,4,8,80,NVMe,10,,,AMD vCPU,false,,false,,2026-10-15,page,https://www.hivelocity.net/pricing?computeType=vps
 hivelocity-lg,hivelocity,Hivelocity,pro.lg.amd,39,,,8,16,160,NVMe,10,,,AMD vCPU,false,,false,,2026-10-15,page,https://www.hivelocity.net/pricing?computeType=vps
-hivelocity-xl,hivelocity,Hivelocity,pro.xl.amd,65,,,12,24,240,NVMe,10,,,AMD vCPU,false,,false,,2026-10-15,page,https://www.hivelocity.net/pricing?computeType=vps
 anet-g3-2,atlanticnet,Atlantic.Net,G3.2GB,10,,,1,2,50,SSD,3,,,vCPU,false,,false,,2026-10-15,page,https://www.atlantic.net/vps-hosting/pricing/
 anet-g3-4,atlanticnet,Atlantic.Net,G3.4GB,20,,,2,4,80,SSD,5,,,vCPU,false,,false,,2026-10-15,page,https://www.atlantic.net/vps-hosting/pricing/
 anet-g3-8,atlanticnet,Atlantic.Net,G3.8GB,40,,,4,8,160,SSD,6,,,vCPU,false,,false,,2026-10-15,page,https://www.atlantic.net/vps-hosting/pricing/
