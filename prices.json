@@ -2,7 +2,7 @@
   "name": "StackRates hosting price index",
   "license": "CC BY 4.0",
   "attribution": "StackRates (https://stackrates.ai/data/)",
-  "generated_at": "2026-10-16T09:19:53.445Z",
+  "generated_at": "2026-10-16T10:26:33.596Z",
   "last_manual_capture": "2026-10-05",
   "note": "Each row carries the date and method its price was read. Prices are provider list prices in USD per month; a provider that bills in euros has its euro price in billed_eur, one that bills in pounds its pound price in billed_gbp, converted at the ECB rate in fx (usdPerGbp is the ECB cross rate). Confirm at source_url before buying. Only plans that can be ordered today: plans the provider shows as sold out, and automatic prices not re-read for 7 days, are left out.",
   "fx": {
@@ -1304,7 +1304,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": 1,
-      "checked_at": "2026-10-15",
+      "checked_at": "2026-10-16",
       "price_source": "manual",
       "source_url": "https://contabo.com/en/vps/cloud-vps-core-4/"
     },
@@ -1328,7 +1328,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": 1,
-      "checked_at": "2026-10-15",
+      "checked_at": "2026-10-16",
       "price_source": "manual",
       "source_url": "https://contabo.com/en/vps/cloud-vps-core-6/"
     },
@@ -1352,7 +1352,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": 1,
-      "checked_at": "2026-10-15",
+      "checked_at": "2026-10-16",
       "price_source": "manual",
       "source_url": "https://contabo.com/en/vps/cloud-vps-core-8/"
     },
@@ -1376,7 +1376,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": 1,
-      "checked_at": "2026-10-15",
+      "checked_at": "2026-10-16",
       "price_source": "manual",
       "source_url": "https://contabo.com/en/vps/cloud-vps-core-12/"
     },
@@ -1400,7 +1400,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": 1,
-      "checked_at": "2026-10-15",
+      "checked_at": "2026-10-16",
       "price_source": "manual",
       "source_url": "https://contabo.com/en/vps/cloud-vps-core-16/"
     },
@@ -1424,7 +1424,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": 1,
-      "checked_at": "2026-10-15",
+      "checked_at": "2026-10-16",
       "price_source": "manual",
       "source_url": "https://contabo.com/en/vps/cloud-vps-core-18/"
     },
@@ -1664,7 +1664,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-15",
+      "checked_at": "2026-10-16",
       "price_source": "manual",
       "source_url": "https://www.interserver.net/vps/"
     },
@@ -1688,7 +1688,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-15",
+      "checked_at": "2026-10-16",
       "price_source": "manual",
       "source_url": "https://www.interserver.net/vps/"
     },
@@ -1712,7 +1712,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-15",
+      "checked_at": "2026-10-16",
       "price_source": "manual",
       "source_url": "https://www.interserver.net/vps/"
     },
@@ -1736,7 +1736,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-15",
+      "checked_at": "2026-10-16",
       "price_source": "manual",
       "source_url": "https://www.interserver.net/vps/"
     },
@@ -2696,7 +2696,7 @@
       "ipv4_extra_usd": 0.56,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-15",
+      "checked_at": "2026-10-16",
       "price_source": "manual",
       "source_url": "https://www.netcup.com/en/server/vps/vps-500-g12.5-iv-24m-eu"
     },
@@ -2720,7 +2720,7 @@
       "ipv4_extra_usd": 0.56,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-15",
+      "checked_at": "2026-10-16",
       "price_source": "manual",
       "source_url": "https://www.netcup.com/en/server/vps/vps-1000-g12.5-iv-24m-eu"
     },
@@ -2744,7 +2744,7 @@
       "ipv4_extra_usd": 0.56,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-14",
+      "checked_at": "2026-10-16",
       "price_source": "manual",
       "source_url": "https://www.netcup.com/en/server/vps/vps-2000-g12.5-iv-24m-eu"
     },
@@ -2768,7 +2768,7 @@
       "ipv4_extra_usd": 0.56,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-14",
+      "checked_at": "2026-10-16",
       "price_source": "manual",
       "source_url": "https://www.netcup.com/en/server/vps/vps-4000-g12.5-iv-24m-eu"
     },
@@ -2792,7 +2792,7 @@
       "ipv4_extra_usd": 0.56,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-14",
+      "checked_at": "2026-10-16",
       "price_source": "manual",
       "source_url": "https://www.netcup.com/en/server/vps/vps-8000-g12.5-iv-24m-eu"
     },

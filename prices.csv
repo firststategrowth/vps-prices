@@ -52,12 +52,12 @@ upcloud-starter-2,upcloud,UpCloud,Starter 2GB,7,,,1,2,20,SSD,,,,Shared vCPU (pre
 upcloud-starter-4,upcloud,UpCloud,Starter 4GB / 2 vCPU,14,,,2,4,30,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-10-16,page,https://calc.upcloud.com/cloud-servers?currency=USD
 upcloud-starter-8,upcloud,UpCloud,Starter 8GB / 2 vCPU,20,,,2,8,40,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-10-16,page,https://calc.upcloud.com/cloud-servers?currency=USD
 upcloud-starter-8-4,upcloud,UpCloud,Starter 8GB / 4 vCPU,24,,,4,8,40,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-10-16,page,https://calc.upcloud.com/cloud-servers?currency=USD
-contabo-vps-4,contabo,Contabo,Cloud VPS 4,6.6,,,4,8,100,SSD,,,,Shared vCPU,true,,false,1,2026-10-15,manual,https://contabo.com/en/vps/cloud-vps-core-4/
-contabo-vps-6,contabo,Contabo,Cloud VPS 6,9,,,6,12,200,SSD,,,,Shared vCPU,true,,false,1,2026-10-15,manual,https://contabo.com/en/vps/cloud-vps-core-6/
-contabo-vps-8,contabo,Contabo,Cloud VPS 8,16.8,,,8,24,300,SSD,,,,Shared vCPU,true,,false,1,2026-10-15,manual,https://contabo.com/en/vps/cloud-vps-core-8/
-contabo-vps-12,contabo,Contabo,Cloud VPS 12,30,,,12,48,400,SSD,,,,Shared vCPU,true,,false,1,2026-10-15,manual,https://contabo.com/en/vps/cloud-vps-core-12/
-contabo-vps-16,contabo,Contabo,Cloud VPS 16,44.5,,,16,64,500,SSD,,,,Shared vCPU,true,,false,1,2026-10-15,manual,https://contabo.com/en/vps/cloud-vps-core-16/
-contabo-vps-18,contabo,Contabo,Cloud VPS 18,58.8,,,18,96,600,SSD,,,,Shared vCPU,true,,false,1,2026-10-15,manual,https://contabo.com/en/vps/cloud-vps-core-18/
+contabo-vps-4,contabo,Contabo,Cloud VPS 4,6.6,,,4,8,100,SSD,,,,Shared vCPU,true,,false,1,2026-10-16,manual,https://contabo.com/en/vps/cloud-vps-core-4/
+contabo-vps-6,contabo,Contabo,Cloud VPS 6,9,,,6,12,200,SSD,,,,Shared vCPU,true,,false,1,2026-10-16,manual,https://contabo.com/en/vps/cloud-vps-core-6/
+contabo-vps-8,contabo,Contabo,Cloud VPS 8,16.8,,,8,24,300,SSD,,,,Shared vCPU,true,,false,1,2026-10-16,manual,https://contabo.com/en/vps/cloud-vps-core-8/
+contabo-vps-12,contabo,Contabo,Cloud VPS 12,30,,,12,48,400,SSD,,,,Shared vCPU,true,,false,1,2026-10-16,manual,https://contabo.com/en/vps/cloud-vps-core-12/
+contabo-vps-16,contabo,Contabo,Cloud VPS 16,44.5,,,16,64,500,SSD,,,,Shared vCPU,true,,false,1,2026-10-16,manual,https://contabo.com/en/vps/cloud-vps-core-16/
+contabo-vps-18,contabo,Contabo,Cloud VPS 18,58.8,,,18,96,600,SSD,,,,Shared vCPU,true,,false,1,2026-10-16,manual,https://contabo.com/en/vps/cloud-vps-core-18/
 kinsta-single-35k,kinsta,Kinsta,Single 35k,35,,,,,10,SSD,,35000,1,Container (not user-selectable),false,,false,,2026-10-16,page,https://kinsta.com/plans/
 kinsta-single-65k,kinsta,Kinsta,Single 65k,50,,,,,10,SSD,,65000,1,Container (not user-selectable),false,,false,,2026-10-16,page,https://kinsta.com/plans/
 kinsta-wp-2,kinsta,Kinsta,WP 2,70,,,,,20,SSD,,70000,2,Container (not user-selectable),false,,false,,2026-10-16,page,https://kinsta.com/plans/
@@ -67,10 +67,10 @@ rn-1,racknerd,RackNerd,KVM 1GB,17.99,,,2,1,50,RAID-10 SSD,1,,,vCore (Intel Xeon)
 rn-2,racknerd,RackNerd,KVM 2GB,20.59,,,3,2,75,RAID-10 SSD,2,,,vCore (Intel Xeon),false,,false,,2026-10-16,page,https://www.racknerd.com/kvm-vps
 rn-4,racknerd,RackNerd,KVM 4GB,24.59,,,4,4,130,RAID-10 SSD,3,,,vCore (Intel Xeon),false,,false,,2026-10-16,page,https://www.racknerd.com/kvm-vps
 rn-8,racknerd,RackNerd,KVM 8GB,36.59,,,6,8,220,RAID-10 SSD,5,,,vCore (Intel Xeon),false,,false,,2026-10-16,page,https://www.racknerd.com/kvm-vps
-is-1,interserver,InterServer,1 slice,3,,,1,2,40,SSD,2,,,vCPU (KVM),false,,false,,2026-10-15,manual,https://www.interserver.net/vps/
-is-2,interserver,InterServer,2 slices,6,,,1,4,80,SSD,4,,,vCPU (KVM),false,,false,,2026-10-15,manual,https://www.interserver.net/vps/
-is-4,interserver,InterServer,4 slices,12,,,2,8,160,SSD,8,,,vCPU (KVM),false,,false,,2026-10-15,manual,https://www.interserver.net/vps/
-is-8,interserver,InterServer,8 slices,24,,,4,16,320,SSD,16,,,vCPU (KVM),false,,false,,2026-10-15,manual,https://www.interserver.net/vps/
+is-1,interserver,InterServer,1 slice,3,,,1,2,40,SSD,2,,,vCPU (KVM),false,,false,,2026-10-16,manual,https://www.interserver.net/vps/
+is-2,interserver,InterServer,2 slices,6,,,1,4,80,SSD,4,,,vCPU (KVM),false,,false,,2026-10-16,manual,https://www.interserver.net/vps/
+is-4,interserver,InterServer,4 slices,12,,,2,8,160,SSD,8,,,vCPU (KVM),false,,false,,2026-10-16,manual,https://www.interserver.net/vps/
+is-8,interserver,InterServer,8 slices,24,,,4,16,320,SSD,16,,,vCPU (KVM),false,,false,,2026-10-16,manual,https://www.interserver.net/vps/
 cc-1,cloudcone,CloudCone,SSD VPS 1,2.33,,,2,1,30,RAID-10 SSD,4,,,vCPU (KVM),false,,false,12,2026-10-16,page,https://cloudcone.com/vps/
 cc-2,cloudcone,CloudCone,SSD VPS 2,3.83,,,4,2,60,RAID-10 SSD,7,,,vCPU (KVM),false,,false,12,2026-10-16,page,https://cloudcone.com/vps/
 cc-3,cloudcone,CloudCone,SSD VPS 3,5.75,,,6,3,90,RAID-10 SSD,8.5,,,vCPU (KVM),false,,false,12,2026-10-16,page,https://cloudcone.com/vps/
@@ -110,11 +110,11 @@ hostinger-1,hostinger,Hostinger,KVM 1,6.49,,,1,4,50,NVMe,4,,,AMD EPYC,true,,fals
 hostinger-2,hostinger,Hostinger,KVM 2,8.99,,,2,8,100,NVMe,8,,,AMD EPYC,true,,false,24,2026-10-16,page,https://www.hostinger.com/vps-hosting
 hostinger-4,hostinger,Hostinger,KVM 4,12.99,,,4,16,200,NVMe,16,,,AMD EPYC,true,,false,24,2026-10-16,page,https://www.hostinger.com/vps-hosting
 hostinger-8,hostinger,Hostinger,KVM 8,25.99,,,8,32,400,NVMe,32,,,AMD EPYC,true,,false,24,2026-10-16,page,https://www.hostinger.com/vps-hosting
-netcup-vps-500,netcup,netcup,VPS 500 G12.5,8.38,7.48,,2,4,64,SSD,,,,Shared vCore (KVM),true,0.56,false,,2026-10-15,manual,https://www.netcup.com/en/server/vps/vps-500-g12.5-iv-24m-eu
-netcup-vps-1000,netcup,netcup,VPS 1000 G12.5,15.14,13.51,,4,8,128,SSD,,,,Shared vCore (KVM),true,0.56,false,,2026-10-15,manual,https://www.netcup.com/en/server/vps/vps-1000-g12.5-iv-24m-eu
-netcup-vps-2000,netcup,netcup,VPS 2000 G12.5,28.59,25.51,,8,16,256,SSD,,,,Shared vCore (KVM),true,0.56,false,,2026-10-14,manual,https://www.netcup.com/en/server/vps/vps-2000-g12.5-iv-24m-eu
-netcup-vps-4000,netcup,netcup,VPS 4000 G12.5,48.56,43.33,,12,32,512,SSD,,,,Shared vCore (KVM),true,0.56,false,,2026-10-14,manual,https://www.netcup.com/en/server/vps/vps-4000-g12.5-iv-24m-eu
-netcup-vps-8000,netcup,netcup,VPS 8000 G12.5,72.11,64.34,,16,64,1024,SSD,,,,Shared vCore (KVM),true,0.56,false,,2026-10-14,manual,https://www.netcup.com/en/server/vps/vps-8000-g12.5-iv-24m-eu
+netcup-vps-500,netcup,netcup,VPS 500 G12.5,8.38,7.48,,2,4,64,SSD,,,,Shared vCore (KVM),true,0.56,false,,2026-10-16,manual,https://www.netcup.com/en/server/vps/vps-500-g12.5-iv-24m-eu
+netcup-vps-1000,netcup,netcup,VPS 1000 G12.5,15.14,13.51,,4,8,128,SSD,,,,Shared vCore (KVM),true,0.56,false,,2026-10-16,manual,https://www.netcup.com/en/server/vps/vps-1000-g12.5-iv-24m-eu
+netcup-vps-2000,netcup,netcup,VPS 2000 G12.5,28.59,25.51,,8,16,256,SSD,,,,Shared vCore (KVM),true,0.56,false,,2026-10-16,manual,https://www.netcup.com/en/server/vps/vps-2000-g12.5-iv-24m-eu
+netcup-vps-4000,netcup,netcup,VPS 4000 G12.5,48.56,43.33,,12,32,512,SSD,,,,Shared vCore (KVM),true,0.56,false,,2026-10-16,manual,https://www.netcup.com/en/server/vps/vps-4000-g12.5-iv-24m-eu
+netcup-vps-8000,netcup,netcup,VPS 8000 G12.5,72.11,64.34,,16,64,1024,SSD,,,,Shared vCore (KVM),true,0.56,false,,2026-10-16,manual,https://www.netcup.com/en/server/vps/vps-8000-g12.5-iv-24m-eu
 buyvm-2048,buyvm,BuyVM,Slice 2048,7,,,1,2,40,SSD,,,,"Fair-share core, 3.5+ GHz",false,,false,,2026-10-16,page,https://buyvm.net/kvm-dedicated-server-slices/
 buyvm-4096,buyvm,BuyVM,Slice 4096,15,,,1,4,80,SSD,,,,"Dedicated core, 3.5+ GHz",false,,false,,2026-10-16,page,https://buyvm.net/kvm-dedicated-server-slices/
 buyvm-8192,buyvm,BuyVM,Slice 8192,30,,,2,8,160,SSD,,,,Cores at 3.5+ GHz,false,,false,,2026-10-16,page,https://buyvm.net/kvm-dedicated-server-slices/
