@@ -5,7 +5,7 @@ a month, read from the provider's own pricing page or price API on the date in `
 link in `source_url`. `price_source` says whether a row was read from the page, from the provider's
 price API, or by hand; rows read by hand can be a few days old.
 
-On 15 Oct 2026 the file has 244 plans from 52 providers. Plans the provider shows as sold out
+On 16 Oct 2026 the file has 244 plans from 52 providers. Plans the provider shows as sold out
 on that day are left out.
 
 Three things that change what you pay are in their own columns:
@@ -16,7 +16,7 @@ Three things that change what you pay are in their own columns:
   24 months up front; it renews at a higher price, and renewal prices are not in this file)
 
 Providers that print euro prices keep the euro figure in `billed_eur`; it is converted at the latest
-European Central Bank reference rate (14 Oct 2026: 1 EUR = $1.1195; also in `fx` in prices.json). Webdock and Exoscale bill the same figures in US dollars, so a dollar account there pays less than `monthly_usd`.
+European Central Bank reference rate (15 Oct 2026: 1 EUR = $1.1208; also in `fx` in prices.json). Webdock and Exoscale bill the same figures in US dollars, so a dollar account there pays less than `monthly_usd`.
 Other providers that publish dollar prices are taken in dollars.
 
 Kinsta's managed WordPress plans are sold by monthly visits (`monthly_visits`, `site_limit`), not by size, so their `vcpu` and `ram_gb` are empty.
