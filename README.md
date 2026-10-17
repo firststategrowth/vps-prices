@@ -5,18 +5,18 @@ a month, read from the provider's own pricing page or price API on the date in `
 link in `source_url`. `price_source` says whether a row was read from the page, from the provider's
 price API, or by hand; rows read by hand can be a few days old.
 
-On 16 Oct 2026 the file has 244 plans from 52 providers. Plans the provider shows as sold out
+On 17 Oct 2026 the file has 244 plans from 52 providers. Plans the provider shows as sold out
 on that day are left out.
 
 Three things that change what you pay are in their own columns:
-- `ipv4_extra_usd`: what a public IPv4 address adds to `monthly_usd`. Scaleway ($4.09/mo), phoenixNAP ($5.11/mo) and Mythic Beasts ($2.65/mo) bill it on top. Hetzner and netcup print their prices with the address included; for them `monthly_usd` and, where present, `billed_eur` are the price without it, and `monthly_usd` + `ipv4_extra_usd` is what they print.
+- `ipv4_extra_usd`: what a public IPv4 address adds to `monthly_usd`. Scaleway ($4.11/mo), phoenixNAP ($5.11/mo) and Mythic Beasts ($2.67/mo) bill it on top. Hetzner and netcup print their prices with the address included; for them `monthly_usd` and, where present, `billed_eur` are the price without it, and `monthly_usd` + `ipv4_extra_usd` is what they print.
   Empty when the provider's page shows no separate charge.
 - `excludes_vat`: true when the provider's page states the price before VAT
 - `commitment_months`: above 1, the price needs a prepaid term (Hostinger KVM 1 is $6.49/mo paid
   24 months up front; it renews at a higher price, and renewal prices are not in this file)
 
 Providers that print euro prices keep the euro figure in `billed_eur`; it is converted at the latest
-European Central Bank reference rate (15 Oct 2026: 1 EUR = $1.1208; also in `fx` in prices.json). Webdock and Exoscale bill the same figures in US dollars, so a dollar account there pays less than `monthly_usd`.
+European Central Bank reference rate (16 Oct 2026: 1 EUR = $1.1253; also in `fx` in prices.json). Webdock and Exoscale bill the same figures in US dollars, so a dollar account there pays less than `monthly_usd`.
 Other providers that publish dollar prices are taken in dollars.
 
 Kinsta's managed WordPress plans are sold by monthly visits (`monthly_visits`, `site_limit`), not by size, so their `vcpu` and `ram_gb` are empty.
