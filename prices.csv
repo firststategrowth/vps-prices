@@ -115,10 +115,6 @@ netcup-vps-1000,netcup,netcup,VPS 1000 G12.5,15.2,13.51,,4,8,128,SSD,,,,Shared v
 netcup-vps-2000,netcup,netcup,VPS 2000 G12.5,28.71,25.51,,8,16,256,SSD,,,,Shared vCore (KVM),true,0.56,false,,2026-10-18,manual,https://www.netcup.com/en/server/vps/vps-2000-g12.5-iv-24m-eu
 netcup-vps-4000,netcup,netcup,VPS 4000 G12.5,48.76,43.33,,12,32,512,SSD,,,,Shared vCore (KVM),true,0.56,false,,2026-10-18,manual,https://www.netcup.com/en/server/vps/vps-4000-g12.5-iv-24m-eu
 netcup-vps-8000,netcup,netcup,VPS 8000 G12.5,72.4,64.34,,16,64,1024,SSD,,,,Shared vCore (KVM),true,0.56,false,,2026-10-18,manual,https://www.netcup.com/en/server/vps/vps-8000-g12.5-iv-24m-eu
-buyvm-2048,buyvm,BuyVM,Slice 2048,7,,,1,2,40,SSD,,,,"Fair-share core, 3.5+ GHz",false,,false,,2026-10-18,page,https://buyvm.net/kvm-dedicated-server-slices/
-buyvm-4096,buyvm,BuyVM,Slice 4096,15,,,1,4,80,SSD,,,,"Dedicated core, 3.5+ GHz",false,,false,,2026-10-18,page,https://buyvm.net/kvm-dedicated-server-slices/
-buyvm-8192,buyvm,BuyVM,Slice 8192,30,,,2,8,160,SSD,,,,Cores at 3.5+ GHz,false,,false,,2026-10-18,page,https://buyvm.net/kvm-dedicated-server-slices/
-buyvm-16384,buyvm,BuyVM,Slice 16384,60,,,4,16,320,SSD,,,,Cores at 3.5+ GHz,false,,false,,2026-10-18,page,https://buyvm.net/kvm-dedicated-server-slices/
 liquidweb-2,liquidweb,Liquid Web,VPS 2 GB,11,,,1,2,60,SSD,2,,,vCPU,false,,false,,2026-10-18,page,https://www.liquidweb.com/vps-hosting/
 liquidweb-4,liquidweb,Liquid Web,VPS 4 GB,17,,,2,4,80,SSD,3,,,vCPU,false,,false,,2026-10-18,page,https://www.liquidweb.com/vps-hosting/
 liquidweb-8,liquidweb,Liquid Web,VPS 8 GB,45,,,4,8,240,SSD,5,,,vCPU,false,,false,,2026-10-18,page,https://www.liquidweb.com/vps-hosting/

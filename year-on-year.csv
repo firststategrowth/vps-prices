@@ -86,12 +86,6 @@ netcup,VPS 1000 G12.5,VPS 1000 G11,4,8,EUR,5.75,10.37,13.51,,no,https://web.arch
 netcup,VPS 2000 G12.5,VPS 2000 G11,8,16,EUR,12.6,19.25,25.51,,no,https://web.archive.org/web/20251009020727id_/https://www.netcup.com/en/server/vps,2025-10-09
 netcup,VPS 4000 G12.5,VPS 4000 G11,12,32,EUR,21.5,32.41,43.33,,no,https://web.archive.org/web/20251009020727id_/https://www.netcup.com/en/server/vps,2025-10-09
 netcup,VPS 8000 G12.5,VPS 8000 G11,16,64,EUR,32,47.95,64.34,,no,https://web.archive.org/web/20251009020727id_/https://www.netcup.com/en/server/vps,2025-10-09
-buyvm,Slice 512,Slice 512,1,0.5,USD,2,2,2,0,yes,https://web.archive.org/web/20251008153118id_/https://buyvm.net/kvm-dedicated-server-slices,2025-10-08
-buyvm,Slice 1024,Slice 1024,1,1,USD,3.5,3.5,3.5,0,yes,https://web.archive.org/web/20251008153118id_/https://buyvm.net/kvm-dedicated-server-slices,2025-10-08
-buyvm,Slice 2048,Slice 2048,1,2,USD,7,7,7,0,yes,https://web.archive.org/web/20251008153118id_/https://buyvm.net/kvm-dedicated-server-slices,2025-10-08
-buyvm,Slice 4096,Slice 4096,1,4,USD,15,15,15,0,yes,https://web.archive.org/web/20251008153118id_/https://buyvm.net/kvm-dedicated-server-slices,2025-10-08
-buyvm,Slice 8192,High volume 2 cores / 8 GB,2,8,USD,30,30,30,0,yes,https://web.archive.org/web/20251008153118id_/https://buyvm.net/kvm-dedicated-server-slices,2025-10-08
-buyvm,Slice 16384,High volume 4 cores / 16 GB,4,16,USD,60,60,60,0,yes,https://web.archive.org/web/20251008153118id_/https://buyvm.net/kvm-dedicated-server-slices,2025-10-08
 liquidweb,VPS 2 GB,Compute 2 GB,1,2,USD,11,11,11,0,yes,https://web.archive.org/web/20251008230611id_/https://www.liquidweb.com/vps-hosting/,2025-10-08
 liquidweb,VPS 4 GB,Compute 4 GB,2,4,USD,17,17,17,0,yes,https://web.archive.org/web/20251008230611id_/https://www.liquidweb.com/vps-hosting/,2025-10-08
 liquidweb,VPS 8 GB,Compute 8 GB,4,8,USD,45,45,45,0,yes,https://web.archive.org/web/20251008230611id_/https://www.liquidweb.com/vps-hosting/,2025-10-08
