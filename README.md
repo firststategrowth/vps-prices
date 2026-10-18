@@ -28,6 +28,8 @@ Kinsta's managed WordPress plans are sold by monthly visits (`monthly_visits`, `
 - `year-on-year.csv`: each provider's pricing page as the Wayback Machine archived it (19 Sep 2025 to 13 Dec 2025, most in October 2025;
   date per row in `archived_on`) against today's price, plan by plan, in the currency the provider prints
   (`currency`); `comparable` is "no" where the spec or terms changed. It keeps plans that are sold out today.
+  One plan has been withdrawn by the provider since the study was made: `withdrawn_on` has the date
+  and `price_today` the last price read; it stays in the comparison.
 
 ## Use it
 CC BY 4.0. Credit "StackRates (stackrates.ai)" with a link to https://stackrates.ai/data/.

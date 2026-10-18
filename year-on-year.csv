@@ -1,128 +1,129 @@
-provider,plan_today,plan_oct_2025,vcpu,ram_gb,currency,price_oct_2025,price_spring_2026,price_today,change_pct,comparable,archived_page,archived_on
-digitalocean,Basic 512MB,Basic 512 MiB / 1 vCPU / 10 GiB,1,0.5,USD,4,4,4,0,yes,https://web.archive.org/web/20251014151323/https://www.digitalocean.com/pricing/droplets,2025-10-14
-digitalocean,Basic 1GB,Basic 1 GiB / 1 vCPU / 25 GiB,1,1,USD,6,6,6,0,yes,https://web.archive.org/web/20251014151323/https://www.digitalocean.com/pricing/droplets,2025-10-14
-digitalocean,Basic 2GB,Basic 2 GiB / 1 vCPU / 50 GiB,1,2,USD,12,12,12,0,yes,https://web.archive.org/web/20251014151323/https://www.digitalocean.com/pricing/droplets,2025-10-14
-digitalocean,Basic 2GB / 2 vCPU,Basic 2 GiB / 2 vCPUs / 60 GiB,2,2,USD,18,18,18,0,yes,https://web.archive.org/web/20251014151323/https://www.digitalocean.com/pricing/droplets,2025-10-14
-digitalocean,Basic 4GB,Basic 4 GiB / 2 vCPUs / 80 GiB,2,4,USD,24,24,24,0,yes,https://web.archive.org/web/20251014151323/https://www.digitalocean.com/pricing/droplets,2025-10-14
-digitalocean,Basic 8GB,Basic 8 GiB / 4 vCPUs / 160 GiB,4,8,USD,48,48,48,0,yes,https://web.archive.org/web/20251014151323/https://www.digitalocean.com/pricing/droplets,2025-10-14
-digitalocean,Basic 16GB,Basic 16 GiB / 8 vCPUs / 320 GiB,8,16,USD,96,96,96,0,yes,https://web.archive.org/web/20251014151323/https://www.digitalocean.com/pricing/droplets,2025-10-14
-hetzner,CX23,"CX23 (cost-optimized, Intel/AMD) 2 vCPU / 4 GB / 40 GB",2,4,USD,3.49,4.99,6.49,86,yes,https://web.archive.org/web/20251016192938/https://www.hetzner.com/cloud,2025-10-16
-hetzner,CX33,CX33 4 vCPU / 8 GB / 80 GB,4,8,USD,5.99,7.99,9.99,66.8,yes,https://web.archive.org/web/20251016192938/https://www.hetzner.com/cloud,2025-10-16
-hetzner,CX43,CX43 8 vCPU / 16 GB / 160 GB,8,16,USD,9.99,13.99,18.49,85.1,yes,https://web.archive.org/web/20251016192938/https://www.hetzner.com/cloud,2025-10-16
-hetzner,CX53,CX53 16 vCPU / 32 GB / 320 GB,16,32,USD,18.99,26.49,34.99,84.3,yes,https://web.archive.org/web/20251016192938/https://www.hetzner.com/cloud,2025-10-16
-hetzner,CPX22,"CPX22 (regular performance, AMD) 2 vCPU / 4 GB / 80 GB",2,4,USD,6.99,9.49,22.99,228.9,yes,https://web.archive.org/web/20251016192938/https://www.hetzner.com/cloud,2025-10-16
-hetzner,CPX32,CPX32 4 vCPU / 8 GB / 160 GB,4,8,USD,11.99,15.99,41.99,250.2,yes,https://web.archive.org/web/20251016192938/https://www.hetzner.com/cloud,2025-10-16
-hetzner,CPX42,CPX42 8 vCPU / 16 GB / 320 GB,8,16,USD,21.99,29.99,81.99,272.9,yes,https://web.archive.org/web/20251016192938/https://www.hetzner.com/cloud,2025-10-16
-hetzner,CPX62,CPX62 16 vCPU / 32 GB / 640 GB,16,32,USD,42.99,59.49,152.99,255.9,yes,https://web.archive.org/web/20251016192938/https://www.hetzner.com/cloud,2025-10-16
-hetzner,CPX12,CPX12 1 vCPU / 2 GB / 40 GB (Singapore only),1,2,USD,6.99,9.49,13.49,,no,https://web.archive.org/web/20251016192938/https://www.hetzner.com/cloud,2025-10-16
-akamai-linode,Nanode 1GB,Nanode 1 GB,1,1,USD,5,5,5,0,yes,https://web.archive.org/web/20251010211821/https://www.linode.com/pricing/,2025-10-10
-akamai-linode,Linode 2GB,Linode 2 GB,1,2,USD,12,12,12,0,yes,https://web.archive.org/web/20251010211821/https://www.linode.com/pricing/,2025-10-10
-akamai-linode,Linode 4GB,Linode 4 GB,2,4,USD,24,24,24,0,yes,https://web.archive.org/web/20251010211821/https://www.linode.com/pricing/,2025-10-10
-akamai-linode,Linode 8GB,Linode 8 GB,4,8,USD,48,48,48,0,yes,https://web.archive.org/web/20251010211821/https://www.linode.com/pricing/,2025-10-10
-akamai-linode,Linode 16GB,Linode 16 GB,6,16,USD,96,96,96,0,yes,https://web.archive.org/web/20251010211821/https://www.linode.com/pricing/,2025-10-10
-akamai-linode,Linode 32GB,Linode 32 GB,8,32,USD,192,192,192,0,yes,https://web.archive.org/web/20251010211821/https://www.linode.com/pricing/,2025-10-10
-aws-lightsail,General 512MB,Linux $5 bundle 0.5 GB / 2 vCPUs / 20 GB (public IPv4),2,0.5,USD,5,5,5,0,yes,https://web.archive.org/web/20251027131119/https://aws.amazon.com/lightsail/pricing/,2025-10-27
-aws-lightsail,General 1GB,Linux $7 bundle 1 GB / 2 vCPUs / 40 GB,2,1,USD,7,7,7,0,yes,https://web.archive.org/web/20251027131119/https://aws.amazon.com/lightsail/pricing/,2025-10-27
-aws-lightsail,General 2GB,Linux $12 bundle 2 GB / 2 vCPUs / 60 GB,2,2,USD,12,12,12,0,yes,https://web.archive.org/web/20251027131119/https://aws.amazon.com/lightsail/pricing/,2025-10-27
-aws-lightsail,General 4GB,Linux $24 bundle 4 GB / 2 vCPUs / 80 GB,2,4,USD,24,24,24,0,yes,https://web.archive.org/web/20251027131119/https://aws.amazon.com/lightsail/pricing/,2025-10-27
-aws-lightsail,General 8GB,Linux $44 bundle 8 GB / 2 vCPUs / 160 GB,2,8,USD,44,44,44,0,yes,https://web.archive.org/web/20251027131119/https://aws.amazon.com/lightsail/pricing/,2025-10-27
-aws-lightsail,General 16GB,Linux $84 bundle 16 GB / 4 vCPUs / 320 GB,4,16,USD,84,84,84,0,yes,https://web.archive.org/web/20251027131119/https://aws.amazon.com/lightsail/pricing/,2025-10-27
-aws-lightsail,General 32GB,Linux $164 bundle 32 GB / 8 vCPUs / 640 GB,8,32,USD,164,164,164,0,yes,https://web.archive.org/web/20251027131119/https://aws.amazon.com/lightsail/pricing/,2025-10-27
-ovhcloud,VPS-2,VPS-1 4 vCores / 8 GB / 75 GB SSD,4,8,USD,4.9,6.46,10,104.1,yes,https://web.archive.org/web/20251014054055/https://us.ovhcloud.com/vps/,2025-10-14
-ovhcloud,VPS-3,VPS-2 6 vCores / 12 GB / 100 GB NVMe,6,12,USD,7.7,9.99,14.5,88.3,yes,https://web.archive.org/web/20251014054055/https://us.ovhcloud.com/vps/,2025-10-14
-ovhcloud,VPS-4,VPS-3 8 vCores / 24 GB / 200 GB NVMe,8,24,USD,15,19.97,27.5,83.3,yes,https://web.archive.org/web/20251014054055/https://us.ovhcloud.com/vps/,2025-10-14
-kinsta,Single 35k,Single 35k,,,USD,35,35,35,0,yes,https://web.archive.org/web/20251017170127/https://kinsta.com/pricing/,2025-10-17
-kinsta,Single 65k,Single 65k,,,USD,50,50,50,0,yes,https://web.archive.org/web/20251017170127/https://kinsta.com/pricing/,2025-10-17
-kinsta,WP 2,WP 2,,,USD,70,70,70,0,yes,https://web.archive.org/web/20251017170127/https://kinsta.com/pricing/,2025-10-17
-kinsta,WP 5,WP 5,,,USD,115,115,115,0,yes,https://web.archive.org/web/20251017170127/https://kinsta.com/pricing/,2025-10-17
-kinsta,WP 10,WP 10,,,USD,225,225,225,0,yes,https://web.archive.org/web/20251017170127/https://kinsta.com/pricing/,2025-10-17
-cloudways,DO 1GB (managed),DO1GB (DigitalOcean Standard),1,1,USD,14,,14,0,yes,https://web.archive.org/web/20251016074248/https://www.cloudways.com/en/plans.php,2025-10-16
-cloudways,DO 2GB (managed),DO2GB,1,2,USD,28,,28,0,yes,https://web.archive.org/web/20251016074248/https://www.cloudways.com/en/plans.php,2025-10-16
-cloudways,DO 4GB (managed),DO4GB,2,4,USD,54,,54,0,yes,https://web.archive.org/web/20251016074248/https://www.cloudways.com/en/plans.php,2025-10-16
-cloudways,DO 8GB (managed),DO8GB,4,8,USD,99,,99,0,yes,https://web.archive.org/web/20251016074248/https://www.cloudways.com/en/plans.php,2025-10-16
-upcloud,Starter 1GB,Developer 1 GB / 1 CPU / 10 GB,1,1,USD,3.5,,3.5,0,yes,https://web.archive.org/web/20250919205430/https://upcloud.com/pricing-usd/,2025-09-19
-upcloud,Starter 2GB,Developer 2 GB / 1 CPU / 30 GB,1,2,USD,9.5,,7,,no,https://web.archive.org/web/20250919205430/https://upcloud.com/pricing-usd/,2025-09-19
-upcloud,Starter 4GB / 2 vCPU,Developer 4 GB / 2 CPU / 60 GB,2,4,USD,21,,14,,no,https://web.archive.org/web/20250919205430/https://upcloud.com/pricing-usd/,2025-09-19
-upcloud,Starter 8GB / 2 vCPU,Developer 8 GB / 2 CPU / 80 GB,2,8,USD,29,,20,,no,https://web.archive.org/web/20250919205430/https://upcloud.com/pricing-usd/,2025-09-19
-vultr,Regular 512MB (IPv6 only),Regular Performance 1 vCPU / 0.5 GB (IPv6 Only),1,0.5,USD,2.5,2.5,2.5,0,yes,https://web.archive.org/web/20251013143254/https://www.vultr.com/pricing/,2025-10-13
-vultr,Regular 512MB,Regular Performance 1 vCPU / 0.5 GB,1,0.5,USD,3.5,3.5,3.5,0,yes,https://web.archive.org/web/20251013143254/https://www.vultr.com/pricing/,2025-10-13
-vultr,Regular 1GB,Regular Performance 1 vCPU / 1 GB,1,1,USD,5,5,5,0,yes,https://web.archive.org/web/20251013143254/https://www.vultr.com/pricing/,2025-10-13
-vultr,High Frequency 1GB,High Frequency 1 vCPU / 1 GB,1,1,USD,6,6,6,0,yes,https://web.archive.org/web/20251013143254/https://www.vultr.com/pricing/,2025-10-13
-vultr,Regular 2GB,Regular Performance 1 vCPU / 2 GB,1,2,USD,10,10,10,0,yes,https://web.archive.org/web/20251013143254/https://www.vultr.com/pricing/,2025-10-13
-vultr,Regular 4GB,Regular Performance 2 vCPU / 4 GB,2,4,USD,20,20,20,0,yes,https://web.archive.org/web/20251013143254/https://www.vultr.com/pricing/,2025-10-13
-vultr,Regular 8GB,Regular Performance 4 vCPU / 8 GB,4,8,USD,40,40,40,0,yes,https://web.archive.org/web/20251013143254/https://www.vultr.com/pricing/,2025-10-13
-vultr,Regular 16GB,Regular Performance 6 vCPU / 16 GB,6,16,USD,80,80,80,0,yes,https://web.archive.org/web/20251013143254/https://www.vultr.com/pricing/,2025-10-13
-vultr,Regular 32GB,Regular Performance 8 vCPU / 32 GB,8,32,USD,160,160,160,0,yes,https://web.archive.org/web/20251013143254/https://www.vultr.com/pricing/,2025-10-13
-racknerd,KVM 1GB,1 GB RAM KVM,2,1,USD,17.99,17.99,17.99,0,yes,https://web.archive.org/web/20251011113557/https://www.racknerd.com/kvm-vps,2025-10-11
-racknerd,KVM 2GB,2 GB RAM KVM,3,2,USD,20.59,20.59,20.59,0,yes,https://web.archive.org/web/20251011113557/https://www.racknerd.com/kvm-vps,2025-10-11
-racknerd,KVM 4GB,4 GB RAM KVM,4,4,USD,24.59,24.59,24.59,0,yes,https://web.archive.org/web/20251011113557/https://www.racknerd.com/kvm-vps,2025-10-11
-racknerd,KVM 8GB,8 GB RAM KVM,6,8,USD,36.59,36.59,36.59,0,yes,https://web.archive.org/web/20251011113557/https://www.racknerd.com/kvm-vps,2025-10-11
-interserver,1 slice,1 Slice,1,2,USD,3,3,3,0,yes,https://web.archive.org/web/20251017100451/https://www.interserver.net/vps/,2025-10-17
-interserver,2 slices,2 Slices,1,4,USD,6,6,6,0,yes,https://web.archive.org/web/20251017100451/https://www.interserver.net/vps/,2025-10-17
-interserver,4 slices,4 Slices,2,8,USD,12,12,12,0,yes,https://web.archive.org/web/20251017100451/https://www.interserver.net/vps/,2025-10-17
-interserver,8 slices,8 Slices,4,16,USD,24,,24,0,yes,https://web.archive.org/web/20251017100451/https://www.interserver.net/vps/,2025-10-17
-cloudcone,SSD VPS 1,SSD VPS 1,2,1,USD,1.66,1.66,2.33,,no,https://web.archive.org/web/20251016153540/https://cloudcone.com/vps/,2025-10-16
-cloudcone,SSD VPS 2,SSD VPS 2,4,2,USD,2.16,2.16,3.83,,no,https://web.archive.org/web/20251016153540/https://cloudcone.com/vps/,2025-10-16
-cloudcone,SSD VPS 3,SSD VPS 3,6,3,USD,3,3,5.75,,no,https://web.archive.org/web/20251016153540/https://cloudcone.com/vps/,2025-10-16
-cloudcone,SSD VPS 4,SSD VPS 4,8,4,USD,3.91,3.91,7.66,,no,https://web.archive.org/web/20251016153540/https://cloudcone.com/vps/,2025-10-16
-hostwinds,Unmanaged SSD Cloud 1,1 CPU / 1 GB / 30 GB,1,1,USD,4.99,4.99,4.99,0,yes,https://web.archive.org/web/20251011171103/https://www.hostwinds.com/vps/unmanaged-linux,2025-10-11
-hostwinds,Unmanaged SSD Cloud 2,1 CPU / 2 GB / 50 GB,1,2,USD,9.99,9.99,9.99,0,yes,https://web.archive.org/web/20251011171103/https://www.hostwinds.com/vps/unmanaged-linux,2025-10-11
-hostwinds,Unmanaged SSD Cloud 3,2 CPU / 4 GB / 75 GB,2,4,USD,18.99,18.99,18.99,0,yes,https://web.archive.org/web/20251011171103/https://www.hostwinds.com/vps/unmanaged-linux,2025-10-11
-hostwinds,Unmanaged SSD Cloud 4,2 CPU / 6 GB / 100 GB,2,6,USD,28.99,28.99,28.99,0,yes,https://web.archive.org/web/20251011171103/https://www.hostwinds.com/vps/unmanaged-linux,2025-10-11
-hostwinds,Unmanaged SSD Cloud 5,4 CPU / 8 GB / 150 GB,4,8,USD,38.99,38.99,38.99,0,yes,https://web.archive.org/web/20251011171103/https://www.hostwinds.com/vps/unmanaged-linux,2025-10-11
-greencloudvps,SSDKVM-1,SSDKVM-1,1,1,USD,6,6,6,0,yes,https://web.archive.org/web/20251017042337id_/https://greencloudvps.com/budget-kvm-vps.php,2025-10-17
-greencloudvps,SSDKVM-2,SSDKVM-2,1,2,USD,10,10,10,0,yes,https://web.archive.org/web/20251017042337id_/https://greencloudvps.com/budget-kvm-vps.php,2025-10-17
-greencloudvps,SSDKVM-3,SSDKVM-3,2,4,USD,20,20,20,0,yes,https://web.archive.org/web/20251017042337id_/https://greencloudvps.com/budget-kvm-vps.php,2025-10-17
-greencloudvps,SSDKVM-4,SSDKVM-4,4,8,USD,40,40,40,0,yes,https://web.archive.org/web/20251017042337id_/https://greencloudvps.com/budget-kvm-vps.php,2025-10-17
-greencloudvps,SSDKVM-5,SSDKVM-5,8,16,USD,80,80,80,0,yes,https://web.archive.org/web/20251017042337id_/https://greencloudvps.com/budget-kvm-vps.php,2025-10-17
-hosthatch,NVMe 2 GB,NVMe 2 GB,1,2,USD,4,4,4,0,yes,https://web.archive.org/web/20250920061341id_/https://hosthatch.com/js/app.js,2025-09-20
-hosthatch,NVMe 4 GB,NVMe 4 GB,2,4,USD,6,6,6,0,yes,https://web.archive.org/web/20250920061341id_/https://hosthatch.com/js/app.js,2025-09-20
-hosthatch,NVMe 8 GB,NVMe 8 GB,2,8,USD,9,9,9,0,yes,https://web.archive.org/web/20250920061341id_/https://hosthatch.com/js/app.js,2025-09-20
-hosthatch,NVMe 12 GB,NVMe 12 GB,4,12,USD,12,12,12,0,yes,https://web.archive.org/web/20250920061341id_/https://hosthatch.com/js/app.js,2025-09-20
-hosthatch,NVMe 16 GB,NVMe 16 GB,4,16,USD,15,15,15,0,yes,https://web.archive.org/web/20250920061341id_/https://hosthatch.com/js/app.js,2025-09-20
-kamatera,Basic,Preset 1 vCPU Type A / 1 GB / 20 GB,1,1,USD,4,4,4,0,yes,https://web.archive.org/web/20251015213659id_/https://www.kamatera.com/pricing/,2025-10-15
-netcup,VPS 500 G12.5,VPS 500 G11s,2,4,EUR,4,5.91,7.48,,no,https://web.archive.org/web/20251009020727id_/https://www.netcup.com/en/server/vps,2025-10-09
-netcup,VPS 1000 G12.5,VPS 1000 G11,4,8,EUR,5.75,10.37,13.51,,no,https://web.archive.org/web/20251009020727id_/https://www.netcup.com/en/server/vps,2025-10-09
-netcup,VPS 2000 G12.5,VPS 2000 G11,8,16,EUR,12.6,19.25,25.51,,no,https://web.archive.org/web/20251009020727id_/https://www.netcup.com/en/server/vps,2025-10-09
-netcup,VPS 4000 G12.5,VPS 4000 G11,12,32,EUR,21.5,32.41,43.33,,no,https://web.archive.org/web/20251009020727id_/https://www.netcup.com/en/server/vps,2025-10-09
-netcup,VPS 8000 G12.5,VPS 8000 G11,16,64,EUR,32,47.95,64.34,,no,https://web.archive.org/web/20251009020727id_/https://www.netcup.com/en/server/vps,2025-10-09
-liquidweb,VPS 2 GB,Compute 2 GB,1,2,USD,11,11,11,0,yes,https://web.archive.org/web/20251008230611id_/https://www.liquidweb.com/vps-hosting/,2025-10-08
-liquidweb,VPS 4 GB,Compute 4 GB,2,4,USD,17,17,17,0,yes,https://web.archive.org/web/20251008230611id_/https://www.liquidweb.com/vps-hosting/,2025-10-08
-liquidweb,VPS 8 GB,Compute 8 GB,4,8,USD,45,45,45,0,yes,https://web.archive.org/web/20251008230611id_/https://www.liquidweb.com/vps-hosting/,2025-10-08
-liquidweb,VPS 16 GB,Compute 16 GB,6,16,USD,90,90,90,0,yes,https://web.archive.org/web/20251008230611id_/https://www.liquidweb.com/vps-hosting/,2025-10-08
-liquidweb,VPS 32 GB,Compute 32 GB,8,32,USD,89.5,89.5,179,,no,https://web.archive.org/web/20251008230611id_/https://www.liquidweb.com/vps-hosting/,2025-10-08
-ramnode,Standard 512MB,Standard 512MB,1,0.5,USD,4,4,4,0,yes,https://web.archive.org/web/20251005195748id_/https://ramnode.com/pricing/,2025-10-05
-ramnode,Standard 1GB,Standard 1GB,1,1,USD,5,5,5,0,yes,https://web.archive.org/web/20251005195748id_/https://ramnode.com/pricing/,2025-10-05
-ramnode,Standard 2GB,Standard 2GB,2,2,USD,10,10,10,0,yes,https://web.archive.org/web/20251005195748id_/https://ramnode.com/pricing/,2025-10-05
-ramnode,Standard 4GB,Standard 4GB,4,4,USD,20,20,20,0,yes,https://web.archive.org/web/20251005195748id_/https://ramnode.com/pricing/,2025-10-05
-ramnode,Standard 8GB,Standard 8GB,4,8,USD,40,40,40,0,yes,https://web.archive.org/web/20251005195748id_/https://ramnode.com/pricing/,2025-10-05
-ramnode,Standard 16GB,Standard 16GB,8,16,USD,80,80,80,0,yes,https://web.archive.org/web/20251005195748id_/https://ramnode.com/pricing/,2025-10-05
-lunanode,s.1,s.1,2,1,USD,7,7,7,0,yes,https://web.archive.org/web/20251119043442/https://www.lunanode.com/pricing,2025-11-19
-lunanode,s.2,s.2,4,2,USD,14,14,14,0,yes,https://web.archive.org/web/20251119043442/https://www.lunanode.com/pricing,2025-11-19
-lunanode,s.4,s.4,6,4,USD,28,28,28,0,yes,https://web.archive.org/web/20251119043442/https://www.lunanode.com/pricing,2025-11-19
-lunanode,s.8,s.8,8,8,USD,56,56,56,0,yes,https://web.archive.org/web/20251119043442/https://www.lunanode.com/pricing,2025-11-19
-lunanode,s.16,s.16,10,16,USD,100,100,100,0,yes,https://web.archive.org/web/20251119043442/https://www.lunanode.com/pricing,2025-11-19
-lunanode,m.1s,m.1s,1,1,USD,3.5,3.5,3.5,0,yes,https://web.archive.org/web/20251119043442/https://www.lunanode.com/pricing,2025-11-19
-webdock,VPS Essential,VPS Essential,1,2,EUR,2.15,2.15,2.15,0,yes,https://web.archive.org/web/20251006163359/https://webdock.io/en/pricing,2025-10-06
-webdock,VPS Pro,Pro,6,10,EUR,19.6,19.6,19.6,0,yes,https://web.archive.org/web/20251006163359/https://webdock.io/en/pricing,2025-10-06
-hivelocity,pro.sm.amd,pro.sm.amd,2,4,USD,10,10,10,0,yes,"https://web.archive.org/web/20251022150024/https://www.hivelocity.net/pricing?computeType=dedicated,vps",2025-10-22
-hivelocity,pro.md.amd,pro.md.amd,4,8,USD,20,20,20,0,yes,"https://web.archive.org/web/20251022150024/https://www.hivelocity.net/pricing?computeType=dedicated,vps",2025-10-22
-hivelocity,pro.lg.amd,pro.lg.amd,8,16,USD,39,39,39,0,yes,"https://web.archive.org/web/20251022150024/https://www.hivelocity.net/pricing?computeType=dedicated,vps",2025-10-22
-hivelocity,pro.xl.amd,pro.xl.amd,12,24,USD,65,65,65,0,yes,"https://web.archive.org/web/20251022150024/https://www.hivelocity.net/pricing?computeType=dedicated,vps",2025-10-22
-atlanticnet,G3.2GB,G3.2GB,1,2,USD,10,10,10,0,yes,https://web.archive.org/web/20251213185439/https://www.atlantic.net/vps-hosting/pricing/,2025-12-13
-atlanticnet,G3.4GB,G3.4GB,2,4,USD,20,20,20,0,yes,https://web.archive.org/web/20251213185439/https://www.atlantic.net/vps-hosting/pricing/,2025-12-13
-atlanticnet,G3.8GB,G3.8GB,4,8,USD,40,40,40,0,yes,https://web.archive.org/web/20251213185439/https://www.atlantic.net/vps-hosting/pricing/,2025-12-13
-atlanticnet,G3.16GB,G3.16GB,6,16,USD,80,80,80,0,yes,https://web.archive.org/web/20251213185439/https://www.atlantic.net/vps-hosting/pricing/,2025-12-13
-atlanticnet,G3.32GB,G3.32GB,8,32,USD,160,160,160,0,yes,https://web.archive.org/web/20251213185439/https://www.atlantic.net/vps-hosting/pricing/,2025-12-13
-cherryservers,Cloud VPS 1 (Gen 2),CLOUD VPS 1 (GEN 2),1,1,USD,3.51,3.51,3.51,0,yes,https://web.archive.org/web/20251011230018/https://www.cherryservers.com/pricing/virtual-servers,2025-10-11
-cherryservers,Cloud VPS 2 (Gen 2),CLOUD VPS 2 (GEN 2),2,2,USD,7.02,7.02,7.02,0,yes,https://web.archive.org/web/20251011230018/https://www.cherryservers.com/pricing/virtual-servers,2025-10-11
-cherryservers,Cloud VPS 4 (Gen 2),CLOUD VPS 4 (GEN 2),4,4,USD,10.53,10.53,10.53,0,yes,https://web.archive.org/web/20251011230018/https://www.cherryservers.com/pricing/virtual-servers,2025-10-11
-cherryservers,Cloud VPS 6 (Gen 2),CLOUD VPS 6 (GEN 2),6,6,USD,15.21,15.21,15.21,0,yes,https://web.archive.org/web/20251011230018/https://www.cherryservers.com/pricing/virtual-servers,2025-10-11
-vpsdime,Linux 4GB,Linux 4GB (vd4gb7),2,4,USD,5,5,5,,no,https://web.archive.org/web/20251013004645/https://vpsdime.com/,2025-10-13
-vpsdime,Linux 6GB,Linux 6GB (vd6gb7),4,6,USD,7,7,7,0,yes,https://web.archive.org/web/20251013004645/https://vpsdime.com/,2025-10-13
-vpsdime,Linux 12GB,Linux 12GB (vd12gb7),4,12,USD,14,14,14,0,yes,https://web.archive.org/web/20251013004645/https://vpsdime.com/,2025-10-13
-vpsdime,Linux 24GB,Linux 24GB (vd24gb7),4,24,USD,28,28,28,0,yes,https://web.archive.org/web/20251013004645/https://vpsdime.com/,2025-10-13
-hostingcom,Self Managed Linux 4GB,Linux XS [Self Managed] (VPS XS),2,4,USD,19.99,19.99,19,-5,yes,https://web.archive.org/web/20251013082153/https://api.upmind.io/api/basket/products/196e02e5-136d-4293-d3db-1429807875d3?currency_code=usd&with=image%2Cprices%2Cbrand.oauth_clients&lang=en,2025-10-13
-hostingcom,Self Managed Linux 8GB,Linux S [Self Managed] (VPS S),4,8,USD,39.99,39.99,29,-27.5,yes,https://web.archive.org/web/20251013082153/https://api.upmind.io/api/basket/products/196e02e5-136d-4293-d3db-1429807875d3?currency_code=usd&with=image%2Cprices%2Cbrand.oauth_clients&lang=en,2025-10-13
-hostingcom,Self Managed Linux 16GB,Linux M [Self Managed] (VPS M),8,16,USD,79.99,79.99,49,-38.7,yes,https://web.archive.org/web/20251013082153/https://api.upmind.io/api/basket/products/196e02e5-136d-4293-d3db-1429807875d3?currency_code=usd&with=image%2Cprices%2Cbrand.oauth_clients&lang=en,2025-10-13
-hostingcom,Self Managed Linux 32GB,Linux L [Self Managed] (VPS L),16,32,USD,109.99,109.99,99,-10,yes,https://web.archive.org/web/20251013082153/https://api.upmind.io/api/basket/products/196e02e5-136d-4293-d3db-1429807875d3?currency_code=usd&with=image%2Cprices%2Cbrand.oauth_clients&lang=en,2025-10-13
+provider,plan_today,plan_oct_2025,vcpu,ram_gb,currency,price_oct_2025,price_spring_2026,price_today,change_pct,comparable,archived_page,archived_on,withdrawn_on
+digitalocean,Basic 512MB,Basic 512 MiB / 1 vCPU / 10 GiB,1,0.5,USD,4,4,4,0,yes,https://web.archive.org/web/20251014151323/https://www.digitalocean.com/pricing/droplets,2025-10-14,
+digitalocean,Basic 1GB,Basic 1 GiB / 1 vCPU / 25 GiB,1,1,USD,6,6,6,0,yes,https://web.archive.org/web/20251014151323/https://www.digitalocean.com/pricing/droplets,2025-10-14,
+digitalocean,Basic 2GB,Basic 2 GiB / 1 vCPU / 50 GiB,1,2,USD,12,12,12,0,yes,https://web.archive.org/web/20251014151323/https://www.digitalocean.com/pricing/droplets,2025-10-14,
+digitalocean,Basic 2GB / 2 vCPU,Basic 2 GiB / 2 vCPUs / 60 GiB,2,2,USD,18,18,18,0,yes,https://web.archive.org/web/20251014151323/https://www.digitalocean.com/pricing/droplets,2025-10-14,
+digitalocean,Basic 4GB,Basic 4 GiB / 2 vCPUs / 80 GiB,2,4,USD,24,24,24,0,yes,https://web.archive.org/web/20251014151323/https://www.digitalocean.com/pricing/droplets,2025-10-14,
+digitalocean,Basic 8GB,Basic 8 GiB / 4 vCPUs / 160 GiB,4,8,USD,48,48,48,0,yes,https://web.archive.org/web/20251014151323/https://www.digitalocean.com/pricing/droplets,2025-10-14,
+digitalocean,Basic 16GB,Basic 16 GiB / 8 vCPUs / 320 GiB,8,16,USD,96,96,96,0,yes,https://web.archive.org/web/20251014151323/https://www.digitalocean.com/pricing/droplets,2025-10-14,
+hetzner,CX23,"CX23 (cost-optimized, Intel/AMD) 2 vCPU / 4 GB / 40 GB",2,4,USD,3.49,4.99,6.49,86,yes,https://web.archive.org/web/20251016192938/https://www.hetzner.com/cloud,2025-10-16,
+hetzner,CX33,CX33 4 vCPU / 8 GB / 80 GB,4,8,USD,5.99,7.99,9.99,66.8,yes,https://web.archive.org/web/20251016192938/https://www.hetzner.com/cloud,2025-10-16,
+hetzner,CX43,CX43 8 vCPU / 16 GB / 160 GB,8,16,USD,9.99,13.99,18.49,85.1,yes,https://web.archive.org/web/20251016192938/https://www.hetzner.com/cloud,2025-10-16,
+hetzner,CX53,CX53 16 vCPU / 32 GB / 320 GB,16,32,USD,18.99,26.49,34.99,84.3,yes,https://web.archive.org/web/20251016192938/https://www.hetzner.com/cloud,2025-10-16,
+hetzner,CPX22,"CPX22 (regular performance, AMD) 2 vCPU / 4 GB / 80 GB",2,4,USD,6.99,9.49,22.99,228.9,yes,https://web.archive.org/web/20251016192938/https://www.hetzner.com/cloud,2025-10-16,
+hetzner,CPX32,CPX32 4 vCPU / 8 GB / 160 GB,4,8,USD,11.99,15.99,41.99,250.2,yes,https://web.archive.org/web/20251016192938/https://www.hetzner.com/cloud,2025-10-16,
+hetzner,CPX42,CPX42 8 vCPU / 16 GB / 320 GB,8,16,USD,21.99,29.99,81.99,272.9,yes,https://web.archive.org/web/20251016192938/https://www.hetzner.com/cloud,2025-10-16,
+hetzner,CPX62,CPX62 16 vCPU / 32 GB / 640 GB,16,32,USD,42.99,59.49,152.99,255.9,yes,https://web.archive.org/web/20251016192938/https://www.hetzner.com/cloud,2025-10-16,
+hetzner,CPX12,CPX12 1 vCPU / 2 GB / 40 GB (Singapore only),1,2,USD,6.99,9.49,13.49,,no,https://web.archive.org/web/20251016192938/https://www.hetzner.com/cloud,2025-10-16,
+akamai-linode,Nanode 1GB,Nanode 1 GB,1,1,USD,5,5,5,0,yes,https://web.archive.org/web/20251010211821/https://www.linode.com/pricing/,2025-10-10,
+akamai-linode,Linode 2GB,Linode 2 GB,1,2,USD,12,12,12,0,yes,https://web.archive.org/web/20251010211821/https://www.linode.com/pricing/,2025-10-10,
+akamai-linode,Linode 4GB,Linode 4 GB,2,4,USD,24,24,24,0,yes,https://web.archive.org/web/20251010211821/https://www.linode.com/pricing/,2025-10-10,
+akamai-linode,Linode 8GB,Linode 8 GB,4,8,USD,48,48,48,0,yes,https://web.archive.org/web/20251010211821/https://www.linode.com/pricing/,2025-10-10,
+akamai-linode,Linode 16GB,Linode 16 GB,6,16,USD,96,96,96,0,yes,https://web.archive.org/web/20251010211821/https://www.linode.com/pricing/,2025-10-10,
+akamai-linode,Linode 32GB,Linode 32 GB,8,32,USD,192,192,192,0,yes,https://web.archive.org/web/20251010211821/https://www.linode.com/pricing/,2025-10-10,
+aws-lightsail,General 512MB,Linux $5 bundle 0.5 GB / 2 vCPUs / 20 GB (public IPv4),2,0.5,USD,5,5,5,0,yes,https://web.archive.org/web/20251027131119/https://aws.amazon.com/lightsail/pricing/,2025-10-27,
+aws-lightsail,General 1GB,Linux $7 bundle 1 GB / 2 vCPUs / 40 GB,2,1,USD,7,7,7,0,yes,https://web.archive.org/web/20251027131119/https://aws.amazon.com/lightsail/pricing/,2025-10-27,
+aws-lightsail,General 2GB,Linux $12 bundle 2 GB / 2 vCPUs / 60 GB,2,2,USD,12,12,12,0,yes,https://web.archive.org/web/20251027131119/https://aws.amazon.com/lightsail/pricing/,2025-10-27,
+aws-lightsail,General 4GB,Linux $24 bundle 4 GB / 2 vCPUs / 80 GB,2,4,USD,24,24,24,0,yes,https://web.archive.org/web/20251027131119/https://aws.amazon.com/lightsail/pricing/,2025-10-27,
+aws-lightsail,General 8GB,Linux $44 bundle 8 GB / 2 vCPUs / 160 GB,2,8,USD,44,44,44,0,yes,https://web.archive.org/web/20251027131119/https://aws.amazon.com/lightsail/pricing/,2025-10-27,
+aws-lightsail,General 16GB,Linux $84 bundle 16 GB / 4 vCPUs / 320 GB,4,16,USD,84,84,84,0,yes,https://web.archive.org/web/20251027131119/https://aws.amazon.com/lightsail/pricing/,2025-10-27,
+aws-lightsail,General 32GB,Linux $164 bundle 32 GB / 8 vCPUs / 640 GB,8,32,USD,164,164,164,0,yes,https://web.archive.org/web/20251027131119/https://aws.amazon.com/lightsail/pricing/,2025-10-27,
+ovhcloud,VPS-2,VPS-1 4 vCores / 8 GB / 75 GB SSD,4,8,USD,4.9,6.46,10,104.1,yes,https://web.archive.org/web/20251014054055/https://us.ovhcloud.com/vps/,2025-10-14,
+ovhcloud,VPS-3,VPS-2 6 vCores / 12 GB / 100 GB NVMe,6,12,USD,7.7,9.99,14.5,88.3,yes,https://web.archive.org/web/20251014054055/https://us.ovhcloud.com/vps/,2025-10-14,
+ovhcloud,VPS-4,VPS-3 8 vCores / 24 GB / 200 GB NVMe,8,24,USD,15,19.97,27.5,83.3,yes,https://web.archive.org/web/20251014054055/https://us.ovhcloud.com/vps/,2025-10-14,
+kinsta,Single 35k,Single 35k,,,USD,35,35,35,0,yes,https://web.archive.org/web/20251017170127/https://kinsta.com/pricing/,2025-10-17,
+kinsta,Single 65k,Single 65k,,,USD,50,50,50,0,yes,https://web.archive.org/web/20251017170127/https://kinsta.com/pricing/,2025-10-17,
+kinsta,WP 2,WP 2,,,USD,70,70,70,0,yes,https://web.archive.org/web/20251017170127/https://kinsta.com/pricing/,2025-10-17,
+kinsta,WP 5,WP 5,,,USD,115,115,115,0,yes,https://web.archive.org/web/20251017170127/https://kinsta.com/pricing/,2025-10-17,
+kinsta,WP 10,WP 10,,,USD,225,225,225,0,yes,https://web.archive.org/web/20251017170127/https://kinsta.com/pricing/,2025-10-17,
+cloudways,DO 1GB (managed),DO1GB (DigitalOcean Standard),1,1,USD,14,,14,0,yes,https://web.archive.org/web/20251016074248/https://www.cloudways.com/en/plans.php,2025-10-16,
+cloudways,DO 2GB (managed),DO2GB,1,2,USD,28,,28,0,yes,https://web.archive.org/web/20251016074248/https://www.cloudways.com/en/plans.php,2025-10-16,
+cloudways,DO 4GB (managed),DO4GB,2,4,USD,54,,54,0,yes,https://web.archive.org/web/20251016074248/https://www.cloudways.com/en/plans.php,2025-10-16,
+cloudways,DO 8GB (managed),DO8GB,4,8,USD,99,,99,0,yes,https://web.archive.org/web/20251016074248/https://www.cloudways.com/en/plans.php,2025-10-16,
+upcloud,Starter 1GB,Developer 1 GB / 1 CPU / 10 GB,1,1,USD,3.5,,3.5,0,yes,https://web.archive.org/web/20250919205430/https://upcloud.com/pricing-usd/,2025-09-19,
+upcloud,Starter 2GB,Developer 2 GB / 1 CPU / 30 GB,1,2,USD,9.5,,7,,no,https://web.archive.org/web/20250919205430/https://upcloud.com/pricing-usd/,2025-09-19,
+upcloud,Starter 4GB / 2 vCPU,Developer 4 GB / 2 CPU / 60 GB,2,4,USD,21,,14,,no,https://web.archive.org/web/20250919205430/https://upcloud.com/pricing-usd/,2025-09-19,
+upcloud,Starter 8GB / 2 vCPU,Developer 8 GB / 2 CPU / 80 GB,2,8,USD,29,,20,,no,https://web.archive.org/web/20250919205430/https://upcloud.com/pricing-usd/,2025-09-19,
+vultr,Regular 512MB (IPv6 only),Regular Performance 1 vCPU / 0.5 GB (IPv6 Only),1,0.5,USD,2.5,2.5,2.5,0,yes,https://web.archive.org/web/20251013143254/https://www.vultr.com/pricing/,2025-10-13,
+vultr,Regular 512MB,Regular Performance 1 vCPU / 0.5 GB,1,0.5,USD,3.5,3.5,3.5,0,yes,https://web.archive.org/web/20251013143254/https://www.vultr.com/pricing/,2025-10-13,
+vultr,Regular 1GB,Regular Performance 1 vCPU / 1 GB,1,1,USD,5,5,5,0,yes,https://web.archive.org/web/20251013143254/https://www.vultr.com/pricing/,2025-10-13,
+vultr,High Frequency 1GB,High Frequency 1 vCPU / 1 GB,1,1,USD,6,6,6,0,yes,https://web.archive.org/web/20251013143254/https://www.vultr.com/pricing/,2025-10-13,
+vultr,Regular 2GB,Regular Performance 1 vCPU / 2 GB,1,2,USD,10,10,10,0,yes,https://web.archive.org/web/20251013143254/https://www.vultr.com/pricing/,2025-10-13,
+vultr,Regular 4GB,Regular Performance 2 vCPU / 4 GB,2,4,USD,20,20,20,0,yes,https://web.archive.org/web/20251013143254/https://www.vultr.com/pricing/,2025-10-13,
+vultr,Regular 8GB,Regular Performance 4 vCPU / 8 GB,4,8,USD,40,40,40,0,yes,https://web.archive.org/web/20251013143254/https://www.vultr.com/pricing/,2025-10-13,
+vultr,Regular 16GB,Regular Performance 6 vCPU / 16 GB,6,16,USD,80,80,80,0,yes,https://web.archive.org/web/20251013143254/https://www.vultr.com/pricing/,2025-10-13,
+vultr,Regular 32GB,Regular Performance 8 vCPU / 32 GB,8,32,USD,160,160,160,0,yes,https://web.archive.org/web/20251013143254/https://www.vultr.com/pricing/,2025-10-13,
+racknerd,KVM 1GB,1 GB RAM KVM,2,1,USD,17.99,17.99,17.99,0,yes,https://web.archive.org/web/20251011113557/https://www.racknerd.com/kvm-vps,2025-10-11,
+racknerd,KVM 2GB,2 GB RAM KVM,3,2,USD,20.59,20.59,20.59,0,yes,https://web.archive.org/web/20251011113557/https://www.racknerd.com/kvm-vps,2025-10-11,
+racknerd,KVM 4GB,4 GB RAM KVM,4,4,USD,24.59,24.59,24.59,0,yes,https://web.archive.org/web/20251011113557/https://www.racknerd.com/kvm-vps,2025-10-11,
+racknerd,KVM 8GB,8 GB RAM KVM,6,8,USD,36.59,36.59,36.59,0,yes,https://web.archive.org/web/20251011113557/https://www.racknerd.com/kvm-vps,2025-10-11,
+interserver,1 slice,1 Slice,1,2,USD,3,3,3,0,yes,https://web.archive.org/web/20251017100451/https://www.interserver.net/vps/,2025-10-17,
+interserver,2 slices,2 Slices,1,4,USD,6,6,6,0,yes,https://web.archive.org/web/20251017100451/https://www.interserver.net/vps/,2025-10-17,
+interserver,4 slices,4 Slices,2,8,USD,12,12,12,0,yes,https://web.archive.org/web/20251017100451/https://www.interserver.net/vps/,2025-10-17,
+interserver,8 slices,8 Slices,4,16,USD,24,,24,0,yes,https://web.archive.org/web/20251017100451/https://www.interserver.net/vps/,2025-10-17,
+cloudcone,SSD VPS 1,SSD VPS 1,2,1,USD,1.66,1.66,2.33,,no,https://web.archive.org/web/20251016153540/https://cloudcone.com/vps/,2025-10-16,
+cloudcone,SSD VPS 2,SSD VPS 2,4,2,USD,2.16,2.16,3.83,,no,https://web.archive.org/web/20251016153540/https://cloudcone.com/vps/,2025-10-16,
+cloudcone,SSD VPS 3,SSD VPS 3,6,3,USD,3,3,5.75,,no,https://web.archive.org/web/20251016153540/https://cloudcone.com/vps/,2025-10-16,
+cloudcone,SSD VPS 4,SSD VPS 4,8,4,USD,3.91,3.91,7.66,,no,https://web.archive.org/web/20251016153540/https://cloudcone.com/vps/,2025-10-16,
+hostwinds,Unmanaged SSD Cloud 1,1 CPU / 1 GB / 30 GB,1,1,USD,4.99,4.99,4.99,0,yes,https://web.archive.org/web/20251011171103/https://www.hostwinds.com/vps/unmanaged-linux,2025-10-11,
+hostwinds,Unmanaged SSD Cloud 2,1 CPU / 2 GB / 50 GB,1,2,USD,9.99,9.99,9.99,0,yes,https://web.archive.org/web/20251011171103/https://www.hostwinds.com/vps/unmanaged-linux,2025-10-11,
+hostwinds,Unmanaged SSD Cloud 3,2 CPU / 4 GB / 75 GB,2,4,USD,18.99,18.99,18.99,0,yes,https://web.archive.org/web/20251011171103/https://www.hostwinds.com/vps/unmanaged-linux,2025-10-11,
+hostwinds,Unmanaged SSD Cloud 4,2 CPU / 6 GB / 100 GB,2,6,USD,28.99,28.99,28.99,0,yes,https://web.archive.org/web/20251011171103/https://www.hostwinds.com/vps/unmanaged-linux,2025-10-11,
+hostwinds,Unmanaged SSD Cloud 5,4 CPU / 8 GB / 150 GB,4,8,USD,38.99,38.99,38.99,0,yes,https://web.archive.org/web/20251011171103/https://www.hostwinds.com/vps/unmanaged-linux,2025-10-11,
+greencloudvps,SSDKVM-1,SSDKVM-1,1,1,USD,6,6,6,0,yes,https://web.archive.org/web/20251017042337id_/https://greencloudvps.com/budget-kvm-vps.php,2025-10-17,
+greencloudvps,SSDKVM-2,SSDKVM-2,1,2,USD,10,10,10,0,yes,https://web.archive.org/web/20251017042337id_/https://greencloudvps.com/budget-kvm-vps.php,2025-10-17,
+greencloudvps,SSDKVM-3,SSDKVM-3,2,4,USD,20,20,20,0,yes,https://web.archive.org/web/20251017042337id_/https://greencloudvps.com/budget-kvm-vps.php,2025-10-17,
+greencloudvps,SSDKVM-4,SSDKVM-4,4,8,USD,40,40,40,0,yes,https://web.archive.org/web/20251017042337id_/https://greencloudvps.com/budget-kvm-vps.php,2025-10-17,
+greencloudvps,SSDKVM-5,SSDKVM-5,8,16,USD,80,80,80,0,yes,https://web.archive.org/web/20251017042337id_/https://greencloudvps.com/budget-kvm-vps.php,2025-10-17,
+hosthatch,NVMe 2 GB,NVMe 2 GB,1,2,USD,4,4,4,0,yes,https://web.archive.org/web/20250920061341id_/https://hosthatch.com/js/app.js,2025-09-20,
+hosthatch,NVMe 4 GB,NVMe 4 GB,2,4,USD,6,6,6,0,yes,https://web.archive.org/web/20250920061341id_/https://hosthatch.com/js/app.js,2025-09-20,
+hosthatch,NVMe 8 GB,NVMe 8 GB,2,8,USD,9,9,9,0,yes,https://web.archive.org/web/20250920061341id_/https://hosthatch.com/js/app.js,2025-09-20,
+hosthatch,NVMe 12 GB,NVMe 12 GB,4,12,USD,12,12,12,0,yes,https://web.archive.org/web/20250920061341id_/https://hosthatch.com/js/app.js,2025-09-20,
+hosthatch,NVMe 16 GB,NVMe 16 GB,4,16,USD,15,15,15,0,yes,https://web.archive.org/web/20250920061341id_/https://hosthatch.com/js/app.js,2025-09-20,
+kamatera,Basic,Preset 1 vCPU Type A / 1 GB / 20 GB,1,1,USD,4,4,4,0,yes,https://web.archive.org/web/20251015213659id_/https://www.kamatera.com/pricing/,2025-10-15,
+netcup,VPS 500 G12.5,VPS 500 G11s,2,4,EUR,4,5.91,7.48,,no,https://web.archive.org/web/20251009020727id_/https://www.netcup.com/en/server/vps,2025-10-09,
+netcup,VPS 1000 G12.5,VPS 1000 G11,4,8,EUR,5.75,10.37,13.51,,no,https://web.archive.org/web/20251009020727id_/https://www.netcup.com/en/server/vps,2025-10-09,
+netcup,VPS 2000 G12.5,VPS 2000 G11,8,16,EUR,12.6,19.25,25.51,,no,https://web.archive.org/web/20251009020727id_/https://www.netcup.com/en/server/vps,2025-10-09,
+netcup,VPS 4000 G12.5,VPS 4000 G11,12,32,EUR,21.5,32.41,43.33,,no,https://web.archive.org/web/20251009020727id_/https://www.netcup.com/en/server/vps,2025-10-09,
+netcup,VPS 8000 G12.5,VPS 8000 G11,16,64,EUR,32,47.95,64.34,,no,https://web.archive.org/web/20251009020727id_/https://www.netcup.com/en/server/vps,2025-10-09,
+liquidweb,VPS 1 GB,Compute 1 GB,1,1,USD,5,5,5,0,yes,https://web.archive.org/web/20251008230611id_/https://www.liquidweb.com/vps-hosting/,2025-10-08,2026-10-14
+liquidweb,VPS 2 GB,Compute 2 GB,1,2,USD,11,11,11,0,yes,https://web.archive.org/web/20251008230611id_/https://www.liquidweb.com/vps-hosting/,2025-10-08,
+liquidweb,VPS 4 GB,Compute 4 GB,2,4,USD,17,17,17,0,yes,https://web.archive.org/web/20251008230611id_/https://www.liquidweb.com/vps-hosting/,2025-10-08,
+liquidweb,VPS 8 GB,Compute 8 GB,4,8,USD,45,45,45,0,yes,https://web.archive.org/web/20251008230611id_/https://www.liquidweb.com/vps-hosting/,2025-10-08,
+liquidweb,VPS 16 GB,Compute 16 GB,6,16,USD,90,90,90,0,yes,https://web.archive.org/web/20251008230611id_/https://www.liquidweb.com/vps-hosting/,2025-10-08,
+liquidweb,VPS 32 GB,Compute 32 GB,8,32,USD,89.5,89.5,179,,no,https://web.archive.org/web/20251008230611id_/https://www.liquidweb.com/vps-hosting/,2025-10-08,
+ramnode,Standard 512MB,Standard 512MB,1,0.5,USD,4,4,4,0,yes,https://web.archive.org/web/20251005195748id_/https://ramnode.com/pricing/,2025-10-05,
+ramnode,Standard 1GB,Standard 1GB,1,1,USD,5,5,5,0,yes,https://web.archive.org/web/20251005195748id_/https://ramnode.com/pricing/,2025-10-05,
+ramnode,Standard 2GB,Standard 2GB,2,2,USD,10,10,10,0,yes,https://web.archive.org/web/20251005195748id_/https://ramnode.com/pricing/,2025-10-05,
+ramnode,Standard 4GB,Standard 4GB,4,4,USD,20,20,20,0,yes,https://web.archive.org/web/20251005195748id_/https://ramnode.com/pricing/,2025-10-05,
+ramnode,Standard 8GB,Standard 8GB,4,8,USD,40,40,40,0,yes,https://web.archive.org/web/20251005195748id_/https://ramnode.com/pricing/,2025-10-05,
+ramnode,Standard 16GB,Standard 16GB,8,16,USD,80,80,80,0,yes,https://web.archive.org/web/20251005195748id_/https://ramnode.com/pricing/,2025-10-05,
+lunanode,s.1,s.1,2,1,USD,7,7,7,0,yes,https://web.archive.org/web/20251119043442/https://www.lunanode.com/pricing,2025-11-19,
+lunanode,s.2,s.2,4,2,USD,14,14,14,0,yes,https://web.archive.org/web/20251119043442/https://www.lunanode.com/pricing,2025-11-19,
+lunanode,s.4,s.4,6,4,USD,28,28,28,0,yes,https://web.archive.org/web/20251119043442/https://www.lunanode.com/pricing,2025-11-19,
+lunanode,s.8,s.8,8,8,USD,56,56,56,0,yes,https://web.archive.org/web/20251119043442/https://www.lunanode.com/pricing,2025-11-19,
+lunanode,s.16,s.16,10,16,USD,100,100,100,0,yes,https://web.archive.org/web/20251119043442/https://www.lunanode.com/pricing,2025-11-19,
+lunanode,m.1s,m.1s,1,1,USD,3.5,3.5,3.5,0,yes,https://web.archive.org/web/20251119043442/https://www.lunanode.com/pricing,2025-11-19,
+webdock,VPS Essential,VPS Essential,1,2,EUR,2.15,2.15,2.15,0,yes,https://web.archive.org/web/20251006163359/https://webdock.io/en/pricing,2025-10-06,
+webdock,VPS Pro,Pro,6,10,EUR,19.6,19.6,19.6,0,yes,https://web.archive.org/web/20251006163359/https://webdock.io/en/pricing,2025-10-06,
+hivelocity,pro.sm.amd,pro.sm.amd,2,4,USD,10,10,10,0,yes,"https://web.archive.org/web/20251022150024/https://www.hivelocity.net/pricing?computeType=dedicated,vps",2025-10-22,
+hivelocity,pro.md.amd,pro.md.amd,4,8,USD,20,20,20,0,yes,"https://web.archive.org/web/20251022150024/https://www.hivelocity.net/pricing?computeType=dedicated,vps",2025-10-22,
+hivelocity,pro.lg.amd,pro.lg.amd,8,16,USD,39,39,39,0,yes,"https://web.archive.org/web/20251022150024/https://www.hivelocity.net/pricing?computeType=dedicated,vps",2025-10-22,
+hivelocity,pro.xl.amd,pro.xl.amd,12,24,USD,65,65,65,0,yes,"https://web.archive.org/web/20251022150024/https://www.hivelocity.net/pricing?computeType=dedicated,vps",2025-10-22,
+atlanticnet,G3.2GB,G3.2GB,1,2,USD,10,10,10,0,yes,https://web.archive.org/web/20251213185439/https://www.atlantic.net/vps-hosting/pricing/,2025-12-13,
+atlanticnet,G3.4GB,G3.4GB,2,4,USD,20,20,20,0,yes,https://web.archive.org/web/20251213185439/https://www.atlantic.net/vps-hosting/pricing/,2025-12-13,
+atlanticnet,G3.8GB,G3.8GB,4,8,USD,40,40,40,0,yes,https://web.archive.org/web/20251213185439/https://www.atlantic.net/vps-hosting/pricing/,2025-12-13,
+atlanticnet,G3.16GB,G3.16GB,6,16,USD,80,80,80,0,yes,https://web.archive.org/web/20251213185439/https://www.atlantic.net/vps-hosting/pricing/,2025-12-13,
+atlanticnet,G3.32GB,G3.32GB,8,32,USD,160,160,160,0,yes,https://web.archive.org/web/20251213185439/https://www.atlantic.net/vps-hosting/pricing/,2025-12-13,
+cherryservers,Cloud VPS 1 (Gen 2),CLOUD VPS 1 (GEN 2),1,1,USD,3.51,3.51,3.51,0,yes,https://web.archive.org/web/20251011230018/https://www.cherryservers.com/pricing/virtual-servers,2025-10-11,
+cherryservers,Cloud VPS 2 (Gen 2),CLOUD VPS 2 (GEN 2),2,2,USD,7.02,7.02,7.02,0,yes,https://web.archive.org/web/20251011230018/https://www.cherryservers.com/pricing/virtual-servers,2025-10-11,
+cherryservers,Cloud VPS 4 (Gen 2),CLOUD VPS 4 (GEN 2),4,4,USD,10.53,10.53,10.53,0,yes,https://web.archive.org/web/20251011230018/https://www.cherryservers.com/pricing/virtual-servers,2025-10-11,
+cherryservers,Cloud VPS 6 (Gen 2),CLOUD VPS 6 (GEN 2),6,6,USD,15.21,15.21,15.21,0,yes,https://web.archive.org/web/20251011230018/https://www.cherryservers.com/pricing/virtual-servers,2025-10-11,
+vpsdime,Linux 4GB,Linux 4GB (vd4gb7),2,4,USD,5,5,5,,no,https://web.archive.org/web/20251013004645/https://vpsdime.com/,2025-10-13,
+vpsdime,Linux 6GB,Linux 6GB (vd6gb7),4,6,USD,7,7,7,0,yes,https://web.archive.org/web/20251013004645/https://vpsdime.com/,2025-10-13,
+vpsdime,Linux 12GB,Linux 12GB (vd12gb7),4,12,USD,14,14,14,0,yes,https://web.archive.org/web/20251013004645/https://vpsdime.com/,2025-10-13,
+vpsdime,Linux 24GB,Linux 24GB (vd24gb7),4,24,USD,28,28,28,0,yes,https://web.archive.org/web/20251013004645/https://vpsdime.com/,2025-10-13,
+hostingcom,Self Managed Linux 4GB,Linux XS [Self Managed] (VPS XS),2,4,USD,19.99,19.99,19,-5,yes,https://web.archive.org/web/20251013082153/https://api.upmind.io/api/basket/products/196e02e5-136d-4293-d3db-1429807875d3?currency_code=usd&with=image%2Cprices%2Cbrand.oauth_clients&lang=en,2025-10-13,
+hostingcom,Self Managed Linux 8GB,Linux S [Self Managed] (VPS S),4,8,USD,39.99,39.99,29,-27.5,yes,https://web.archive.org/web/20251013082153/https://api.upmind.io/api/basket/products/196e02e5-136d-4293-d3db-1429807875d3?currency_code=usd&with=image%2Cprices%2Cbrand.oauth_clients&lang=en,2025-10-13,
+hostingcom,Self Managed Linux 16GB,Linux M [Self Managed] (VPS M),8,16,USD,79.99,79.99,49,-38.7,yes,https://web.archive.org/web/20251013082153/https://api.upmind.io/api/basket/products/196e02e5-136d-4293-d3db-1429807875d3?currency_code=usd&with=image%2Cprices%2Cbrand.oauth_clients&lang=en,2025-10-13,
+hostingcom,Self Managed Linux 32GB,Linux L [Self Managed] (VPS L),16,32,USD,109.99,109.99,99,-10,yes,https://web.archive.org/web/20251013082153/https://api.upmind.io/api/basket/products/196e02e5-136d-4293-d3db-1429807875d3?currency_code=usd&with=image%2Cprices%2Cbrand.oauth_clients&lang=en,2025-10-13,
