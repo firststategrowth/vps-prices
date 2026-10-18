@@ -5,7 +5,7 @@ a month, read from the provider's own pricing page or price API on the date in `
 link in `source_url`. `price_source` says whether a row was read from the page, from the provider's
 price API, or by hand; rows read by hand can be a few days old.
 
-On 17 Oct 2026 the file has 242 plans from 52 providers. Plans the provider shows as sold out
+On 18 Oct 2026 the file has 243 plans from 52 providers. Plans the provider shows as sold out
 on that day are left out.
 
 Three things that change what you pay are in their own columns:
