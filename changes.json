@@ -78,5 +78,14 @@
     "newUsd": 152.99,
     "source": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/",
     "note": "Hetzner price adjustment effective 15 June 2026, Germany/Finland, USD, excluding VAT and IPv4."
+  },
+  {
+    "date": "2026-10-19",
+    "provider": "hostinger",
+    "planId": "hostinger-2",
+    "planName": "KVM 2",
+    "oldUsd": 8.99,
+    "newUsd": 8.79,
+    "source": "https://www.hostinger.com/vps-hosting"
   }
 ]

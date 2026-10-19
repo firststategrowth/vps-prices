@@ -5,7 +5,7 @@ a month, read from the provider's own pricing page or price API on the date in `
 link in `source_url`. `price_source` says whether a row was read from the page, from the provider's
 price API, or by hand; rows read by hand can be a few days old.
 
-On 19 Oct 2026 the file has 238 plans from 51 providers. Plans the provider shows as sold out
+On 19 Oct 2026 the file has 239 plans from 51 providers. Plans the provider shows as sold out
 on that day are left out.
 
 Three things that change what you pay are in their own columns:
@@ -23,7 +23,7 @@ Kinsta's managed WordPress plans are sold by monthly visits (`monthly_visits`, `
 
 ## Files
 - `prices.csv` and `prices.json`: today's plans
-- `changes.json`: dated list-price changes, each with its source (8 so far; a move in the exchange
+- `changes.json`: dated list-price changes, each with its source (9 so far; a move in the exchange
   rate is not a change)
 - `year-on-year.csv`: each provider's pricing page as the Wayback Machine archived it (19 Sep 2025 to 13 Dec 2025, most in October 2025;
   date per row in `archived_on`) against today's price, plan by plan, in the currency the provider prints

@@ -107,7 +107,7 @@ kamatera-basic,kamatera,Kamatera,Basic,4,,,1,1,20,NVMe,5,,,Type A Availability (
 kamatera-standard,kamatera,Kamatera,Standard,25,,,2,2,20,NVMe,5,,,Type B General Purpose (dedicated threads),false,,false,,2026-10-19,page,https://www.kamatera.com/pricing/
 kamatera-pro,kamatera,Kamatera,Pro,39,,,2,4,20,NVMe,5,,,Type B General Purpose (dedicated threads),false,,false,,2026-10-19,page,https://www.kamatera.com/pricing/
 hostinger-1,hostinger,Hostinger,KVM 1,6.49,,,1,4,50,NVMe,4,,,AMD EPYC,true,,false,24,2026-10-19,page,https://www.hostinger.com/vps-hosting
-hostinger-2,hostinger,Hostinger,KVM 2,8.99,,,2,8,100,NVMe,8,,,AMD EPYC,true,,false,24,2026-10-19,page,https://www.hostinger.com/vps-hosting
+hostinger-2,hostinger,Hostinger,KVM 2,8.79,,,2,8,100,NVMe,8,,,AMD EPYC,true,,false,24,2026-10-19,page,https://www.hostinger.com/vps-hosting
 hostinger-4,hostinger,Hostinger,KVM 4,12.99,,,4,16,200,NVMe,16,,,AMD EPYC,true,,false,24,2026-10-19,page,https://www.hostinger.com/vps-hosting
 hostinger-8,hostinger,Hostinger,KVM 8,25.99,,,8,32,400,NVMe,32,,,AMD EPYC,true,,false,24,2026-10-19,page,https://www.hostinger.com/vps-hosting
 netcup-vps-500,netcup,netcup,VPS 500 G12.5,8.42,7.48,,2,4,64,SSD,,,,Shared vCore (KVM),true,0.56,false,,2026-10-19,manual,https://www.netcup.com/en/server/vps/vps-500-g12.5-iv-24m-eu
@@ -138,6 +138,7 @@ webdock-pro,webdock,Webdock,VPS Pro,22.06,19.6,,6,10,40,NVMe,7,,,AMD Epyc thread
 hivelocity-sm,hivelocity,Hivelocity,pro.sm.amd,10,,,2,4,40,NVMe,10,,,AMD vCPU,false,,false,,2026-10-19,page,https://www.hivelocity.net/pricing?computeType=vps
 hivelocity-md,hivelocity,Hivelocity,pro.md.amd,20,,,4,8,80,NVMe,10,,,AMD vCPU,false,,false,,2026-10-19,page,https://www.hivelocity.net/pricing?computeType=vps
 hivelocity-lg,hivelocity,Hivelocity,pro.lg.amd,39,,,8,16,160,NVMe,10,,,AMD vCPU,false,,false,,2026-10-19,page,https://www.hivelocity.net/pricing?computeType=vps
+hivelocity-xl,hivelocity,Hivelocity,pro.xl.amd,65,,,12,24,240,NVMe,10,,,AMD vCPU,false,,false,,2026-10-19,page,https://www.hivelocity.net/pricing?computeType=vps
 anet-g3-2,atlanticnet,Atlantic.Net,G3.2GB,10,,,1,2,50,SSD,3,,,vCPU,false,,false,,2026-10-19,page,https://www.atlantic.net/vps-hosting/pricing/
 anet-g3-4,atlanticnet,Atlantic.Net,G3.4GB,20,,,2,4,80,SSD,5,,,vCPU,false,,false,,2026-10-19,page,https://www.atlantic.net/vps-hosting/pricing/
 anet-g3-8,atlanticnet,Atlantic.Net,G3.8GB,40,,,4,8,160,SSD,6,,,vCPU,false,,false,,2026-10-19,page,https://www.atlantic.net/vps-hosting/pricing/
