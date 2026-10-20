@@ -147,7 +147,6 @@ anet-g3-32,atlanticnet,Atlantic.Net,G3.32GB,160,,,8,32,640,SSD,8,,,vCPU,false,,f
 cherry-vps1,cherryservers,Cherry Servers,Cloud VPS 1 (Gen 2),3.51,,,1,1,20,SSD,1,,,Shared vCore,true,,false,,2026-10-20,page,https://www.cherryservers.com/pricing/virtual-servers
 cherry-vps2,cherryservers,Cherry Servers,Cloud VPS 2 (Gen 2),7.02,,,2,2,40,SSD,1,,,Shared vCore,true,,false,,2026-10-20,page,https://www.cherryservers.com/pricing/virtual-servers
 cherry-vps4,cherryservers,Cherry Servers,Cloud VPS 4 (Gen 2),10.53,,,4,4,80,SSD,1,,,Shared vCore,true,,false,,2026-10-20,page,https://www.cherryservers.com/pricing/virtual-servers
-cherry-vps6,cherryservers,Cherry Servers,Cloud VPS 6 (Gen 2),15.21,,,6,6,100,SSD,1,,,Shared vCore,true,,false,,2026-10-20,page,https://www.cherryservers.com/pricing/virtual-servers
 vpsdime-4,vpsdime,VPSDime,Linux 4GB,5,,,2,4,20,NVMe,1,,,Shared vCPU,false,,false,,2026-10-20,page,https://vpsdime.com/
 scaleway-stardust1-s,scaleway,Scaleway,STARDUST1-S,0.9,0.8,,1,1,10,SSD,,,,Shared vCPU (AMD EPYC 7281 or equivalent),true,4.1,false,,2026-10-20,api,https://www.scaleway.com/en/pricing/virtual-instances/
 scaleway-dev1-s,scaleway,Scaleway,DEV1-S,8.16,7.27,,2,2,20,SSD,,,,Shared vCPU (AMD EPYC 7281 or equivalent),true,4.1,false,,2026-10-20,api,https://www.scaleway.com/en/pricing/virtual-instances/
@@ -167,6 +166,7 @@ hostodo-32,hostodo,Hostodo,EPYC-32G8C288GN,36,,,8,32,300,NVMe,12,,,vCPU (AMD EPY
 advin-premium-1,advinservers,Advin Servers,KVM Premium 1,6,,,2,4,64,NVMe,2,,,vCPU (AMD EPYC Genoa 9004),false,,false,,2026-10-20,api,https://advinservers.com/vps
 advin-premium-3,advinservers,Advin Servers,KVM Premium 3,24,,,8,16,256,NVMe,8,,,vCPU (AMD EPYC Genoa 9004),false,,false,,2026-10-20,api,https://advinservers.com/vps
 advin-standard-1,advinservers,Advin Servers,KVM Standard 1,8,,,4,8,64,NVMe,2,,,vCPU (AMD EPYC Milan 7003),false,,false,,2026-10-20,api,https://advinservers.com/vps
+advin-standard-2,advinservers,Advin Servers,KVM Standard 2,16,,,8,16,128,NVMe,4,,,vCPU (AMD EPYC Milan 7003),false,,false,,2026-10-20,api,https://advinservers.com/vps
 advin-ryzen-2,advinservers,Advin Servers,KVM Ryzen 2,16,,,2,8,256,NVMe,4,,,vCPU (AMD Ryzen 9950X),false,,false,,2026-10-20,api,https://advinservers.com/vps
 alwyzon-xs,alwyzon,Alwyzon,Virtual Server XS (G3),5.04,4.49,,2,2,40,NVMe,20,,,"vCore (AMD EPYC 7543P, 2.8+ GHz)",true,,false,,2026-10-20,page,https://www.alwyzon.com/en/virtual-servers
 alwyzon-m,alwyzon,Alwyzon,Virtual Server M (G3),14.58,12.99,,4,8,160,NVMe,20,,,"vCore (AMD EPYC 7543P, 2.8+ GHz)",true,,false,,2026-10-20,page,https://www.alwyzon.com/en/virtual-servers
@@ -212,7 +212,6 @@ virtono-1g,virtono,Virtono,Cloud VPS KVM 1G,5.05,4.5,,1,1,30,SSD,1,,,vCPU (model
 virtono-2g,virtono,Virtono,Cloud VPS KVM 2G,11.17,9.95,,1,2,50,SSD,2,,,vCPU (model not stated),true,,false,,2026-10-20,page,https://virtono.com/cloud-vps
 virtono-4g,virtono,Virtono,Cloud VPS KVM 4G,23.52,20.95,,2,4,80,SSD,3,,,vCPU (model not stated),true,,false,,2026-10-20,page,https://virtono.com/cloud-vps
 virtono-8g,virtono,Virtono,Cloud VPS KVM 8G,48.21,42.95,,4,8,160,SSD,5,,,vCPU (model not stated),true,,false,,2026-10-20,page,https://virtono.com/cloud-vps
-kimsufi-ks-1,kimsufi,Kimsufi (OVHcloud),KS-1,18.8,,,8,32,960,"SSD (2 x 480 GB, soft RAID; 480 GB usable in RAID 1)",,,,"Intel Xeon D-1520 (4 dedicated cores, 8 threads)",true,,false,,2026-10-20,page,https://www.kimsufi.com/en/
 phoenixnap-s0-d1-small,phoenixnap,phoenixNAP,s0.d1.small,50.87,,,8,16,480,SSD (2 x 240 GB),15,,,"Intel Xeon E3-1240 v3 (4 dedicated cores, 8 threads)",false,5.11,false,,2026-10-20,page,https://phoenixnap.com/bare-metal-cloud/instances
 phoenixnap-s0-d1-medium,phoenixnap,phoenixNAP,s0.d1.medium,63.87,,,8,32,480,SSD (1 x 480 GB),15,,,"Intel Xeon E3-1270 v3 (4 dedicated cores, 8 threads)",false,5.11,false,,2026-10-20,page,https://phoenixnap.com/bare-metal-cloud/instances
 phoenixnap-s1-c1-small,phoenixnap,phoenixNAP,s1.c1.small,88.87,,,12,64,1000,NVMe (1 x 1 TB),15,,,"Intel Xeon E-2276G (6 dedicated cores, 12 threads)",false,5.11,false,,2026-10-20,page,https://phoenixnap.com/bare-metal-cloud/instances
