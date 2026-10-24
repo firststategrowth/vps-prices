@@ -1,235 +1,235 @@
 id,provider,provider_name,name,monthly_usd,billed_eur,billed_gbp,vcpu,ram_gb,storage_gb,storage_type,transfer_tb,monthly_visits,site_limit,cpu_type,excludes_vat,ipv4_extra_usd,ipv6_only,commitment_months,checked_at,price_source,source_url
-do-basic-05,digitalocean,DigitalOcean,Basic 512MB,4,,,1,0.5,10,SSD,0.5,,,Shared vCPU,false,,false,,2026-10-23,page,https://www.digitalocean.com/pricing/droplets
-do-basic-1,digitalocean,DigitalOcean,Basic 1GB,6,,,1,1,25,SSD,1,,,Shared vCPU,false,,false,,2026-10-23,page,https://www.digitalocean.com/pricing/droplets
-do-basic-2,digitalocean,DigitalOcean,Basic 2GB,12,,,1,2,50,SSD,2,,,Shared vCPU,false,,false,,2026-10-23,page,https://www.digitalocean.com/pricing/droplets
-do-basic-2-2,digitalocean,DigitalOcean,Basic 2GB / 2 vCPU,18,,,2,2,60,SSD,3,,,Shared vCPU,false,,false,,2026-10-23,page,https://www.digitalocean.com/pricing/droplets
-do-basic-4,digitalocean,DigitalOcean,Basic 4GB,24,,,2,4,80,SSD,4,,,Shared vCPU,false,,false,,2026-10-23,page,https://www.digitalocean.com/pricing/droplets
-do-basic-8,digitalocean,DigitalOcean,Basic 8GB,48,,,4,8,160,SSD,5,,,Shared vCPU,false,,false,,2026-10-23,page,https://www.digitalocean.com/pricing/droplets
-do-basic-16,digitalocean,DigitalOcean,Basic 16GB,96,,,8,16,320,SSD,6,,,Shared vCPU,false,,false,,2026-10-23,page,https://www.digitalocean.com/pricing/droplets
-vultr-rc-05-v6,vultr,Vultr,Regular 512MB (IPv6 only),2.5,,,1,0.5,10,SSD,0.5,,,Shared vCPU,false,,true,,2026-10-23,api,https://www.vultr.com/pricing/
-vultr-rc-05,vultr,Vultr,Regular 512MB,3.5,,,1,0.5,10,SSD,0.5,,,Shared vCPU,false,,false,,2026-10-23,api,https://www.vultr.com/pricing/
-vultr-rc-1,vultr,Vultr,Regular 1GB,5,,,1,1,25,SSD,1,,,Shared vCPU,false,,false,,2026-10-23,api,https://www.vultr.com/pricing/
-vultr-hf-1,vultr,Vultr,High Frequency 1GB,6,,,1,1,32,NVMe,1,,,High-clock shared vCPU,false,,false,,2026-10-23,api,https://www.vultr.com/pricing/
-vultr-rc-2,vultr,Vultr,Regular 2GB,10,,,1,2,55,SSD,2,,,Shared vCPU,false,,false,,2026-10-23,api,https://www.vultr.com/pricing/
-vultr-rc-4,vultr,Vultr,Regular 4GB,20,,,2,4,80,SSD,3,,,Shared vCPU,false,,false,,2026-10-23,api,https://www.vultr.com/pricing/
-vultr-rc-8,vultr,Vultr,Regular 8GB,40,,,4,8,160,SSD,4,,,Shared vCPU,false,,false,,2026-10-23,api,https://www.vultr.com/pricing/
-vultr-rc-16,vultr,Vultr,Regular 16GB,80,,,6,16,320,SSD,5,,,Shared vCPU,false,,false,,2026-10-23,api,https://www.vultr.com/pricing/
-vultr-rc-32,vultr,Vultr,Regular 32GB,160,,,8,32,640,SSD,6,,,Shared vCPU,false,,false,,2026-10-23,api,https://www.vultr.com/pricing/
-hetzner-cpx02,hetzner,Hetzner,CPX02,7.49,,,1,1,20,NVMe,20,,,Shared vCPU (AMD),true,0.6,false,,2026-10-23,api,https://www.hetzner.com/cloud/regular-performance/
-hetzner-cpx12,hetzner,Hetzner,CPX12,13.49,,,1,2,40,NVMe,20,,,Shared vCPU (AMD),true,0.6,false,,2026-10-23,api,https://www.hetzner.com/cloud/regular-performance/
-hetzner-cpx22,hetzner,Hetzner,CPX22,22.99,,,2,4,80,NVMe,20,,,Shared vCPU (AMD),true,0.6,false,,2026-10-23,api,https://www.hetzner.com/cloud/regular-performance/
-hetzner-cpx32,hetzner,Hetzner,CPX32,41.99,,,4,8,160,NVMe,20,,,Shared vCPU (AMD),true,0.6,false,,2026-10-23,api,https://www.hetzner.com/cloud/regular-performance/
-hetzner-cpx42,hetzner,Hetzner,CPX42,81.99,,,8,16,320,NVMe,20,,,Shared vCPU (AMD),true,0.6,false,,2026-10-23,api,https://www.hetzner.com/cloud/regular-performance/
-hetzner-cpx62,hetzner,Hetzner,CPX62,152.99,,,16,32,640,NVMe,20,,,Shared vCPU (AMD),true,0.6,false,,2026-10-23,api,https://www.hetzner.com/cloud/regular-performance/
-linode-nanode-1,akamai-linode,Akamai Cloud (Linode),Nanode 1GB,5,,,1,1,25,SSD,1,,,Shared vCPU,false,,false,,2026-10-23,api,https://api.linode.com/v4/linode/types
-linode-2,akamai-linode,Akamai Cloud (Linode),Linode 2GB,12,,,1,2,50,SSD,2,,,Shared vCPU,false,,false,,2026-10-23,api,https://api.linode.com/v4/linode/types
-linode-4,akamai-linode,Akamai Cloud (Linode),Linode 4GB,24,,,2,4,80,SSD,4,,,Shared vCPU,false,,false,,2026-10-23,api,https://api.linode.com/v4/linode/types
-linode-8,akamai-linode,Akamai Cloud (Linode),Linode 8GB,48,,,4,8,160,SSD,5,,,Shared vCPU,false,,false,,2026-10-23,api,https://api.linode.com/v4/linode/types
-linode-16,akamai-linode,Akamai Cloud (Linode),Linode 16GB,96,,,6,16,320,SSD,8,,,Shared vCPU,false,,false,,2026-10-23,api,https://api.linode.com/v4/linode/types
-linode-32,akamai-linode,Akamai Cloud (Linode),Linode 32GB,192,,,8,32,640,SSD,16,,,Shared vCPU,false,,false,,2026-10-23,api,https://api.linode.com/v4/linode/types
+do-basic-05,digitalocean,DigitalOcean,Basic 512MB,4,,,1,0.5,10,SSD,0.5,,,Shared vCPU,false,,false,,2026-10-24,page,https://www.digitalocean.com/pricing/droplets
+do-basic-1,digitalocean,DigitalOcean,Basic 1GB,6,,,1,1,25,SSD,1,,,Shared vCPU,false,,false,,2026-10-24,page,https://www.digitalocean.com/pricing/droplets
+do-basic-2,digitalocean,DigitalOcean,Basic 2GB,12,,,1,2,50,SSD,2,,,Shared vCPU,false,,false,,2026-10-24,page,https://www.digitalocean.com/pricing/droplets
+do-basic-2-2,digitalocean,DigitalOcean,Basic 2GB / 2 vCPU,18,,,2,2,60,SSD,3,,,Shared vCPU,false,,false,,2026-10-24,page,https://www.digitalocean.com/pricing/droplets
+do-basic-4,digitalocean,DigitalOcean,Basic 4GB,24,,,2,4,80,SSD,4,,,Shared vCPU,false,,false,,2026-10-24,page,https://www.digitalocean.com/pricing/droplets
+do-basic-8,digitalocean,DigitalOcean,Basic 8GB,48,,,4,8,160,SSD,5,,,Shared vCPU,false,,false,,2026-10-24,page,https://www.digitalocean.com/pricing/droplets
+do-basic-16,digitalocean,DigitalOcean,Basic 16GB,96,,,8,16,320,SSD,6,,,Shared vCPU,false,,false,,2026-10-24,page,https://www.digitalocean.com/pricing/droplets
+vultr-rc-05-v6,vultr,Vultr,Regular 512MB (IPv6 only),2.5,,,1,0.5,10,SSD,0.5,,,Shared vCPU,false,,true,,2026-10-24,api,https://www.vultr.com/pricing/
+vultr-rc-05,vultr,Vultr,Regular 512MB,3.5,,,1,0.5,10,SSD,0.5,,,Shared vCPU,false,,false,,2026-10-24,api,https://www.vultr.com/pricing/
+vultr-rc-1,vultr,Vultr,Regular 1GB,5,,,1,1,25,SSD,1,,,Shared vCPU,false,,false,,2026-10-24,api,https://www.vultr.com/pricing/
+vultr-hf-1,vultr,Vultr,High Frequency 1GB,6,,,1,1,32,NVMe,1,,,High-clock shared vCPU,false,,false,,2026-10-24,api,https://www.vultr.com/pricing/
+vultr-rc-2,vultr,Vultr,Regular 2GB,10,,,1,2,55,SSD,2,,,Shared vCPU,false,,false,,2026-10-24,api,https://www.vultr.com/pricing/
+vultr-rc-4,vultr,Vultr,Regular 4GB,20,,,2,4,80,SSD,3,,,Shared vCPU,false,,false,,2026-10-24,api,https://www.vultr.com/pricing/
+vultr-rc-8,vultr,Vultr,Regular 8GB,40,,,4,8,160,SSD,4,,,Shared vCPU,false,,false,,2026-10-24,api,https://www.vultr.com/pricing/
+vultr-rc-16,vultr,Vultr,Regular 16GB,80,,,6,16,320,SSD,5,,,Shared vCPU,false,,false,,2026-10-24,api,https://www.vultr.com/pricing/
+vultr-rc-32,vultr,Vultr,Regular 32GB,160,,,8,32,640,SSD,6,,,Shared vCPU,false,,false,,2026-10-24,api,https://www.vultr.com/pricing/
+hetzner-cpx02,hetzner,Hetzner,CPX02,7.49,,,1,1,20,NVMe,20,,,Shared vCPU (AMD),true,0.6,false,,2026-10-24,api,https://www.hetzner.com/cloud/regular-performance/
+hetzner-cpx12,hetzner,Hetzner,CPX12,13.49,,,1,2,40,NVMe,20,,,Shared vCPU (AMD),true,0.6,false,,2026-10-24,api,https://www.hetzner.com/cloud/regular-performance/
+hetzner-cpx22,hetzner,Hetzner,CPX22,22.99,,,2,4,80,NVMe,20,,,Shared vCPU (AMD),true,0.6,false,,2026-10-24,api,https://www.hetzner.com/cloud/regular-performance/
+hetzner-cpx32,hetzner,Hetzner,CPX32,41.99,,,4,8,160,NVMe,20,,,Shared vCPU (AMD),true,0.6,false,,2026-10-24,api,https://www.hetzner.com/cloud/regular-performance/
+hetzner-cpx42,hetzner,Hetzner,CPX42,81.99,,,8,16,320,NVMe,20,,,Shared vCPU (AMD),true,0.6,false,,2026-10-24,api,https://www.hetzner.com/cloud/regular-performance/
+hetzner-cpx62,hetzner,Hetzner,CPX62,152.99,,,16,32,640,NVMe,20,,,Shared vCPU (AMD),true,0.6,false,,2026-10-24,api,https://www.hetzner.com/cloud/regular-performance/
+linode-nanode-1,akamai-linode,Akamai Cloud (Linode),Nanode 1GB,5,,,1,1,25,SSD,1,,,Shared vCPU,false,,false,,2026-10-24,api,https://api.linode.com/v4/linode/types
+linode-2,akamai-linode,Akamai Cloud (Linode),Linode 2GB,12,,,1,2,50,SSD,2,,,Shared vCPU,false,,false,,2026-10-24,api,https://api.linode.com/v4/linode/types
+linode-4,akamai-linode,Akamai Cloud (Linode),Linode 4GB,24,,,2,4,80,SSD,4,,,Shared vCPU,false,,false,,2026-10-24,api,https://api.linode.com/v4/linode/types
+linode-8,akamai-linode,Akamai Cloud (Linode),Linode 8GB,48,,,4,8,160,SSD,5,,,Shared vCPU,false,,false,,2026-10-24,api,https://api.linode.com/v4/linode/types
+linode-16,akamai-linode,Akamai Cloud (Linode),Linode 16GB,96,,,6,16,320,SSD,8,,,Shared vCPU,false,,false,,2026-10-24,api,https://api.linode.com/v4/linode/types
+linode-32,akamai-linode,Akamai Cloud (Linode),Linode 32GB,192,,,8,32,640,SSD,16,,,Shared vCPU,false,,false,,2026-10-24,api,https://api.linode.com/v4/linode/types
 cw-do-1,cloudways,Cloudways,DO 1GB (managed),14,,,1,1,25,NVMe,1,,,Shared vCPU,false,,false,,2026-10-11,manual,https://www.cloudways.com/en/pricing.php
 cw-do-2,cloudways,Cloudways,DO 2GB (managed),28,,,1,2,50,NVMe,2,,,Shared vCPU,false,,false,,2026-10-11,manual,https://www.cloudways.com/en/pricing.php
 cw-do-4,cloudways,Cloudways,DO 4GB (managed),54,,,2,4,80,NVMe,4,,,Shared vCPU,false,,false,,2026-10-11,manual,https://www.cloudways.com/en/pricing.php
 cw-do-8,cloudways,Cloudways,DO 8GB (managed),99,,,4,8,160,NVMe,5,,,Shared vCPU,false,,false,,2026-10-11,manual,https://www.cloudways.com/en/pricing.php
 cw-vultr-hf-2,cloudways,Cloudways,Vultr HF 2GB (managed),30,,,1,2,64,NVMe,2,,,High-clock shared vCPU,false,,false,,2026-10-11,manual,https://www.cloudways.com/en/pricing.php
-lightsail-05,aws-lightsail,AWS Lightsail,General 512MB,5,,,2,0.5,20,SSD,1,,,Shared vCPU,false,,false,,2026-10-23,api,https://aws.amazon.com/lightsail/pricing/
-lightsail-1,aws-lightsail,AWS Lightsail,General 1GB,7,,,2,1,40,SSD,2,,,Shared vCPU,false,,false,,2026-10-23,api,https://aws.amazon.com/lightsail/pricing/
-lightsail-2,aws-lightsail,AWS Lightsail,General 2GB,12,,,2,2,60,SSD,3,,,Shared vCPU,false,,false,,2026-10-23,api,https://aws.amazon.com/lightsail/pricing/
-lightsail-4,aws-lightsail,AWS Lightsail,General 4GB,24,,,2,4,80,SSD,4,,,Shared vCPU,false,,false,,2026-10-23,api,https://aws.amazon.com/lightsail/pricing/
-lightsail-8,aws-lightsail,AWS Lightsail,General 8GB,44,,,2,8,160,SSD,5,,,Shared vCPU,false,,false,,2026-10-23,api,https://aws.amazon.com/lightsail/pricing/
-lightsail-16,aws-lightsail,AWS Lightsail,General 16GB,84,,,4,16,320,SSD,6,,,Shared vCPU,false,,false,,2026-10-23,api,https://aws.amazon.com/lightsail/pricing/
-lightsail-32,aws-lightsail,AWS Lightsail,General 32GB,164,,,8,32,640,SSD,7,,,Shared vCPU,false,,false,,2026-10-23,api,https://aws.amazon.com/lightsail/pricing/
-lightsail-co-4,aws-lightsail,AWS Lightsail,Compute optimized 4GB,42,,,2,4,160,SSD,5,,,vCPU,false,,false,,2026-10-23,api,https://aws.amazon.com/lightsail/pricing/
-lightsail-co-8,aws-lightsail,AWS Lightsail,Compute optimized 8GB,84,,,4,8,320,SSD,6,,,vCPU,false,,false,,2026-10-23,api,https://aws.amazon.com/lightsail/pricing/
-lightsail-mo-16,aws-lightsail,AWS Lightsail,Memory optimized 16GB,74,,,2,16,160,SSD,5,,,vCPU,false,,false,,2026-10-23,api,https://aws.amazon.com/lightsail/pricing/
-lightsail-mo-32,aws-lightsail,AWS Lightsail,Memory optimized 32GB,144,,,4,32,320,SSD,6,,,vCPU,false,,false,,2026-10-23,api,https://aws.amazon.com/lightsail/pricing/
-ovh-vps-1,ovhcloud,OVHcloud,VPS-1,5.35,,,2,4,40,NVMe,,,,Shared vCPU,false,,false,,2026-10-23,api,https://us.ovhcloud.com/vps/
-ovh-vps-2,ovhcloud,OVHcloud,VPS-2,10,,,4,8,75,NVMe,,,,Shared vCPU,false,,false,,2026-10-23,api,https://us.ovhcloud.com/vps/
-ovh-vps-3,ovhcloud,OVHcloud,VPS-3,14.5,,,6,12,100,NVMe,,,,Shared vCPU,false,,false,,2026-10-23,api,https://us.ovhcloud.com/vps/
-ovh-vps-4,ovhcloud,OVHcloud,VPS-4,27.5,,,8,24,200,NVMe,,,,Shared vCPU,false,,false,,2026-10-23,api,https://us.ovhcloud.com/vps/
-upcloud-starter-1,upcloud,UpCloud,Starter 1GB,3.5,,,1,1,10,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-10-23,page,https://calc.upcloud.com/cloud-servers?currency=USD
-upcloud-starter-2,upcloud,UpCloud,Starter 2GB,7,,,1,2,20,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-10-23,page,https://calc.upcloud.com/cloud-servers?currency=USD
-upcloud-starter-4,upcloud,UpCloud,Starter 4GB / 2 vCPU,14,,,2,4,30,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-10-23,page,https://calc.upcloud.com/cloud-servers?currency=USD
-upcloud-starter-8,upcloud,UpCloud,Starter 8GB / 2 vCPU,20,,,2,8,40,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-10-23,page,https://calc.upcloud.com/cloud-servers?currency=USD
-upcloud-starter-8-4,upcloud,UpCloud,Starter 8GB / 4 vCPU,24,,,4,8,40,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-10-23,page,https://calc.upcloud.com/cloud-servers?currency=USD
-contabo-vps-4,contabo,Contabo,Cloud VPS 4,6.6,,,4,8,100,SSD,,,,Shared vCPU,true,,false,1,2026-10-23,manual,https://contabo.com/en/vps/cloud-vps-core-4/
-contabo-vps-6,contabo,Contabo,Cloud VPS 6,9,,,6,12,200,SSD,,,,Shared vCPU,true,,false,1,2026-10-23,manual,https://contabo.com/en/vps/cloud-vps-core-6/
-contabo-vps-8,contabo,Contabo,Cloud VPS 8,16.8,,,8,24,300,SSD,,,,Shared vCPU,true,,false,1,2026-10-23,manual,https://contabo.com/en/vps/cloud-vps-core-8/
-contabo-vps-12,contabo,Contabo,Cloud VPS 12,30,,,12,48,400,SSD,,,,Shared vCPU,true,,false,1,2026-10-23,manual,https://contabo.com/en/vps/cloud-vps-core-12/
-contabo-vps-16,contabo,Contabo,Cloud VPS 16,44.5,,,16,64,500,SSD,,,,Shared vCPU,true,,false,1,2026-10-23,manual,https://contabo.com/en/vps/cloud-vps-core-16/
-contabo-vps-18,contabo,Contabo,Cloud VPS 18,58.8,,,18,96,600,SSD,,,,Shared vCPU,true,,false,1,2026-10-23,manual,https://contabo.com/en/vps/cloud-vps-core-18/
-kinsta-single-35k,kinsta,Kinsta,Single 35k,35,,,,,10,SSD,,35000,1,Container (not user-selectable),false,,false,,2026-10-23,page,https://kinsta.com/plans/
-kinsta-single-65k,kinsta,Kinsta,Single 65k,50,,,,,10,SSD,,65000,1,Container (not user-selectable),false,,false,,2026-10-23,page,https://kinsta.com/plans/
-kinsta-wp-2,kinsta,Kinsta,WP 2,70,,,,,20,SSD,,70000,2,Container (not user-selectable),false,,false,,2026-10-23,page,https://kinsta.com/plans/
-kinsta-wp-5,kinsta,Kinsta,WP 5,115,,,,,30,SSD,,125000,5,Container (not user-selectable),false,,false,,2026-10-23,page,https://kinsta.com/plans/
-kinsta-wp-10,kinsta,Kinsta,WP 10,225,,,,,40,SSD,,315000,10,Container (not user-selectable),false,,false,,2026-10-23,page,https://kinsta.com/plans/
-rn-1,racknerd,RackNerd,KVM 1GB,17.99,,,2,1,50,RAID-10 SSD,1,,,vCore (Intel Xeon),false,,false,,2026-10-23,page,https://www.racknerd.com/kvm-vps
-rn-2,racknerd,RackNerd,KVM 2GB,20.59,,,3,2,75,RAID-10 SSD,2,,,vCore (Intel Xeon),false,,false,,2026-10-23,page,https://www.racknerd.com/kvm-vps
-rn-4,racknerd,RackNerd,KVM 4GB,24.59,,,4,4,130,RAID-10 SSD,3,,,vCore (Intel Xeon),false,,false,,2026-10-23,page,https://www.racknerd.com/kvm-vps
-rn-8,racknerd,RackNerd,KVM 8GB,36.59,,,6,8,220,RAID-10 SSD,5,,,vCore (Intel Xeon),false,,false,,2026-10-23,page,https://www.racknerd.com/kvm-vps
-is-1,interserver,InterServer,1 slice,3,,,1,2,40,SSD,2,,,vCPU (KVM),false,,false,,2026-10-23,manual,https://www.interserver.net/vps/
-is-2,interserver,InterServer,2 slices,6,,,1,4,80,SSD,4,,,vCPU (KVM),false,,false,,2026-10-23,manual,https://www.interserver.net/vps/
-is-4,interserver,InterServer,4 slices,12,,,2,8,160,SSD,8,,,vCPU (KVM),false,,false,,2026-10-23,manual,https://www.interserver.net/vps/
-is-8,interserver,InterServer,8 slices,24,,,4,16,320,SSD,16,,,vCPU (KVM),false,,false,,2026-10-23,manual,https://www.interserver.net/vps/
-cc-1,cloudcone,CloudCone,SSD VPS 1,2.33,,,2,1,30,RAID-10 SSD,4,,,vCPU (KVM),false,,false,12,2026-10-23,page,https://cloudcone.com/vps/
-cc-2,cloudcone,CloudCone,SSD VPS 2,3.83,,,4,2,60,RAID-10 SSD,7,,,vCPU (KVM),false,,false,12,2026-10-23,page,https://cloudcone.com/vps/
-cc-3,cloudcone,CloudCone,SSD VPS 3,5.75,,,6,3,90,RAID-10 SSD,8.5,,,vCPU (KVM),false,,false,12,2026-10-23,page,https://cloudcone.com/vps/
-cc-4,cloudcone,CloudCone,SSD VPS 4,7.66,,,8,4,120,RAID-10 SSD,10,,,vCPU (KVM),false,,false,12,2026-10-23,page,https://cloudcone.com/vps/
-hostwinds-1,hostwinds,Hostwinds,Unmanaged SSD Cloud 1,4.99,,,1,1,30,SSD,1,,,vCPU (model not stated),false,,false,,2026-10-23,page,https://www.hostwinds.com/vps/unmanaged-linux
-hostwinds-2,hostwinds,Hostwinds,Unmanaged SSD Cloud 2,9.99,,,1,2,50,SSD,2,,,vCPU (model not stated),false,,false,,2026-10-23,page,https://www.hostwinds.com/vps/unmanaged-linux
-hostwinds-3,hostwinds,Hostwinds,Unmanaged SSD Cloud 3,18.99,,,2,4,75,SSD,2,,,vCPU (model not stated),false,,false,,2026-10-23,page,https://www.hostwinds.com/vps/unmanaged-linux
-hostwinds-4,hostwinds,Hostwinds,Unmanaged SSD Cloud 4,28.99,,,2,6,100,SSD,2,,,vCPU (model not stated),false,,false,,2026-10-23,page,https://www.hostwinds.com/vps/unmanaged-linux
-hostwinds-5,hostwinds,Hostwinds,Unmanaged SSD Cloud 5,38.99,,,4,8,150,SSD,3,,,vCPU (model not stated),false,,false,,2026-10-23,page,https://www.hostwinds.com/vps/unmanaged-linux
-dreamhost-4,dreamhost,DreamHost,Stack 4,15.99,,,2,4,75,NVMe,,,,AMD EPYC,false,,false,,2026-10-23,page,https://www.dreamhost.com/hosting/vps/
-dreamhost-8,dreamhost,DreamHost,Stack 8,21.99,,,2,8,150,NVMe,,,,AMD EPYC,false,,false,,2026-10-23,page,https://www.dreamhost.com/hosting/vps/
-dreamhost-16,dreamhost,DreamHost,Stack 16,34.99,,,4,16,250,NVMe,,,,AMD EPYC,false,,false,,2026-10-23,page,https://www.dreamhost.com/hosting/vps/
-dreamhost-32,dreamhost,DreamHost,Stack 32,59.99,,,8,32,450,NVMe,,,,AMD EPYC,false,,false,,2026-10-23,page,https://www.dreamhost.com/hosting/vps/
-hostingcom-4,hostingcom,Hosting.com,Self Managed Linux 4GB,19,,,2,4,80,NVMe,,,,AMD EPYC (dedicated vCPU),false,,false,,2026-10-23,api,https://hosting.com/hosting/vps-hosting/unmanaged/linux/
-hostingcom-8,hostingcom,Hosting.com,Self Managed Linux 8GB,29,,,4,8,160,NVMe,,,,AMD EPYC (dedicated vCPU),false,,false,,2026-10-23,api,https://hosting.com/hosting/vps-hosting/unmanaged/linux/
-hostingcom-16,hostingcom,Hosting.com,Self Managed Linux 16GB,49,,,8,16,320,NVMe,,,,AMD EPYC (dedicated vCPU),false,,false,,2026-10-23,api,https://hosting.com/hosting/vps-hosting/unmanaged/linux/
-hostingcom-32,hostingcom,Hosting.com,Self Managed Linux 32GB,99,,,16,32,640,NVMe,,,,AMD EPYC (dedicated vCPU),false,,false,,2026-10-23,api,https://hosting.com/hosting/vps-hosting/unmanaged/linux/
-greencloudvps-1,greencloudvps,GreenCloudVPS,SSDKVM-1,6,,,1,1,15,SSD,1.5,,,Intel/AMD vCore,false,,false,,2026-10-23,page,https://greencloudvps.com/budget-kvm-vps.php
-greencloudvps-2,greencloudvps,GreenCloudVPS,SSDKVM-2,10,,,1,2,15,SSD,2,,,Intel/AMD vCore,false,,false,,2026-10-23,page,https://greencloudvps.com/budget-kvm-vps.php
-greencloudvps-3,greencloudvps,GreenCloudVPS,SSDKVM-3,20,,,2,4,30,SSD,4,,,Intel/AMD vCore,false,,false,,2026-10-23,page,https://greencloudvps.com/budget-kvm-vps.php
-greencloudvps-4,greencloudvps,GreenCloudVPS,SSDKVM-4,40,,,4,8,60,SSD,8,,,Intel/AMD vCore,false,,false,,2026-10-23,page,https://greencloudvps.com/budget-kvm-vps.php
-greencloudvps-5,greencloudvps,GreenCloudVPS,SSDKVM-5,80,,,8,16,120,SSD,12,,,Intel/AMD vCore,false,,false,,2026-10-23,page,https://greencloudvps.com/budget-kvm-vps.php
-hosthatch-2,hosthatch,HostHatch,NVMe 2 GB,4,,,1,2,10,NVMe,1,,,AMD EPYC (fair share),false,,false,,2026-10-23,page,https://hosthatch.com/products
-hosthatch-4,hosthatch,HostHatch,NVMe 4 GB,6,,,2,4,20,NVMe,1,,,AMD EPYC (fair share),false,,false,,2026-10-23,page,https://hosthatch.com/products
-hosthatch-8,hosthatch,HostHatch,NVMe 8 GB,9,,,2,8,35,NVMe,2,,,AMD EPYC (fair share),false,,false,,2026-10-23,page,https://hosthatch.com/products
-hosthatch-12,hosthatch,HostHatch,NVMe 12 GB,12,,,4,12,50,NVMe,3,,,AMD EPYC (1 dedicated + 3 fair-share cores),false,,false,,2026-10-23,page,https://hosthatch.com/products
-hosthatch-16,hosthatch,HostHatch,NVMe 16 GB,15,,,4,16,75,NVMe,4,,,AMD EPYC (2 dedicated + 2 fair-share cores),false,,false,,2026-10-23,page,https://hosthatch.com/products
-kamatera-basic,kamatera,Kamatera,Basic,4,,,1,1,20,NVMe,5,,,Type A Availability (shared),false,,false,,2026-10-23,page,https://www.kamatera.com/pricing/
-kamatera-standard,kamatera,Kamatera,Standard,25,,,2,2,20,NVMe,5,,,Type B General Purpose (dedicated threads),false,,false,,2026-10-23,page,https://www.kamatera.com/pricing/
-kamatera-pro,kamatera,Kamatera,Pro,39,,,2,4,20,NVMe,5,,,Type B General Purpose (dedicated threads),false,,false,,2026-10-23,page,https://www.kamatera.com/pricing/
-hostinger-1,hostinger,Hostinger,KVM 1,6.49,,,1,4,50,NVMe,4,,,AMD EPYC,true,,false,24,2026-10-23,page,https://www.hostinger.com/vps-hosting
-hostinger-2,hostinger,Hostinger,KVM 2,8.79,,,2,8,100,NVMe,8,,,AMD EPYC,true,,false,24,2026-10-23,page,https://www.hostinger.com/vps-hosting
-hostinger-4,hostinger,Hostinger,KVM 4,12.99,,,4,16,200,NVMe,16,,,AMD EPYC,true,,false,24,2026-10-23,page,https://www.hostinger.com/vps-hosting
-hostinger-8,hostinger,Hostinger,KVM 8,25.99,,,8,32,400,NVMe,32,,,AMD EPYC,true,,false,24,2026-10-23,page,https://www.hostinger.com/vps-hosting
-netcup-vps-500,netcup,netcup,VPS 500 G12.5,8.38,7.48,,2,4,64,SSD,,,,Shared vCore (KVM),true,0.56,false,,2026-10-23,manual,https://www.netcup.com/en/server/vps/vps-500-g12.5-iv-24m-eu
-netcup-vps-1000,netcup,netcup,VPS 1000 G12.5,15.14,13.51,,4,8,128,SSD,,,,Shared vCore (KVM),true,0.56,false,,2026-10-23,manual,https://www.netcup.com/en/server/vps/vps-1000-g12.5-iv-24m-eu
-netcup-vps-2000,netcup,netcup,VPS 2000 G12.5,28.58,25.51,,8,16,256,SSD,,,,Shared vCore (KVM),true,0.56,false,,2026-10-23,manual,https://www.netcup.com/en/server/vps/vps-2000-g12.5-iv-24m-eu
-netcup-vps-4000,netcup,netcup,VPS 4000 G12.5,48.55,43.33,,12,32,512,SSD,,,,Shared vCore (KVM),true,0.56,false,,2026-10-23,manual,https://www.netcup.com/en/server/vps/vps-4000-g12.5-iv-24m-eu
-netcup-vps-8000,netcup,netcup,VPS 8000 G12.5,72.09,64.34,,16,64,1024,SSD,,,,Shared vCore (KVM),true,0.56,false,,2026-10-23,manual,https://www.netcup.com/en/server/vps/vps-8000-g12.5-iv-24m-eu
-liquidweb-2,liquidweb,Liquid Web,VPS 2 GB,11,,,1,2,60,SSD,2,,,vCPU,false,,false,,2026-10-23,page,https://www.liquidweb.com/vps-hosting/
-liquidweb-4,liquidweb,Liquid Web,VPS 4 GB,17,,,2,4,80,SSD,3,,,vCPU,false,,false,,2026-10-23,page,https://www.liquidweb.com/vps-hosting/
-liquidweb-8,liquidweb,Liquid Web,VPS 8 GB,45,,,4,8,240,SSD,5,,,vCPU,false,,false,,2026-10-23,page,https://www.liquidweb.com/vps-hosting/
-liquidweb-16,liquidweb,Liquid Web,VPS 16 GB,90,,,6,16,440,SSD,7,,,vCPU,false,,false,,2026-10-23,page,https://www.liquidweb.com/vps-hosting/
-liquidweb-32,liquidweb,Liquid Web,VPS 32 GB,179,,,8,32,640,SSD,10,,,vCPU,false,,false,,2026-10-23,page,https://www.liquidweb.com/vps-hosting/
-ramnode-05,ramnode,RamNode,Standard 512MB,4,,,1,0.5,20,SSD,1,,,Shared vCPU,false,,false,,2026-10-23,page,https://www.ramnode.com/pricing/
-ramnode-1,ramnode,RamNode,Standard 1GB,5,,,1,1,40,SSD,2,,,Shared vCPU,false,,false,,2026-10-23,page,https://www.ramnode.com/pricing/
-ramnode-2,ramnode,RamNode,Standard 2GB,10,,,2,2,80,SSD,4,,,Shared vCPU,false,,false,,2026-10-23,page,https://www.ramnode.com/pricing/
-ramnode-4,ramnode,RamNode,Standard 4GB,20,,,4,4,120,SSD,8,,,Shared vCPU,false,,false,,2026-10-23,page,https://www.ramnode.com/pricing/
-ramnode-8,ramnode,RamNode,Standard 8GB,40,,,4,8,180,SSD,12,,,Shared vCPU,false,,false,,2026-10-23,page,https://www.ramnode.com/pricing/
-ramnode-16,ramnode,RamNode,Standard 16GB,80,,,8,16,260,SSD,14,,,Shared vCPU,false,,false,,2026-10-23,page,https://www.ramnode.com/pricing/
-lunanode-m1s,lunanode,LunaNode,m.1s,3.5,,,1,1,15,SSD,1,,,Shared vCPU (0.2 CPU-points),false,,false,,2026-10-23,page,https://dynamic.lunanode.com/info
-lunanode-s1,lunanode,LunaNode,s.1,7,,,2,1,20,SSD,2,,,Shared vCPU (0.4 CPU-points),false,,false,,2026-10-23,page,https://dynamic.lunanode.com/info
-lunanode-s2,lunanode,LunaNode,s.2,14,,,4,2,35,SSD,2.5,,,Shared vCPU (0.8 CPU-points),false,,false,,2026-10-23,page,https://dynamic.lunanode.com/info
-lunanode-s4,lunanode,LunaNode,s.4,28,,,6,4,70,SSD,3,,,Shared vCPU (1.5 CPU-points),false,,false,,2026-10-23,page,https://dynamic.lunanode.com/info
-lunanode-s8,lunanode,LunaNode,s.8,56,,,8,8,125,SSD,4,,,Shared vCPU (3.0 CPU-points),false,,false,,2026-10-23,page,https://dynamic.lunanode.com/info
-lunanode-s16,lunanode,LunaNode,s.16,100,,,10,16,250,SSD,5,,,Shared vCPU (5.0 CPU-points),false,,false,,2026-10-23,page,https://dynamic.lunanode.com/info
-webdock-essential,webdock,Webdock,VPS Essential,2.41,2.15,,1,2,15,NVMe,1,,,Xeon Gold thread,true,,false,,2026-10-23,page,https://webdock.io/en/pricing
-webdock-advanced,webdock,Webdock,VPS Advanced,4.82,4.3,,1,2,15,NVMe,1,,,AMD Epyc thread,true,,false,,2026-10-23,page,https://webdock.io/en/pricing
-webdock-pro,webdock,Webdock,VPS Pro,21.96,19.6,,6,10,40,NVMe,7,,,AMD Epyc threads,true,,false,,2026-10-23,page,https://webdock.io/en/pricing
-hivelocity-sm,hivelocity,Hivelocity,pro.sm.amd,10,,,2,4,40,NVMe,10,,,AMD vCPU,false,,false,,2026-10-23,page,https://www.hivelocity.net/pricing?computeType=vps
-hivelocity-md,hivelocity,Hivelocity,pro.md.amd,20,,,4,8,80,NVMe,10,,,AMD vCPU,false,,false,,2026-10-23,page,https://www.hivelocity.net/pricing?computeType=vps
-hivelocity-lg,hivelocity,Hivelocity,pro.lg.amd,39,,,8,16,160,NVMe,10,,,AMD vCPU,false,,false,,2026-10-23,page,https://www.hivelocity.net/pricing?computeType=vps
-hivelocity-xl,hivelocity,Hivelocity,pro.xl.amd,65,,,12,24,240,NVMe,10,,,AMD vCPU,false,,false,,2026-10-23,page,https://www.hivelocity.net/pricing?computeType=vps
-anet-g3-2,atlanticnet,Atlantic.Net,G3.2GB,10,,,1,2,50,SSD,3,,,vCPU,false,,false,,2026-10-23,page,https://www.atlantic.net/vps-hosting/pricing/
-anet-g3-4,atlanticnet,Atlantic.Net,G3.4GB,20,,,2,4,80,SSD,5,,,vCPU,false,,false,,2026-10-23,page,https://www.atlantic.net/vps-hosting/pricing/
-anet-g3-8,atlanticnet,Atlantic.Net,G3.8GB,40,,,4,8,160,SSD,6,,,vCPU,false,,false,,2026-10-23,page,https://www.atlantic.net/vps-hosting/pricing/
-anet-g3-16,atlanticnet,Atlantic.Net,G3.16GB,80,,,6,16,320,SSD,7,,,vCPU,false,,false,,2026-10-23,page,https://www.atlantic.net/vps-hosting/pricing/
-anet-g3-32,atlanticnet,Atlantic.Net,G3.32GB,160,,,8,32,640,SSD,8,,,vCPU,false,,false,,2026-10-23,page,https://www.atlantic.net/vps-hosting/pricing/
-cherry-vps1,cherryservers,Cherry Servers,Cloud VPS 1 (Gen 2),3.51,,,1,1,20,SSD,1,,,Shared vCore,true,,false,,2026-10-23,page,https://www.cherryservers.com/pricing/virtual-servers
-cherry-vps2,cherryservers,Cherry Servers,Cloud VPS 2 (Gen 2),7.02,,,2,2,40,SSD,1,,,Shared vCore,true,,false,,2026-10-23,page,https://www.cherryservers.com/pricing/virtual-servers
-cherry-vps4,cherryservers,Cherry Servers,Cloud VPS 4 (Gen 2),10.53,,,4,4,80,SSD,1,,,Shared vCore,true,,false,,2026-10-23,page,https://www.cherryservers.com/pricing/virtual-servers
-cherry-vps6,cherryservers,Cherry Servers,Cloud VPS 6 (Gen 2),15.21,,,6,6,100,SSD,1,,,Shared vCore,true,,false,,2026-10-23,page,https://www.cherryservers.com/pricing/virtual-servers
-vpsdime-4,vpsdime,VPSDime,Linux 4GB,5,,,2,4,20,NVMe,1,,,Shared vCPU,false,,false,,2026-10-23,page,https://vpsdime.com/
-scaleway-stardust1-s,scaleway,Scaleway,STARDUST1-S,0.9,0.8,,1,1,10,SSD,,,,Shared vCPU (AMD EPYC 7281 or equivalent),true,4.09,false,,2026-10-23,api,https://www.scaleway.com/en/pricing/virtual-instances/
-scaleway-dev1-s,scaleway,Scaleway,DEV1-S,8.15,7.27,,2,2,20,SSD,,,,Shared vCPU (AMD EPYC 7281 or equivalent),true,4.09,false,,2026-10-23,api,https://www.scaleway.com/en/pricing/virtual-instances/
-scaleway-dev1-m,scaleway,Scaleway,DEV1-M,18.12,16.17,,3,4,40,SSD,,,,Shared vCPU (AMD EPYC 7281 or equivalent),true,4.09,false,,2026-10-23,api,https://www.scaleway.com/en/pricing/virtual-instances/
-scaleway-dev1-l,scaleway,Scaleway,DEV1-L,38.24,34.13,,4,8,80,SSD,,,,Shared vCPU (AMD EPYC 7281 or equivalent),true,4.09,false,,2026-10-23,api,https://www.scaleway.com/en/pricing/virtual-instances/
-scaleway-dev1-xl,scaleway,Scaleway,DEV1-XL,58.04,51.8,,4,12,120,SSD,,,,Shared vCPU (AMD EPYC 7281 or equivalent),true,4.09,false,,2026-10-23,api,https://www.scaleway.com/en/pricing/virtual-instances/
-evoxt-05,evoxt,Evoxt,VM-0.5,2.99,,,1,0.5,5,Not stated,0.5,,,"vCPU, up to 6.0 GHz (model not stated)",false,,false,,2026-10-23,page,https://evoxt.com/pricing/
-evoxt-1,evoxt,Evoxt,VM-1,5.99,,,1,2,20,Not stated,1,,,"vCPU, up to 6.0 GHz (model not stated)",false,,false,,2026-10-23,page,https://evoxt.com/pricing/
-evoxt-2,evoxt,Evoxt,VM-2,11.99,,,2,4,30,Not stated,2,,,"vCPU, up to 6.0 GHz (model not stated)",false,,false,,2026-10-23,page,https://evoxt.com/pricing/
-evoxt-4,evoxt,Evoxt,VM-4,23.99,,,4,8,60,Not stated,4,,,"vCPU, up to 6.0 GHz (model not stated)",false,,false,,2026-10-23,page,https://evoxt.com/pricing/
-evoxt-8,evoxt,Evoxt,VM-8,47.99,,,8,16,80,Not stated,6,,,"vCPU, up to 6.0 GHz (model not stated)",false,,false,,2026-10-23,page,https://evoxt.com/pricing/
-hostodo-2,hostodo,Hostodo,EPYC-2G1C32GN,3.5,,,2,2,32,NVMe,4,,,vCPU (AMD EPYC 7742),false,,false,,2026-10-23,page,https://hostodo.com/pricing
-hostodo-4,hostodo,Hostodo,EPYC-4G2C64GN,7,,,2,4,64,NVMe,5,,,vCPU (AMD EPYC 7742),false,,false,,2026-10-23,page,https://hostodo.com/pricing
-hostodo-8,hostodo,Hostodo,EPYC-8G3C128GN,9,,,3,8,128,NVMe,6,,,vCPU (AMD EPYC 7742),false,,false,,2026-10-23,page,https://hostodo.com/pricing
-hostodo-16,hostodo,Hostodo,EPYC-16G6C192GN,20,,,6,16,192,NVMe,8,,,vCPU (AMD EPYC 7742),false,,false,,2026-10-23,page,https://hostodo.com/pricing
-hostodo-32,hostodo,Hostodo,EPYC-32G8C288GN,36,,,8,32,300,NVMe,12,,,vCPU (AMD EPYC 7742),false,,false,,2026-10-23,page,https://hostodo.com/pricing
-advin-premium-1,advinservers,Advin Servers,KVM Premium 1,6,,,2,4,64,NVMe,2,,,vCPU (AMD EPYC Genoa 9004),false,,false,,2026-10-23,api,https://advinservers.com/vps
-advin-standard-1,advinservers,Advin Servers,KVM Standard 1,8,,,4,8,64,NVMe,2,,,vCPU (AMD EPYC Milan 7003),false,,false,,2026-10-23,api,https://advinservers.com/vps
-advin-standard-2,advinservers,Advin Servers,KVM Standard 2,16,,,8,16,128,NVMe,4,,,vCPU (AMD EPYC Milan 7003),false,,false,,2026-10-23,api,https://advinservers.com/vps
-advin-ryzen-2,advinservers,Advin Servers,KVM Ryzen 2,16,,,2,8,256,NVMe,4,,,vCPU (AMD Ryzen 9950X),false,,false,,2026-10-23,api,https://advinservers.com/vps
-alwyzon-xs,alwyzon,Alwyzon,Virtual Server XS (G3),5.03,4.49,,2,2,40,NVMe,20,,,"vCore (AMD EPYC 7543P, 2.8+ GHz)",true,,false,,2026-10-23,page,https://www.alwyzon.com/en/virtual-servers
-alwyzon-s,alwyzon,Alwyzon,Virtual Server S (G3),8.73,7.79,,3,4,80,NVMe,20,,,"vCore (AMD EPYC 7543P, 2.8+ GHz)",true,,false,,2026-10-23,page,https://www.alwyzon.com/en/virtual-servers
-alwyzon-m,alwyzon,Alwyzon,Virtual Server M (G3),14.56,12.99,,4,8,160,NVMe,20,,,"vCore (AMD EPYC 7543P, 2.8+ GHz)",true,,false,,2026-10-23,page,https://www.alwyzon.com/en/virtual-servers
-alwyzon-e4,alwyzon,Alwyzon,Virtual Server E4+ (G5),12.87,11.49,,2,4,120,NVMe,50,,,"vCore (AMD EPYC 9355P, 3.5+ GHz)",true,,false,,2026-10-23,page,https://www.alwyzon.com/en/virtual-servers
-alwyzon-e8,alwyzon,Alwyzon,Virtual Server E8+ (G5),22.96,20.49,,4,8,240,NVMe,50,,,"vCore (AMD EPYC 9355P, 3.5+ GHz)",true,,false,,2026-10-23,page,https://www.alwyzon.com/en/virtual-servers
-alwyzon-e16,alwyzon,Alwyzon,Virtual Server E16+ (G5),43.13,38.49,,6,16,320,NVMe,50,,,"vCore (AMD EPYC 9355P, 3.5+ GHz)",true,,false,,2026-10-23,page,https://www.alwyzon.com/en/virtual-servers
-liteserver-2,liteserver,LiteServer,NVME-2G,8.96,8,,2,2,40,NVMe,20,,,CPU core (model not stated),true,,false,,2026-10-23,page,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps
-liteserver-4,liteserver,LiteServer,NVME-4G,17.93,16,,4,4,80,NVMe,25,,,CPU core (model not stated),true,,false,,2026-10-23,page,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps
-liteserver-8,liteserver,LiteServer,NVME-8G,35.86,32,,4,8,160,NVMe,30,,,CPU core (model not stated),true,,false,,2026-10-23,page,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps
-liteserver-16,liteserver,LiteServer,NVME-16G,71.71,64,,6,16,320,NVMe,35,,,CPU core (model not stated),true,,false,,2026-10-23,page,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps
-servarica-fat-2,servarica,ServaRica,V3 KVM FAT Slice 2,9,,,2,4,60,NVMe,,,,Dedicated core,false,,false,,2026-10-23,page,https://clients.servarica.com/store/v3-kvm-fat
-servarica-fat-4,servarica,ServaRica,V3 KVM FAT Slice 4,16,,,4,8,120,NVMe,,,,Dedicated core,false,,false,,2026-10-23,page,https://clients.servarica.com/store/v3-kvm-fat
-servarica-fat-8,servarica,ServaRica,V3 KVM FAT Slice 8,30,,,8,16,240,NVMe,,,,Dedicated core,false,,false,,2026-10-23,page,https://clients.servarica.com/store/v3-kvm-fat
-servarica-fat-16,servarica,ServaRica,V3 KVM FAT Slice 16,58,,,16,32,480,NVMe,,,,Dedicated core,false,,false,,2026-10-23,page,https://clients.servarica.com/store/v3-kvm-fat
-civo-xsmall,civo,Civo,xSmall,5.43,,,1,1,25,NVMe,,,,vCPU (Civo counts cores; shared or dedicated not stated),true,,false,,2026-10-23,page,https://www.civo.com/pricing
-civo-small,civo,Civo,Small,10.86,,,1,2,25,NVMe,,,,vCPU (Civo counts cores; shared or dedicated not stated),true,,false,,2026-10-23,page,https://www.civo.com/pricing
-civo-medium,civo,Civo,Medium,21.73,,,2,4,50,NVMe,,,,vCPU (Civo counts cores; shared or dedicated not stated),true,,false,,2026-10-23,page,https://www.civo.com/pricing
-civo-large,civo,Civo,Large,43.45,,,4,8,100,NVMe,,,,vCPU (Civo counts cores; shared or dedicated not stated),true,,false,,2026-10-23,page,https://www.civo.com/pricing
-exoscale-tiny,exoscale,Exoscale,Standard Tiny,13.08,11.67,,1,1,10,SSD,1.1,,,vCPU (Exoscale counts cores; shared or dedicated not stated),true,,false,,2026-10-23,api,https://www.exoscale.com/pricing/
-exoscale-small,exoscale,Exoscale,Standard Small,20.23,18.05,,2,2,10,SSD,1.1,,,vCPU (Exoscale counts cores; shared or dedicated not stated),true,,false,,2026-10-23,api,https://www.exoscale.com/pricing/
-exoscale-medium,exoscale,Exoscale,Standard Medium,39.31,35.08,,2,4,10,SSD,1.1,,,vCPU (Exoscale counts cores; shared or dedicated not stated),true,,false,,2026-10-23,api,https://www.exoscale.com/pricing/
-exoscale-large,exoscale,Exoscale,Standard Large,77.48,69.15,,4,8,10,SSD,1.1,,,vCPU (Exoscale counts cores; shared or dedicated not stated),true,,false,,2026-10-23,api,https://www.exoscale.com/pricing/
-aruba-o1i1,arubacloud,Aruba Cloud,VPS O1I1 (Starter),2.79,2.49,,1,1,20,NVMe,2,,,vCPU (shared or dedicated not stated),true,,false,,2026-10-23,page,https://www.arubacloud.com/vps/
-aruba-o1i2,arubacloud,Aruba Cloud,VPS O1I2 (Starter),5.03,4.49,,1,2,40,NVMe,5,,,vCPU (shared or dedicated not stated),true,,false,,2026-10-23,page,https://www.arubacloud.com/vps/
-aruba-o2a4,arubacloud,Aruba Cloud,VPS O2A4,7.05,6.29,,2,4,40,NVMe,25,,,vCPU (shared or dedicated not stated),true,,false,,2026-10-23,page,https://www.arubacloud.com/vps/
-aruba-o4a8,arubacloud,Aruba Cloud,VPS O4A8,13.21,11.79,,4,8,80,NVMe,50,,,vCPU (shared or dedicated not stated),true,,false,,2026-10-23,page,https://www.arubacloud.com/vps/
-aruba-o8a16,arubacloud,Aruba Cloud,VPS O8A16,22.29,19.89,,8,16,160,NVMe,100,,,vCPU (shared or dedicated not stated),true,,false,,2026-10-23,page,https://www.arubacloud.com/vps/
-cloudserver-1gb,cloudserver,CloudServer,Linux KVM 1GB,4,,,1,1,25,SSD (RAID-10),5,,,vCPU (shared or dedicated not stated),false,,false,,2026-10-23,page,https://www.cloudserver.net/linux-vps/
-cloudserver-2gb,cloudserver,CloudServer,Linux KVM 2GB,8,,,1,2,50,SSD (RAID-10),5,,,vCPU (shared or dedicated not stated),false,,false,,2026-10-23,page,https://www.cloudserver.net/linux-vps/
-cloudserver-4gb,cloudserver,CloudServer,Linux KVM 4GB,15,,,2,4,75,SSD (RAID-10),5,,,vCPU (shared or dedicated not stated),false,,false,,2026-10-23,page,https://www.cloudserver.net/linux-vps/
-cloudserver-8gb,cloudserver,CloudServer,Linux KVM 8GB,30,,,4,8,150,SSD (RAID-10),10,,,vCPU (shared or dedicated not stated),false,,false,,2026-10-23,page,https://www.cloudserver.net/linux-vps/
-dedirock-starter,dedirock,DediRock,KVM VPS Starter,5.99,,,1,1,20,SSD,0.75,,,"vCore (Intel Xeon, shared)",false,,false,,2026-10-23,page,https://dedirock.com/
-dedirock-essentials,dedirock,DediRock,KVM VPS Essentials,8.99,,,2,2,40,SSD,1,,,"vCore (Intel Xeon, shared)",false,,false,,2026-10-23,page,https://dedirock.com/
-dedirock-plus,dedirock,DediRock,KVM VPS Plus,12.99,,,4,4,100,SSD,2,,,"vCore (Intel Xeon, shared)",false,,false,,2026-10-23,page,https://dedirock.com/
-crowncloud-ssd-1,crowncloud,CrownCloud,KVM SSD 1,5,,,1,1,25,SSD (hardware RAID),1,,,"vCore (Intel Xeon E5, fair share)",false,,false,,2026-10-23,page,https://crowncloud.net/vps/ssd-plans
-crowncloud-ssd-2,crowncloud,CrownCloud,KVM SSD 2,10,,,2,2,50,SSD (hardware RAID),1,,,"vCore (Intel Xeon E5, fair share)",false,,false,,2026-10-23,page,https://crowncloud.net/vps/ssd-plans
-crowncloud-ssd-4,crowncloud,CrownCloud,KVM SSD 4,20,,,4,4,100,SSD (hardware RAID),2,,,"vCore (Intel Xeon E5, fair share)",false,,false,,2026-10-23,page,https://crowncloud.net/vps/ssd-plans
-crowncloud-ryzen-2,crowncloud,CrownCloud,KVM Ryzen 2 (9950X),15,,,2,2,50,NVMe,2,,,"vCore (AMD Ryzen 9 9950X, fair share)",false,,false,,2026-10-23,page,https://crowncloud.net/vps/amd-ryzen-plans
-hostus-kvm-1,hostus,HostUS,KVM-1,6.95,,,2,1,40,SSD,1,,,"vCPU core (Intel Xeon or AMD Ryzen, shared)",false,,false,,2026-10-23,page,https://my.hostus.us/store/ssd-kvm-vps
-hostus-kvm-2,hostus,HostUS,KVM-2,10.95,,,2,2,60,SSD,2,,,"vCPU core (Intel Xeon or AMD Ryzen, shared)",false,,false,,2026-10-23,page,https://my.hostus.us/store/ssd-kvm-vps
-hostus-kvm-4,hostus,HostUS,KVM-4,22.95,,,4,4,90,SSD,4,,,"vCPU core (Intel Xeon or AMD Ryzen, shared)",false,,false,,2026-10-23,page,https://my.hostus.us/store/ssd-kvm-vps
-virtono-1g,virtono,Virtono,Cloud VPS KVM 1G,5.04,4.5,,1,1,30,SSD,1,,,vCPU (model not stated),true,,false,,2026-10-23,page,https://virtono.com/cloud-vps
-virtono-2g,virtono,Virtono,Cloud VPS KVM 2G,11.15,9.95,,1,2,50,SSD,2,,,vCPU (model not stated),true,,false,,2026-10-23,page,https://virtono.com/cloud-vps
-virtono-4g,virtono,Virtono,Cloud VPS KVM 4G,23.47,20.95,,2,4,80,SSD,3,,,vCPU (model not stated),true,,false,,2026-10-23,page,https://virtono.com/cloud-vps
-virtono-8g,virtono,Virtono,Cloud VPS KVM 8G,48.13,42.95,,4,8,160,SSD,5,,,vCPU (model not stated),true,,false,,2026-10-23,page,https://virtono.com/cloud-vps
-phoenixnap-s0-d1-small,phoenixnap,phoenixNAP,s0.d1.small,50.87,,,8,16,480,SSD (2 x 240 GB),15,,,"Intel Xeon E3-1240 v3 (4 dedicated cores, 8 threads)",false,5.11,false,,2026-10-23,page,https://phoenixnap.com/bare-metal-cloud/instances
-phoenixnap-s0-d1-medium,phoenixnap,phoenixNAP,s0.d1.medium,63.87,,,8,32,480,SSD (1 x 480 GB),15,,,"Intel Xeon E3-1270 v3 (4 dedicated cores, 8 threads)",false,5.11,false,,2026-10-23,page,https://phoenixnap.com/bare-metal-cloud/instances
-phoenixnap-s1-c1-small,phoenixnap,phoenixNAP,s1.c1.small,88.87,,,12,64,1000,NVMe (1 x 1 TB),15,,,"Intel Xeon E-2276G (6 dedicated cores, 12 threads)",false,5.11,false,,2026-10-23,page,https://phoenixnap.com/bare-metal-cloud/instances
-phoenixnap-s1-c1-medium,phoenixnap,phoenixNAP,s1.c1.medium,147.87,,,12,128,2000,NVMe (2 x 1 TB),15,,,"Intel Xeon E-2276G (6 dedicated cores, 12 threads)",false,5.11,false,,2026-10-23,page,https://phoenixnap.com/bare-metal-cloud/instances
-latitudesh-c3-small,latitudesh,Latitude.sh,c3.small.x86,190,,,12,32,800,NVMe (1 x 800 GB),20,,,"Intel Xeon E-2386G (6 dedicated cores, 12 threads)",false,,false,,2026-10-23,page,https://www.latitude.sh/pricing
-latitudesh-m4-small,latitudesh,Latitude.sh,m4.metal.small,296,,,12,48,1920,NVMe (2 x 960 GB),20,,,"AMD EPYC 4244P (6 dedicated cores, 12 threads)",false,,false,,2026-10-23,page,https://www.latitude.sh/pricing
-latitudesh-f4-small,latitudesh,Latitude.sh,f4.metal.small,398,,,24,96,1920,NVMe (2 x 960 GB),20,,,"AMD EPYC 4484PX (12 dedicated cores, 24 threads)",false,,false,,2026-10-23,page,https://www.latitude.sh/pricing
-mythicbeasts-vps-1,mythicbeasts,Mythic Beasts,VPS 1,6.55,,4.9,1,1,5,"SSD (enterprise, mirrored RAID)",0.5,,,Shared vCPU cores,true,2.68,false,,2026-10-23,page,https://www.mythic-beasts.com/order/vps
-mythicbeasts-vps-2,mythicbeasts,Mythic Beasts,VPS 2,10.43,,7.8,1,2,10,"SSD (enterprise, mirrored RAID)",1,,,Shared vCPU cores,true,2.68,false,,2026-10-23,page,https://www.mythic-beasts.com/order/vps
-mythicbeasts-vps-4,mythicbeasts,Mythic Beasts,VPS 4,20.2,,15.1,2,4,20,"SSD (enterprise, mirrored RAID)",2,,,Shared vCPU cores,true,2.68,false,,2026-10-23,page,https://www.mythic-beasts.com/order/vps
-mythicbeasts-vps-8,mythicbeasts,Mythic Beasts,VPS 8,37.72,,28.2,2,8,40,"SSD (enterprise, mirrored RAID)",4,,,Shared vCPU cores,true,2.68,false,,2026-10-23,page,https://www.mythic-beasts.com/order/vps
-webhosting24-muc-2,webhosting24,Webhosting24,Munich 2 GB,6.53,5.83,,1,2,40,NVMe (RAID 10),,,,"Shared vCPU (""fair share"", Intel Xeon, 2.40+ GHz)",true,,false,3,2026-10-23,page,https://www.webhosting24.com/vps/
-webhosting24-muc-4,webhosting24,Webhosting24,Munich 4 GB,14.01,12.5,,1,4,80,NVMe (RAID 10),,,,"Dedicated vCPU (Intel Xeon, 2.40+ GHz)",true,,false,,2026-10-23,page,https://www.webhosting24.com/vps/
-webhosting24-muc-8,webhosting24,Webhosting24,Munich 8 GB,28.01,25,,2,8,160,NVMe (RAID 10),,,,"Dedicated vCPU (Intel Xeon, 2.40+ GHz)",true,,false,,2026-10-23,page,https://www.webhosting24.com/vps/
-webhosting24-ny-2,webhosting24,Webhosting24,USA / Asia-Pacific 2 GB,6.39,5.7,,1,2,40,NVMe (RAID 1),4,,,"Shared vCPU (""fair share"", AMD Ryzen 9 5950X)",true,,false,3,2026-10-23,page,https://www.webhosting24.com/vps/
-webhosting24-ny-4,webhosting24,Webhosting24,USA / Asia-Pacific 4 GB,13.45,12,,4,4,80,NVMe (RAID 1),8,,,"Shared vCPU (""fair share"", AMD Ryzen 9 5950X)",true,,false,,2026-10-23,page,https://www.webhosting24.com/vps/
-webhosting24-ny-8,webhosting24,Webhosting24,USA / Asia-Pacific 8 GB,26.89,24,,8,8,160,NVMe (RAID 1),16,,,"Shared vCPU (""fair share"", AMD Ryzen 9 5950X)",true,,false,,2026-10-23,page,https://www.webhosting24.com/vps/
-ultravps-cloud-30,ultravps,UltraVPS,Cloud-30,4.24,3.78,,2,2,30,SSD,2,,,Shared CPU cores (Intel Xeon),true,,false,6,2026-10-23,page,https://www.ultravps.eu/en/vps/
-ultravps-cloud-50,ultravps,UltraVPS,Cloud-50,8.47,7.56,,2,4,50,SSD,2,,,Shared CPU cores (Intel Xeon),true,,false,3,2026-10-23,page,https://www.ultravps.eu/en/vps/
-ultravps-cloud-100,ultravps,UltraVPS,Cloud-100,16.95,15.13,,4,8,100,SSD,5,,,Shared CPU cores (Intel Xeon),true,,false,3,2026-10-23,page,https://www.ultravps.eu/en/vps/
-ultravps-cloud-200,ultravps,UltraVPS,Cloud-200,27.31,24.37,,4,16,200,SSD,5,,,Shared CPU cores (Intel Xeon),true,,false,,2026-10-23,page,https://www.ultravps.eu/en/vps/
-securedragon-kvm-1,securedragon,Secure Dragon,KVM_SSD_1GB,4.99,,,2,1,20,SSD (RAID),2,,,"Shared vCPU (""fair share"", Intel Xeon)",false,,false,,2026-10-23,page,https://securedragon.net/clients/index.php?rp=/store/kvm-ssd
-securedragon-kvm-2,securedragon,Secure Dragon,KVM_SSD_2GB,9.99,,,4,2,40,SSD (RAID),4,,,"Shared vCPU (""fair share"", Intel Xeon)",false,,false,,2026-10-23,page,https://securedragon.net/clients/index.php?rp=/store/kvm-ssd
-securedragon-kvm-4,securedragon,Secure Dragon,KVM_SSD_4GB,19.99,,,4,4,80,SSD (RAID),6,,,"Shared vCPU (""fair share"", Intel Xeon)",false,,false,,2026-10-23,page,https://securedragon.net/clients/index.php?rp=/store/kvm-ssd
-securedragon-kvm-8,securedragon,Secure Dragon,KVM_SSD_8GB,39.99,,,6,8,160,SSD (RAID),8,,,"Shared vCPU (""fair share"", Intel Xeon)",false,,false,,2026-10-23,page,https://securedragon.net/clients/index.php?rp=/store/kvm-ssd
+lightsail-05,aws-lightsail,AWS Lightsail,General 512MB,5,,,2,0.5,20,SSD,1,,,Shared vCPU,false,,false,,2026-10-24,api,https://aws.amazon.com/lightsail/pricing/
+lightsail-1,aws-lightsail,AWS Lightsail,General 1GB,7,,,2,1,40,SSD,2,,,Shared vCPU,false,,false,,2026-10-24,api,https://aws.amazon.com/lightsail/pricing/
+lightsail-2,aws-lightsail,AWS Lightsail,General 2GB,12,,,2,2,60,SSD,3,,,Shared vCPU,false,,false,,2026-10-24,api,https://aws.amazon.com/lightsail/pricing/
+lightsail-4,aws-lightsail,AWS Lightsail,General 4GB,24,,,2,4,80,SSD,4,,,Shared vCPU,false,,false,,2026-10-24,api,https://aws.amazon.com/lightsail/pricing/
+lightsail-8,aws-lightsail,AWS Lightsail,General 8GB,44,,,2,8,160,SSD,5,,,Shared vCPU,false,,false,,2026-10-24,api,https://aws.amazon.com/lightsail/pricing/
+lightsail-16,aws-lightsail,AWS Lightsail,General 16GB,84,,,4,16,320,SSD,6,,,Shared vCPU,false,,false,,2026-10-24,api,https://aws.amazon.com/lightsail/pricing/
+lightsail-32,aws-lightsail,AWS Lightsail,General 32GB,164,,,8,32,640,SSD,7,,,Shared vCPU,false,,false,,2026-10-24,api,https://aws.amazon.com/lightsail/pricing/
+lightsail-co-4,aws-lightsail,AWS Lightsail,Compute optimized 4GB,42,,,2,4,160,SSD,5,,,vCPU,false,,false,,2026-10-24,api,https://aws.amazon.com/lightsail/pricing/
+lightsail-co-8,aws-lightsail,AWS Lightsail,Compute optimized 8GB,84,,,4,8,320,SSD,6,,,vCPU,false,,false,,2026-10-24,api,https://aws.amazon.com/lightsail/pricing/
+lightsail-mo-16,aws-lightsail,AWS Lightsail,Memory optimized 16GB,74,,,2,16,160,SSD,5,,,vCPU,false,,false,,2026-10-24,api,https://aws.amazon.com/lightsail/pricing/
+lightsail-mo-32,aws-lightsail,AWS Lightsail,Memory optimized 32GB,144,,,4,32,320,SSD,6,,,vCPU,false,,false,,2026-10-24,api,https://aws.amazon.com/lightsail/pricing/
+ovh-vps-1,ovhcloud,OVHcloud,VPS-1,5.35,,,2,4,40,NVMe,,,,Shared vCPU,false,,false,,2026-10-24,api,https://us.ovhcloud.com/vps/
+ovh-vps-2,ovhcloud,OVHcloud,VPS-2,10,,,4,8,75,NVMe,,,,Shared vCPU,false,,false,,2026-10-24,api,https://us.ovhcloud.com/vps/
+ovh-vps-3,ovhcloud,OVHcloud,VPS-3,14.5,,,6,12,100,NVMe,,,,Shared vCPU,false,,false,,2026-10-24,api,https://us.ovhcloud.com/vps/
+ovh-vps-4,ovhcloud,OVHcloud,VPS-4,27.5,,,8,24,200,NVMe,,,,Shared vCPU,false,,false,,2026-10-24,api,https://us.ovhcloud.com/vps/
+upcloud-starter-1,upcloud,UpCloud,Starter 1GB,3.5,,,1,1,10,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-10-24,page,https://calc.upcloud.com/cloud-servers?currency=USD
+upcloud-starter-2,upcloud,UpCloud,Starter 2GB,7,,,1,2,20,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-10-24,page,https://calc.upcloud.com/cloud-servers?currency=USD
+upcloud-starter-4,upcloud,UpCloud,Starter 4GB / 2 vCPU,14,,,2,4,30,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-10-24,page,https://calc.upcloud.com/cloud-servers?currency=USD
+upcloud-starter-8,upcloud,UpCloud,Starter 8GB / 2 vCPU,20,,,2,8,40,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-10-24,page,https://calc.upcloud.com/cloud-servers?currency=USD
+upcloud-starter-8-4,upcloud,UpCloud,Starter 8GB / 4 vCPU,24,,,4,8,40,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-10-24,page,https://calc.upcloud.com/cloud-servers?currency=USD
+contabo-vps-4,contabo,Contabo,Cloud VPS 4,6.6,,,4,8,100,SSD,,,,Shared vCPU,true,,false,1,2026-10-24,manual,https://contabo.com/en/vps/cloud-vps-core-4/
+contabo-vps-6,contabo,Contabo,Cloud VPS 6,9,,,6,12,200,SSD,,,,Shared vCPU,true,,false,1,2026-10-24,manual,https://contabo.com/en/vps/cloud-vps-core-6/
+contabo-vps-8,contabo,Contabo,Cloud VPS 8,16.8,,,8,24,300,SSD,,,,Shared vCPU,true,,false,1,2026-10-24,manual,https://contabo.com/en/vps/cloud-vps-core-8/
+contabo-vps-12,contabo,Contabo,Cloud VPS 12,30,,,12,48,400,SSD,,,,Shared vCPU,true,,false,1,2026-10-24,manual,https://contabo.com/en/vps/cloud-vps-core-12/
+contabo-vps-16,contabo,Contabo,Cloud VPS 16,44.5,,,16,64,500,SSD,,,,Shared vCPU,true,,false,1,2026-10-24,manual,https://contabo.com/en/vps/cloud-vps-core-16/
+contabo-vps-18,contabo,Contabo,Cloud VPS 18,58.8,,,18,96,600,SSD,,,,Shared vCPU,true,,false,1,2026-10-24,manual,https://contabo.com/en/vps/cloud-vps-core-18/
+kinsta-single-35k,kinsta,Kinsta,Single 35k,35,,,,,10,SSD,,35000,1,Container (not user-selectable),false,,false,,2026-10-24,page,https://kinsta.com/plans/
+kinsta-single-65k,kinsta,Kinsta,Single 65k,50,,,,,10,SSD,,65000,1,Container (not user-selectable),false,,false,,2026-10-24,page,https://kinsta.com/plans/
+kinsta-wp-2,kinsta,Kinsta,WP 2,70,,,,,20,SSD,,70000,2,Container (not user-selectable),false,,false,,2026-10-24,page,https://kinsta.com/plans/
+kinsta-wp-5,kinsta,Kinsta,WP 5,115,,,,,30,SSD,,125000,5,Container (not user-selectable),false,,false,,2026-10-24,page,https://kinsta.com/plans/
+kinsta-wp-10,kinsta,Kinsta,WP 10,225,,,,,40,SSD,,315000,10,Container (not user-selectable),false,,false,,2026-10-24,page,https://kinsta.com/plans/
+rn-1,racknerd,RackNerd,KVM 1GB,17.99,,,2,1,50,RAID-10 SSD,1,,,vCore (Intel Xeon),false,,false,,2026-10-24,page,https://www.racknerd.com/kvm-vps
+rn-2,racknerd,RackNerd,KVM 2GB,20.59,,,3,2,75,RAID-10 SSD,2,,,vCore (Intel Xeon),false,,false,,2026-10-24,page,https://www.racknerd.com/kvm-vps
+rn-4,racknerd,RackNerd,KVM 4GB,24.59,,,4,4,130,RAID-10 SSD,3,,,vCore (Intel Xeon),false,,false,,2026-10-24,page,https://www.racknerd.com/kvm-vps
+rn-8,racknerd,RackNerd,KVM 8GB,36.59,,,6,8,220,RAID-10 SSD,5,,,vCore (Intel Xeon),false,,false,,2026-10-24,page,https://www.racknerd.com/kvm-vps
+is-1,interserver,InterServer,1 slice,3,,,1,2,40,SSD,2,,,vCPU (KVM),false,,false,,2026-10-24,manual,https://www.interserver.net/vps/
+is-2,interserver,InterServer,2 slices,6,,,1,4,80,SSD,4,,,vCPU (KVM),false,,false,,2026-10-24,manual,https://www.interserver.net/vps/
+is-4,interserver,InterServer,4 slices,12,,,2,8,160,SSD,8,,,vCPU (KVM),false,,false,,2026-10-24,manual,https://www.interserver.net/vps/
+is-8,interserver,InterServer,8 slices,24,,,4,16,320,SSD,16,,,vCPU (KVM),false,,false,,2026-10-24,manual,https://www.interserver.net/vps/
+cc-1,cloudcone,CloudCone,SSD VPS 1,2.33,,,2,1,30,RAID-10 SSD,4,,,vCPU (KVM),false,,false,12,2026-10-24,page,https://cloudcone.com/vps/
+cc-2,cloudcone,CloudCone,SSD VPS 2,3.83,,,4,2,60,RAID-10 SSD,7,,,vCPU (KVM),false,,false,12,2026-10-24,page,https://cloudcone.com/vps/
+cc-3,cloudcone,CloudCone,SSD VPS 3,5.75,,,6,3,90,RAID-10 SSD,8.5,,,vCPU (KVM),false,,false,12,2026-10-24,page,https://cloudcone.com/vps/
+cc-4,cloudcone,CloudCone,SSD VPS 4,7.66,,,8,4,120,RAID-10 SSD,10,,,vCPU (KVM),false,,false,12,2026-10-24,page,https://cloudcone.com/vps/
+hostwinds-1,hostwinds,Hostwinds,Unmanaged SSD Cloud 1,4.99,,,1,1,30,SSD,1,,,vCPU (model not stated),false,,false,,2026-10-24,page,https://www.hostwinds.com/vps/unmanaged-linux
+hostwinds-2,hostwinds,Hostwinds,Unmanaged SSD Cloud 2,9.99,,,1,2,50,SSD,2,,,vCPU (model not stated),false,,false,,2026-10-24,page,https://www.hostwinds.com/vps/unmanaged-linux
+hostwinds-3,hostwinds,Hostwinds,Unmanaged SSD Cloud 3,18.99,,,2,4,75,SSD,2,,,vCPU (model not stated),false,,false,,2026-10-24,page,https://www.hostwinds.com/vps/unmanaged-linux
+hostwinds-4,hostwinds,Hostwinds,Unmanaged SSD Cloud 4,28.99,,,2,6,100,SSD,2,,,vCPU (model not stated),false,,false,,2026-10-24,page,https://www.hostwinds.com/vps/unmanaged-linux
+hostwinds-5,hostwinds,Hostwinds,Unmanaged SSD Cloud 5,38.99,,,4,8,150,SSD,3,,,vCPU (model not stated),false,,false,,2026-10-24,page,https://www.hostwinds.com/vps/unmanaged-linux
+dreamhost-4,dreamhost,DreamHost,Stack 4,15.99,,,2,4,75,NVMe,,,,AMD EPYC,false,,false,,2026-10-24,page,https://www.dreamhost.com/hosting/vps/
+dreamhost-8,dreamhost,DreamHost,Stack 8,21.99,,,2,8,150,NVMe,,,,AMD EPYC,false,,false,,2026-10-24,page,https://www.dreamhost.com/hosting/vps/
+dreamhost-16,dreamhost,DreamHost,Stack 16,34.99,,,4,16,250,NVMe,,,,AMD EPYC,false,,false,,2026-10-24,page,https://www.dreamhost.com/hosting/vps/
+dreamhost-32,dreamhost,DreamHost,Stack 32,59.99,,,8,32,450,NVMe,,,,AMD EPYC,false,,false,,2026-10-24,page,https://www.dreamhost.com/hosting/vps/
+hostingcom-4,hostingcom,Hosting.com,Self Managed Linux 4GB,19,,,2,4,80,NVMe,,,,AMD EPYC (dedicated vCPU),false,,false,,2026-10-24,api,https://hosting.com/hosting/vps-hosting/unmanaged/linux/
+hostingcom-8,hostingcom,Hosting.com,Self Managed Linux 8GB,29,,,4,8,160,NVMe,,,,AMD EPYC (dedicated vCPU),false,,false,,2026-10-24,api,https://hosting.com/hosting/vps-hosting/unmanaged/linux/
+hostingcom-16,hostingcom,Hosting.com,Self Managed Linux 16GB,49,,,8,16,320,NVMe,,,,AMD EPYC (dedicated vCPU),false,,false,,2026-10-24,api,https://hosting.com/hosting/vps-hosting/unmanaged/linux/
+hostingcom-32,hostingcom,Hosting.com,Self Managed Linux 32GB,99,,,16,32,640,NVMe,,,,AMD EPYC (dedicated vCPU),false,,false,,2026-10-24,api,https://hosting.com/hosting/vps-hosting/unmanaged/linux/
+greencloudvps-1,greencloudvps,GreenCloudVPS,SSDKVM-1,6,,,1,1,15,SSD,1.5,,,Intel/AMD vCore,false,,false,,2026-10-24,page,https://greencloudvps.com/budget-kvm-vps.php
+greencloudvps-2,greencloudvps,GreenCloudVPS,SSDKVM-2,10,,,1,2,15,SSD,2,,,Intel/AMD vCore,false,,false,,2026-10-24,page,https://greencloudvps.com/budget-kvm-vps.php
+greencloudvps-3,greencloudvps,GreenCloudVPS,SSDKVM-3,20,,,2,4,30,SSD,4,,,Intel/AMD vCore,false,,false,,2026-10-24,page,https://greencloudvps.com/budget-kvm-vps.php
+greencloudvps-4,greencloudvps,GreenCloudVPS,SSDKVM-4,40,,,4,8,60,SSD,8,,,Intel/AMD vCore,false,,false,,2026-10-24,page,https://greencloudvps.com/budget-kvm-vps.php
+greencloudvps-5,greencloudvps,GreenCloudVPS,SSDKVM-5,80,,,8,16,120,SSD,12,,,Intel/AMD vCore,false,,false,,2026-10-24,page,https://greencloudvps.com/budget-kvm-vps.php
+hosthatch-2,hosthatch,HostHatch,NVMe 2 GB,4,,,1,2,10,NVMe,1,,,AMD EPYC (fair share),false,,false,,2026-10-24,page,https://hosthatch.com/products
+hosthatch-4,hosthatch,HostHatch,NVMe 4 GB,6,,,2,4,20,NVMe,1,,,AMD EPYC (fair share),false,,false,,2026-10-24,page,https://hosthatch.com/products
+hosthatch-8,hosthatch,HostHatch,NVMe 8 GB,9,,,2,8,35,NVMe,2,,,AMD EPYC (fair share),false,,false,,2026-10-24,page,https://hosthatch.com/products
+hosthatch-12,hosthatch,HostHatch,NVMe 12 GB,12,,,4,12,50,NVMe,3,,,AMD EPYC (1 dedicated + 3 fair-share cores),false,,false,,2026-10-24,page,https://hosthatch.com/products
+hosthatch-16,hosthatch,HostHatch,NVMe 16 GB,15,,,4,16,75,NVMe,4,,,AMD EPYC (2 dedicated + 2 fair-share cores),false,,false,,2026-10-24,page,https://hosthatch.com/products
+kamatera-basic,kamatera,Kamatera,Basic,4,,,1,1,20,NVMe,5,,,Type A Availability (shared),false,,false,,2026-10-24,page,https://www.kamatera.com/pricing/
+kamatera-standard,kamatera,Kamatera,Standard,25,,,2,2,20,NVMe,5,,,Type B General Purpose (dedicated threads),false,,false,,2026-10-24,page,https://www.kamatera.com/pricing/
+kamatera-pro,kamatera,Kamatera,Pro,39,,,2,4,20,NVMe,5,,,Type B General Purpose (dedicated threads),false,,false,,2026-10-24,page,https://www.kamatera.com/pricing/
+hostinger-1,hostinger,Hostinger,KVM 1,6.49,,,1,4,50,NVMe,4,,,AMD EPYC,true,,false,24,2026-10-24,page,https://www.hostinger.com/vps-hosting
+hostinger-2,hostinger,Hostinger,KVM 2,8.79,,,2,8,100,NVMe,8,,,AMD EPYC,true,,false,24,2026-10-24,page,https://www.hostinger.com/vps-hosting
+hostinger-4,hostinger,Hostinger,KVM 4,12.99,,,4,16,200,NVMe,16,,,AMD EPYC,true,,false,24,2026-10-24,page,https://www.hostinger.com/vps-hosting
+hostinger-8,hostinger,Hostinger,KVM 8,25.99,,,8,32,400,NVMe,32,,,AMD EPYC,true,,false,24,2026-10-24,page,https://www.hostinger.com/vps-hosting
+netcup-vps-500,netcup,netcup,VPS 500 G12.5,8.37,7.48,,2,4,64,SSD,,,,Shared vCore (KVM),true,0.56,false,,2026-10-24,manual,https://www.netcup.com/en/server/vps/vps-500-g12.5-iv-24m-eu
+netcup-vps-1000,netcup,netcup,VPS 1000 G12.5,15.12,13.51,,4,8,128,SSD,,,,Shared vCore (KVM),true,0.56,false,,2026-10-24,manual,https://www.netcup.com/en/server/vps/vps-1000-g12.5-iv-24m-eu
+netcup-vps-2000,netcup,netcup,VPS 2000 G12.5,28.55,25.51,,8,16,256,SSD,,,,Shared vCore (KVM),true,0.56,false,,2026-10-24,manual,https://www.netcup.com/en/server/vps/vps-2000-g12.5-iv-24m-eu
+netcup-vps-4000,netcup,netcup,VPS 4000 G12.5,48.5,43.33,,12,32,512,SSD,,,,Shared vCore (KVM),true,0.56,false,,2026-10-24,manual,https://www.netcup.com/en/server/vps/vps-4000-g12.5-iv-24m-eu
+netcup-vps-8000,netcup,netcup,VPS 8000 G12.5,72.02,64.34,,16,64,1024,SSD,,,,Shared vCore (KVM),true,0.56,false,,2026-10-24,manual,https://www.netcup.com/en/server/vps/vps-8000-g12.5-iv-24m-eu
+liquidweb-2,liquidweb,Liquid Web,VPS 2 GB,11,,,1,2,60,SSD,2,,,vCPU,false,,false,,2026-10-24,page,https://www.liquidweb.com/vps-hosting/
+liquidweb-4,liquidweb,Liquid Web,VPS 4 GB,17,,,2,4,80,SSD,3,,,vCPU,false,,false,,2026-10-24,page,https://www.liquidweb.com/vps-hosting/
+liquidweb-8,liquidweb,Liquid Web,VPS 8 GB,45,,,4,8,240,SSD,5,,,vCPU,false,,false,,2026-10-24,page,https://www.liquidweb.com/vps-hosting/
+liquidweb-16,liquidweb,Liquid Web,VPS 16 GB,90,,,6,16,440,SSD,7,,,vCPU,false,,false,,2026-10-24,page,https://www.liquidweb.com/vps-hosting/
+liquidweb-32,liquidweb,Liquid Web,VPS 32 GB,179,,,8,32,640,SSD,10,,,vCPU,false,,false,,2026-10-24,page,https://www.liquidweb.com/vps-hosting/
+ramnode-05,ramnode,RamNode,Standard 512MB,4,,,1,0.5,20,SSD,1,,,Shared vCPU,false,,false,,2026-10-24,page,https://www.ramnode.com/pricing/
+ramnode-1,ramnode,RamNode,Standard 1GB,5,,,1,1,40,SSD,2,,,Shared vCPU,false,,false,,2026-10-24,page,https://www.ramnode.com/pricing/
+ramnode-2,ramnode,RamNode,Standard 2GB,10,,,2,2,80,SSD,4,,,Shared vCPU,false,,false,,2026-10-24,page,https://www.ramnode.com/pricing/
+ramnode-4,ramnode,RamNode,Standard 4GB,20,,,4,4,120,SSD,8,,,Shared vCPU,false,,false,,2026-10-24,page,https://www.ramnode.com/pricing/
+ramnode-8,ramnode,RamNode,Standard 8GB,40,,,4,8,180,SSD,12,,,Shared vCPU,false,,false,,2026-10-24,page,https://www.ramnode.com/pricing/
+ramnode-16,ramnode,RamNode,Standard 16GB,80,,,8,16,260,SSD,14,,,Shared vCPU,false,,false,,2026-10-24,page,https://www.ramnode.com/pricing/
+lunanode-m1s,lunanode,LunaNode,m.1s,3.5,,,1,1,15,SSD,1,,,Shared vCPU (0.2 CPU-points),false,,false,,2026-10-24,page,https://dynamic.lunanode.com/info
+lunanode-s1,lunanode,LunaNode,s.1,7,,,2,1,20,SSD,2,,,Shared vCPU (0.4 CPU-points),false,,false,,2026-10-24,page,https://dynamic.lunanode.com/info
+lunanode-s2,lunanode,LunaNode,s.2,14,,,4,2,35,SSD,2.5,,,Shared vCPU (0.8 CPU-points),false,,false,,2026-10-24,page,https://dynamic.lunanode.com/info
+lunanode-s4,lunanode,LunaNode,s.4,28,,,6,4,70,SSD,3,,,Shared vCPU (1.5 CPU-points),false,,false,,2026-10-24,page,https://dynamic.lunanode.com/info
+lunanode-s8,lunanode,LunaNode,s.8,56,,,8,8,125,SSD,4,,,Shared vCPU (3.0 CPU-points),false,,false,,2026-10-24,page,https://dynamic.lunanode.com/info
+lunanode-s16,lunanode,LunaNode,s.16,100,,,10,16,250,SSD,5,,,Shared vCPU (5.0 CPU-points),false,,false,,2026-10-24,page,https://dynamic.lunanode.com/info
+webdock-essential,webdock,Webdock,VPS Essential,2.41,2.15,,1,2,15,NVMe,1,,,Xeon Gold thread,true,,false,,2026-10-24,page,https://webdock.io/en/pricing
+webdock-advanced,webdock,Webdock,VPS Advanced,4.81,4.3,,1,2,15,NVMe,1,,,AMD Epyc thread,true,,false,,2026-10-24,page,https://webdock.io/en/pricing
+webdock-pro,webdock,Webdock,VPS Pro,21.94,19.6,,6,10,40,NVMe,7,,,AMD Epyc threads,true,,false,,2026-10-24,page,https://webdock.io/en/pricing
+hivelocity-sm,hivelocity,Hivelocity,pro.sm.amd,10,,,2,4,40,NVMe,10,,,AMD vCPU,false,,false,,2026-10-24,page,https://www.hivelocity.net/pricing?computeType=vps
+hivelocity-md,hivelocity,Hivelocity,pro.md.amd,20,,,4,8,80,NVMe,10,,,AMD vCPU,false,,false,,2026-10-24,page,https://www.hivelocity.net/pricing?computeType=vps
+hivelocity-lg,hivelocity,Hivelocity,pro.lg.amd,39,,,8,16,160,NVMe,10,,,AMD vCPU,false,,false,,2026-10-24,page,https://www.hivelocity.net/pricing?computeType=vps
+hivelocity-xl,hivelocity,Hivelocity,pro.xl.amd,65,,,12,24,240,NVMe,10,,,AMD vCPU,false,,false,,2026-10-24,page,https://www.hivelocity.net/pricing?computeType=vps
+anet-g3-2,atlanticnet,Atlantic.Net,G3.2GB,10,,,1,2,50,SSD,3,,,vCPU,false,,false,,2026-10-24,page,https://www.atlantic.net/vps-hosting/pricing/
+anet-g3-4,atlanticnet,Atlantic.Net,G3.4GB,20,,,2,4,80,SSD,5,,,vCPU,false,,false,,2026-10-24,page,https://www.atlantic.net/vps-hosting/pricing/
+anet-g3-8,atlanticnet,Atlantic.Net,G3.8GB,40,,,4,8,160,SSD,6,,,vCPU,false,,false,,2026-10-24,page,https://www.atlantic.net/vps-hosting/pricing/
+anet-g3-16,atlanticnet,Atlantic.Net,G3.16GB,80,,,6,16,320,SSD,7,,,vCPU,false,,false,,2026-10-24,page,https://www.atlantic.net/vps-hosting/pricing/
+anet-g3-32,atlanticnet,Atlantic.Net,G3.32GB,160,,,8,32,640,SSD,8,,,vCPU,false,,false,,2026-10-24,page,https://www.atlantic.net/vps-hosting/pricing/
+cherry-vps1,cherryservers,Cherry Servers,Cloud VPS 1 (Gen 2),3.51,,,1,1,20,SSD,1,,,Shared vCore,true,,false,,2026-10-24,page,https://www.cherryservers.com/pricing/virtual-servers
+cherry-vps2,cherryservers,Cherry Servers,Cloud VPS 2 (Gen 2),7.02,,,2,2,40,SSD,1,,,Shared vCore,true,,false,,2026-10-24,page,https://www.cherryservers.com/pricing/virtual-servers
+cherry-vps4,cherryservers,Cherry Servers,Cloud VPS 4 (Gen 2),10.53,,,4,4,80,SSD,1,,,Shared vCore,true,,false,,2026-10-24,page,https://www.cherryservers.com/pricing/virtual-servers
+cherry-vps6,cherryservers,Cherry Servers,Cloud VPS 6 (Gen 2),15.21,,,6,6,100,SSD,1,,,Shared vCore,true,,false,,2026-10-24,page,https://www.cherryservers.com/pricing/virtual-servers
+vpsdime-4,vpsdime,VPSDime,Linux 4GB,5,,,2,4,20,NVMe,1,,,Shared vCPU,false,,false,,2026-10-24,page,https://vpsdime.com/
+scaleway-stardust1-s,scaleway,Scaleway,STARDUST1-S,0.9,0.8,,1,1,10,SSD,,,,Shared vCPU (AMD EPYC 7281 or equivalent),true,4.09,false,,2026-10-24,api,https://www.scaleway.com/en/pricing/virtual-instances/
+scaleway-dev1-s,scaleway,Scaleway,DEV1-S,8.14,7.27,,2,2,20,SSD,,,,Shared vCPU (AMD EPYC 7281 or equivalent),true,4.09,false,,2026-10-24,api,https://www.scaleway.com/en/pricing/virtual-instances/
+scaleway-dev1-m,scaleway,Scaleway,DEV1-M,18.1,16.17,,3,4,40,SSD,,,,Shared vCPU (AMD EPYC 7281 or equivalent),true,4.09,false,,2026-10-24,api,https://www.scaleway.com/en/pricing/virtual-instances/
+scaleway-dev1-l,scaleway,Scaleway,DEV1-L,38.2,34.13,,4,8,80,SSD,,,,Shared vCPU (AMD EPYC 7281 or equivalent),true,4.09,false,,2026-10-24,api,https://www.scaleway.com/en/pricing/virtual-instances/
+scaleway-dev1-xl,scaleway,Scaleway,DEV1-XL,57.98,51.8,,4,12,120,SSD,,,,Shared vCPU (AMD EPYC 7281 or equivalent),true,4.09,false,,2026-10-24,api,https://www.scaleway.com/en/pricing/virtual-instances/
+evoxt-05,evoxt,Evoxt,VM-0.5,2.99,,,1,0.5,5,Not stated,0.5,,,"vCPU, up to 6.0 GHz (model not stated)",false,,false,,2026-10-24,page,https://evoxt.com/pricing/
+evoxt-1,evoxt,Evoxt,VM-1,5.99,,,1,2,20,Not stated,1,,,"vCPU, up to 6.0 GHz (model not stated)",false,,false,,2026-10-24,page,https://evoxt.com/pricing/
+evoxt-2,evoxt,Evoxt,VM-2,11.99,,,2,4,30,Not stated,2,,,"vCPU, up to 6.0 GHz (model not stated)",false,,false,,2026-10-24,page,https://evoxt.com/pricing/
+evoxt-4,evoxt,Evoxt,VM-4,23.99,,,4,8,60,Not stated,4,,,"vCPU, up to 6.0 GHz (model not stated)",false,,false,,2026-10-24,page,https://evoxt.com/pricing/
+evoxt-8,evoxt,Evoxt,VM-8,47.99,,,8,16,80,Not stated,6,,,"vCPU, up to 6.0 GHz (model not stated)",false,,false,,2026-10-24,page,https://evoxt.com/pricing/
+hostodo-2,hostodo,Hostodo,EPYC-2G1C32GN,3.5,,,2,2,32,NVMe,4,,,vCPU (AMD EPYC 7742),false,,false,,2026-10-24,page,https://hostodo.com/pricing
+hostodo-4,hostodo,Hostodo,EPYC-4G2C64GN,7,,,2,4,64,NVMe,5,,,vCPU (AMD EPYC 7742),false,,false,,2026-10-24,page,https://hostodo.com/pricing
+hostodo-8,hostodo,Hostodo,EPYC-8G3C128GN,9,,,3,8,128,NVMe,6,,,vCPU (AMD EPYC 7742),false,,false,,2026-10-24,page,https://hostodo.com/pricing
+hostodo-16,hostodo,Hostodo,EPYC-16G6C192GN,20,,,6,16,192,NVMe,8,,,vCPU (AMD EPYC 7742),false,,false,,2026-10-24,page,https://hostodo.com/pricing
+hostodo-32,hostodo,Hostodo,EPYC-32G8C288GN,36,,,8,32,300,NVMe,12,,,vCPU (AMD EPYC 7742),false,,false,,2026-10-24,page,https://hostodo.com/pricing
+advin-premium-1,advinservers,Advin Servers,KVM Premium 1,6,,,2,4,64,NVMe,2,,,vCPU (AMD EPYC Genoa 9004),false,,false,,2026-10-24,api,https://advinservers.com/vps
+advin-standard-1,advinservers,Advin Servers,KVM Standard 1,8,,,4,8,64,NVMe,2,,,vCPU (AMD EPYC Milan 7003),false,,false,,2026-10-24,api,https://advinservers.com/vps
+advin-standard-2,advinservers,Advin Servers,KVM Standard 2,16,,,8,16,128,NVMe,4,,,vCPU (AMD EPYC Milan 7003),false,,false,,2026-10-24,api,https://advinservers.com/vps
+advin-ryzen-2,advinservers,Advin Servers,KVM Ryzen 2,16,,,2,8,256,NVMe,4,,,vCPU (AMD Ryzen 9950X),false,,false,,2026-10-24,api,https://advinservers.com/vps
+alwyzon-xs,alwyzon,Alwyzon,Virtual Server XS (G3),5.03,4.49,,2,2,40,NVMe,20,,,"vCore (AMD EPYC 7543P, 2.8+ GHz)",true,,false,,2026-10-24,page,https://www.alwyzon.com/en/virtual-servers
+alwyzon-s,alwyzon,Alwyzon,Virtual Server S (G3),8.72,7.79,,3,4,80,NVMe,20,,,"vCore (AMD EPYC 7543P, 2.8+ GHz)",true,,false,,2026-10-24,page,https://www.alwyzon.com/en/virtual-servers
+alwyzon-m,alwyzon,Alwyzon,Virtual Server M (G3),14.54,12.99,,4,8,160,NVMe,20,,,"vCore (AMD EPYC 7543P, 2.8+ GHz)",true,,false,,2026-10-24,page,https://www.alwyzon.com/en/virtual-servers
+alwyzon-e4,alwyzon,Alwyzon,Virtual Server E4+ (G5),12.86,11.49,,2,4,120,NVMe,50,,,"vCore (AMD EPYC 9355P, 3.5+ GHz)",true,,false,,2026-10-24,page,https://www.alwyzon.com/en/virtual-servers
+alwyzon-e8,alwyzon,Alwyzon,Virtual Server E8+ (G5),22.93,20.49,,4,8,240,NVMe,50,,,"vCore (AMD EPYC 9355P, 3.5+ GHz)",true,,false,,2026-10-24,page,https://www.alwyzon.com/en/virtual-servers
+alwyzon-e16,alwyzon,Alwyzon,Virtual Server E16+ (G5),43.08,38.49,,6,16,320,NVMe,50,,,"vCore (AMD EPYC 9355P, 3.5+ GHz)",true,,false,,2026-10-24,page,https://www.alwyzon.com/en/virtual-servers
+liteserver-2,liteserver,LiteServer,NVME-2G,8.95,8,,2,2,40,NVMe,20,,,CPU core (model not stated),true,,false,,2026-10-24,page,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps
+liteserver-4,liteserver,LiteServer,NVME-4G,17.91,16,,4,4,80,NVMe,25,,,CPU core (model not stated),true,,false,,2026-10-24,page,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps
+liteserver-8,liteserver,LiteServer,NVME-8G,35.82,32,,4,8,160,NVMe,30,,,CPU core (model not stated),true,,false,,2026-10-24,page,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps
+liteserver-16,liteserver,LiteServer,NVME-16G,71.64,64,,6,16,320,NVMe,35,,,CPU core (model not stated),true,,false,,2026-10-24,page,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps
+servarica-fat-2,servarica,ServaRica,V3 KVM FAT Slice 2,9,,,2,4,60,NVMe,,,,Dedicated core,false,,false,,2026-10-24,page,https://clients.servarica.com/store/v3-kvm-fat
+servarica-fat-4,servarica,ServaRica,V3 KVM FAT Slice 4,16,,,4,8,120,NVMe,,,,Dedicated core,false,,false,,2026-10-24,page,https://clients.servarica.com/store/v3-kvm-fat
+servarica-fat-8,servarica,ServaRica,V3 KVM FAT Slice 8,30,,,8,16,240,NVMe,,,,Dedicated core,false,,false,,2026-10-24,page,https://clients.servarica.com/store/v3-kvm-fat
+servarica-fat-16,servarica,ServaRica,V3 KVM FAT Slice 16,58,,,16,32,480,NVMe,,,,Dedicated core,false,,false,,2026-10-24,page,https://clients.servarica.com/store/v3-kvm-fat
+civo-xsmall,civo,Civo,xSmall,5.43,,,1,1,25,NVMe,,,,vCPU (Civo counts cores; shared or dedicated not stated),true,,false,,2026-10-24,page,https://www.civo.com/pricing
+civo-small,civo,Civo,Small,10.86,,,1,2,25,NVMe,,,,vCPU (Civo counts cores; shared or dedicated not stated),true,,false,,2026-10-24,page,https://www.civo.com/pricing
+civo-medium,civo,Civo,Medium,21.73,,,2,4,50,NVMe,,,,vCPU (Civo counts cores; shared or dedicated not stated),true,,false,,2026-10-24,page,https://www.civo.com/pricing
+civo-large,civo,Civo,Large,43.45,,,4,8,100,NVMe,,,,vCPU (Civo counts cores; shared or dedicated not stated),true,,false,,2026-10-24,page,https://www.civo.com/pricing
+exoscale-tiny,exoscale,Exoscale,Standard Tiny,13.06,11.67,,1,1,10,SSD,1.1,,,vCPU (Exoscale counts cores; shared or dedicated not stated),true,,false,,2026-10-24,api,https://www.exoscale.com/pricing/
+exoscale-small,exoscale,Exoscale,Standard Small,20.2,18.05,,2,2,10,SSD,1.1,,,vCPU (Exoscale counts cores; shared or dedicated not stated),true,,false,,2026-10-24,api,https://www.exoscale.com/pricing/
+exoscale-medium,exoscale,Exoscale,Standard Medium,39.27,35.08,,2,4,10,SSD,1.1,,,vCPU (Exoscale counts cores; shared or dedicated not stated),true,,false,,2026-10-24,api,https://www.exoscale.com/pricing/
+exoscale-large,exoscale,Exoscale,Standard Large,77.4,69.15,,4,8,10,SSD,1.1,,,vCPU (Exoscale counts cores; shared or dedicated not stated),true,,false,,2026-10-24,api,https://www.exoscale.com/pricing/
+aruba-o1i1,arubacloud,Aruba Cloud,VPS O1I1 (Starter),2.79,2.49,,1,1,20,NVMe,2,,,vCPU (shared or dedicated not stated),true,,false,,2026-10-24,page,https://www.arubacloud.com/vps/
+aruba-o1i2,arubacloud,Aruba Cloud,VPS O1I2 (Starter),5.03,4.49,,1,2,40,NVMe,5,,,vCPU (shared or dedicated not stated),true,,false,,2026-10-24,page,https://www.arubacloud.com/vps/
+aruba-o2a4,arubacloud,Aruba Cloud,VPS O2A4,7.04,6.29,,2,4,40,NVMe,25,,,vCPU (shared or dedicated not stated),true,,false,,2026-10-24,page,https://www.arubacloud.com/vps/
+aruba-o4a8,arubacloud,Aruba Cloud,VPS O4A8,13.2,11.79,,4,8,80,NVMe,50,,,vCPU (shared or dedicated not stated),true,,false,,2026-10-24,page,https://www.arubacloud.com/vps/
+aruba-o8a16,arubacloud,Aruba Cloud,VPS O8A16,22.26,19.89,,8,16,160,NVMe,100,,,vCPU (shared or dedicated not stated),true,,false,,2026-10-24,page,https://www.arubacloud.com/vps/
+cloudserver-1gb,cloudserver,CloudServer,Linux KVM 1GB,4,,,1,1,25,SSD (RAID-10),5,,,vCPU (shared or dedicated not stated),false,,false,,2026-10-24,page,https://www.cloudserver.net/linux-vps/
+cloudserver-2gb,cloudserver,CloudServer,Linux KVM 2GB,8,,,1,2,50,SSD (RAID-10),5,,,vCPU (shared or dedicated not stated),false,,false,,2026-10-24,page,https://www.cloudserver.net/linux-vps/
+cloudserver-4gb,cloudserver,CloudServer,Linux KVM 4GB,15,,,2,4,75,SSD (RAID-10),5,,,vCPU (shared or dedicated not stated),false,,false,,2026-10-24,page,https://www.cloudserver.net/linux-vps/
+cloudserver-8gb,cloudserver,CloudServer,Linux KVM 8GB,30,,,4,8,150,SSD (RAID-10),10,,,vCPU (shared or dedicated not stated),false,,false,,2026-10-24,page,https://www.cloudserver.net/linux-vps/
+dedirock-starter,dedirock,DediRock,KVM VPS Starter,5.99,,,1,1,20,SSD,0.75,,,"vCore (Intel Xeon, shared)",false,,false,,2026-10-24,page,https://dedirock.com/
+dedirock-essentials,dedirock,DediRock,KVM VPS Essentials,8.99,,,2,2,40,SSD,1,,,"vCore (Intel Xeon, shared)",false,,false,,2026-10-24,page,https://dedirock.com/
+dedirock-plus,dedirock,DediRock,KVM VPS Plus,12.99,,,4,4,100,SSD,2,,,"vCore (Intel Xeon, shared)",false,,false,,2026-10-24,page,https://dedirock.com/
+crowncloud-ssd-1,crowncloud,CrownCloud,KVM SSD 1,5,,,1,1,25,SSD (hardware RAID),1,,,"vCore (Intel Xeon E5, fair share)",false,,false,,2026-10-24,page,https://crowncloud.net/vps/ssd-plans
+crowncloud-ssd-2,crowncloud,CrownCloud,KVM SSD 2,10,,,2,2,50,SSD (hardware RAID),1,,,"vCore (Intel Xeon E5, fair share)",false,,false,,2026-10-24,page,https://crowncloud.net/vps/ssd-plans
+crowncloud-ssd-4,crowncloud,CrownCloud,KVM SSD 4,20,,,4,4,100,SSD (hardware RAID),2,,,"vCore (Intel Xeon E5, fair share)",false,,false,,2026-10-24,page,https://crowncloud.net/vps/ssd-plans
+crowncloud-ryzen-2,crowncloud,CrownCloud,KVM Ryzen 2 (9950X),15,,,2,2,50,NVMe,2,,,"vCore (AMD Ryzen 9 9950X, fair share)",false,,false,,2026-10-24,page,https://crowncloud.net/vps/amd-ryzen-plans
+hostus-kvm-1,hostus,HostUS,KVM-1,6.95,,,2,1,40,SSD,1,,,"vCPU core (Intel Xeon or AMD Ryzen, shared)",false,,false,,2026-10-24,page,https://my.hostus.us/store/ssd-kvm-vps
+hostus-kvm-2,hostus,HostUS,KVM-2,10.95,,,2,2,60,SSD,2,,,"vCPU core (Intel Xeon or AMD Ryzen, shared)",false,,false,,2026-10-24,page,https://my.hostus.us/store/ssd-kvm-vps
+hostus-kvm-4,hostus,HostUS,KVM-4,22.95,,,4,4,90,SSD,4,,,"vCPU core (Intel Xeon or AMD Ryzen, shared)",false,,false,,2026-10-24,page,https://my.hostus.us/store/ssd-kvm-vps
+virtono-1g,virtono,Virtono,Cloud VPS KVM 1G,5.04,4.5,,1,1,30,SSD,1,,,vCPU (model not stated),true,,false,,2026-10-24,page,https://virtono.com/cloud-vps
+virtono-2g,virtono,Virtono,Cloud VPS KVM 2G,11.14,9.95,,1,2,50,SSD,2,,,vCPU (model not stated),true,,false,,2026-10-24,page,https://virtono.com/cloud-vps
+virtono-4g,virtono,Virtono,Cloud VPS KVM 4G,23.45,20.95,,2,4,80,SSD,3,,,vCPU (model not stated),true,,false,,2026-10-24,page,https://virtono.com/cloud-vps
+virtono-8g,virtono,Virtono,Cloud VPS KVM 8G,48.07,42.95,,4,8,160,SSD,5,,,vCPU (model not stated),true,,false,,2026-10-24,page,https://virtono.com/cloud-vps
+phoenixnap-s0-d1-small,phoenixnap,phoenixNAP,s0.d1.small,50.87,,,8,16,480,SSD (2 x 240 GB),15,,,"Intel Xeon E3-1240 v3 (4 dedicated cores, 8 threads)",false,5.11,false,,2026-10-24,page,https://phoenixnap.com/bare-metal-cloud/instances
+phoenixnap-s0-d1-medium,phoenixnap,phoenixNAP,s0.d1.medium,63.87,,,8,32,480,SSD (1 x 480 GB),15,,,"Intel Xeon E3-1270 v3 (4 dedicated cores, 8 threads)",false,5.11,false,,2026-10-24,page,https://phoenixnap.com/bare-metal-cloud/instances
+phoenixnap-s1-c1-small,phoenixnap,phoenixNAP,s1.c1.small,88.87,,,12,64,1000,NVMe (1 x 1 TB),15,,,"Intel Xeon E-2276G (6 dedicated cores, 12 threads)",false,5.11,false,,2026-10-24,page,https://phoenixnap.com/bare-metal-cloud/instances
+phoenixnap-s1-c1-medium,phoenixnap,phoenixNAP,s1.c1.medium,147.87,,,12,128,2000,NVMe (2 x 1 TB),15,,,"Intel Xeon E-2276G (6 dedicated cores, 12 threads)",false,5.11,false,,2026-10-24,page,https://phoenixnap.com/bare-metal-cloud/instances
+latitudesh-c3-small,latitudesh,Latitude.sh,c3.small.x86,190,,,12,32,800,NVMe (1 x 800 GB),20,,,"Intel Xeon E-2386G (6 dedicated cores, 12 threads)",false,,false,,2026-10-24,page,https://www.latitude.sh/pricing
+latitudesh-m4-small,latitudesh,Latitude.sh,m4.metal.small,296,,,12,48,1920,NVMe (2 x 960 GB),20,,,"AMD EPYC 4244P (6 dedicated cores, 12 threads)",false,,false,,2026-10-24,page,https://www.latitude.sh/pricing
+latitudesh-f4-small,latitudesh,Latitude.sh,f4.metal.small,398,,,24,96,1920,NVMe (2 x 960 GB),20,,,"AMD EPYC 4484PX (12 dedicated cores, 24 threads)",false,,false,,2026-10-24,page,https://www.latitude.sh/pricing
+mythicbeasts-vps-1,mythicbeasts,Mythic Beasts,VPS 1,6.55,,4.9,1,1,5,"SSD (enterprise, mirrored RAID)",0.5,,,Shared vCPU cores,true,2.67,false,,2026-10-24,page,https://www.mythic-beasts.com/order/vps
+mythicbeasts-vps-2,mythicbeasts,Mythic Beasts,VPS 2,10.43,,7.8,1,2,10,"SSD (enterprise, mirrored RAID)",1,,,Shared vCPU cores,true,2.67,false,,2026-10-24,page,https://www.mythic-beasts.com/order/vps
+mythicbeasts-vps-4,mythicbeasts,Mythic Beasts,VPS 4,20.19,,15.1,2,4,20,"SSD (enterprise, mirrored RAID)",2,,,Shared vCPU cores,true,2.67,false,,2026-10-24,page,https://www.mythic-beasts.com/order/vps
+mythicbeasts-vps-8,mythicbeasts,Mythic Beasts,VPS 8,37.7,,28.2,2,8,40,"SSD (enterprise, mirrored RAID)",4,,,Shared vCPU cores,true,2.67,false,,2026-10-24,page,https://www.mythic-beasts.com/order/vps
+webhosting24-muc-2,webhosting24,Webhosting24,Munich 2 GB,6.53,5.83,,1,2,40,NVMe (RAID 10),,,,"Shared vCPU (""fair share"", Intel Xeon, 2.40+ GHz)",true,,false,3,2026-10-24,page,https://www.webhosting24.com/vps/
+webhosting24-muc-4,webhosting24,Webhosting24,Munich 4 GB,13.99,12.5,,1,4,80,NVMe (RAID 10),,,,"Dedicated vCPU (Intel Xeon, 2.40+ GHz)",true,,false,,2026-10-24,page,https://www.webhosting24.com/vps/
+webhosting24-muc-8,webhosting24,Webhosting24,Munich 8 GB,27.98,25,,2,8,160,NVMe (RAID 10),,,,"Dedicated vCPU (Intel Xeon, 2.40+ GHz)",true,,false,,2026-10-24,page,https://www.webhosting24.com/vps/
+webhosting24-ny-2,webhosting24,Webhosting24,USA / Asia-Pacific 2 GB,6.38,5.7,,1,2,40,NVMe (RAID 1),4,,,"Shared vCPU (""fair share"", AMD Ryzen 9 5950X)",true,,false,3,2026-10-24,page,https://www.webhosting24.com/vps/
+webhosting24-ny-4,webhosting24,Webhosting24,USA / Asia-Pacific 4 GB,13.43,12,,4,4,80,NVMe (RAID 1),8,,,"Shared vCPU (""fair share"", AMD Ryzen 9 5950X)",true,,false,,2026-10-24,page,https://www.webhosting24.com/vps/
+webhosting24-ny-8,webhosting24,Webhosting24,USA / Asia-Pacific 8 GB,26.86,24,,8,8,160,NVMe (RAID 1),16,,,"Shared vCPU (""fair share"", AMD Ryzen 9 5950X)",true,,false,,2026-10-24,page,https://www.webhosting24.com/vps/
+ultravps-cloud-30,ultravps,UltraVPS,Cloud-30,4.23,3.78,,2,2,30,SSD,2,,,Shared CPU cores (Intel Xeon),true,,false,6,2026-10-24,page,https://www.ultravps.eu/en/vps/
+ultravps-cloud-50,ultravps,UltraVPS,Cloud-50,8.46,7.56,,2,4,50,SSD,2,,,Shared CPU cores (Intel Xeon),true,,false,3,2026-10-24,page,https://www.ultravps.eu/en/vps/
+ultravps-cloud-100,ultravps,UltraVPS,Cloud-100,16.94,15.13,,4,8,100,SSD,5,,,Shared CPU cores (Intel Xeon),true,,false,3,2026-10-24,page,https://www.ultravps.eu/en/vps/
+ultravps-cloud-200,ultravps,UltraVPS,Cloud-200,27.28,24.37,,4,16,200,SSD,5,,,Shared CPU cores (Intel Xeon),true,,false,,2026-10-24,page,https://www.ultravps.eu/en/vps/
+securedragon-kvm-1,securedragon,Secure Dragon,KVM_SSD_1GB,4.99,,,2,1,20,SSD (RAID),2,,,"Shared vCPU (""fair share"", Intel Xeon)",false,,false,,2026-10-24,page,https://securedragon.net/clients/index.php?rp=/store/kvm-ssd
+securedragon-kvm-2,securedragon,Secure Dragon,KVM_SSD_2GB,9.99,,,4,2,40,SSD (RAID),4,,,"Shared vCPU (""fair share"", Intel Xeon)",false,,false,,2026-10-24,page,https://securedragon.net/clients/index.php?rp=/store/kvm-ssd
+securedragon-kvm-4,securedragon,Secure Dragon,KVM_SSD_4GB,19.99,,,4,4,80,SSD (RAID),6,,,"Shared vCPU (""fair share"", Intel Xeon)",false,,false,,2026-10-24,page,https://securedragon.net/clients/index.php?rp=/store/kvm-ssd
+securedragon-kvm-8,securedragon,Secure Dragon,KVM_SSD_8GB,39.99,,,6,8,160,SSD (RAID),8,,,"Shared vCPU (""fair share"", Intel Xeon)",false,,false,,2026-10-24,page,https://securedragon.net/clients/index.php?rp=/store/kvm-ssd
