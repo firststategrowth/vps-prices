@@ -2,7 +2,7 @@
   "name": "StackRates hosting price index",
   "license": "CC BY 4.0",
   "attribution": "StackRates (https://stackrates.ai/data/)",
-  "generated_at": "2026-10-24T03:14:32.517Z",
+  "generated_at": "2026-10-25T03:14:53.474Z",
   "last_manual_capture": "2026-10-05",
   "note": "Each row carries the date and method its price was read. Prices are provider list prices in USD per month; a provider that bills in euros has its euro price in billed_eur, one that bills in pounds its pound price in billed_gbp, converted at the ECB rate in fx (usdPerGbp is the ECB cross rate). Confirm at source_url before buying. Only plans that can be ordered today: plans the provider shows as sold out, and automatic prices not re-read for 7 days, are left out.",
   "fx": {
@@ -32,7 +32,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.digitalocean.com/pricing/droplets"
     },
@@ -56,7 +56,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.digitalocean.com/pricing/droplets"
     },
@@ -80,7 +80,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.digitalocean.com/pricing/droplets"
     },
@@ -104,7 +104,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.digitalocean.com/pricing/droplets"
     },
@@ -128,7 +128,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.digitalocean.com/pricing/droplets"
     },
@@ -152,7 +152,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.digitalocean.com/pricing/droplets"
     },
@@ -176,7 +176,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.digitalocean.com/pricing/droplets"
     },
@@ -200,7 +200,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": true,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://www.vultr.com/pricing/"
     },
@@ -224,7 +224,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://www.vultr.com/pricing/"
     },
@@ -248,7 +248,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://www.vultr.com/pricing/"
     },
@@ -272,7 +272,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://www.vultr.com/pricing/"
     },
@@ -296,7 +296,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://www.vultr.com/pricing/"
     },
@@ -320,7 +320,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://www.vultr.com/pricing/"
     },
@@ -344,7 +344,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://www.vultr.com/pricing/"
     },
@@ -368,7 +368,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://www.vultr.com/pricing/"
     },
@@ -392,7 +392,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://www.vultr.com/pricing/"
     },
@@ -416,7 +416,7 @@
       "ipv4_extra_usd": 0.6,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://www.hetzner.com/cloud/regular-performance/"
     },
@@ -440,7 +440,7 @@
       "ipv4_extra_usd": 0.6,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://www.hetzner.com/cloud/regular-performance/"
     },
@@ -464,7 +464,7 @@
       "ipv4_extra_usd": 0.6,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://www.hetzner.com/cloud/regular-performance/"
     },
@@ -488,7 +488,7 @@
       "ipv4_extra_usd": 0.6,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://www.hetzner.com/cloud/regular-performance/"
     },
@@ -512,7 +512,7 @@
       "ipv4_extra_usd": 0.6,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://www.hetzner.com/cloud/regular-performance/"
     },
@@ -536,7 +536,7 @@
       "ipv4_extra_usd": 0.6,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://www.hetzner.com/cloud/regular-performance/"
     },
@@ -560,7 +560,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://api.linode.com/v4/linode/types"
     },
@@ -584,7 +584,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://api.linode.com/v4/linode/types"
     },
@@ -608,7 +608,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://api.linode.com/v4/linode/types"
     },
@@ -632,7 +632,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://api.linode.com/v4/linode/types"
     },
@@ -656,7 +656,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://api.linode.com/v4/linode/types"
     },
@@ -680,7 +680,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://api.linode.com/v4/linode/types"
     },
@@ -824,7 +824,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://aws.amazon.com/lightsail/pricing/"
     },
@@ -848,7 +848,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://aws.amazon.com/lightsail/pricing/"
     },
@@ -872,7 +872,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://aws.amazon.com/lightsail/pricing/"
     },
@@ -896,7 +896,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://aws.amazon.com/lightsail/pricing/"
     },
@@ -920,7 +920,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://aws.amazon.com/lightsail/pricing/"
     },
@@ -944,7 +944,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://aws.amazon.com/lightsail/pricing/"
     },
@@ -968,7 +968,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://aws.amazon.com/lightsail/pricing/"
     },
@@ -992,7 +992,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://aws.amazon.com/lightsail/pricing/"
     },
@@ -1016,7 +1016,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://aws.amazon.com/lightsail/pricing/"
     },
@@ -1040,7 +1040,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://aws.amazon.com/lightsail/pricing/"
     },
@@ -1064,7 +1064,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://aws.amazon.com/lightsail/pricing/"
     },
@@ -1088,7 +1088,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://us.ovhcloud.com/vps/"
     },
@@ -1112,7 +1112,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://us.ovhcloud.com/vps/"
     },
@@ -1136,7 +1136,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://us.ovhcloud.com/vps/"
     },
@@ -1160,7 +1160,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://us.ovhcloud.com/vps/"
     },
@@ -1184,7 +1184,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://calc.upcloud.com/cloud-servers?currency=USD"
     },
@@ -1208,7 +1208,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://calc.upcloud.com/cloud-servers?currency=USD"
     },
@@ -1232,7 +1232,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://calc.upcloud.com/cloud-servers?currency=USD"
     },
@@ -1256,7 +1256,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://calc.upcloud.com/cloud-servers?currency=USD"
     },
@@ -1280,7 +1280,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://calc.upcloud.com/cloud-servers?currency=USD"
     },
@@ -1304,7 +1304,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": 1,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "manual",
       "source_url": "https://contabo.com/en/vps/cloud-vps-core-4/"
     },
@@ -1328,7 +1328,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": 1,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "manual",
       "source_url": "https://contabo.com/en/vps/cloud-vps-core-6/"
     },
@@ -1352,7 +1352,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": 1,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "manual",
       "source_url": "https://contabo.com/en/vps/cloud-vps-core-8/"
     },
@@ -1376,7 +1376,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": 1,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "manual",
       "source_url": "https://contabo.com/en/vps/cloud-vps-core-12/"
     },
@@ -1400,7 +1400,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": 1,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "manual",
       "source_url": "https://contabo.com/en/vps/cloud-vps-core-16/"
     },
@@ -1424,7 +1424,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": 1,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "manual",
       "source_url": "https://contabo.com/en/vps/cloud-vps-core-18/"
     },
@@ -1448,7 +1448,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://kinsta.com/plans/"
     },
@@ -1472,7 +1472,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://kinsta.com/plans/"
     },
@@ -1496,7 +1496,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://kinsta.com/plans/"
     },
@@ -1520,7 +1520,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://kinsta.com/plans/"
     },
@@ -1544,7 +1544,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://kinsta.com/plans/"
     },
@@ -1568,7 +1568,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.racknerd.com/kvm-vps"
     },
@@ -1592,7 +1592,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.racknerd.com/kvm-vps"
     },
@@ -1616,7 +1616,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.racknerd.com/kvm-vps"
     },
@@ -1640,7 +1640,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.racknerd.com/kvm-vps"
     },
@@ -1664,7 +1664,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "manual",
       "source_url": "https://www.interserver.net/vps/"
     },
@@ -1688,7 +1688,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "manual",
       "source_url": "https://www.interserver.net/vps/"
     },
@@ -1712,7 +1712,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "manual",
       "source_url": "https://www.interserver.net/vps/"
     },
@@ -1736,7 +1736,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "manual",
       "source_url": "https://www.interserver.net/vps/"
     },
@@ -1760,7 +1760,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": 12,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://cloudcone.com/vps/"
     },
@@ -1784,7 +1784,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": 12,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://cloudcone.com/vps/"
     },
@@ -1808,7 +1808,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": 12,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://cloudcone.com/vps/"
     },
@@ -1832,7 +1832,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": 12,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://cloudcone.com/vps/"
     },
@@ -1856,7 +1856,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.hostwinds.com/vps/unmanaged-linux"
     },
@@ -1880,7 +1880,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.hostwinds.com/vps/unmanaged-linux"
     },
@@ -1904,7 +1904,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.hostwinds.com/vps/unmanaged-linux"
     },
@@ -1928,7 +1928,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.hostwinds.com/vps/unmanaged-linux"
     },
@@ -1952,7 +1952,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.hostwinds.com/vps/unmanaged-linux"
     },
@@ -1976,7 +1976,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.dreamhost.com/hosting/vps/"
     },
@@ -2000,7 +2000,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.dreamhost.com/hosting/vps/"
     },
@@ -2024,7 +2024,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.dreamhost.com/hosting/vps/"
     },
@@ -2048,7 +2048,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.dreamhost.com/hosting/vps/"
     },
@@ -2072,7 +2072,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://hosting.com/hosting/vps-hosting/unmanaged/linux/"
     },
@@ -2096,7 +2096,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://hosting.com/hosting/vps-hosting/unmanaged/linux/"
     },
@@ -2120,7 +2120,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://hosting.com/hosting/vps-hosting/unmanaged/linux/"
     },
@@ -2144,7 +2144,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://hosting.com/hosting/vps-hosting/unmanaged/linux/"
     },
@@ -2168,7 +2168,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://greencloudvps.com/budget-kvm-vps.php"
     },
@@ -2192,7 +2192,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://greencloudvps.com/budget-kvm-vps.php"
     },
@@ -2216,7 +2216,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://greencloudvps.com/budget-kvm-vps.php"
     },
@@ -2240,7 +2240,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://greencloudvps.com/budget-kvm-vps.php"
     },
@@ -2264,7 +2264,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://greencloudvps.com/budget-kvm-vps.php"
     },
@@ -2288,7 +2288,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://hosthatch.com/products"
     },
@@ -2312,7 +2312,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://hosthatch.com/products"
     },
@@ -2336,7 +2336,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://hosthatch.com/products"
     },
@@ -2360,7 +2360,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://hosthatch.com/products"
     },
@@ -2384,7 +2384,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://hosthatch.com/products"
     },
@@ -2408,7 +2408,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.kamatera.com/pricing/"
     },
@@ -2432,7 +2432,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.kamatera.com/pricing/"
     },
@@ -2456,7 +2456,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.kamatera.com/pricing/"
     },
@@ -2480,7 +2480,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": 24,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.hostinger.com/vps-hosting"
     },
@@ -2504,7 +2504,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": 24,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.hostinger.com/vps-hosting"
     },
@@ -2528,7 +2528,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": 24,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.hostinger.com/vps-hosting"
     },
@@ -2552,7 +2552,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": 24,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.hostinger.com/vps-hosting"
     },
@@ -2576,7 +2576,7 @@
       "ipv4_extra_usd": 0.56,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "manual",
       "source_url": "https://www.netcup.com/en/server/vps/vps-500-g12.5-iv-24m-eu"
     },
@@ -2600,7 +2600,7 @@
       "ipv4_extra_usd": 0.56,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "manual",
       "source_url": "https://www.netcup.com/en/server/vps/vps-1000-g12.5-iv-24m-eu"
     },
@@ -2624,7 +2624,7 @@
       "ipv4_extra_usd": 0.56,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "manual",
       "source_url": "https://www.netcup.com/en/server/vps/vps-2000-g12.5-iv-24m-eu"
     },
@@ -2648,7 +2648,7 @@
       "ipv4_extra_usd": 0.56,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "manual",
       "source_url": "https://www.netcup.com/en/server/vps/vps-4000-g12.5-iv-24m-eu"
     },
@@ -2672,7 +2672,7 @@
       "ipv4_extra_usd": 0.56,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "manual",
       "source_url": "https://www.netcup.com/en/server/vps/vps-8000-g12.5-iv-24m-eu"
     },
@@ -2696,7 +2696,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.liquidweb.com/vps-hosting/"
     },
@@ -2720,7 +2720,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.liquidweb.com/vps-hosting/"
     },
@@ -2744,7 +2744,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.liquidweb.com/vps-hosting/"
     },
@@ -2768,7 +2768,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.liquidweb.com/vps-hosting/"
     },
@@ -2792,7 +2792,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.liquidweb.com/vps-hosting/"
     },
@@ -2816,7 +2816,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.ramnode.com/pricing/"
     },
@@ -2840,7 +2840,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.ramnode.com/pricing/"
     },
@@ -2864,7 +2864,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.ramnode.com/pricing/"
     },
@@ -2888,7 +2888,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.ramnode.com/pricing/"
     },
@@ -2912,7 +2912,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.ramnode.com/pricing/"
     },
@@ -2936,7 +2936,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.ramnode.com/pricing/"
     },
@@ -2960,7 +2960,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://dynamic.lunanode.com/info"
     },
@@ -2984,7 +2984,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://dynamic.lunanode.com/info"
     },
@@ -3008,7 +3008,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://dynamic.lunanode.com/info"
     },
@@ -3032,7 +3032,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://dynamic.lunanode.com/info"
     },
@@ -3056,7 +3056,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://dynamic.lunanode.com/info"
     },
@@ -3080,7 +3080,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://dynamic.lunanode.com/info"
     },
@@ -3104,7 +3104,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://webdock.io/en/pricing"
     },
@@ -3128,7 +3128,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://webdock.io/en/pricing"
     },
@@ -3152,7 +3152,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://webdock.io/en/pricing"
     },
@@ -3176,7 +3176,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.hivelocity.net/pricing?computeType=vps"
     },
@@ -3200,7 +3200,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.hivelocity.net/pricing?computeType=vps"
     },
@@ -3224,7 +3224,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.hivelocity.net/pricing?computeType=vps"
     },
@@ -3248,7 +3248,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.hivelocity.net/pricing?computeType=vps"
     },
@@ -3272,7 +3272,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.atlantic.net/vps-hosting/pricing/"
     },
@@ -3296,7 +3296,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.atlantic.net/vps-hosting/pricing/"
     },
@@ -3320,7 +3320,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.atlantic.net/vps-hosting/pricing/"
     },
@@ -3344,7 +3344,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.atlantic.net/vps-hosting/pricing/"
     },
@@ -3368,7 +3368,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.atlantic.net/vps-hosting/pricing/"
     },
@@ -3392,7 +3392,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.cherryservers.com/pricing/virtual-servers"
     },
@@ -3416,7 +3416,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.cherryservers.com/pricing/virtual-servers"
     },
@@ -3440,7 +3440,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.cherryservers.com/pricing/virtual-servers"
     },
@@ -3464,7 +3464,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.cherryservers.com/pricing/virtual-servers"
     },
@@ -3488,7 +3488,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://vpsdime.com/"
     },
@@ -3512,7 +3512,7 @@
       "ipv4_extra_usd": 4.09,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://www.scaleway.com/en/pricing/virtual-instances/"
     },
@@ -3536,7 +3536,7 @@
       "ipv4_extra_usd": 4.09,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://www.scaleway.com/en/pricing/virtual-instances/"
     },
@@ -3560,7 +3560,7 @@
       "ipv4_extra_usd": 4.09,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://www.scaleway.com/en/pricing/virtual-instances/"
     },
@@ -3584,7 +3584,7 @@
       "ipv4_extra_usd": 4.09,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://www.scaleway.com/en/pricing/virtual-instances/"
     },
@@ -3608,7 +3608,7 @@
       "ipv4_extra_usd": 4.09,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://www.scaleway.com/en/pricing/virtual-instances/"
     },
@@ -3632,7 +3632,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://evoxt.com/pricing/"
     },
@@ -3656,7 +3656,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://evoxt.com/pricing/"
     },
@@ -3680,7 +3680,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://evoxt.com/pricing/"
     },
@@ -3704,7 +3704,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://evoxt.com/pricing/"
     },
@@ -3728,7 +3728,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://evoxt.com/pricing/"
     },
@@ -3752,7 +3752,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://hostodo.com/pricing"
     },
@@ -3776,7 +3776,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://hostodo.com/pricing"
     },
@@ -3800,7 +3800,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://hostodo.com/pricing"
     },
@@ -3824,7 +3824,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://hostodo.com/pricing"
     },
@@ -3848,7 +3848,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://hostodo.com/pricing"
     },
@@ -3872,7 +3872,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://advinservers.com/vps"
     },
@@ -3896,7 +3896,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://advinservers.com/vps"
     },
@@ -3920,7 +3920,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://advinservers.com/vps"
     },
@@ -3944,7 +3944,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://advinservers.com/vps"
     },
@@ -3968,7 +3968,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.alwyzon.com/en/virtual-servers"
     },
@@ -3992,7 +3992,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.alwyzon.com/en/virtual-servers"
     },
@@ -4016,7 +4016,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.alwyzon.com/en/virtual-servers"
     },
@@ -4040,7 +4040,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.alwyzon.com/en/virtual-servers"
     },
@@ -4064,7 +4064,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.alwyzon.com/en/virtual-servers"
     },
@@ -4088,7 +4088,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.alwyzon.com/en/virtual-servers"
     },
@@ -4112,7 +4112,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps"
     },
@@ -4136,7 +4136,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps"
     },
@@ -4160,7 +4160,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps"
     },
@@ -4184,7 +4184,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps"
     },
@@ -4208,7 +4208,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://clients.servarica.com/store/v3-kvm-fat"
     },
@@ -4232,7 +4232,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://clients.servarica.com/store/v3-kvm-fat"
     },
@@ -4256,7 +4256,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://clients.servarica.com/store/v3-kvm-fat"
     },
@@ -4280,7 +4280,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://clients.servarica.com/store/v3-kvm-fat"
     },
@@ -4304,7 +4304,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.civo.com/pricing"
     },
@@ -4328,7 +4328,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.civo.com/pricing"
     },
@@ -4352,7 +4352,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.civo.com/pricing"
     },
@@ -4376,7 +4376,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.civo.com/pricing"
     },
@@ -4400,7 +4400,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://www.exoscale.com/pricing/"
     },
@@ -4424,7 +4424,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://www.exoscale.com/pricing/"
     },
@@ -4448,7 +4448,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://www.exoscale.com/pricing/"
     },
@@ -4472,7 +4472,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "api",
       "source_url": "https://www.exoscale.com/pricing/"
     },
@@ -4496,7 +4496,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.arubacloud.com/vps/"
     },
@@ -4520,7 +4520,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.arubacloud.com/vps/"
     },
@@ -4544,7 +4544,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.arubacloud.com/vps/"
     },
@@ -4568,7 +4568,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.arubacloud.com/vps/"
     },
@@ -4592,7 +4592,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.arubacloud.com/vps/"
     },
@@ -4712,7 +4712,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://dedirock.com/"
     },
@@ -4736,7 +4736,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://dedirock.com/"
     },
@@ -4760,7 +4760,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://dedirock.com/"
     },
@@ -4784,7 +4784,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://crowncloud.net/vps/ssd-plans"
     },
@@ -4808,7 +4808,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://crowncloud.net/vps/ssd-plans"
     },
@@ -4832,7 +4832,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://crowncloud.net/vps/ssd-plans"
     },
@@ -4856,7 +4856,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://crowncloud.net/vps/amd-ryzen-plans"
     },
@@ -4880,7 +4880,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://my.hostus.us/store/ssd-kvm-vps"
     },
@@ -4904,7 +4904,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://my.hostus.us/store/ssd-kvm-vps"
     },
@@ -4928,7 +4928,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://my.hostus.us/store/ssd-kvm-vps"
     },
@@ -4952,7 +4952,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://virtono.com/cloud-vps"
     },
@@ -4976,7 +4976,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://virtono.com/cloud-vps"
     },
@@ -5000,7 +5000,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://virtono.com/cloud-vps"
     },
@@ -5024,7 +5024,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://virtono.com/cloud-vps"
     },
@@ -5048,7 +5048,7 @@
       "ipv4_extra_usd": 5.11,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://phoenixnap.com/bare-metal-cloud/instances"
     },
@@ -5072,7 +5072,7 @@
       "ipv4_extra_usd": 5.11,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://phoenixnap.com/bare-metal-cloud/instances"
     },
@@ -5096,7 +5096,7 @@
       "ipv4_extra_usd": 5.11,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://phoenixnap.com/bare-metal-cloud/instances"
     },
@@ -5120,7 +5120,7 @@
       "ipv4_extra_usd": 5.11,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://phoenixnap.com/bare-metal-cloud/instances"
     },
@@ -5144,7 +5144,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.latitude.sh/pricing"
     },
@@ -5168,7 +5168,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.latitude.sh/pricing"
     },
@@ -5192,7 +5192,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.latitude.sh/pricing"
     },
@@ -5216,7 +5216,7 @@
       "ipv4_extra_usd": 2.67,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.mythic-beasts.com/order/vps"
     },
@@ -5240,7 +5240,7 @@
       "ipv4_extra_usd": 2.67,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.mythic-beasts.com/order/vps"
     },
@@ -5264,7 +5264,7 @@
       "ipv4_extra_usd": 2.67,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.mythic-beasts.com/order/vps"
     },
@@ -5288,7 +5288,7 @@
       "ipv4_extra_usd": 2.67,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.mythic-beasts.com/order/vps"
     },
@@ -5312,7 +5312,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": 3,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.webhosting24.com/vps/"
     },
@@ -5336,7 +5336,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.webhosting24.com/vps/"
     },
@@ -5360,7 +5360,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.webhosting24.com/vps/"
     },
@@ -5384,7 +5384,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": 3,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.webhosting24.com/vps/"
     },
@@ -5408,7 +5408,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.webhosting24.com/vps/"
     },
@@ -5432,7 +5432,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.webhosting24.com/vps/"
     },
@@ -5456,7 +5456,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": 6,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.ultravps.eu/en/vps/"
     },
@@ -5480,7 +5480,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": 3,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.ultravps.eu/en/vps/"
     },
@@ -5504,7 +5504,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": 3,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.ultravps.eu/en/vps/"
     },
@@ -5528,7 +5528,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://www.ultravps.eu/en/vps/"
     },
@@ -5552,7 +5552,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://securedragon.net/clients/index.php?rp=/store/kvm-ssd"
     },
@@ -5576,7 +5576,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://securedragon.net/clients/index.php?rp=/store/kvm-ssd"
     },
@@ -5600,7 +5600,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://securedragon.net/clients/index.php?rp=/store/kvm-ssd"
     },
@@ -5624,7 +5624,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-25",
       "price_source": "page",
       "source_url": "https://securedragon.net/clients/index.php?rp=/store/kvm-ssd"
     }
