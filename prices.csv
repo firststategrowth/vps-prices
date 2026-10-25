@@ -160,6 +160,7 @@ hostodo-8,hostodo,Hostodo,EPYC-8G3C128GN,9,,,3,8,128,NVMe,6,,,vCPU (AMD EPYC 774
 hostodo-16,hostodo,Hostodo,EPYC-16G6C192GN,20,,,6,16,192,NVMe,8,,,vCPU (AMD EPYC 7742),false,,false,,2026-10-25,page,https://hostodo.com/pricing
 hostodo-32,hostodo,Hostodo,EPYC-32G8C288GN,36,,,8,32,300,NVMe,12,,,vCPU (AMD EPYC 7742),false,,false,,2026-10-25,page,https://hostodo.com/pricing
 advin-premium-1,advinservers,Advin Servers,KVM Premium 1,6,,,2,4,64,NVMe,2,,,vCPU (AMD EPYC Genoa 9004),false,,false,,2026-10-25,api,https://advinservers.com/vps
+advin-premium-3,advinservers,Advin Servers,KVM Premium 3,24,,,8,16,256,NVMe,8,,,vCPU (AMD EPYC Genoa 9004),false,,false,,2026-10-25,api,https://advinservers.com/vps
 advin-standard-1,advinservers,Advin Servers,KVM Standard 1,8,,,4,8,64,NVMe,2,,,vCPU (AMD EPYC Milan 7003),false,,false,,2026-10-25,api,https://advinservers.com/vps
 advin-standard-2,advinservers,Advin Servers,KVM Standard 2,16,,,8,16,128,NVMe,4,,,vCPU (AMD EPYC Milan 7003),false,,false,,2026-10-25,api,https://advinservers.com/vps
 advin-ryzen-2,advinservers,Advin Servers,KVM Ryzen 2,16,,,2,8,256,NVMe,4,,,vCPU (AMD Ryzen 9950X),false,,false,,2026-10-25,api,https://advinservers.com/vps
@@ -190,10 +191,10 @@ aruba-o1i2,arubacloud,Aruba Cloud,VPS O1I2 (Starter),5.03,4.49,,1,2,40,NVMe,5,,,
 aruba-o2a4,arubacloud,Aruba Cloud,VPS O2A4,7.04,6.29,,2,4,40,NVMe,25,,,vCPU (shared or dedicated not stated),true,,false,,2026-10-25,page,https://www.arubacloud.com/vps/
 aruba-o4a8,arubacloud,Aruba Cloud,VPS O4A8,13.2,11.79,,4,8,80,NVMe,50,,,vCPU (shared or dedicated not stated),true,,false,,2026-10-25,page,https://www.arubacloud.com/vps/
 aruba-o8a16,arubacloud,Aruba Cloud,VPS O8A16,22.26,19.89,,8,16,160,NVMe,100,,,vCPU (shared or dedicated not stated),true,,false,,2026-10-25,page,https://www.arubacloud.com/vps/
-cloudserver-1gb,cloudserver,CloudServer,Linux KVM 1GB,4,,,1,1,25,SSD (RAID-10),5,,,vCPU (shared or dedicated not stated),false,,false,,2026-10-24,page,https://www.cloudserver.net/linux-vps/
-cloudserver-2gb,cloudserver,CloudServer,Linux KVM 2GB,8,,,1,2,50,SSD (RAID-10),5,,,vCPU (shared or dedicated not stated),false,,false,,2026-10-24,page,https://www.cloudserver.net/linux-vps/
-cloudserver-4gb,cloudserver,CloudServer,Linux KVM 4GB,15,,,2,4,75,SSD (RAID-10),5,,,vCPU (shared or dedicated not stated),false,,false,,2026-10-24,page,https://www.cloudserver.net/linux-vps/
-cloudserver-8gb,cloudserver,CloudServer,Linux KVM 8GB,30,,,4,8,150,SSD (RAID-10),10,,,vCPU (shared or dedicated not stated),false,,false,,2026-10-24,page,https://www.cloudserver.net/linux-vps/
+cloudserver-1gb,cloudserver,CloudServer,Linux KVM 1GB,4,,,1,1,25,SSD (RAID-10),5,,,vCPU (shared or dedicated not stated),false,,false,,2026-10-25,page,https://www.cloudserver.net/linux-vps/
+cloudserver-2gb,cloudserver,CloudServer,Linux KVM 2GB,8,,,1,2,50,SSD (RAID-10),5,,,vCPU (shared or dedicated not stated),false,,false,,2026-10-25,page,https://www.cloudserver.net/linux-vps/
+cloudserver-4gb,cloudserver,CloudServer,Linux KVM 4GB,15,,,2,4,75,SSD (RAID-10),5,,,vCPU (shared or dedicated not stated),false,,false,,2026-10-25,page,https://www.cloudserver.net/linux-vps/
+cloudserver-8gb,cloudserver,CloudServer,Linux KVM 8GB,30,,,4,8,150,SSD (RAID-10),10,,,vCPU (shared or dedicated not stated),false,,false,,2026-10-25,page,https://www.cloudserver.net/linux-vps/
 dedirock-starter,dedirock,DediRock,KVM VPS Starter,5.99,,,1,1,20,SSD,0.75,,,"vCore (Intel Xeon, shared)",false,,false,,2026-10-25,page,https://dedirock.com/
 dedirock-essentials,dedirock,DediRock,KVM VPS Essentials,8.99,,,2,2,40,SSD,1,,,"vCore (Intel Xeon, shared)",false,,false,,2026-10-25,page,https://dedirock.com/
 dedirock-plus,dedirock,DediRock,KVM VPS Plus,12.99,,,4,4,100,SSD,2,,,"vCore (Intel Xeon, shared)",false,,false,,2026-10-25,page,https://dedirock.com/
