@@ -159,8 +159,8 @@ hostodo-4,hostodo,Hostodo,EPYC-4G2C64GN,7,,,2,4,64,NVMe,5,,,vCPU (AMD EPYC 7742)
 hostodo-8,hostodo,Hostodo,EPYC-8G3C128GN,9,,,3,8,128,NVMe,6,,,vCPU (AMD EPYC 7742),false,,false,,2026-10-26,page,https://hostodo.com/pricing
 hostodo-16,hostodo,Hostodo,EPYC-16G6C192GN,20,,,6,16,192,NVMe,8,,,vCPU (AMD EPYC 7742),false,,false,,2026-10-26,page,https://hostodo.com/pricing
 hostodo-32,hostodo,Hostodo,EPYC-32G8C288GN,36,,,8,32,300,NVMe,12,,,vCPU (AMD EPYC 7742),false,,false,,2026-10-26,page,https://hostodo.com/pricing
-advin-premium-1,advinservers,Advin Servers,KVM Premium 1,6,,,2,4,64,NVMe,2,,,vCPU (AMD EPYC Genoa 9004),false,,false,,2026-10-26,api,https://advinservers.com/vps
 advin-standard-1,advinservers,Advin Servers,KVM Standard 1,8,,,4,8,64,NVMe,2,,,vCPU (AMD EPYC Milan 7003),false,,false,,2026-10-26,api,https://advinservers.com/vps
+advin-standard-2,advinservers,Advin Servers,KVM Standard 2,16,,,8,16,128,NVMe,4,,,vCPU (AMD EPYC Milan 7003),false,,false,,2026-10-26,api,https://advinservers.com/vps
 advin-ryzen-2,advinservers,Advin Servers,KVM Ryzen 2,16,,,2,8,256,NVMe,4,,,vCPU (AMD Ryzen 9950X),false,,false,,2026-10-26,api,https://advinservers.com/vps
 alwyzon-xs,alwyzon,Alwyzon,Virtual Server XS (G3),5.03,4.49,,2,2,40,NVMe,20,,,"vCore (AMD EPYC 7543P, 2.8+ GHz)",true,,false,,2026-10-26,page,https://www.alwyzon.com/en/virtual-servers
 alwyzon-s,alwyzon,Alwyzon,Virtual Server S (G3),8.72,7.79,,3,4,80,NVMe,20,,,"vCore (AMD EPYC 7543P, 2.8+ GHz)",true,,false,,2026-10-26,page,https://www.alwyzon.com/en/virtual-servers
