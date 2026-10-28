@@ -161,6 +161,8 @@ hostodo-16,hostodo,Hostodo,EPYC-16G6C192GN,20,,,6,16,192,NVMe,8,,,vCPU (AMD EPYC
 hostodo-32,hostodo,Hostodo,EPYC-32G8C288GN,36,,,8,32,300,NVMe,12,,,vCPU (AMD EPYC 7742),false,,false,,2026-10-28,page,https://hostodo.com/pricing
 advin-premium-1,advinservers,Advin Servers,KVM Premium 1,6,,,2,4,64,NVMe,2,,,vCPU (AMD EPYC Genoa 9004),false,,false,,2026-10-28,api,https://advinservers.com/vps
 advin-premium-3,advinservers,Advin Servers,KVM Premium 3,24,,,8,16,256,NVMe,8,,,vCPU (AMD EPYC Genoa 9004),false,,false,,2026-10-28,api,https://advinservers.com/vps
+advin-standard-1,advinservers,Advin Servers,KVM Standard 1,8,,,4,8,64,NVMe,2,,,vCPU (AMD EPYC Milan 7003),false,,false,,2026-10-28,api,https://advinservers.com/vps
+advin-standard-2,advinservers,Advin Servers,KVM Standard 2,16,,,8,16,128,NVMe,4,,,vCPU (AMD EPYC Milan 7003),false,,false,,2026-10-28,api,https://advinservers.com/vps
 advin-ryzen-2,advinservers,Advin Servers,KVM Ryzen 2,16,,,2,8,256,NVMe,4,,,vCPU (AMD Ryzen 9950X),false,,false,,2026-10-28,api,https://advinservers.com/vps
 alwyzon-xs,alwyzon,Alwyzon,Virtual Server XS (G3),5.01,4.49,,2,2,40,NVMe,20,,,"vCore (AMD EPYC 7543P, 2.8+ GHz)",true,,false,,2026-10-28,page,https://www.alwyzon.com/en/virtual-servers
 alwyzon-s,alwyzon,Alwyzon,Virtual Server S (G3),8.69,7.79,,3,4,80,NVMe,20,,,"vCore (AMD EPYC 7543P, 2.8+ GHz)",true,,false,,2026-10-28,page,https://www.alwyzon.com/en/virtual-servers
@@ -200,9 +202,9 @@ crowncloud-ssd-1,crowncloud,CrownCloud,KVM SSD 1,5,,,1,1,25,SSD (hardware RAID),
 crowncloud-ssd-2,crowncloud,CrownCloud,KVM SSD 2,10,,,2,2,50,SSD (hardware RAID),1,,,"vCore (Intel Xeon E5, fair share)",false,,false,,2026-10-28,page,https://crowncloud.net/vps/ssd-plans
 crowncloud-ssd-4,crowncloud,CrownCloud,KVM SSD 4,20,,,4,4,100,SSD (hardware RAID),2,,,"vCore (Intel Xeon E5, fair share)",false,,false,,2026-10-28,page,https://crowncloud.net/vps/ssd-plans
 crowncloud-ryzen-2,crowncloud,CrownCloud,KVM Ryzen 2 (9950X),15,,,2,2,50,NVMe,2,,,"vCore (AMD Ryzen 9 9950X, fair share)",false,,false,,2026-10-28,page,https://crowncloud.net/vps/amd-ryzen-plans
-hostus-kvm-1,hostus,HostUS,KVM-1,6.95,,,2,1,40,SSD,1,,,"vCPU core (Intel Xeon or AMD Ryzen, shared)",false,,false,,2026-10-27,page,https://my.hostus.us/store/ssd-kvm-vps
-hostus-kvm-2,hostus,HostUS,KVM-2,10.95,,,2,2,60,SSD,2,,,"vCPU core (Intel Xeon or AMD Ryzen, shared)",false,,false,,2026-10-27,page,https://my.hostus.us/store/ssd-kvm-vps
-hostus-kvm-4,hostus,HostUS,KVM-4,22.95,,,4,4,90,SSD,4,,,"vCPU core (Intel Xeon or AMD Ryzen, shared)",false,,false,,2026-10-27,page,https://my.hostus.us/store/ssd-kvm-vps
+hostus-kvm-1,hostus,HostUS,KVM-1,6.95,,,2,1,40,SSD,1,,,"vCPU core (Intel Xeon or AMD Ryzen, shared)",false,,false,,2026-10-28,page,https://my.hostus.us/store/ssd-kvm-vps
+hostus-kvm-2,hostus,HostUS,KVM-2,10.95,,,2,2,60,SSD,2,,,"vCPU core (Intel Xeon or AMD Ryzen, shared)",false,,false,,2026-10-28,page,https://my.hostus.us/store/ssd-kvm-vps
+hostus-kvm-4,hostus,HostUS,KVM-4,22.95,,,4,4,90,SSD,4,,,"vCPU core (Intel Xeon or AMD Ryzen, shared)",false,,false,,2026-10-28,page,https://my.hostus.us/store/ssd-kvm-vps
 virtono-1g,virtono,Virtono,Cloud VPS KVM 1G,5.02,4.5,,1,1,30,SSD,1,,,vCPU (model not stated),true,,false,,2026-10-28,page,https://virtono.com/cloud-vps
 virtono-2g,virtono,Virtono,Cloud VPS KVM 2G,11.09,9.95,,1,2,50,SSD,2,,,vCPU (model not stated),true,,false,,2026-10-28,page,https://virtono.com/cloud-vps
 virtono-4g,virtono,Virtono,Cloud VPS KVM 4G,23.36,20.95,,2,4,80,SSD,3,,,vCPU (model not stated),true,,false,,2026-10-28,page,https://virtono.com/cloud-vps
