@@ -87,5 +87,41 @@
     "oldUsd": 8.99,
     "newUsd": 8.79,
     "source": "https://www.hostinger.com/vps-hosting"
+  },
+  {
+    "date": "2026-10-29",
+    "provider": "hostingcom",
+    "planId": "hostingcom-4",
+    "planName": "Self Managed Linux 4GB",
+    "oldUsd": 19,
+    "newUsd": 17.99,
+    "source": "https://hosting.com/hosting/vps-hosting/unmanaged/linux/"
+  },
+  {
+    "date": "2026-10-29",
+    "provider": "hostingcom",
+    "planId": "hostingcom-8",
+    "planName": "Self Managed Linux 8GB",
+    "oldUsd": 29,
+    "newUsd": 24.99,
+    "source": "https://hosting.com/hosting/vps-hosting/unmanaged/linux/"
+  },
+  {
+    "date": "2026-10-29",
+    "provider": "hostingcom",
+    "planId": "hostingcom-16",
+    "planName": "Self Managed Linux 16GB",
+    "oldUsd": 49,
+    "newUsd": 44.99,
+    "source": "https://hosting.com/hosting/vps-hosting/unmanaged/linux/"
+  },
+  {
+    "date": "2026-10-29",
+    "provider": "hostingcom",
+    "planId": "hostingcom-32",
+    "planName": "Self Managed Linux 32GB",
+    "oldUsd": 99,
+    "newUsd": 84.99,
+    "source": "https://hosting.com/hosting/vps-hosting/unmanaged/linux/"
   }
 ]
