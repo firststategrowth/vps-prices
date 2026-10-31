@@ -27,11 +27,6 @@ linode-4,akamai-linode,Akamai Cloud (Linode),Linode 4GB,24,,,2,4,80,SSD,4,,,Shar
 linode-8,akamai-linode,Akamai Cloud (Linode),Linode 8GB,48,,,4,8,160,SSD,5,,,Shared vCPU,false,,false,,2026-10-31,api,https://api.linode.com/v4/linode/types
 linode-16,akamai-linode,Akamai Cloud (Linode),Linode 16GB,96,,,6,16,320,SSD,8,,,Shared vCPU,false,,false,,2026-10-31,api,https://api.linode.com/v4/linode/types
 linode-32,akamai-linode,Akamai Cloud (Linode),Linode 32GB,192,,,8,32,640,SSD,16,,,Shared vCPU,false,,false,,2026-10-31,api,https://api.linode.com/v4/linode/types
-cw-do-1,cloudways,Cloudways,DO 1GB (managed),14,,,1,1,25,NVMe,1,,,Shared vCPU,false,,false,,2026-10-11,manual,https://www.cloudways.com/en/pricing.php
-cw-do-2,cloudways,Cloudways,DO 2GB (managed),28,,,1,2,50,NVMe,2,,,Shared vCPU,false,,false,,2026-10-11,manual,https://www.cloudways.com/en/pricing.php
-cw-do-4,cloudways,Cloudways,DO 4GB (managed),54,,,2,4,80,NVMe,4,,,Shared vCPU,false,,false,,2026-10-11,manual,https://www.cloudways.com/en/pricing.php
-cw-do-8,cloudways,Cloudways,DO 8GB (managed),99,,,4,8,160,NVMe,5,,,Shared vCPU,false,,false,,2026-10-11,manual,https://www.cloudways.com/en/pricing.php
-cw-vultr-hf-2,cloudways,Cloudways,Vultr HF 2GB (managed),30,,,1,2,64,NVMe,2,,,High-clock shared vCPU,false,,false,,2026-10-11,manual,https://www.cloudways.com/en/pricing.php
 lightsail-05,aws-lightsail,AWS Lightsail,General 512MB,5,,,2,0.5,20,SSD,1,,,Shared vCPU,false,,false,,2026-10-31,api,https://aws.amazon.com/lightsail/pricing/
 lightsail-1,aws-lightsail,AWS Lightsail,General 1GB,7,,,2,1,40,SSD,2,,,Shared vCPU,false,,false,,2026-10-31,api,https://aws.amazon.com/lightsail/pricing/
 lightsail-2,aws-lightsail,AWS Lightsail,General 2GB,12,,,2,2,60,SSD,3,,,Shared vCPU,false,,false,,2026-10-31,api,https://aws.amazon.com/lightsail/pricing/
