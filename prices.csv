@@ -51,11 +51,11 @@ ovh-vps-1,ovhcloud,OVHcloud,VPS-1,5.35,,,2,4,40,NVMe,,,,Shared vCPU,false,,false
 ovh-vps-2,ovhcloud,OVHcloud,VPS-2,10,,,4,8,75,NVMe,,,,Shared vCPU,false,,false,,2026-11-01,api,https://us.ovhcloud.com/vps/
 ovh-vps-3,ovhcloud,OVHcloud,VPS-3,14.5,,,6,12,100,NVMe,,,,Shared vCPU,false,,false,,2026-11-01,api,https://us.ovhcloud.com/vps/
 ovh-vps-4,ovhcloud,OVHcloud,VPS-4,27.5,,,8,24,200,NVMe,,,,Shared vCPU,false,,false,,2026-11-01,api,https://us.ovhcloud.com/vps/
-upcloud-starter-1,upcloud,UpCloud,Starter 1GB,3.5,,,1,1,10,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-10-31,page,https://calc.upcloud.com/cloud-servers?currency=USD
-upcloud-starter-2,upcloud,UpCloud,Starter 2GB,7,,,1,2,20,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-10-31,page,https://calc.upcloud.com/cloud-servers?currency=USD
-upcloud-starter-4,upcloud,UpCloud,Starter 4GB / 2 vCPU,14,,,2,4,30,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-10-31,page,https://calc.upcloud.com/cloud-servers?currency=USD
-upcloud-starter-8,upcloud,UpCloud,Starter 8GB / 2 vCPU,20,,,2,8,40,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-10-31,page,https://calc.upcloud.com/cloud-servers?currency=USD
-upcloud-starter-8-4,upcloud,UpCloud,Starter 8GB / 4 vCPU,24,,,4,8,40,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-10-31,page,https://calc.upcloud.com/cloud-servers?currency=USD
+upcloud-starter-1,upcloud,UpCloud,Starter 1GB,3.5,,,1,1,10,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-11-01,page,https://calc.upcloud.com/cloud-servers?currency=USD
+upcloud-starter-2,upcloud,UpCloud,Starter 2GB,7,,,1,2,20,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-11-01,page,https://calc.upcloud.com/cloud-servers?currency=USD
+upcloud-starter-4,upcloud,UpCloud,Starter 4GB / 2 vCPU,14,,,2,4,30,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-11-01,page,https://calc.upcloud.com/cloud-servers?currency=USD
+upcloud-starter-8,upcloud,UpCloud,Starter 8GB / 2 vCPU,20,,,2,8,40,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-11-01,page,https://calc.upcloud.com/cloud-servers?currency=USD
+upcloud-starter-8-4,upcloud,UpCloud,Starter 8GB / 4 vCPU,24,,,4,8,40,SSD,,,,Shared vCPU (previous-gen AMD),true,,false,,2026-11-01,page,https://calc.upcloud.com/cloud-servers?currency=USD
 contabo-vps-4,contabo,Contabo,Cloud VPS 4,6.6,,,4,8,100,SSD,,,,Shared vCPU,true,,false,1,2026-11-01,page,https://contabo.com/en/vps/cloud-vps-core-4/
 contabo-vps-6,contabo,Contabo,Cloud VPS 6,9,,,6,12,200,SSD,,,,Shared vCPU,true,,false,1,2026-11-01,page,https://contabo.com/en/vps/cloud-vps-core-6/
 contabo-vps-8,contabo,Contabo,Cloud VPS 8,16.8,,,8,24,300,SSD,,,,Shared vCPU,true,,false,1,2026-11-01,page,https://contabo.com/en/vps/cloud-vps-core-8/
@@ -165,7 +165,6 @@ hostodo-16,hostodo,Hostodo,EPYC-16G6C192GN,20,,,6,16,192,NVMe,8,,,vCPU (AMD EPYC
 hostodo-32,hostodo,Hostodo,EPYC-32G8C288GN,36,,,8,32,300,NVMe,12,,,vCPU (AMD EPYC 7742),false,,false,,2026-11-01,page,https://hostodo.com/pricing
 advin-premium-1,advinservers,Advin Servers,KVM Premium 1,6,,,2,4,64,NVMe,2,,,vCPU (AMD EPYC Genoa 9004),false,,false,,2026-11-01,api,https://advinservers.com/vps
 advin-standard-1,advinservers,Advin Servers,KVM Standard 1,8,,,4,8,64,NVMe,2,,,vCPU (AMD EPYC Milan 7003),false,,false,,2026-11-01,api,https://advinservers.com/vps
-advin-standard-2,advinservers,Advin Servers,KVM Standard 2,16,,,8,16,128,NVMe,4,,,vCPU (AMD EPYC Milan 7003),false,,false,,2026-11-01,api,https://advinservers.com/vps
 advin-ryzen-2,advinservers,Advin Servers,KVM Ryzen 2,16,,,2,8,256,NVMe,4,,,vCPU (AMD Ryzen 9950X),false,,false,,2026-11-01,api,https://advinservers.com/vps
 alwyzon-xs,alwyzon,Alwyzon,Virtual Server XS (G3),5.02,4.49,,2,2,40,NVMe,20,,,"vCore (AMD EPYC 7543P, 2.8+ GHz)",true,,false,,2026-11-01,page,https://www.alwyzon.com/en/virtual-servers
 alwyzon-s,alwyzon,Alwyzon,Virtual Server S (G3),8.7,7.79,,3,4,80,NVMe,20,,,"vCore (AMD EPYC 7543P, 2.8+ GHz)",true,,false,,2026-11-01,page,https://www.alwyzon.com/en/virtual-servers
@@ -209,16 +208,16 @@ crowncloud-ryzen-2,crowncloud,CrownCloud,KVM Ryzen 2 (9950X),15,,,2,2,50,NVMe,2,
 hostus-kvm-1,hostus,HostUS,KVM-1,6.95,,,2,1,40,SSD,1,,,"vCPU core (Intel Xeon or AMD Ryzen, shared)",false,,false,,2026-11-01,page,https://my.hostus.us/store/ssd-kvm-vps
 hostus-kvm-2,hostus,HostUS,KVM-2,10.95,,,2,2,60,SSD,2,,,"vCPU core (Intel Xeon or AMD Ryzen, shared)",false,,false,,2026-11-01,page,https://my.hostus.us/store/ssd-kvm-vps
 hostus-kvm-4,hostus,HostUS,KVM-4,22.95,,,4,4,90,SSD,4,,,"vCPU core (Intel Xeon or AMD Ryzen, shared)",false,,false,,2026-11-01,page,https://my.hostus.us/store/ssd-kvm-vps
-virtono-1g,virtono,Virtono,Cloud VPS KVM 1G,5.03,4.5,,1,1,30,SSD,1,,,vCPU (model not stated),true,,false,,2026-10-31,page,https://virtono.com/cloud-vps
-virtono-2g,virtono,Virtono,Cloud VPS KVM 2G,11.12,9.95,,1,2,50,SSD,2,,,vCPU (model not stated),true,,false,,2026-10-31,page,https://virtono.com/cloud-vps
-virtono-4g,virtono,Virtono,Cloud VPS KVM 4G,23.41,20.95,,2,4,80,SSD,3,,,vCPU (model not stated),true,,false,,2026-10-31,page,https://virtono.com/cloud-vps
-virtono-8g,virtono,Virtono,Cloud VPS KVM 8G,47.98,42.95,,4,8,160,SSD,5,,,vCPU (model not stated),true,,false,,2026-10-31,page,https://virtono.com/cloud-vps
+virtono-1g,virtono,Virtono,Cloud VPS KVM 1G,5.03,4.5,,1,1,30,SSD,1,,,vCPU (model not stated),true,,false,,2026-11-01,page,https://virtono.com/cloud-vps
+virtono-2g,virtono,Virtono,Cloud VPS KVM 2G,11.12,9.95,,1,2,50,SSD,2,,,vCPU (model not stated),true,,false,,2026-11-01,page,https://virtono.com/cloud-vps
+virtono-4g,virtono,Virtono,Cloud VPS KVM 4G,23.41,20.95,,2,4,80,SSD,3,,,vCPU (model not stated),true,,false,,2026-11-01,page,https://virtono.com/cloud-vps
+virtono-8g,virtono,Virtono,Cloud VPS KVM 8G,47.98,42.95,,4,8,160,SSD,5,,,vCPU (model not stated),true,,false,,2026-11-01,page,https://virtono.com/cloud-vps
 phoenixnap-s0-d1-small,phoenixnap,phoenixNAP,s0.d1.small,50.87,,,8,16,480,SSD (2 x 240 GB),15,,,"Intel Xeon E3-1240 v3 (4 dedicated cores, 8 threads)",false,5.11,false,,2026-11-01,page,https://phoenixnap.com/bare-metal-cloud/instances
 phoenixnap-s0-d1-medium,phoenixnap,phoenixNAP,s0.d1.medium,63.87,,,8,32,480,SSD (1 x 480 GB),15,,,"Intel Xeon E3-1270 v3 (4 dedicated cores, 8 threads)",false,5.11,false,,2026-11-01,page,https://phoenixnap.com/bare-metal-cloud/instances
 phoenixnap-s1-c1-small,phoenixnap,phoenixNAP,s1.c1.small,88.87,,,12,64,1000,NVMe (1 x 1 TB),15,,,"Intel Xeon E-2276G (6 dedicated cores, 12 threads)",false,5.11,false,,2026-11-01,page,https://phoenixnap.com/bare-metal-cloud/instances
 phoenixnap-s1-c1-medium,phoenixnap,phoenixNAP,s1.c1.medium,147.87,,,12,128,2000,NVMe (2 x 1 TB),15,,,"Intel Xeon E-2276G (6 dedicated cores, 12 threads)",false,5.11,false,,2026-11-01,page,https://phoenixnap.com/bare-metal-cloud/instances
-latitudesh-m4-small,latitudesh,Latitude.sh,m4.metal.small,296,,,12,48,1920,NVMe (2 x 960 GB),20,,,"AMD EPYC 4244P (6 dedicated cores, 12 threads)",false,,false,,2026-10-31,page,https://www.latitude.sh/pricing
-latitudesh-f4-small,latitudesh,Latitude.sh,f4.metal.small,398,,,24,96,1920,NVMe (2 x 960 GB),20,,,"AMD EPYC 4484PX (12 dedicated cores, 24 threads)",false,,false,,2026-10-31,page,https://www.latitude.sh/pricing
+latitudesh-m4-small,latitudesh,Latitude.sh,m4.metal.small,296,,,12,48,1920,NVMe (2 x 960 GB),20,,,"AMD EPYC 4244P (6 dedicated cores, 12 threads)",false,,false,,2026-11-01,page,https://www.latitude.sh/pricing
+latitudesh-f4-small,latitudesh,Latitude.sh,f4.metal.small,398,,,24,96,1920,NVMe (2 x 960 GB),20,,,"AMD EPYC 4484PX (12 dedicated cores, 24 threads)",false,,false,,2026-11-01,page,https://www.latitude.sh/pricing
 mythicbeasts-vps-1,mythicbeasts,Mythic Beasts,VPS 1,6.57,,4.9,1,1,5,"SSD (enterprise, mirrored RAID)",0.5,,,Shared vCPU cores,true,2.68,false,,2026-11-01,page,https://www.mythic-beasts.com/order/vps
 mythicbeasts-vps-2,mythicbeasts,Mythic Beasts,VPS 2,10.45,,7.8,1,2,10,"SSD (enterprise, mirrored RAID)",1,,,Shared vCPU cores,true,2.68,false,,2026-11-01,page,https://www.mythic-beasts.com/order/vps
 mythicbeasts-vps-4,mythicbeasts,Mythic Beasts,VPS 4,20.23,,15.1,2,4,20,"SSD (enterprise, mirrored RAID)",2,,,Shared vCPU cores,true,2.68,false,,2026-11-01,page,https://www.mythic-beasts.com/order/vps

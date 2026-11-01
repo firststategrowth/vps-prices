@@ -2,7 +2,7 @@
   "name": "StackRates hosting price index",
   "license": "CC BY 4.0",
   "attribution": "StackRates (https://stackrates.ai/data/)",
-  "generated_at": "2026-11-01T03:14:48.727Z",
+  "generated_at": "2026-11-01T11:37:22.766Z",
   "last_manual_capture": "2026-10-05",
   "note": "Each row carries the date and method its price was read. Prices are provider list prices in USD per month; a provider that bills in euros has its euro price in billed_eur, one that bills in pounds its pound price in billed_gbp, converted at the ECB rate in fx (usdPerGbp is the ECB cross rate). Confirm at source_url before buying. Only plans that can be ordered today: plans the provider shows as sold out, and automatic prices not re-read for 7 days, are left out.",
   "fx": {
@@ -1280,7 +1280,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-31",
+      "checked_at": "2026-11-01",
       "price_source": "page",
       "source_url": "https://calc.upcloud.com/cloud-servers?currency=USD"
     },
@@ -1304,7 +1304,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-31",
+      "checked_at": "2026-11-01",
       "price_source": "page",
       "source_url": "https://calc.upcloud.com/cloud-servers?currency=USD"
     },
@@ -1328,7 +1328,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-31",
+      "checked_at": "2026-11-01",
       "price_source": "page",
       "source_url": "https://calc.upcloud.com/cloud-servers?currency=USD"
     },
@@ -1352,7 +1352,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-31",
+      "checked_at": "2026-11-01",
       "price_source": "page",
       "source_url": "https://calc.upcloud.com/cloud-servers?currency=USD"
     },
@@ -1376,7 +1376,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-31",
+      "checked_at": "2026-11-01",
       "price_source": "page",
       "source_url": "https://calc.upcloud.com/cloud-servers?currency=USD"
     },
@@ -3997,30 +3997,6 @@
       "source_url": "https://advinservers.com/vps"
     },
     {
-      "id": "advin-standard-2",
-      "provider": "advinservers",
-      "provider_name": "Advin Servers",
-      "name": "KVM Standard 2",
-      "monthly_usd": 16,
-      "billed_eur": null,
-      "billed_gbp": null,
-      "vcpu": 8,
-      "ram_gb": 16,
-      "storage_gb": 128,
-      "storage_type": "NVMe",
-      "transfer_tb": 4,
-      "monthly_visits": null,
-      "site_limit": null,
-      "cpu_type": "vCPU (AMD EPYC Milan 7003)",
-      "excludes_vat": false,
-      "ipv4_extra_usd": null,
-      "ipv6_only": false,
-      "commitment_months": null,
-      "checked_at": "2026-11-01",
-      "price_source": "api",
-      "source_url": "https://advinservers.com/vps"
-    },
-    {
       "id": "advin-ryzen-2",
       "provider": "advinservers",
       "provider_name": "Advin Servers",
@@ -5072,7 +5048,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-31",
+      "checked_at": "2026-11-01",
       "price_source": "page",
       "source_url": "https://virtono.com/cloud-vps"
     },
@@ -5096,7 +5072,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-31",
+      "checked_at": "2026-11-01",
       "price_source": "page",
       "source_url": "https://virtono.com/cloud-vps"
     },
@@ -5120,7 +5096,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-31",
+      "checked_at": "2026-11-01",
       "price_source": "page",
       "source_url": "https://virtono.com/cloud-vps"
     },
@@ -5144,7 +5120,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-31",
+      "checked_at": "2026-11-01",
       "price_source": "page",
       "source_url": "https://virtono.com/cloud-vps"
     },
@@ -5264,7 +5240,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-31",
+      "checked_at": "2026-11-01",
       "price_source": "page",
       "source_url": "https://www.latitude.sh/pricing"
     },
@@ -5288,7 +5264,7 @@
       "ipv4_extra_usd": null,
       "ipv6_only": false,
       "commitment_months": null,
-      "checked_at": "2026-10-31",
+      "checked_at": "2026-11-01",
       "price_source": "page",
       "source_url": "https://www.latitude.sh/pricing"
     },
