@@ -2,7 +2,7 @@
   "name": "StackRates hosting price index",
   "license": "CC BY 4.0",
   "attribution": "StackRates (https://stackrates.ai/data/)",
-  "generated_at": "2026-11-04T03:31:51.601Z",
+  "generated_at": "2026-11-04T12:34:34.766Z",
   "last_manual_capture": "2026-10-05",
   "note": "Each row carries the date and method its price was read. Prices are provider list prices in USD per month; a provider that bills in euros has its euro price in billed_eur, one that bills in pounds its pound price in billed_gbp, converted at the ECB rate in fx (usdPerGbp is the ECB cross rate). Confirm at source_url before buying. Only plans that can be ordered today: plans the provider shows as sold out, and automatic prices not re-read for 7 days, are left out.",
   "fx": {
@@ -5383,7 +5383,7 @@
       "ipv6_only": false,
       "ipv4_not_stated_read_at": null,
       "commitment_months": null,
-      "checked_at": "2026-11-03",
+      "checked_at": "2026-11-04",
       "price_source": "page",
       "source_url": "https://phoenixnap.com/bare-metal-cloud/instances"
     },
@@ -5408,7 +5408,7 @@
       "ipv6_only": false,
       "ipv4_not_stated_read_at": null,
       "commitment_months": null,
-      "checked_at": "2026-11-03",
+      "checked_at": "2026-11-04",
       "price_source": "page",
       "source_url": "https://phoenixnap.com/bare-metal-cloud/instances"
     },
@@ -5433,7 +5433,7 @@
       "ipv6_only": false,
       "ipv4_not_stated_read_at": null,
       "commitment_months": null,
-      "checked_at": "2026-11-03",
+      "checked_at": "2026-11-04",
       "price_source": "page",
       "source_url": "https://phoenixnap.com/bare-metal-cloud/instances"
     },
@@ -5458,7 +5458,7 @@
       "ipv6_only": false,
       "ipv4_not_stated_read_at": null,
       "commitment_months": null,
-      "checked_at": "2026-11-03",
+      "checked_at": "2026-11-04",
       "price_source": "page",
       "source_url": "https://phoenixnap.com/bare-metal-cloud/instances"
     },

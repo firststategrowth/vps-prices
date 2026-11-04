@@ -2,17 +2,8 @@ cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
 type: dataset
 title: "StackRates hosting price index"
-abstract: "Daily list prices for VPS and cloud server plans, each read from the provider's own pricing page or price API, with read date and source link per row; separate columns for IPv4 fees, VAT basis and prepaid terms; a dated log of list-price changes; and a year-on-year comparison against Wayback Machine captures from around October 2025."
 authors:
   - name: "StackRates (First State Growth LLC)"
 license: CC-BY-4.0
 url: "https://stackrates.ai/data/"
-repository-code: "https://github.com/firststategrowth/vps-prices"
-keywords:
-  - VPS
-  - cloud computing
-  - hosting prices
-  - price index
-  - IPv4
-  - open data
 date-released: 2026-10-14
