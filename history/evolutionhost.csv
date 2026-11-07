@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-06
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-07
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-06,evolutionhost,evolution-business,Business VPS,4,4,80,1,44.66,40,EUR,0,https://evolution-host.com/vps-hosting.php,manual,https://stackrates.ai/hosting/evolutionhost/history/
 2026-11-06,evolutionhost,evolution-developer,Developer VPS,2,2,20,1,11.17,10,EUR,0,https://evolution-host.com/vps-hosting.php,manual,https://stackrates.ai/hosting/evolutionhost/history/
@@ -7,3 +7,10 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-06,evolutionhost,evolution-professional,Professional VPS,8,8,120,1,66.99,60,EUR,0,https://evolution-host.com/vps-hosting.php,manual,https://stackrates.ai/hosting/evolutionhost/history/
 2026-11-06,evolutionhost,evolution-starter,Starter VPS,1,1,20,1,5.58,5,EUR,0,https://evolution-host.com/vps-hosting.php,manual,https://stackrates.ai/hosting/evolutionhost/history/
 2026-11-06,evolutionhost,evolution-ultimate,Ultimate VPS,16,16,200,1,111.65,100,EUR,0,https://evolution-host.com/vps-hosting.php,manual,https://stackrates.ai/hosting/evolutionhost/history/
+2026-11-07,evolutionhost,evolution-business,Business VPS,4,4,80,1,44.66,40,EUR,0,https://evolution-host.com/vps-hosting.php,page,https://stackrates.ai/hosting/evolutionhost/history/
+2026-11-07,evolutionhost,evolution-developer,Developer VPS,2,2,20,1,11.17,10,EUR,0,https://evolution-host.com/vps-hosting.php,page,https://stackrates.ai/hosting/evolutionhost/history/
+2026-11-07,evolutionhost,evolution-enterprise,Enterprise VPS,12,12,160,1,89.32,80,EUR,0,https://evolution-host.com/vps-hosting.php,page,https://stackrates.ai/hosting/evolutionhost/history/
+2026-11-07,evolutionhost,evolution-production,Production VPS,3,3,60,1,22.33,20,EUR,0,https://evolution-host.com/vps-hosting.php,page,https://stackrates.ai/hosting/evolutionhost/history/
+2026-11-07,evolutionhost,evolution-professional,Professional VPS,8,8,120,1,66.99,60,EUR,0,https://evolution-host.com/vps-hosting.php,page,https://stackrates.ai/hosting/evolutionhost/history/
+2026-11-07,evolutionhost,evolution-starter,Starter VPS,1,1,20,1,5.58,5,EUR,0,https://evolution-host.com/vps-hosting.php,page,https://stackrates.ai/hosting/evolutionhost/history/
+2026-11-07,evolutionhost,evolution-ultimate,Ultimate VPS,16,16,200,1,111.65,100,EUR,0,https://evolution-host.com/vps-hosting.php,page,https://stackrates.ai/hosting/evolutionhost/history/

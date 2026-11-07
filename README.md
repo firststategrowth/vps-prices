@@ -36,11 +36,11 @@ The managed WordPress plans of Kinsta, Hosting.com, Liquid Web and KnownHost are
   regular monthly price of unmanaged VPS plans with 1, 4 and 8 GB of RAM, October 2026 to November 2026;
   `index/vps-price-index-plans.csv` lists every plan behind each month. The same files as https://stackrates.ai/vps-price-index/
 - `history/<provider>.csv`: every price read from 5 October 2026 to 7 November 2026, one row per plan per read day,
-  83 providers, 7,616 rows; columns, provenance and gaps in `history/README.md`
+  83 providers, 7,775 rows; columns, provenance and gaps in `history/README.md`
 - `cards/`: dataset cards for Hugging Face and Kaggle, rebuilt with the data
 
 ## Cite it
-StackRates VPS price index, Nov 2026: 4 GB median $14/mo over 80 plans (448 plans in the index), read 7 Nov 2026, stackrates.ai/vps-price-index/
+StackRates VPS price index, Nov 2026: 4 GB median $14/mo over 80 plans (441 plans in the index), read 7 Nov 2026, stackrates.ai/vps-price-index/
 
 APA and BibTeX: https://stackrates.ai/vps-price-index/#index-cite; this repository: StackRates (2026). VPS prices, read
 daily [Data set]. https://github.com/firststategrowth/vps-prices

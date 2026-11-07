@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-06
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-07
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-06,fdcservers,fdc-vps-h1,VPS H1,8,32,500,1,99.99,99.99,USD,0,https://fdcservers.net/product/unmetered-vps,manual,https://stackrates.ai/hosting/fdcservers/history/
 2026-11-06,fdcservers,fdc-vps-h2,VPS H2,12,64,1000,1,199.99,199.99,USD,0,https://fdcservers.net/product/unmetered-vps,manual,https://stackrates.ai/hosting/fdcservers/history/
@@ -8,3 +8,11 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-06,fdcservers,fdc-vps-r2,VPS R2,1,2,50,1,9.99,9.99,USD,0,https://fdcservers.net/product/unmetered-vps,manual,https://stackrates.ai/hosting/fdcservers/history/
 2026-11-06,fdcservers,fdc-vps-r3,VPS R3,2,4,100,1,24.99,24.99,USD,0,https://fdcservers.net/product/unmetered-vps,manual,https://stackrates.ai/hosting/fdcservers/history/
 2026-11-06,fdcservers,fdc-vps-r4,VPS R4,4,16,200,1,49.99,49.99,USD,0,https://fdcservers.net/product/unmetered-vps,manual,https://stackrates.ai/hosting/fdcservers/history/
+2026-11-07,fdcservers,fdc-vps-h1,VPS H1,8,32,500,1,99.99,99.99,USD,0,https://fdcservers.net/product/unmetered-vps,page,https://stackrates.ai/hosting/fdcservers/history/
+2026-11-07,fdcservers,fdc-vps-h2,VPS H2,12,64,1000,1,199.99,199.99,USD,0,https://fdcservers.net/product/unmetered-vps,page,https://stackrates.ai/hosting/fdcservers/history/
+2026-11-07,fdcservers,fdc-vps-h3,VPS H3,16,96,1000,1,399.99,399.99,USD,0,https://fdcservers.net/product/unmetered-vps,page,https://stackrates.ai/hosting/fdcservers/history/
+2026-11-07,fdcservers,fdc-vps-h4,VPS H4,24,128,2000,1,699.99,699.99,USD,0,https://fdcservers.net/product/unmetered-vps,page,https://stackrates.ai/hosting/fdcservers/history/
+2026-11-07,fdcservers,fdc-vps-r1,VPS R1,1,1,10,1,6.99,6.99,USD,0,https://fdcservers.net/product/unmetered-vps,page,https://stackrates.ai/hosting/fdcservers/history/
+2026-11-07,fdcservers,fdc-vps-r2,VPS R2,1,2,50,1,9.99,9.99,USD,0,https://fdcservers.net/product/unmetered-vps,page,https://stackrates.ai/hosting/fdcservers/history/
+2026-11-07,fdcservers,fdc-vps-r3,VPS R3,2,4,100,1,24.99,24.99,USD,0,https://fdcservers.net/product/unmetered-vps,page,https://stackrates.ai/hosting/fdcservers/history/
+2026-11-07,fdcservers,fdc-vps-r4,VPS R4,4,16,200,1,49.99,49.99,USD,0,https://fdcservers.net/product/unmetered-vps,page,https://stackrates.ai/hosting/fdcservers/history/

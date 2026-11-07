@@ -1,7 +1,7 @@
 # StackRates price history
 
 Every price StackRates read for every plan, one file per provider, from 2026-10-05 to 2026-11-07 (UTC read dates).
-7616 rows, 612 plans, 83 providers. Licence CC BY 4.0.
+7775 rows, 612 plans, 83 providers. Licence CC BY 4.0.
 Written by `app/frontend/scripts/data/build-history.mjs` from the dated record; method 1 (2026-11-06).
 
 Cite as: StackRates (2026). VPS price history, reads 2026-10-05 to 2026-11-07. https://stackrates.ai/data/history/
@@ -46,7 +46,7 @@ Prices are as the providers print them: most EU providers before VAT, US provide
 - A struck price at a provider that runs no sale (rule from 2026-11-07): where the provider's page shows a lower price beside a struck-through one with no months stated, and our Deals Desk finds no sale at that provider, price_usd_month and price_native are the price the page bills; the struck figure is not a reference price and is never a row's price. Until 2026-11-07 the run stored the struck figure, so those rows carry the billed figure as a reading-method correction, on every day the provider's page showed the struck figure beside it (from src/data/offer-log.json): Hivelocity pro.md.amd USD 20 to 15 from 2026-10-11, Database Mart Basic USD 12.99 to 9.74 and Professional USD 23.99 to 18.47 on 2026-11-04 to 2026-11-06, Advanced USD 43.99 to 30.79 from 2026-11-07. On the days outside those windows the page billed the higher figure itself, so Database Mart's moves on 2026-11-04 (cuts) and 2026-11-07 (rises for Basic and Professional, a cut for Advanced) are real price moves.
 - Plan facts (name, vCPU, RAM, disk, term, IPv4 fee) are the catalogue's on master at the end of the read day. What a plan is (IPv6 only, IPv4 not stated on the provider's pages) is today's catalogue's word for every day, so a later correction applies to the whole history.
 
-All rows by method: api 1728, manual 417, page 5471.
+All rows by method: api 1735, manual 417, page 5623.
 
 ## Coverage by provider
 
@@ -60,7 +60,7 @@ All rows by method: api 1728, manual 417, page 5471.
 | arubacloud | Aruba Cloud | 5 | 121 | 2026-10-14 | 2026-11-07 | 25 | 0 | page 121 |
 | atlanticnet | Atlantic.Net | 5 | 140 | 2026-10-11 | 2026-11-07 | 28 | 0 | page 140 |
 | aws-lightsail | AWS Lightsail | 11 | 338 | 2026-10-05 | 2026-11-07 | 34 | 0 | api 338 |
-| bandwagonhost | BandwagonHost | 4 | 4 | 2026-11-06 | 2026-11-06 | 1 | 0 | manual 4 |
+| bandwagonhost | BandwagonHost | 4 | 8 | 2026-11-06 | 2026-11-07 | 2 | 0 | manual 4, page 4 |
 | cherryservers | Cherry Servers | 4 | 112 | 2026-10-11 | 2026-11-07 | 28 | 0 | page 112 |
 | civo | Civo | 4 | 100 | 2026-10-14 | 2026-11-07 | 25 | 0 | page 100 |
 | cloudcone | CloudCone | 4 | 136 | 2026-10-05 | 2026-11-07 | 34 | 0 | page 136 |
@@ -72,26 +72,26 @@ All rows by method: api 1728, manual 417, page 5471.
 | dedirock | DediRock | 9 | 135 | 2026-10-14 | 2026-11-07 | 25 | 0 | manual 6, page 129 |
 | digitalocean | DigitalOcean | 7 | 203 | 2026-10-05 | 2026-11-07 | 29 | 5 | manual 7, page 196 |
 | dreamhost | DreamHost | 4 | 116 | 2026-10-10 | 2026-11-07 | 29 | 0 | manual 4, page 112 |
-| ethernetservers | Ethernet Servers | 5 | 5 | 2026-11-06 | 2026-11-06 | 1 | 0 | manual 5 |
-| evolutionhost | Evolution Host | 7 | 7 | 2026-11-06 | 2026-11-06 | 1 | 0 | manual 7 |
+| ethernetservers | Ethernet Servers | 5 | 10 | 2026-11-06 | 2026-11-07 | 2 | 0 | manual 5, page 5 |
+| evolutionhost | Evolution Host | 7 | 14 | 2026-11-06 | 2026-11-07 | 2 | 0 | manual 7, page 7 |
 | evoxt | Evoxt | 5 | 125 | 2026-10-14 | 2026-11-07 | 25 | 0 | page 125 |
 | exoscale | Exoscale | 5 | 108 | 2026-10-14 | 2026-11-07 | 25 | 0 | api 107, manual 1 |
-| extravm | ExtraVM | 14 | 14 | 2026-11-06 | 2026-11-06 | 1 | 0 | manual 14 |
-| fdcservers | FDC Servers | 8 | 8 | 2026-11-06 | 2026-11-06 | 1 | 0 | manual 8 |
-| glesys | GleSYS | 5 | 5 | 2026-11-06 | 2026-11-06 | 1 | 0 | manual 5 |
+| extravm | ExtraVM | 14 | 28 | 2026-11-06 | 2026-11-07 | 2 | 0 | manual 14, page 14 |
+| fdcservers | FDC Servers | 8 | 16 | 2026-11-06 | 2026-11-07 | 2 | 0 | manual 8, page 8 |
+| glesys | GleSYS | 5 | 10 | 2026-11-06 | 2026-11-07 | 2 | 0 | manual 5, page 5 |
 | greencloudvps | GreenCloudVPS | 5 | 145 | 2026-10-10 | 2026-11-07 | 29 | 0 | manual 5, page 140 |
-| heartinternet | Heart Internet | 5 | 5 | 2026-11-06 | 2026-11-06 | 1 | 0 | manual 5 |
+| heartinternet | Heart Internet | 5 | 10 | 2026-11-06 | 2026-11-07 | 2 | 0 | manual 5, page 5 |
 | hetzner | Hetzner | 10 | 284 | 2026-10-05 | 2026-11-07 | 29 | 5 | api 280, manual 4 |
 | hivelocity | Hivelocity | 4 | 112 | 2026-10-11 | 2026-11-07 | 28 | 0 | page 112 |
-| hostcolor | Host Color | 13 | 13 | 2026-11-06 | 2026-11-06 | 1 | 0 | manual 13 |
+| hostcolor | Host Color | 13 | 26 | 2026-11-06 | 2026-11-07 | 2 | 0 | manual 13, page 13 |
 | hosthatch | HostHatch | 5 | 145 | 2026-10-10 | 2026-11-07 | 29 | 0 | manual 5, page 140 |
 | hostingcom | Hosting.com | 8 | 116 | 2026-10-11 | 2026-11-07 | 28 | 0 | api 116 |
 | hostinger | Hostinger | 4 | 96 | 2026-10-10 | 2026-11-07 | 24 | 5 | manual 4, page 92 |
-| hostnoc | HostNoc | 7 | 7 | 2026-11-06 | 2026-11-06 | 1 | 0 | manual 7 |
+| hostnoc | HostNoc | 7 | 14 | 2026-11-06 | 2026-11-07 | 2 | 0 | api 7, manual 7 |
 | hostodo | Hostodo | 5 | 125 | 2026-10-14 | 2026-11-07 | 25 | 0 | page 125 |
 | hostus | HostUS | 3 | 75 | 2026-10-14 | 2026-11-07 | 25 | 0 | page 75 |
 | hostwinds | Hostwinds | 5 | 145 | 2026-10-10 | 2026-11-07 | 29 | 0 | manual 5, page 140 |
-| iniz | INIZ | 7 | 7 | 2026-11-06 | 2026-11-06 | 1 | 0 | manual 7 |
+| iniz | INIZ | 7 | 14 | 2026-11-06 | 2026-11-07 | 2 | 0 | manual 7, page 7 |
 | interserver | InterServer | 4 | 116 | 2026-10-05 | 2026-11-07 | 29 | 5 | page 116 |
 | ionos | IONOS | 5 | 30 | 2026-10-10 | 2026-10-15 | 6 | 0 | manual 5, page 25 |
 | kamatera | Kamatera | 3 | 87 | 2026-10-10 | 2026-11-07 | 29 | 0 | manual 3, page 84 |
@@ -99,37 +99,37 @@ All rows by method: api 1728, manual 417, page 5471.
 | kimsufi | Kimsufi (OVHcloud) | 4 | 100 | 2026-10-14 | 2026-11-07 | 25 | 0 | page 100 |
 | kinsta | Kinsta | 5 | 170 | 2026-10-05 | 2026-11-07 | 34 | 0 | page 170 |
 | knownhost | KnownHost | 18 | 18 | 2026-11-07 | 2026-11-07 | 1 | 0 | page 18 |
-| krystal | Krystal | 6 | 6 | 2026-11-06 | 2026-11-06 | 1 | 0 | manual 6 |
+| krystal | Krystal | 6 | 12 | 2026-11-06 | 2026-11-07 | 2 | 0 | manual 6, page 6 |
 | latitudesh | Latitude.sh | 3 | 65 | 2026-10-14 | 2026-11-07 | 25 | 0 | page 65 |
 | liquidweb | Liquid Web | 28 | 166 | 2026-10-11 | 2026-11-07 | 28 | 0 | page 166 |
 | liteserver | LiteServer | 4 | 100 | 2026-10-14 | 2026-11-07 | 25 | 0 | page 100 |
 | lunanode | LunaNode | 6 | 168 | 2026-10-11 | 2026-11-07 | 28 | 0 | page 168 |
-| luxvps | Luxvps | 24 | 24 | 2026-11-06 | 2026-11-06 | 1 | 0 | manual 24 |
+| luxvps | Luxvps | 24 | 48 | 2026-11-06 | 2026-11-07 | 2 | 0 | manual 24, page 24 |
 | mythicbeasts | Mythic Beasts | 4 | 100 | 2026-10-14 | 2026-11-07 | 25 | 0 | page 100 |
-| namescouk | names.co.uk | 4 | 4 | 2026-11-06 | 2026-11-06 | 1 | 0 | manual 4 |
+| namescouk | names.co.uk | 4 | 8 | 2026-11-06 | 2026-11-07 | 2 | 0 | manual 4, page 4 |
 | netart | NetArt | 5 | 20 | 2026-11-04 | 2026-11-07 | 4 | 0 | page 20 |
 | netcup | netcup | 11 | 144 | 2026-10-11 | 2026-11-07 | 27 | 1 | manual 12, page 132 |
 | nocix | NOCIX | 29 | 29 | 2026-11-06 | 2026-11-06 | 1 | 0 | manual 29 |
 | ovhcloud | OVHcloud | 4 | 136 | 2026-10-05 | 2026-11-07 | 34 | 0 | api 136 |
 | phoenixnap | phoenixNAP | 4 | 96 | 2026-10-14 | 2026-11-07 | 24 | 1 | page 96 |
-| prohosting24 | ProHosting24 | 6 | 6 | 2026-11-06 | 2026-11-06 | 1 | 0 | manual 6 |
+| prohosting24 | ProHosting24 | 6 | 12 | 2026-11-06 | 2026-11-07 | 2 | 0 | manual 6, page 6 |
 | racknerd | RackNerd | 9 | 146 | 2026-10-05 | 2026-11-07 | 34 | 0 | manual 5, page 141 |
 | ramnode | RamNode | 6 | 168 | 2026-10-11 | 2026-11-07 | 28 | 0 | page 168 |
 | scaleway | Scaleway | 5 | 140 | 2026-10-11 | 2026-11-07 | 28 | 0 | api 140 |
 | securedragon | Secure Dragon | 4 | 88 | 2026-10-15 | 2026-11-07 | 22 | 2 | page 88 |
 | servarica | ServaRica | 4 | 100 | 2026-10-14 | 2026-11-07 | 25 | 0 | page 100 |
-| softshellweb | SoftShellWeb | 7 | 7 | 2026-11-06 | 2026-11-06 | 1 | 0 | manual 7 |
-| spinservers | Spinservers | 9 | 9 | 2026-11-06 | 2026-11-06 | 1 | 0 | manual 9 |
-| tiernet | Tier.Net | 7 | 7 | 2026-11-06 | 2026-11-06 | 1 | 0 | manual 7 |
+| softshellweb | SoftShellWeb | 7 | 14 | 2026-11-06 | 2026-11-07 | 2 | 0 | manual 7, page 7 |
+| spinservers | Spinservers | 9 | 18 | 2026-11-06 | 2026-11-07 | 2 | 0 | manual 9, page 9 |
+| tiernet | Tier.Net | 7 | 14 | 2026-11-06 | 2026-11-07 | 2 | 0 | manual 7, page 7 |
 | time4vps | Time4VPS | 9 | 18 | 2026-10-29 | 2026-11-01 | 2 | 2 | manual 18 |
 | ukhost4u | UKHost4u | 6 | 30 | 2026-11-03 | 2026-11-07 | 5 | 0 | page 30 |
-| ultahost | Ultahost | 4 | 4 | 2026-11-06 | 2026-11-06 | 1 | 0 | manual 4 |
+| ultahost | Ultahost | 4 | 8 | 2026-11-06 | 2026-11-07 | 2 | 0 | manual 4, page 4 |
 | ultravps | UltraVPS | 4 | 92 | 2026-10-15 | 2026-11-07 | 23 | 1 | page 92 |
 | ultrawebhosting | Ultra Web Hosting | 1 | 5 | 2026-11-03 | 2026-11-07 | 5 | 0 | page 5 |
 | upcloud | UpCloud | 5 | 145 | 2026-10-05 | 2026-11-07 | 29 | 5 | manual 5, page 140 |
-| vexxhost | VEXXHOST | 8 | 8 | 2026-11-06 | 2026-11-06 | 1 | 0 | manual 8 |
+| vexxhost | VEXXHOST | 8 | 16 | 2026-11-06 | 2026-11-07 | 2 | 0 | manual 8, page 8 |
 | virtono | Virtono | 4 | 100 | 2026-10-14 | 2026-11-07 | 25 | 0 | page 100 |
-| vpsbg | VPSBG | 9 | 9 | 2026-11-06 | 2026-11-06 | 1 | 0 | manual 9 |
+| vpsbg | VPSBG | 9 | 18 | 2026-11-06 | 2026-11-07 | 2 | 0 | manual 9, page 9 |
 | vpsdime | VPSDime | 4 | 112 | 2026-10-11 | 2026-11-07 | 28 | 0 | page 112 |
 | vultr | Vultr | 9 | 294 | 2026-10-05 | 2026-11-07 | 34 | 0 | api 294 |
 | webdock | Webdock | 3 | 84 | 2026-10-11 | 2026-11-07 | 28 | 0 | page 84 |
@@ -142,7 +142,7 @@ All rows by method: api 1728, manual 417, page 5471.
 - Days with no api or page read (only hand reads, or none): none.
 - A plan that could not be read on a day has no row that day; its last good price is never copied forward here (the site's own daily snapshot, src/data/price-history.json, does carry it forward, and is not this file).
 - A move of more than 30% is held by the price run for review and is not a read until accepted.
-- Providers read by hand only have rows on the days they were read: AccuWebHosting (2026-11-06); AlphaVPS (2026-10-29, 2026-11-01, 2026-11-06); BandwagonHost (2026-11-06); Cloudways (2026-10-05, 2026-10-11, 2026-11-01); Ethernet Servers (2026-11-06); Evolution Host (2026-11-06); ExtraVM (2026-11-06); FDC Servers (2026-11-06); GleSYS (2026-11-06); Heart Internet (2026-11-06); Host Color (2026-11-06); HostNoc (2026-11-06); INIZ (2026-11-06); Krystal (2026-11-06); Luxvps (2026-11-06); names.co.uk (2026-11-06); NOCIX (2026-11-06); ProHosting24 (2026-11-06); SoftShellWeb (2026-11-06); Spinservers (2026-11-06); Tier.Net (2026-11-06); Time4VPS (2026-10-29, 2026-11-01); Ultahost (2026-11-06); VEXXHOST (2026-11-06); VPSBG (2026-11-06).
+- Providers read by hand only have rows on the days they were read: AccuWebHosting (2026-11-06); AlphaVPS (2026-10-29, 2026-11-01, 2026-11-06); Cloudways (2026-10-05, 2026-10-11, 2026-11-01); NOCIX (2026-11-06); Time4VPS (2026-10-29, 2026-11-01).
 - Days without a read between a provider's first and last read: CloudServer: 2026-11-04 to 2026-11-05; Contabo: 2026-10-06 to 2026-10-10; DigitalOcean: 2026-10-06 to 2026-10-10; Hetzner: 2026-10-06 to 2026-10-10; Hostinger: 2026-10-27 to 2026-10-31; InterServer: 2026-10-06 to 2026-10-10; KhanWebHost: 2026-10-30 to 2026-10-31; netcup: 2026-10-21; phoenixNAP: 2026-11-05; Secure Dragon: 2026-10-28 to 2026-10-29; UltraVPS: 2026-10-22; UpCloud: 2026-10-06 to 2026-10-10; WebHosting UK: 2026-11-04 to 2026-11-05.
 - Providers with no read on 2026-11-07: IONOS (last read 2026-10-15); WebHosting UK (last read 2026-11-06).
 - Plans with no rows in a provider's file before its first read date were not in the catalogue yet (providers were added from 2026-10-05 on).
@@ -220,7 +220,7 @@ Medians in USD per month, weighted by plan count (plan count in brackets), then 
 | Month | Plans | 1 GB | 4 GB | 8 GB | 1 GB, per provider | 4 GB, per provider | 8 GB, per provider | Change % | Up / down / same | Note |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---|---|
 | 2026-10 | 293 | 5.00 (37) | 14.00 (59) | 24.99 (51) | 5.00 (30) | 16.50 (46) | 28.69 (40) |  |  | first read 2026-10-05; first month: no earlier month to compare |
-| 2026-11 | 448 | 5.00 (46) | 14.00 (80) | 27.91 (71) | 5.01 (38) | 17.43 (62) | 31.99 (55) | 0.00 | 0 / 0 / 285 | month to date: reads up to 2026-11-07; change: 285 plans read in both 2026-10 and 2026-11 |
+| 2026-11 | 441 | 5.00 (45) | 14.00 (80) | 27.91 (71) | 5.02 (37) | 17.43 (62) | 31.99 (55) | 0.00 | 0 / 0 / 285 | month to date: reads up to 2026-11-07; change: 285 plans read in both 2026-10 and 2026-11 |
 
 ## Rebuild
 

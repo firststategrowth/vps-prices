@@ -118,18 +118,18 @@ configs:
 
 StackRates reads VPS and cloud server prices from each provider's own pricing page or price API every day and
 publishes every read. On 7 November 2026 the daily file has 582 orderable plans from 81 providers; the
-history holds 7,616 reads of 83 providers' plans over 34 read days, 5 October 2026 to 7 November 2026.
+history holds 7,775 reads of 83 providers' plans over 34 read days, 5 October 2026 to 7 November 2026.
 
-The newest index figure, as the site cites it: StackRates VPS price index, Nov 2026: 4 GB median $14/mo over 80 plans (448 plans in the index), read 7 Nov 2026, stackrates.ai/vps-price-index/
+The newest index figure, as the site cites it: StackRates VPS price index, Nov 2026: 4 GB median $14/mo over 80 plans (441 plans in the index), read 7 Nov 2026, stackrates.ai/vps-price-index/
 
 ## Files
 
 | Subset | File | Rows | What |
 |---|---|---:|---|
 | `prices` | `prices.csv` | 582 | today's orderable plans, read 7 November 2026 |
-| `price_history` | `history/<provider>.csv` | 7,616 | every price read, 5 October 2026 to 7 November 2026, one file per provider |
+| `price_history` | `history/<provider>.csv` | 7,775 | every price read, 5 October 2026 to 7 November 2026, one file per provider |
 | `price_index` | `index/vps-price-index.csv` | 2 | the monthly VPS price index: medians at 1, 4 and 8 GB of RAM |
-| `price_index_plans` | `index/vps-price-index-plans.csv` | 741 | every plan behind each month of the index |
+| `price_index_plans` | `index/vps-price-index-plans.csv` | 734 | every plan behind each month of the index |
 | `year_on_year` | `year-on-year.csv` | 128 | each plan against its October 2025 Wayback Machine capture |
 
 Every CSV opens with one line, `# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read <date>`, before
@@ -279,7 +279,7 @@ its header. Skip it: `pandas.read_csv(url, skiprows=1)`.
 ## Licence and citation
 CC BY 4.0: credit "StackRates (stackrates.ai)" with a link to https://stackrates.ai/data/.
 
-StackRates VPS price index, Nov 2026: 4 GB median $14/mo over 80 plans (448 plans in the index), read 7 Nov 2026, stackrates.ai/vps-price-index/
+StackRates VPS price index, Nov 2026: 4 GB median $14/mo over 80 plans (441 plans in the index), read 7 Nov 2026, stackrates.ai/vps-price-index/
 
 ```bibtex
 @misc{stackrates_vps_index_2026_11,
@@ -288,7 +288,7 @@ StackRates VPS price index, Nov 2026: 4 GB median $14/mo over 80 plans (448 plan
   year         = {2026},
   month        = {nov},
   howpublished = {\url{https://stackrates.ai/vps-price-index/}},
-  note         = {Data set, method 1, CC BY 4.0. 4 GB median \$14/mo over 80 plans (448 plans in the index); read 2026-11-07},
+  note         = {Data set, method 1, CC BY 4.0. 4 GB median \$14/mo over 80 plans (441 plans in the index); read 2026-11-07},
   urldate      = {2026-11-07}
 }
 ```

@@ -1,7 +1,12 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-06
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-07
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-06,glesys,glesys-kvm-1,KVM VPS 1 vCPU / 1 GB,1,1,20,1,14.21,12.73,EUR,0,https://glesys.com/pricing/,manual,https://stackrates.ai/hosting/glesys/history/
 2026-11-06,glesys,glesys-kvm-2,KVM VPS 2 vCPU / 2 GB,2,2,50,1,30.31,27.15,EUR,0,https://glesys.com/pricing/,manual,https://stackrates.ai/hosting/glesys/history/
 2026-11-06,glesys,glesys-kvm-4,KVM VPS 4 vCPU / 8 GB,4,8,100,1,86.28,77.28,EUR,0,https://glesys.com/pricing/,manual,https://stackrates.ai/hosting/glesys/history/
 2026-11-06,glesys,glesys-kvm-6,KVM VPS 6 vCPU / 20 GB,6,20,250,1,201.1,180.12,EUR,0,https://glesys.com/pricing/,manual,https://stackrates.ai/hosting/glesys/history/
 2026-11-06,glesys,glesys-kvm-8,KVM VPS 8 vCPU / 24 GB,8,24,300,1,243.54,218.13,EUR,0,https://glesys.com/pricing/,manual,https://stackrates.ai/hosting/glesys/history/
+2026-11-07,glesys,glesys-kvm-1,KVM VPS 1 vCPU / 1 GB,1,1,20,1,14.21,12.73,EUR,0,https://glesys.com/pricing/,page,https://stackrates.ai/hosting/glesys/history/
+2026-11-07,glesys,glesys-kvm-2,KVM VPS 2 vCPU / 2 GB,2,2,50,1,30.31,27.15,EUR,0,https://glesys.com/pricing/,page,https://stackrates.ai/hosting/glesys/history/
+2026-11-07,glesys,glesys-kvm-4,KVM VPS 4 vCPU / 8 GB,4,8,100,1,86.28,77.28,EUR,0,https://glesys.com/pricing/,page,https://stackrates.ai/hosting/glesys/history/
+2026-11-07,glesys,glesys-kvm-6,KVM VPS 6 vCPU / 20 GB,6,20,250,1,201.1,180.12,EUR,0,https://glesys.com/pricing/,page,https://stackrates.ai/hosting/glesys/history/
+2026-11-07,glesys,glesys-kvm-8,KVM VPS 8 vCPU / 24 GB,8,24,300,1,243.54,218.13,EUR,0,https://glesys.com/pricing/,page,https://stackrates.ai/hosting/glesys/history/

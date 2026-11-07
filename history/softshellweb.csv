@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-06
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-07
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-06,softshellweb,ssw-1,KVM-SSD-1GB,1,1,20,1,5,5,USD,0,https://softshellweb.com/vps-hosting,manual,https://stackrates.ai/hosting/softshellweb/history/
 2026-11-06,softshellweb,ssw-16,KVM-SSD-16GB,6,16,320,1,49,49,USD,0,https://softshellweb.com/vps-hosting,manual,https://stackrates.ai/hosting/softshellweb/history/
@@ -7,3 +7,10 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-06,softshellweb,ssw-4,KVM-SSD-4GB,2,4,80,1,14,14,USD,0,https://softshellweb.com/vps-hosting,manual,https://stackrates.ai/hosting/softshellweb/history/
 2026-11-06,softshellweb,ssw-6,KVM-SSD-6GB,3,6,160,1,21,21,USD,0,https://softshellweb.com/vps-hosting,manual,https://stackrates.ai/hosting/softshellweb/history/
 2026-11-06,softshellweb,ssw-8,KVM-SSD-8GB,4,8,240,1,29,29,USD,0,https://softshellweb.com/vps-hosting,manual,https://stackrates.ai/hosting/softshellweb/history/
+2026-11-07,softshellweb,ssw-1,KVM-SSD-1GB,1,1,20,1,5,5,USD,0,https://softshellweb.com/vps-hosting,page,https://stackrates.ai/hosting/softshellweb/history/
+2026-11-07,softshellweb,ssw-16,KVM-SSD-16GB,6,16,320,1,49,49,USD,0,https://softshellweb.com/vps-hosting,page,https://stackrates.ai/hosting/softshellweb/history/
+2026-11-07,softshellweb,ssw-2,KVM-SSD-2GB,1,2,40,1,7,7,USD,0,https://softshellweb.com/vps-hosting,page,https://stackrates.ai/hosting/softshellweb/history/
+2026-11-07,softshellweb,ssw-32,KVM-SSD-32GB,8,32,480,1,98,98,USD,0,https://softshellweb.com/vps-hosting,page,https://stackrates.ai/hosting/softshellweb/history/
+2026-11-07,softshellweb,ssw-4,KVM-SSD-4GB,2,4,80,1,14,14,USD,0,https://softshellweb.com/vps-hosting,page,https://stackrates.ai/hosting/softshellweb/history/
+2026-11-07,softshellweb,ssw-6,KVM-SSD-6GB,3,6,160,1,21,21,USD,0,https://softshellweb.com/vps-hosting,page,https://stackrates.ai/hosting/softshellweb/history/
+2026-11-07,softshellweb,ssw-8,KVM-SSD-8GB,4,8,240,1,29,29,USD,0,https://softshellweb.com/vps-hosting,page,https://stackrates.ai/hosting/softshellweb/history/

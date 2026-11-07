@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-06
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-07
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-06,prohosting24,ph24-l,Server L,8,32,300,1,31.26,28,EUR,0,https://prohosting24.de/vserver,manual,https://stackrates.ai/hosting/prohosting24/history/
 2026-11-06,prohosting24,ph24-m,Server M,4,16,200,1,15.63,14,EUR,0,https://prohosting24.de/vserver,manual,https://stackrates.ai/hosting/prohosting24/history/
@@ -6,3 +6,9 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-06,prohosting24,ph24-xl,Server XL,8,48,400,1,46.89,42,EUR,0,https://prohosting24.de/vserver,manual,https://stackrates.ai/hosting/prohosting24/history/
 2026-11-06,prohosting24,ph24-xs,Server XS,1,4,100,1,5.58,5,EUR,0,https://prohosting24.de/vserver,manual,https://stackrates.ai/hosting/prohosting24/history/
 2026-11-06,prohosting24,ph24-xxl,Server XXL,8,56,500,1,54.71,49,EUR,0,https://prohosting24.de/vserver,manual,https://stackrates.ai/hosting/prohosting24/history/
+2026-11-07,prohosting24,ph24-l,Server L,8,32,300,1,31.26,28,EUR,0,https://prohosting24.de/vserver,page,https://stackrates.ai/hosting/prohosting24/history/
+2026-11-07,prohosting24,ph24-m,Server M,4,16,200,1,15.63,14,EUR,0,https://prohosting24.de/vserver,page,https://stackrates.ai/hosting/prohosting24/history/
+2026-11-07,prohosting24,ph24-s,Server S,2,8,150,1,10.05,9,EUR,0,https://prohosting24.de/vserver,page,https://stackrates.ai/hosting/prohosting24/history/
+2026-11-07,prohosting24,ph24-xl,Server XL,8,48,400,1,46.89,42,EUR,0,https://prohosting24.de/vserver,page,https://stackrates.ai/hosting/prohosting24/history/
+2026-11-07,prohosting24,ph24-xs,Server XS,1,4,100,1,5.58,5,EUR,0,https://prohosting24.de/vserver,page,https://stackrates.ai/hosting/prohosting24/history/
+2026-11-07,prohosting24,ph24-xxl,Server XXL,8,56,500,1,54.71,49,EUR,0,https://prohosting24.de/vserver,page,https://stackrates.ai/hosting/prohosting24/history/
