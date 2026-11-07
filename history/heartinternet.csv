@@ -1,0 +1,7 @@
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-06
+read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
+2026-11-06,heartinternet,heart-advanced,VPS Advanced,4,8,200,1,40.14,29.99,GBP,,https://www.heartinternet.uk/vps,manual,https://stackrates.ai/hosting/heartinternet/history/
+2026-11-06,heartinternet,heart-elite,VPS Elite,8,16,300,1,80.3,59.99,GBP,,https://www.heartinternet.uk/vps,manual,https://stackrates.ai/hosting/heartinternet/history/
+2026-11-06,heartinternet,heart-lite,VPS Lite,1,2,75,1,12.03,8.99,GBP,,https://www.heartinternet.uk/vps,manual,https://stackrates.ai/hosting/heartinternet/history/
+2026-11-06,heartinternet,heart-plus,VPS Plus,2,4,100,1,20.06,14.99,GBP,,https://www.heartinternet.uk/vps,manual,https://stackrates.ai/hosting/heartinternet/history/
+2026-11-06,heartinternet,heart-premium,VPS Premium,6,12,250,1,53.53,39.99,GBP,,https://www.heartinternet.uk/vps,manual,https://stackrates.ai/hosting/heartinternet/history/

@@ -123,5 +123,55 @@
     "oldUsd": 99,
     "newUsd": 84.99,
     "source": "https://hosting.com/hosting/vps-hosting/unmanaged/linux/"
+  },
+  {
+    "date": "2026-11-04",
+    "provider": "databasemart",
+    "planId": "dbm-basic",
+    "planName": "Basic Linux VPS",
+    "oldUsd": 12.99,
+    "newUsd": 9.74,
+    "source": "https://www.databasemart.com/vps-hosting/linux",
+    "note": "The price the page bills; the figure it strikes through beside it is not a price (Database Mart runs no sale, Deals Desk). Logged on 7 Nov 2026 from the offer log, under the rule the daily run follows from that day."
+  },
+  {
+    "date": "2026-11-04",
+    "provider": "databasemart",
+    "planId": "dbm-pro",
+    "planName": "Professional Linux VPS",
+    "oldUsd": 23.99,
+    "newUsd": 18.47,
+    "source": "https://www.databasemart.com/vps-hosting/linux",
+    "note": "The price the page bills; the figure it strikes through beside it is not a price (Database Mart runs no sale, Deals Desk). Logged on 7 Nov 2026 from the offer log, under the rule the daily run follows from that day."
+  },
+  {
+    "date": "2026-11-07",
+    "provider": "databasemart",
+    "planId": "dbm-basic",
+    "planName": "Basic Linux VPS",
+    "oldUsd": 9.74,
+    "newUsd": 12.99,
+    "source": "https://www.databasemart.com/vps-hosting/linux",
+    "note": "The price the page bills; the figure it strikes through beside it is not a price (Database Mart runs no sale, Deals Desk). Logged on 7 Nov 2026 from the offer log, under the rule the daily run follows from that day."
+  },
+  {
+    "date": "2026-11-07",
+    "provider": "databasemart",
+    "planId": "dbm-pro",
+    "planName": "Professional Linux VPS",
+    "oldUsd": 18.47,
+    "newUsd": 23.99,
+    "source": "https://www.databasemart.com/vps-hosting/linux",
+    "note": "The price the page bills; the figure it strikes through beside it is not a price (Database Mart runs no sale, Deals Desk). Logged on 7 Nov 2026 from the offer log, under the rule the daily run follows from that day."
+  },
+  {
+    "date": "2026-11-07",
+    "provider": "databasemart",
+    "planId": "dbm-advanced",
+    "planName": "Advanced Linux VPS",
+    "oldUsd": 43.99,
+    "newUsd": 30.79,
+    "source": "https://www.databasemart.com/vps-hosting/linux",
+    "note": "The price the page bills; the figure it strikes through beside it is not a price (Database Mart runs no sale, Deals Desk). Logged on 7 Nov 2026 from the offer log, under the rule the daily run follows from that day."
   }
 ]

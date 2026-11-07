@@ -1,0 +1,14 @@
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-06
+read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
+2026-11-03,webhostinguk,whuk-h1,Hyperslice VPS H1,2,4,40,1,25.65,19.14,GBP,,https://www.webhosting.uk.com/vps,page,https://stackrates.ai/hosting/webhostinguk/history/
+2026-11-03,webhostinguk,whuk-h2,Hyperslice VPS H2,2,6,60,1,33.31,24.86,GBP,,https://www.webhosting.uk.com/vps,page,https://stackrates.ai/hosting/webhostinguk/history/
+2026-11-03,webhostinguk,whuk-h3,Hyperslice VPS H3,3,8,100,1,49.88,37.23,GBP,,https://www.webhosting.uk.com/vps,page,https://stackrates.ai/hosting/webhostinguk/history/
+2026-11-03,webhostinguk,whuk-h4,Hyperslice VPS H4,4,10,150,1,68.32,50.99,GBP,,https://www.webhosting.uk.com/vps,page,https://stackrates.ai/hosting/webhostinguk/history/
+2026-11-03,webhostinguk,whuk-h5,Hyperslice VPS H5,6,16,200,1,99.77,74.46,GBP,,https://www.webhosting.uk.com/vps,page,https://stackrates.ai/hosting/webhostinguk/history/
+2026-11-03,webhostinguk,whuk-h6,Hyperslice VPS H6,8,24,300,1,144.49,107.84,GBP,,https://www.webhosting.uk.com/vps,page,https://stackrates.ai/hosting/webhostinguk/history/
+2026-11-06,webhostinguk,whuk-h1,Hyperslice VPS H1,2,4,40,1,25.62,19.14,GBP,,https://www.webhosting.uk.com/vps,manual,https://stackrates.ai/hosting/webhostinguk/history/
+2026-11-06,webhostinguk,whuk-h2,Hyperslice VPS H2,2,6,60,1,33.28,24.86,GBP,,https://www.webhosting.uk.com/vps,manual,https://stackrates.ai/hosting/webhostinguk/history/
+2026-11-06,webhostinguk,whuk-h3,Hyperslice VPS H3,3,8,100,1,49.83,37.23,GBP,,https://www.webhosting.uk.com/vps,manual,https://stackrates.ai/hosting/webhostinguk/history/
+2026-11-06,webhostinguk,whuk-h4,Hyperslice VPS H4,4,10,150,1,68.25,50.99,GBP,,https://www.webhosting.uk.com/vps,manual,https://stackrates.ai/hosting/webhostinguk/history/
+2026-11-06,webhostinguk,whuk-h5,Hyperslice VPS H5,6,16,200,1,99.66,74.46,GBP,,https://www.webhosting.uk.com/vps,manual,https://stackrates.ai/hosting/webhostinguk/history/
+2026-11-06,webhostinguk,whuk-h6,Hyperslice VPS H6,8,24,300,1,144.34,107.84,GBP,,https://www.webhosting.uk.com/vps,manual,https://stackrates.ai/hosting/webhostinguk/history/

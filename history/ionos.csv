@@ -1,0 +1,32 @@
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-10-15
+read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
+2026-10-10,ionos,ionos-lplus,VPS L+,4,8,240,12,25,25,USD,0,https://www.ionos.com/servers/vps,manual,https://stackrates.ai/hosting/ionos/history/
+2026-10-10,ionos,ionos-mplus,VPS M+,2,4,120,12,14,14,USD,0,https://www.ionos.com/servers/vps,manual,https://stackrates.ai/hosting/ionos/history/
+2026-10-10,ionos,ionos-splus,VPS S+,1,2,60,12,6,6,USD,0,https://www.ionos.com/servers/vps,manual,https://stackrates.ai/hosting/ionos/history/
+2026-10-10,ionos,ionos-xlplus,VPS XL+,8,16,480,12,47,47,USD,0,https://www.ionos.com/servers/vps,manual,https://stackrates.ai/hosting/ionos/history/
+2026-10-10,ionos,ionos-xxlplus,VPS XXL+,12,24,720,12,68,68,USD,0,https://www.ionos.com/servers/vps,manual,https://stackrates.ai/hosting/ionos/history/
+2026-10-11,ionos,ionos-lplus,VPS L+,4,8,240,12,25,25,USD,0,https://www.ionos.com/servers/vps,page,https://stackrates.ai/hosting/ionos/history/
+2026-10-11,ionos,ionos-mplus,VPS M+,2,4,120,12,14,14,USD,0,https://www.ionos.com/servers/vps,page,https://stackrates.ai/hosting/ionos/history/
+2026-10-11,ionos,ionos-splus,VPS S+,1,2,60,12,6,6,USD,0,https://www.ionos.com/servers/vps,page,https://stackrates.ai/hosting/ionos/history/
+2026-10-11,ionos,ionos-xlplus,VPS XL+,8,16,480,12,47,47,USD,0,https://www.ionos.com/servers/vps,page,https://stackrates.ai/hosting/ionos/history/
+2026-10-11,ionos,ionos-xxlplus,VPS XXL+,12,24,720,12,68,68,USD,0,https://www.ionos.com/servers/vps,page,https://stackrates.ai/hosting/ionos/history/
+2026-10-12,ionos,ionos-lplus,VPS L+,4,8,240,12,25,25,USD,0,https://www.ionos.com/servers/vps,page,https://stackrates.ai/hosting/ionos/history/
+2026-10-12,ionos,ionos-mplus,VPS M+,2,4,120,12,14,14,USD,0,https://www.ionos.com/servers/vps,page,https://stackrates.ai/hosting/ionos/history/
+2026-10-12,ionos,ionos-splus,VPS S+,1,2,60,12,6,6,USD,0,https://www.ionos.com/servers/vps,page,https://stackrates.ai/hosting/ionos/history/
+2026-10-12,ionos,ionos-xlplus,VPS XL+,8,16,480,12,47,47,USD,0,https://www.ionos.com/servers/vps,page,https://stackrates.ai/hosting/ionos/history/
+2026-10-12,ionos,ionos-xxlplus,VPS XXL+,12,24,720,12,68,68,USD,0,https://www.ionos.com/servers/vps,page,https://stackrates.ai/hosting/ionos/history/
+2026-10-13,ionos,ionos-lplus,VPS L+,4,8,240,12,25,25,USD,0,https://www.ionos.com/servers/vps,page,https://stackrates.ai/hosting/ionos/history/
+2026-10-13,ionos,ionos-mplus,VPS M+,2,4,120,12,14,14,USD,0,https://www.ionos.com/servers/vps,page,https://stackrates.ai/hosting/ionos/history/
+2026-10-13,ionos,ionos-splus,VPS S+,1,2,60,12,6,6,USD,0,https://www.ionos.com/servers/vps,page,https://stackrates.ai/hosting/ionos/history/
+2026-10-13,ionos,ionos-xlplus,VPS XL+,8,16,480,12,47,47,USD,0,https://www.ionos.com/servers/vps,page,https://stackrates.ai/hosting/ionos/history/
+2026-10-13,ionos,ionos-xxlplus,VPS XXL+,12,24,720,12,68,68,USD,0,https://www.ionos.com/servers/vps,page,https://stackrates.ai/hosting/ionos/history/
+2026-10-14,ionos,ionos-lplus,VPS L+,4,8,240,12,25,25,USD,0,https://www.ionos.com/servers/vps,page,https://stackrates.ai/hosting/ionos/history/
+2026-10-14,ionos,ionos-mplus,VPS M+,2,4,120,12,14,14,USD,0,https://www.ionos.com/servers/vps,page,https://stackrates.ai/hosting/ionos/history/
+2026-10-14,ionos,ionos-splus,VPS S+,1,2,60,12,6,6,USD,0,https://www.ionos.com/servers/vps,page,https://stackrates.ai/hosting/ionos/history/
+2026-10-14,ionos,ionos-xlplus,VPS XL+,8,16,480,12,47,47,USD,0,https://www.ionos.com/servers/vps,page,https://stackrates.ai/hosting/ionos/history/
+2026-10-14,ionos,ionos-xxlplus,VPS XXL+,12,24,720,12,68,68,USD,0,https://www.ionos.com/servers/vps,page,https://stackrates.ai/hosting/ionos/history/
+2026-10-15,ionos,ionos-lplus,VPS L+,4,8,240,12,25,25,USD,0,https://www.ionos.com/servers/vps,page,https://stackrates.ai/hosting/ionos/history/
+2026-10-15,ionos,ionos-mplus,VPS M+,2,4,120,12,14,14,USD,0,https://www.ionos.com/servers/vps,page,https://stackrates.ai/hosting/ionos/history/
+2026-10-15,ionos,ionos-splus,VPS S+,1,2,60,12,6,6,USD,0,https://www.ionos.com/servers/vps,page,https://stackrates.ai/hosting/ionos/history/
+2026-10-15,ionos,ionos-xlplus,VPS XL+,8,16,480,12,47,47,USD,0,https://www.ionos.com/servers/vps,page,https://stackrates.ai/hosting/ionos/history/
+2026-10-15,ionos,ionos-xxlplus,VPS XXL+,12,24,720,12,68,68,USD,0,https://www.ionos.com/servers/vps,page,https://stackrates.ai/hosting/ionos/history/

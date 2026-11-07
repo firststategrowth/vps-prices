@@ -1,0 +1,20 @@
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-01
+read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
+2026-10-05,cloudways,cw-do-1,DO 1GB (managed),1,1,25,1,14,14,USD,0,https://www.cloudways.com/en/pricing.php,manual,https://stackrates.ai/hosting/cloudways/history/
+2026-10-05,cloudways,cw-do-2,DO 2GB (managed),1,2,50,1,28,28,USD,0,https://www.cloudways.com/en/pricing.php,manual,https://stackrates.ai/hosting/cloudways/history/
+2026-10-05,cloudways,cw-do-4,DO 4GB (managed),2,4,80,1,54,54,USD,0,https://www.cloudways.com/en/pricing.php,manual,https://stackrates.ai/hosting/cloudways/history/
+2026-10-05,cloudways,cw-vultr-hf-2,Vultr HF 2GB (managed),1,2,64,1,30,30,USD,0,https://www.cloudways.com/en/pricing.php,manual,https://stackrates.ai/hosting/cloudways/history/
+2026-10-11,cloudways,cw-do-1,DO 1GB (managed),1,1,25,1,14,14,USD,0,https://www.cloudways.com/en/pricing.php,manual,https://stackrates.ai/hosting/cloudways/history/
+2026-10-11,cloudways,cw-do-2,DO 2GB (managed),1,2,50,1,28,28,USD,0,https://www.cloudways.com/en/pricing.php,manual,https://stackrates.ai/hosting/cloudways/history/
+2026-10-11,cloudways,cw-do-4,DO 4GB (managed),2,4,80,1,54,54,USD,0,https://www.cloudways.com/en/pricing.php,manual,https://stackrates.ai/hosting/cloudways/history/
+2026-10-11,cloudways,cw-do-8,DO 8GB (managed),4,8,160,1,99,99,USD,0,https://www.cloudways.com/en/pricing.php,manual,https://stackrates.ai/hosting/cloudways/history/
+2026-10-11,cloudways,cw-vultr-hf-2,Vultr HF 2GB (managed),1,2,64,1,30,30,USD,0,https://www.cloudways.com/en/pricing.php,manual,https://stackrates.ai/hosting/cloudways/history/
+2026-11-01,cloudways,cw-do-1,DO Premium 1GB (managed),1,1,25,1,14,14,USD,0,https://www.cloudways.com/en/pricing.php,manual,https://stackrates.ai/hosting/cloudways/history/
+2026-11-01,cloudways,cw-do-2,DO Premium 2GB (managed),1,2,50,1,28,28,USD,0,https://www.cloudways.com/en/pricing.php,manual,https://stackrates.ai/hosting/cloudways/history/
+2026-11-01,cloudways,cw-do-4,DO Premium 4GB (managed),2,4,80,1,54,54,USD,0,https://www.cloudways.com/en/pricing.php,manual,https://stackrates.ai/hosting/cloudways/history/
+2026-11-01,cloudways,cw-do-8,DO Premium 8GB (managed),4,8,160,1,99,99,USD,0,https://www.cloudways.com/en/pricing.php,manual,https://stackrates.ai/hosting/cloudways/history/
+2026-11-01,cloudways,cw-do-std-1,DO Standard 1GB (managed),1,1,25,1,11,11,USD,0,https://www.cloudways.com/en/pricing.php,manual,https://stackrates.ai/hosting/cloudways/history/
+2026-11-01,cloudways,cw-do-std-2,DO Standard 2GB (managed),1,2,50,1,24,24,USD,0,https://www.cloudways.com/en/pricing.php,manual,https://stackrates.ai/hosting/cloudways/history/
+2026-11-01,cloudways,cw-do-std-4,DO Standard 4GB (managed),2,4,80,1,46,46,USD,0,https://www.cloudways.com/en/pricing.php,manual,https://stackrates.ai/hosting/cloudways/history/
+2026-11-01,cloudways,cw-do-std-8,DO Standard 8GB (managed),4,8,160,1,88,88,USD,0,https://www.cloudways.com/en/pricing.php,manual,https://stackrates.ai/hosting/cloudways/history/
+2026-11-01,cloudways,cw-vultr-hf-2,Vultr HF 2GB (managed),1,2,64,1,30,30,USD,0,https://www.cloudways.com/en/pricing.php,manual,https://stackrates.ai/hosting/cloudways/history/

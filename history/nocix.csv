@@ -1,0 +1,31 @@
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-06
+read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
+2026-11-06,nocix,nocix-179,I7-2600,8,16,1000,1,29,29,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-250,Intel Core 2 Duo,2,4,250,1,9,9,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-254,i5-750,4,16,500,1,25,25,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-261,AMD Legacy Quadcore,4,16,2120,1,22,22,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-272,Dual Xeon E5-2670 96GB 960GB SSD,32,96,960,1,64,64,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-280,Dual Xeon E5-2670 96GB 2x480GB SSD,32,96,960,1,64,64,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-286,AMD Legacy Sexcore,6,16,2120,1,25,25,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-318,i7-4790,8,16,500,1,39,39,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-327,Xeon E3-1270v2 480GB SSD + 4TB,8,16,4480,1,59,59,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-332,Dual Xeon 5150 120GB SSD + 1TB,4,16,1120,1,25,25,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-365,Dual Xeon 5420 240GB SSD + 2TB,8,24,2240,1,39,39,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-366,Dual Xeon E5-2696v3 128GB 2x4TB SSD,72,128,8000,1,209,209,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-369,Dual Xeon 5520 240GB SSD + 4TB,16,64,4240,1,54,54,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-370,Dual Xeon 5639 1TB SSD,24,64,1000,1,64,64,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-371,Dual Xeon 5650 1TB SSD + 3TB HDD,24,72,4000,1,69,69,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-372,Dual Xeon 5639 480GB SSD,24,32,480,1,39,39,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-374,Dual Opteron 6128 480GB SSD + 3TB HDD,16,32,3320,1,45,45,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-379,Dual Xeon E5-2660 64GB 2x500GB SSD,32,64,1000,1,59,59,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-381,Dual Xeon E5-2680v2 128GB 2x1TB SSD,40,128,2000,1,99,99,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-442,Dual Xeon E5-2660v2 64GB + 2x480GB SSD,40,64,960,1,69,69,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-457,Dual Xeon E5-2680v2 128GB + 120GB SSD + 1TB HDD,40,128,1120,1,79,79,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-463,Dual Xeon E5-2680v2 128GB + 240GB NVMe,40,128,240,1,84,84,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-475,Dual Xeon E5-2670v2 64GB + 240GB SSD + 2TB HDD,40,64,2240,1,69,69,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-478,Dual Xeon E5-2697v4 128GB + 120GB SSD + 2TB HDD,72,128,2120,1,159,159,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-484,Dual Xeon E5-2650L v4 64GB + 120GB SSD + 1TB HDD,56,64,1120,1,129,129,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-490,Dual Xeon E5-2680v2 64GB + 120GB SSD + 1TB HDD,40,64,1120,1,72,72,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-493,Dual Xeon E5-2680v2 64GB + 120GB SSD + 2TB HDD,40,64,2120,1,74,74,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-499,Dual Xeon E5-2697v4 128GB + 120GB SSD + 1TB HDD,72,128,1120,1,149,149,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/
+2026-11-06,nocix,nocix-502,Dual Xeon E5-2697v4 128GB + 240GB NVMe + 2TB HDD,72,128,2240,1,169,169,USD,0,https://www.nocix.net/dedicated/,manual,https://stackrates.ai/hosting/nocix/history/

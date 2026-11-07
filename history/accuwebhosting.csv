@@ -1,0 +1,6 @@
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-06
+read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
+2026-11-06,accuwebhosting,accuweb-edge,VPS Edge,1,4,50,1,15.99,15.99,USD,0,https://www.accuwebhosting.com/vps-hosting/linux,manual,https://stackrates.ai/hosting/accuwebhosting/history/
+2026-11-06,accuwebhosting,accuweb-peak,VPS Peak,2,8,100,1,31.99,31.99,USD,0,https://www.accuwebhosting.com/vps-hosting/linux,manual,https://stackrates.ai/hosting/accuwebhosting/history/
+2026-11-06,accuwebhosting,accuweb-power,VPS Power,3,16,200,1,63.99,63.99,USD,0,https://www.accuwebhosting.com/vps-hosting/linux,manual,https://stackrates.ai/hosting/accuwebhosting/history/
+2026-11-06,accuwebhosting,accuweb-supreme,VPS Supreme,4,32,400,1,127.99,127.99,USD,0,https://www.accuwebhosting.com/vps-hosting/linux,manual,https://stackrates.ai/hosting/accuwebhosting/history/

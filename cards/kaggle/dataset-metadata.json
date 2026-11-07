@@ -1,0 +1,536 @@
+{
+  "title": "StackRates VPS Prices and Price Index",
+  "subtitle": "Daily VPS list prices from 81 providers' own pages, with a monthly index",
+  "description": "StackRates reads VPS and cloud server prices from each provider's own pricing page or price API every day and\npublishes every read. On 7 November 2026 the daily file has 582 orderable plans from 81 providers; the\nhistory holds 7,616 reads of 83 providers' plans over 34 read days, 5 October 2026 to 7 November 2026.\n\nThe newest index figure, as the site cites it: StackRates VPS price index, Nov 2026: 4 GB median $14/mo over 80 plans (448 plans in the index), read 7 Nov 2026, stackrates.ai/vps-price-index/\n\n## Files\n\n| Subset | File | Rows | What |\n|---|---|---:|---|\n| `prices` | `prices.csv` | 582 | today's orderable plans, read 7 November 2026 |\n| `price_history` | `price-history.csv` (all providers in one file) | 7,616 | every price read, 5 October 2026 to 7 November 2026, one file per provider |\n| `price_index` | `index/vps-price-index.csv` | 2 | the monthly VPS price index: medians at 1, 4 and 8 GB of RAM |\n| `price_index_plans` | `index/vps-price-index-plans.csv` | 741 | every plan behind each month of the index |\n| `year_on_year` | `year-on-year.csv` | 128 | each plan against its October 2025 Wayback Machine capture |\n\nEvery CSV opens with one line, `# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read <date>`, before\nits header. Skip it: `pandas.read_csv(url, skiprows=1)`.\n\n## Provenance\n- Each daily row was read on `checked_at` from `source_url`, by the provider's public API, by our price run on its\n  pricing page, or by a team member (`price_source`); a history row says the same in `read_date` and `read_method`.\n- Prices are regular list prices as the provider prints them: introductory and sale prices are not used; most EU\n  providers print before VAT, US providers before sales tax. A public IPv4 address billed on top is its own column.\n- Euro and pound prices without the provider's own dollar price are converted at the European Central Bank reference\n  rate: the read day's in the history, the latest in `prices.csv` (given in `fx` in `prices.json`).\n- 54 history rows carry a figure corrected after the read; `history/revisions.csv` lists each with the figure as read.\n- Nothing before 5 October 2026 counts as a read. The year-on file compares Wayback Machine captures of the providers'\n  pages from around October 2025, one capture per row (`archived_page`, `archived_on`).\n- The index method (which plans count, which price, the weighting) is in `index/vps-price-index.json` and at\n  https://stackrates.ai/vps-price-index/\n\n## Limits\n- 81 providers in today's file (83 in the history), not the whole market: the ones StackRates\n  reads, listed in `history/README.md`.\n- The index's newest month runs to its last read day (`last_read`); its medians move when plans enter or leave, so\n  read `change_pct_vs_prev_month` (the same plans in both months) for price moves.\n- List prices, not what a customer paid after tax, coupons or renewal.\n\n## Schemas\n### `prices.csv`\n\n| Column | Type | Meaning |\n|---|---|---|\n| `id` | string | Stable plan identifier. |\n| `provider` | string | Provider slug. |\n| `provider_name` | string | The provider's name. |\n| `name` | string | The provider's plan name. |\n| `monthly_usd` | numeric | List price in US dollars a month. Providers that price in euros: the provider's own dollar table where one exists, else the euro price at the ECB reference rate (fx in prices.json). |\n| `billed_eur` | numeric | The euro list price (without VAT) for a provider that bills only in euros. |\n| `billed_gbp` | numeric | The pound list price for a provider that bills only in pounds. |\n| `vcpu` | numeric | Virtual CPUs as listed; empty when not stated (plans sold by visits). |\n| `ram_gb` | numeric | RAM in GB as listed; empty when not stated. |\n| `storage_gb` | numeric | Disk in GB included in the price. |\n| `storage_type` | string | Disk type as listed (NVMe, SSD, HDD). |\n| `transfer_tb` | numeric | Monthly traffic allowance in TB; empty when unlimited under a fair-use policy or not stated. |\n| `monthly_visits` | numeric | Managed WordPress plans: monthly visits included. |\n| `site_limit` | numeric | Managed WordPress plans: sites included. |\n| `cpu_type` | string | CPU type as listed (shared, dedicated, the processor family where stated). |\n| `excludes_vat` | boolean | true when the provider's page states the price before VAT. |\n| `ipv4_extra_usd` | numeric | What a public IPv4 address adds to monthly_usd, when billed on top; empty when the page shows no separate charge. |\n| `ipv6_only` | boolean | true when the plan has no public IPv4 address. |\n| `ipv4_not_stated_read_at` | datetime | The day we read the provider's pages and found they do not say whether a public IPv4 address is included; empty otherwise. |\n| `commitment_months` | numeric | Above 1, the price needs a prepaid term of that many months. |\n| `sold_out` | boolean | true when the provider's own page shows the plan as sold out (the repository keeps only orderable plans). |\n| `sold_out_since` | datetime | The day the plan was first read as sold out. |\n| `promo_only` | boolean | true for a promotion-only plan: a sale with no stated end or renewal price. |\n| `checked_at` | datetime | The date the price was last read. |\n| `price_source` | string | How it was read: api (the provider's public API), page (its pricing page, by the price run) or manual (by a team member). |\n| `source_url` | url | Where the price can be checked. |\n| `stackrates_url` | url | The StackRates page that shows the row. |\n\n### `price-history.csv` (all providers in one file)\n\n| Column | Type | Meaning |\n|---|---|---|\n| `read_date` | datetime | Day the price was read, YYYY-MM-DD: the UTC day of the price run for api and page reads, the day the team member stated for manual reads. One row per plan per day; two reads on one day keep the later one. |\n| `provider` | string | Provider slug, as in /data/prices.csv. |\n| `plan_id` | string | Plan identifier, stable across days; a plan the provider replaced gets a new id. |\n| `plan_name` | string | The provider's plan name as the catalogue stated it on the read day. |\n| `vcpu` | numeric | Virtual CPUs. Empty when the provider does not state it (managed plans sold on visits). |\n| `ram_gb` | numeric | RAM in GB. Empty when not stated. |\n| `disk_gb` | numeric | Disk in GB included in the price. |\n| `term_months` | numeric | Billing term the price needs: 1 = month to month or hourly, 12 = paid yearly. |\n| `price_usd_month` | numeric | The regular monthly list price in US dollars. A price billed in euros or pounds is converted at the European Central Bank reference rate the price run read that day. Introductory and sale prices are not used. |\n| `price_native` | numeric | The same price in the currency the provider bills in. |\n| `currency` | string | USD, EUR or GBP. |\n| `ipv4_extra_usd` | numeric | Monthly fee for a public IPv4 address on top of price_usd_month: billed on top by the provider, or, for Hetzner and netcup, which print their prices with the address included, the part of the printed price that is the address. 0 when the price includes one at no separate charge; empty when the plan has no public IPv4 address or the provider's pages do not say. price_usd_month + ipv4_extra_usd is the price a buyer pays for the plan with its address: the price the index counts, in every month. |\n| `source_url` | url | The provider page or API the price was read from. |\n| `read_method` | string | api = the provider's public API; page = the provider's price page, read by our price run; manual = read by a team member from the provider's page and entered with the date. |\n| `stackrates_url` | url | The StackRates page that shows the row (the provider's price history page). |\n\n### `index/vps-price-index.csv`\n\n| Column | Type | Meaning |\n|---|---|---|\n| `month` | string | Calendar month (UTC) of the reads, YYYY-MM. |\n| `plans_compared` | numeric | Plans counted this month (the basket). |\n| `median_usd_month_1gb` | numeric | Median monthly price in USD, with the public IPv4 address (list price plus the address fee where billed on top; the price a buyer pays for the plan with its address), of the counted plans with exactly 1 GB of RAM. |\n| `median_usd_month_4gb` | numeric | The same for 4 GB of RAM. |\n| `median_usd_month_8gb` | numeric | The same for 8 GB of RAM. |\n| `change_pct_vs_prev_month` | numeric | Median of per-plan percentage changes against the previous month, plans counted in both; empty for the first month or after a month without reads. |\n| `plans_up` | numeric | Plans counted in both months whose price went up. |\n| `plans_down` | numeric | Plans whose price went down. |\n| `plans_same` | numeric | Plans whose price did not change. |\n| `method_version` | string | The method these figures were computed with. |\n| `plans_1gb` | numeric | How many plans median_usd_month_1gb is taken from. |\n| `plans_4gb` | numeric | How many plans median_usd_month_4gb is taken from. |\n| `plans_8gb` | numeric | How many plans median_usd_month_8gb is taken from. |\n| `read_days` | numeric | Days in the month with at least one read. |\n| `last_read` | datetime | The last read date in the month. |\n| `note` | string | Plain-words caveat for the row (partial month, no reads, first month). |\n| `median_usd_month_1gb_per_provider` | numeric | Median at 1 GB with one vote per provider: each provider's own median over its counted 1 GB plans, then the median of those. |\n| `median_usd_month_4gb_per_provider` | numeric | The same for 4 GB of RAM. |\n| `median_usd_month_8gb_per_provider` | numeric | The same for 8 GB of RAM. |\n| `providers_1gb` | numeric | How many providers median_usd_month_1gb_per_provider is taken over. |\n| `providers_4gb` | numeric | How many providers median_usd_month_4gb_per_provider is taken over. |\n| `providers_8gb` | numeric | How many providers median_usd_month_8gb_per_provider is taken over. |\n| `stackrates_url` | url | The StackRates page that shows the index. The CSV opens with a \"# Source: ...\" comment line; skip it with comment=\"#\" in pandas. |\n\n### `index/vps-price-index-plans.csv`\n\n| Column | Type | Meaning |\n|---|---|---|\n| `month` | string | Calendar month (UTC), YYYY-MM. |\n| `plan_id` | string | Plan identifier, as in history/<provider>.csv. |\n| `provider` | string | Provider slug. |\n| `read_date` | datetime | The plan's latest read in the month: the one the month counts. |\n| `vcpu` | numeric | Virtual CPUs. |\n| `ram_gb` | numeric | RAM in GB. |\n| `disk_gb` | numeric | Disk in GB. |\n| `term_months` | numeric | Billing term the price needs, in months. |\n| `price_usd_month_all_in` | numeric | The price a buyer pays for the plan with its public IPv4 address, in US dollars a month: the regular list price plus the IPv4 fee where billed on top (Hetzner and netcup print it inside their price). The same rule in every month: price_usd_month + ipv4_extra_usd of the history row on read_date. |\n| `price_native_all_in` | numeric | The same in the billed currency. |\n| `currency` | string | USD, EUR or GBP. |\n| `change_pct_vs_prev_month` | numeric | The plan's change against its price in the month before, in the billed currency; empty when it was not counted then. |\n| `stackrates_url` | url | The provider's price history page on StackRates. |\n\n### `year-on-year.csv`\n\n| Column | Type | Meaning |\n|---|---|---|\n| `provider` | string | Provider slug. |\n| `plan_today` | string | The plan's name today. |\n| `plan_oct_2025` | string | Its name in the October 2025 capture. |\n| `vcpu` | numeric | Virtual CPUs; empty when not stated. |\n| `ram_gb` | numeric | RAM in GB; empty when not stated. |\n| `currency` | string | The currency the provider prints the price in. |\n| `price_oct_2025` | numeric | Monthly price the plan billed on the provider's page as the Wayback Machine archived it (archived_on); a figure struck through beside it is in struck_oct_2025, never here. |\n| `price_spring_2026` | numeric | The same from a spring 2026 capture, where one exists. |\n| `price_today` | numeric | Monthly list price as read on the dataset date; for a withdrawn plan, the last price read. |\n| `change_pct` | numeric | price_today against price_oct_2025, in percent; empty where comparable is \"no\". |\n| `comparable` | string | \"yes\" when the spec and billing basis are the same then and now; \"no\" where they changed. |\n| `archived_page` | url | The Wayback Machine capture the October 2025 price was read from. |\n| `archived_on` | datetime | The capture date. |\n| `withdrawn_on` | datetime | The day the provider withdrew the plan, if it has. |\n| `struck_oct_2025` | string | A figure the October 2025 capture struck through beside the billed price, with no term stated; a fact, not a price. Empty when there was none. |\n| `struck_spring_2026` | string | The same for the spring 2026 capture. |\n| `stackrates_url` | url | The StackRates page that shows the row. |\n\n## Licence and citation\nCC BY 4.0: credit \"StackRates (stackrates.ai)\" with a link to https://stackrates.ai/data/.\n\nStackRates VPS price index, Nov 2026: 4 GB median $14/mo over 80 plans (448 plans in the index), read 7 Nov 2026, stackrates.ai/vps-price-index/\n\n```bibtex\n@misc{stackrates_vps_index_2026_11,\n  author       = {{StackRates}},\n  title        = {{VPS price index, November 2026}},\n  year         = {2026},\n  month        = {nov},\n  howpublished = {\\url{https://stackrates.ai/vps-price-index/}},\n  note         = {Data set, method 1, CC BY 4.0. 4 GB median \\$14/mo over 80 plans (448 plans in the index); read 2026-11-07},\n  urldate      = {2026-11-07}\n}\n```\n\nUpdated daily at https://github.com/firststategrowth/vps-prices. Run by StackRates, First State Growth LLC.\n",
+  "id": "stackrates/vps-prices",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "keywords": [
+    "economics",
+    "computer science",
+    "internet",
+    "time series analysis",
+    "tabular"
+  ],
+  "expectedUpdateFrequency": "daily",
+  "resources": [
+    {
+      "path": "prices.csv",
+      "description": "today's orderable plans, read 7 November 2026",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "description": "Stable plan identifier.",
+            "type": "string"
+          },
+          {
+            "name": "provider",
+            "description": "Provider slug.",
+            "type": "string"
+          },
+          {
+            "name": "provider_name",
+            "description": "The provider's name.",
+            "type": "string"
+          },
+          {
+            "name": "name",
+            "description": "The provider's plan name.",
+            "type": "string"
+          },
+          {
+            "name": "monthly_usd",
+            "description": "List price in US dollars a month. Providers that price in euros: the provider's own dollar table where one exists, else the euro price at the ECB reference rate (fx in prices.json).",
+            "type": "numeric"
+          },
+          {
+            "name": "billed_eur",
+            "description": "The euro list price (without VAT) for a provider that bills only in euros.",
+            "type": "numeric"
+          },
+          {
+            "name": "billed_gbp",
+            "description": "The pound list price for a provider that bills only in pounds.",
+            "type": "numeric"
+          },
+          {
+            "name": "vcpu",
+            "description": "Virtual CPUs as listed; empty when not stated (plans sold by visits).",
+            "type": "numeric"
+          },
+          {
+            "name": "ram_gb",
+            "description": "RAM in GB as listed; empty when not stated.",
+            "type": "numeric"
+          },
+          {
+            "name": "storage_gb",
+            "description": "Disk in GB included in the price.",
+            "type": "numeric"
+          },
+          {
+            "name": "storage_type",
+            "description": "Disk type as listed (NVMe, SSD, HDD).",
+            "type": "string"
+          },
+          {
+            "name": "transfer_tb",
+            "description": "Monthly traffic allowance in TB; empty when unlimited under a fair-use policy or not stated.",
+            "type": "numeric"
+          },
+          {
+            "name": "monthly_visits",
+            "description": "Managed WordPress plans: monthly visits included.",
+            "type": "numeric"
+          },
+          {
+            "name": "site_limit",
+            "description": "Managed WordPress plans: sites included.",
+            "type": "numeric"
+          },
+          {
+            "name": "cpu_type",
+            "description": "CPU type as listed (shared, dedicated, the processor family where stated).",
+            "type": "string"
+          },
+          {
+            "name": "excludes_vat",
+            "description": "true when the provider's page states the price before VAT.",
+            "type": "boolean"
+          },
+          {
+            "name": "ipv4_extra_usd",
+            "description": "What a public IPv4 address adds to monthly_usd, when billed on top; empty when the page shows no separate charge.",
+            "type": "numeric"
+          },
+          {
+            "name": "ipv6_only",
+            "description": "true when the plan has no public IPv4 address.",
+            "type": "boolean"
+          },
+          {
+            "name": "ipv4_not_stated_read_at",
+            "description": "The day we read the provider's pages and found they do not say whether a public IPv4 address is included; empty otherwise.",
+            "type": "datetime"
+          },
+          {
+            "name": "commitment_months",
+            "description": "Above 1, the price needs a prepaid term of that many months.",
+            "type": "numeric"
+          },
+          {
+            "name": "sold_out",
+            "description": "true when the provider's own page shows the plan as sold out (the repository keeps only orderable plans).",
+            "type": "boolean"
+          },
+          {
+            "name": "sold_out_since",
+            "description": "The day the plan was first read as sold out.",
+            "type": "datetime"
+          },
+          {
+            "name": "promo_only",
+            "description": "true for a promotion-only plan: a sale with no stated end or renewal price.",
+            "type": "boolean"
+          },
+          {
+            "name": "checked_at",
+            "description": "The date the price was last read.",
+            "type": "datetime"
+          },
+          {
+            "name": "price_source",
+            "description": "How it was read: api (the provider's public API), page (its pricing page, by the price run) or manual (by a team member).",
+            "type": "string"
+          },
+          {
+            "name": "source_url",
+            "description": "Where the price can be checked.",
+            "type": "url"
+          },
+          {
+            "name": "stackrates_url",
+            "description": "The StackRates page that shows the row.",
+            "type": "url"
+          }
+        ]
+      }
+    },
+    {
+      "path": "price-history.csv",
+      "description": "every price read, 5 October 2026 to 7 November 2026, one file per provider",
+      "schema": {
+        "fields": [
+          {
+            "name": "read_date",
+            "description": "Day the price was read, YYYY-MM-DD: the UTC day of the price run for api and page reads, the day the team member stated for manual reads. One row per plan per day; two reads on one day keep the later one.",
+            "type": "datetime"
+          },
+          {
+            "name": "provider",
+            "description": "Provider slug, as in /data/prices.csv.",
+            "type": "string"
+          },
+          {
+            "name": "plan_id",
+            "description": "Plan identifier, stable across days; a plan the provider replaced gets a new id.",
+            "type": "string"
+          },
+          {
+            "name": "plan_name",
+            "description": "The provider's plan name as the catalogue stated it on the read day.",
+            "type": "string"
+          },
+          {
+            "name": "vcpu",
+            "description": "Virtual CPUs. Empty when the provider does not state it (managed plans sold on visits).",
+            "type": "numeric"
+          },
+          {
+            "name": "ram_gb",
+            "description": "RAM in GB. Empty when not stated.",
+            "type": "numeric"
+          },
+          {
+            "name": "disk_gb",
+            "description": "Disk in GB included in the price.",
+            "type": "numeric"
+          },
+          {
+            "name": "term_months",
+            "description": "Billing term the price needs: 1 = month to month or hourly, 12 = paid yearly.",
+            "type": "numeric"
+          },
+          {
+            "name": "price_usd_month",
+            "description": "The regular monthly list price in US dollars. A price billed in euros or pounds is converted at the European Central Bank reference rate the price run read that day. Introductory and sale prices are not used.",
+            "type": "numeric"
+          },
+          {
+            "name": "price_native",
+            "description": "The same price in the currency the provider bills in.",
+            "type": "numeric"
+          },
+          {
+            "name": "currency",
+            "description": "USD, EUR or GBP.",
+            "type": "string"
+          },
+          {
+            "name": "ipv4_extra_usd",
+            "description": "Monthly fee for a public IPv4 address on top of price_usd_month: billed on top by the provider, or, for Hetzner and netcup, which print their prices with the address included, the part of the printed price that is the address. 0 when the price includes one at no separate charge; empty when the plan has no public IPv4 address or the provider's pages do not say. price_usd_month + ipv4_extra_usd is the price a buyer pays for the plan with its address: the price the index counts, in every month.",
+            "type": "numeric"
+          },
+          {
+            "name": "source_url",
+            "description": "The provider page or API the price was read from.",
+            "type": "url"
+          },
+          {
+            "name": "read_method",
+            "description": "api = the provider's public API; page = the provider's price page, read by our price run; manual = read by a team member from the provider's page and entered with the date.",
+            "type": "string"
+          },
+          {
+            "name": "stackrates_url",
+            "description": "The StackRates page that shows the row (the provider's price history page).",
+            "type": "url"
+          }
+        ]
+      }
+    },
+    {
+      "path": "vps-price-index.csv",
+      "description": "the monthly VPS price index: medians at 1, 4 and 8 GB of RAM",
+      "schema": {
+        "fields": [
+          {
+            "name": "month",
+            "description": "Calendar month (UTC) of the reads, YYYY-MM.",
+            "type": "string"
+          },
+          {
+            "name": "plans_compared",
+            "description": "Plans counted this month (the basket).",
+            "type": "numeric"
+          },
+          {
+            "name": "median_usd_month_1gb",
+            "description": "Median monthly price in USD, with the public IPv4 address (list price plus the address fee where billed on top; the price a buyer pays for the plan with its address), of the counted plans with exactly 1 GB of RAM.",
+            "type": "numeric"
+          },
+          {
+            "name": "median_usd_month_4gb",
+            "description": "The same for 4 GB of RAM.",
+            "type": "numeric"
+          },
+          {
+            "name": "median_usd_month_8gb",
+            "description": "The same for 8 GB of RAM.",
+            "type": "numeric"
+          },
+          {
+            "name": "change_pct_vs_prev_month",
+            "description": "Median of per-plan percentage changes against the previous month, plans counted in both; empty for the first month or after a month without reads.",
+            "type": "numeric"
+          },
+          {
+            "name": "plans_up",
+            "description": "Plans counted in both months whose price went up.",
+            "type": "numeric"
+          },
+          {
+            "name": "plans_down",
+            "description": "Plans whose price went down.",
+            "type": "numeric"
+          },
+          {
+            "name": "plans_same",
+            "description": "Plans whose price did not change.",
+            "type": "numeric"
+          },
+          {
+            "name": "method_version",
+            "description": "The method these figures were computed with.",
+            "type": "string"
+          },
+          {
+            "name": "plans_1gb",
+            "description": "How many plans median_usd_month_1gb is taken from.",
+            "type": "numeric"
+          },
+          {
+            "name": "plans_4gb",
+            "description": "How many plans median_usd_month_4gb is taken from.",
+            "type": "numeric"
+          },
+          {
+            "name": "plans_8gb",
+            "description": "How many plans median_usd_month_8gb is taken from.",
+            "type": "numeric"
+          },
+          {
+            "name": "read_days",
+            "description": "Days in the month with at least one read.",
+            "type": "numeric"
+          },
+          {
+            "name": "last_read",
+            "description": "The last read date in the month.",
+            "type": "datetime"
+          },
+          {
+            "name": "note",
+            "description": "Plain-words caveat for the row (partial month, no reads, first month).",
+            "type": "string"
+          },
+          {
+            "name": "median_usd_month_1gb_per_provider",
+            "description": "Median at 1 GB with one vote per provider: each provider's own median over its counted 1 GB plans, then the median of those.",
+            "type": "numeric"
+          },
+          {
+            "name": "median_usd_month_4gb_per_provider",
+            "description": "The same for 4 GB of RAM.",
+            "type": "numeric"
+          },
+          {
+            "name": "median_usd_month_8gb_per_provider",
+            "description": "The same for 8 GB of RAM.",
+            "type": "numeric"
+          },
+          {
+            "name": "providers_1gb",
+            "description": "How many providers median_usd_month_1gb_per_provider is taken over.",
+            "type": "numeric"
+          },
+          {
+            "name": "providers_4gb",
+            "description": "How many providers median_usd_month_4gb_per_provider is taken over.",
+            "type": "numeric"
+          },
+          {
+            "name": "providers_8gb",
+            "description": "How many providers median_usd_month_8gb_per_provider is taken over.",
+            "type": "numeric"
+          },
+          {
+            "name": "stackrates_url",
+            "description": "The StackRates page that shows the index. The CSV opens with a \"# Source: ...\" comment line; skip it with comment=\"#\" in pandas.",
+            "type": "url"
+          }
+        ]
+      }
+    },
+    {
+      "path": "vps-price-index-plans.csv",
+      "description": "every plan behind each month of the index",
+      "schema": {
+        "fields": [
+          {
+            "name": "month",
+            "description": "Calendar month (UTC), YYYY-MM.",
+            "type": "string"
+          },
+          {
+            "name": "plan_id",
+            "description": "Plan identifier, as in history/<provider>.csv.",
+            "type": "string"
+          },
+          {
+            "name": "provider",
+            "description": "Provider slug.",
+            "type": "string"
+          },
+          {
+            "name": "read_date",
+            "description": "The plan's latest read in the month: the one the month counts.",
+            "type": "datetime"
+          },
+          {
+            "name": "vcpu",
+            "description": "Virtual CPUs.",
+            "type": "numeric"
+          },
+          {
+            "name": "ram_gb",
+            "description": "RAM in GB.",
+            "type": "numeric"
+          },
+          {
+            "name": "disk_gb",
+            "description": "Disk in GB.",
+            "type": "numeric"
+          },
+          {
+            "name": "term_months",
+            "description": "Billing term the price needs, in months.",
+            "type": "numeric"
+          },
+          {
+            "name": "price_usd_month_all_in",
+            "description": "The price a buyer pays for the plan with its public IPv4 address, in US dollars a month: the regular list price plus the IPv4 fee where billed on top (Hetzner and netcup print it inside their price). The same rule in every month: price_usd_month + ipv4_extra_usd of the history row on read_date.",
+            "type": "numeric"
+          },
+          {
+            "name": "price_native_all_in",
+            "description": "The same in the billed currency.",
+            "type": "numeric"
+          },
+          {
+            "name": "currency",
+            "description": "USD, EUR or GBP.",
+            "type": "string"
+          },
+          {
+            "name": "change_pct_vs_prev_month",
+            "description": "The plan's change against its price in the month before, in the billed currency; empty when it was not counted then.",
+            "type": "numeric"
+          },
+          {
+            "name": "stackrates_url",
+            "description": "The provider's price history page on StackRates.",
+            "type": "url"
+          }
+        ]
+      }
+    },
+    {
+      "path": "year-on-year.csv",
+      "description": "each plan against its October 2025 Wayback Machine capture",
+      "schema": {
+        "fields": [
+          {
+            "name": "provider",
+            "description": "Provider slug.",
+            "type": "string"
+          },
+          {
+            "name": "plan_today",
+            "description": "The plan's name today.",
+            "type": "string"
+          },
+          {
+            "name": "plan_oct_2025",
+            "description": "Its name in the October 2025 capture.",
+            "type": "string"
+          },
+          {
+            "name": "vcpu",
+            "description": "Virtual CPUs; empty when not stated.",
+            "type": "numeric"
+          },
+          {
+            "name": "ram_gb",
+            "description": "RAM in GB; empty when not stated.",
+            "type": "numeric"
+          },
+          {
+            "name": "currency",
+            "description": "The currency the provider prints the price in.",
+            "type": "string"
+          },
+          {
+            "name": "price_oct_2025",
+            "description": "Monthly price the plan billed on the provider's page as the Wayback Machine archived it (archived_on); a figure struck through beside it is in struck_oct_2025, never here.",
+            "type": "numeric"
+          },
+          {
+            "name": "price_spring_2026",
+            "description": "The same from a spring 2026 capture, where one exists.",
+            "type": "numeric"
+          },
+          {
+            "name": "price_today",
+            "description": "Monthly list price as read on the dataset date; for a withdrawn plan, the last price read.",
+            "type": "numeric"
+          },
+          {
+            "name": "change_pct",
+            "description": "price_today against price_oct_2025, in percent; empty where comparable is \"no\".",
+            "type": "numeric"
+          },
+          {
+            "name": "comparable",
+            "description": "\"yes\" when the spec and billing basis are the same then and now; \"no\" where they changed.",
+            "type": "string"
+          },
+          {
+            "name": "archived_page",
+            "description": "The Wayback Machine capture the October 2025 price was read from.",
+            "type": "url"
+          },
+          {
+            "name": "archived_on",
+            "description": "The capture date.",
+            "type": "datetime"
+          },
+          {
+            "name": "withdrawn_on",
+            "description": "The day the provider withdrew the plan, if it has.",
+            "type": "datetime"
+          },
+          {
+            "name": "struck_oct_2025",
+            "description": "A figure the October 2025 capture struck through beside the billed price, with no term stated; a fact, not a price. Empty when there was none.",
+            "type": "string"
+          },
+          {
+            "name": "struck_spring_2026",
+            "description": "The same for the spring 2026 capture.",
+            "type": "string"
+          },
+          {
+            "name": "stackrates_url",
+            "description": "The StackRates page that shows the row.",
+            "type": "url"
+          }
+        ]
+      }
+    }
+  ]
+}
