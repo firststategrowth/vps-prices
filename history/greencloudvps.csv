@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-07
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-10,greencloudvps,greencloudvps-1,SSDKVM-1,1,1,15,1,6,6,USD,0,https://greencloudvps.com/budget-kvm-vps.php,manual,https://stackrates.ai/hosting/greencloudvps/history/
 2026-10-10,greencloudvps,greencloudvps-2,SSDKVM-2,1,2,15,1,10,10,USD,0,https://greencloudvps.com/budget-kvm-vps.php,manual,https://stackrates.ai/hosting/greencloudvps/history/
@@ -145,3 +145,23 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-07,greencloudvps,greencloudvps-3,SSDKVM-3,2,4,30,1,20,20,USD,0,https://greencloudvps.com/budget-kvm-vps.php,page,https://stackrates.ai/hosting/greencloudvps/history/
 2026-11-07,greencloudvps,greencloudvps-4,SSDKVM-4,4,8,60,1,40,40,USD,0,https://greencloudvps.com/budget-kvm-vps.php,page,https://stackrates.ai/hosting/greencloudvps/history/
 2026-11-07,greencloudvps,greencloudvps-5,SSDKVM-5,8,16,120,1,80,80,USD,0,https://greencloudvps.com/budget-kvm-vps.php,page,https://stackrates.ai/hosting/greencloudvps/history/
+2026-11-08,greencloudvps,greencloudvps-1,SSDKVM-1,1,1,15,1,6,6,USD,0,https://greencloudvps.com/budget-kvm-vps.php,page,https://stackrates.ai/hosting/greencloudvps/history/
+2026-11-08,greencloudvps,greencloudvps-2,SSDKVM-2,1,2,15,1,10,10,USD,0,https://greencloudvps.com/budget-kvm-vps.php,page,https://stackrates.ai/hosting/greencloudvps/history/
+2026-11-08,greencloudvps,greencloudvps-3,SSDKVM-3,2,4,30,1,20,20,USD,0,https://greencloudvps.com/budget-kvm-vps.php,page,https://stackrates.ai/hosting/greencloudvps/history/
+2026-11-08,greencloudvps,greencloudvps-4,SSDKVM-4,4,8,60,1,40,40,USD,0,https://greencloudvps.com/budget-kvm-vps.php,page,https://stackrates.ai/hosting/greencloudvps/history/
+2026-11-08,greencloudvps,greencloudvps-5,SSDKVM-5,8,16,120,1,80,80,USD,0,https://greencloudvps.com/budget-kvm-vps.php,page,https://stackrates.ai/hosting/greencloudvps/history/
+2026-11-09,greencloudvps,greencloudvps-1,SSDKVM-1,1,1,15,1,6,6,USD,0,https://greencloudvps.com/budget-kvm-vps.php,page,https://stackrates.ai/hosting/greencloudvps/history/
+2026-11-09,greencloudvps,greencloudvps-2,SSDKVM-2,1,2,15,1,10,10,USD,0,https://greencloudvps.com/budget-kvm-vps.php,page,https://stackrates.ai/hosting/greencloudvps/history/
+2026-11-09,greencloudvps,greencloudvps-3,SSDKVM-3,2,4,30,1,20,20,USD,0,https://greencloudvps.com/budget-kvm-vps.php,page,https://stackrates.ai/hosting/greencloudvps/history/
+2026-11-09,greencloudvps,greencloudvps-4,SSDKVM-4,4,8,60,1,40,40,USD,0,https://greencloudvps.com/budget-kvm-vps.php,page,https://stackrates.ai/hosting/greencloudvps/history/
+2026-11-09,greencloudvps,greencloudvps-5,SSDKVM-5,8,16,120,1,80,80,USD,0,https://greencloudvps.com/budget-kvm-vps.php,page,https://stackrates.ai/hosting/greencloudvps/history/
+2026-11-10,greencloudvps,greencloudvps-1,SSDKVM-1,1,1,15,1,6,6,USD,0,https://greencloudvps.com/budget-kvm-vps.php,page,https://stackrates.ai/hosting/greencloudvps/history/
+2026-11-10,greencloudvps,greencloudvps-2,SSDKVM-2,1,2,15,1,10,10,USD,0,https://greencloudvps.com/budget-kvm-vps.php,page,https://stackrates.ai/hosting/greencloudvps/history/
+2026-11-10,greencloudvps,greencloudvps-3,SSDKVM-3,2,4,30,1,20,20,USD,0,https://greencloudvps.com/budget-kvm-vps.php,page,https://stackrates.ai/hosting/greencloudvps/history/
+2026-11-10,greencloudvps,greencloudvps-4,SSDKVM-4,4,8,60,1,40,40,USD,0,https://greencloudvps.com/budget-kvm-vps.php,page,https://stackrates.ai/hosting/greencloudvps/history/
+2026-11-10,greencloudvps,greencloudvps-5,SSDKVM-5,8,16,120,1,80,80,USD,0,https://greencloudvps.com/budget-kvm-vps.php,page,https://stackrates.ai/hosting/greencloudvps/history/
+2026-11-11,greencloudvps,greencloudvps-1,SSDKVM-1,1,1,15,1,6,6,USD,0,https://greencloudvps.com/budget-kvm-vps.php,page,https://stackrates.ai/hosting/greencloudvps/history/
+2026-11-11,greencloudvps,greencloudvps-2,SSDKVM-2,1,2,15,1,10,10,USD,0,https://greencloudvps.com/budget-kvm-vps.php,page,https://stackrates.ai/hosting/greencloudvps/history/
+2026-11-11,greencloudvps,greencloudvps-3,SSDKVM-3,2,4,30,1,20,20,USD,0,https://greencloudvps.com/budget-kvm-vps.php,page,https://stackrates.ai/hosting/greencloudvps/history/
+2026-11-11,greencloudvps,greencloudvps-4,SSDKVM-4,4,8,60,1,40,40,USD,0,https://greencloudvps.com/budget-kvm-vps.php,page,https://stackrates.ai/hosting/greencloudvps/history/
+2026-11-11,greencloudvps,greencloudvps-5,SSDKVM-5,8,16,120,1,80,80,USD,0,https://greencloudvps.com/budget-kvm-vps.php,page,https://stackrates.ai/hosting/greencloudvps/history/

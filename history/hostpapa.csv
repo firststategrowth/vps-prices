@@ -1,0 +1,12 @@
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
+read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
+2026-11-11,hostpapa,hostpapa-mvps-achieve,Managed VPS Achieve,8,8,200,1,71.95,71.95,USD,0,https://www.hostpapa.com/orders/checkout/vps-m-achie?term=1,manual,https://stackrates.ai/hosting/hostpapa/history/
+2026-11-11,hostpapa,hostpapa-mvps-excel,Managed VPS Excel,16,16,300,1,96.95,96.95,USD,0,https://www.hostpapa.com/orders/checkout/vps-m-excel?term=1,manual,https://stackrates.ai/hosting/hostpapa/history/
+2026-11-11,hostpapa,hostpapa-mvps-progress,Managed VPS Progress,4,4,100,1,51.95,51.95,USD,0,https://www.hostpapa.com/orders/checkout/vps-m-prog?term=1,manual,https://stackrates.ai/hosting/hostpapa/history/
+2026-11-11,hostpapa,hostpapa-mvps-triumph,Managed VPS Triumph,32,32,500,1,126.95,126.95,USD,0,https://www.hostpapa.com/orders/checkout/vps-m-trium?term=1,manual,https://stackrates.ai/hosting/hostpapa/history/
+2026-11-11,hostpapa,hostpapa-vps-achieve,Unmanaged VPS Achieve,8,8,200,1,44.95,44.95,USD,0,https://www.hostpapa.com/orders/checkout/vps-achieve?term=1,manual,https://stackrates.ai/hosting/hostpapa/history/
+2026-11-11,hostpapa,hostpapa-vps-excel,Unmanaged VPS Excel,16,16,300,1,69.95,69.95,USD,0,https://www.hostpapa.com/orders/checkout/vps-excel?term=1,manual,https://stackrates.ai/hosting/hostpapa/history/
+2026-11-11,hostpapa,hostpapa-vps-lite,Unmanaged VPS Lite,1,1,25,1,4.95,4.95,USD,0,https://www.hostpapa.com/orders/checkout/vps-lite?term=1,manual,https://stackrates.ai/hosting/hostpapa/history/
+2026-11-11,hostpapa,hostpapa-vps-progress,Unmanaged VPS Progress,4,4,100,1,24.95,24.95,USD,0,https://www.hostpapa.com/orders/checkout/vps-prog?term=1,manual,https://stackrates.ai/hosting/hostpapa/history/
+2026-11-11,hostpapa,hostpapa-vps-start,Unmanaged VPS Start,2,2,50,1,14.95,14.95,USD,0,https://www.hostpapa.com/orders/checkout/vps-start?term=1,manual,https://stackrates.ai/hosting/hostpapa/history/
+2026-11-11,hostpapa,hostpapa-vps-triumph,Unmanaged VPS Triumph,32,32,500,1,99.95,99.95,USD,0,https://www.hostpapa.com/orders/checkout/vps-triumph?term=1,manual,https://stackrates.ai/hosting/hostpapa/history/

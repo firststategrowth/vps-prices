@@ -5,42 +5,40 @@ a month, read from the provider's own pricing page or price API on the date in `
 link in `source_url`. `price_source` says whether a row was read from the page, from the provider's
 price API, or by hand; rows read by hand can be a few days old.
 
-On 7 Nov 2026 the file has 582 plans from 81 providers. Plans the provider shows as sold out
-on that day are left out. So are prices not re-read for more than 7 days.
+On 11 Nov 2026 the file has 702 plans from 98 providers. Plans the provider shows as sold out
+on that day are left out.
 
 Three things that change what you pay are in their own columns:
-- `ipv4_extra_usd`: what a public IPv4 address adds to `monthly_usd`. Scaleway ($4.08/mo), phoenixNAP ($5.11/mo), Mythic Beasts ($2.68/mo) and VEXXHOST ($2.00/mo) bill it on top. Hetzner and netcup print their prices with the address included; for them `monthly_usd` and, where present, `billed_eur` are the price without it, and `monthly_usd` + `ipv4_extra_usd` is what they print. A row of netcup with `ipv4_extra_usd` empty (6 netcup plans) includes the address in `monthly_usd` at no separate charge.
+- `ipv4_extra_usd`: what a public IPv4 address adds to `monthly_usd`. Scaleway ($4.09/mo), phoenixNAP ($5.11/mo), Mythic Beasts ($2.68/mo) and VEXXHOST ($2.00/mo) bill it on top. Hetzner and netcup print their prices with the address included; for them `monthly_usd` and, where present, `billed_eur` are the price without it, and `monthly_usd` + `ipv4_extra_usd` is what they print. A row of netcup with `ipv4_extra_usd` empty (6 netcup plans) includes the address in `monthly_usd` at no separate charge.
   Empty when the provider's page shows no separate charge.
 - `excludes_vat`: true when the provider's page states the price before VAT
 - `commitment_months`: above 1, the price needs a prepaid term (Hostinger KVM 1 is $6.49/mo paid
   24 months up front; it renews at a higher price, and renewal prices are not in this file)
 
 Providers that print euro prices keep the euro figure in `billed_eur`; it is converted at the latest
-European Central Bank reference rate (6 Nov 2026: 1 EUR = $1.1165; also in `fx` in prices.json). Webdock and Exoscale bill the same figures in US dollars, so a dollar account there pays less than `monthly_usd`.
+European Central Bank reference rate (10 Nov 2026: 1 EUR = $1.1214; also in `fx` in prices.json). Webdock and Exoscale bill the same figures in US dollars, so a dollar account there pays less than `monthly_usd`.
 Other providers that publish dollar prices are taken in dollars.
 
-The managed WordPress plans of Kinsta, Hosting.com, Liquid Web and KnownHost are sold by monthly visits and sites (`monthly_visits`, `site_limit`), not by size, so their `vcpu` and `ram_gb` are empty.
+The managed WordPress plans of Kinsta, Hosting.com, Liquid Web, KnownHost and Elementor Hosting are sold by monthly visits and sites (`monthly_visits`, `site_limit`), and those of 20i by sites, storage and transfer (`site_limit`, `storage_gb`, `transfer_tb`), not by size, so their `vcpu` and `ram_gb` are empty.
 
 ## Files
 - `prices.csv` and `prices.json`: today's plans
-- `changes.json`: dated list-price changes, each with its source (18 so far; a move in the exchange
+- `changes.json`: dated list-price changes, each with its source (27 so far; a move in the exchange
   rate is not a change)
 - `year-on-year.csv`: each provider's pricing page as the Wayback Machine archived it (19 Sep 2025 to 13 Dec 2025, most in October 2025;
   date per row in `archived_on`) against today's price, plan by plan, in the currency the provider prints
   (`currency`); `comparable` is "no" where the spec or terms changed. It keeps plans that are sold out today.
   One plan has been withdrawn by the provider since the study was made: `withdrawn_on` has the date
   and `price_today` the last price read; it stays in the comparison.
-  2 rows have a figure the archived page struck through beside the price it billed
-  (`struck_oct_2025`, `struck_spring_2026`): a fact on the page, not a price; the price columns hold the billed price.
 - `index/vps-price-index.csv` (method in `index/vps-price-index.json`): the monthly VPS price index, the median
   regular monthly price of unmanaged VPS plans with 1, 4 and 8 GB of RAM, October 2026 to November 2026;
   `index/vps-price-index-plans.csv` lists every plan behind each month. The same files as https://stackrates.ai/vps-price-index/
-- `history/<provider>.csv`: every price read from 5 October 2026 to 7 November 2026, one row per plan per read day,
-  83 providers, 7,775 rows; columns, provenance and gaps in `history/README.md`
+- `history/<provider>.csv`: every price read from 5 October 2026 to 11 November 2026, one row per plan per read day,
+  98 providers, 10,257 rows; columns, provenance and gaps in `history/README.md`
 - `cards/`: dataset cards for Hugging Face and Kaggle, rebuilt with the data
 
 ## Cite it
-StackRates VPS price index, Nov 2026: 4 GB median $14/mo over 80 plans (441 plans in the index), read 7 Nov 2026, stackrates.ai/vps-price-index/
+StackRates VPS price index, Nov 2026: 4 GB median $14.02/mo over 93 plans with 4 GB (506 plans in the index), read 11 Nov 2026, stackrates.ai/vps-price-index/
 
 APA and BibTeX: https://stackrates.ai/vps-price-index/#index-cite; this repository: StackRates (2026). VPS prices, read
 daily [Data set]. https://github.com/firststategrowth/vps-prices
@@ -54,5 +52,5 @@ For AI assistants (MCP, Streamable HTTP): `https://stackrates.ai/mcp`
 
 ## Who runs this
 StackRates, First State Growth LLC. We may earn a commission or referral reward when someone signs up
-through our links (from some providers it is account credit, not cash); the site names those providers
+through our links; the site names those providers
 on every page. It never changes a price we list or the order of a list. Corrections: https://stackrates.ai/about/

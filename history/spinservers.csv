@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-07
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-06,spinservers,spin-kvm-12,KVM 12 vCPU 12 GB,12,12,160,1,62,62,USD,0,https://www.spinservers.com/kvm-vps,manual,https://stackrates.ai/hosting/spinservers/history/
 2026-11-06,spinservers,spin-kvm-16,KVM 16 vCPU 16 GB,16,16,320,1,74,74,USD,0,https://www.spinservers.com/kvm-vps,manual,https://stackrates.ai/hosting/spinservers/history/
@@ -18,3 +18,39 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-07,spinservers,spin-kvm-4,KVM 4 vCPU 4 GB,4,4,80,1,29,29,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
 2026-11-07,spinservers,spin-kvm-6,KVM 6 vCPU 8 GB,6,8,120,1,39,39,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
 2026-11-07,spinservers,spin-kvm-8,KVM 8 vCPU 8 GB,8,8,160,1,45,45,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-08,spinservers,spin-kvm-12,KVM 12 vCPU 12 GB,12,12,160,1,62,62,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-08,spinservers,spin-kvm-16,KVM 16 vCPU 16 GB,16,16,320,1,74,74,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-08,spinservers,spin-kvm-16-32-hdd,KVM 16 vCPU 32 GB HDD,16,32,1000,1,79,79,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-08,spinservers,spin-kvm-16-48-hdd,KVM 16 vCPU 48 GB HDD,16,48,2000,1,89,89,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-08,spinservers,spin-kvm-2,KVM 2 vCPU 2 GB,2,2,40,1,12,12,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-08,spinservers,spin-kvm-32,KVM 32 vCPU 32 GB,32,32,500,1,89,89,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-08,spinservers,spin-kvm-4,KVM 4 vCPU 4 GB,4,4,80,1,29,29,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-08,spinservers,spin-kvm-6,KVM 6 vCPU 8 GB,6,8,120,1,39,39,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-08,spinservers,spin-kvm-8,KVM 8 vCPU 8 GB,8,8,160,1,45,45,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-09,spinservers,spin-kvm-12,KVM 12 vCPU 12 GB,12,12,160,1,62,62,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-09,spinservers,spin-kvm-16,KVM 16 vCPU 16 GB,16,16,320,1,74,74,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-09,spinservers,spin-kvm-16-32-hdd,KVM 16 vCPU 32 GB HDD,16,32,1000,1,79,79,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-09,spinservers,spin-kvm-16-48-hdd,KVM 16 vCPU 48 GB HDD,16,48,2000,1,89,89,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-09,spinservers,spin-kvm-2,KVM 2 vCPU 2 GB,2,2,40,1,12,12,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-09,spinservers,spin-kvm-32,KVM 32 vCPU 32 GB,32,32,500,1,89,89,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-09,spinservers,spin-kvm-4,KVM 4 vCPU 4 GB,4,4,80,1,29,29,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-09,spinservers,spin-kvm-6,KVM 6 vCPU 8 GB,6,8,120,1,39,39,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-09,spinservers,spin-kvm-8,KVM 8 vCPU 8 GB,8,8,160,1,45,45,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-10,spinservers,spin-kvm-12,KVM 12 vCPU 12 GB,12,12,160,1,62,62,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-10,spinservers,spin-kvm-16,KVM 16 vCPU 16 GB,16,16,320,1,74,74,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-10,spinservers,spin-kvm-16-32-hdd,KVM 16 vCPU 32 GB HDD,16,32,1000,1,79,79,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-10,spinservers,spin-kvm-16-48-hdd,KVM 16 vCPU 48 GB HDD,16,48,2000,1,89,89,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-10,spinservers,spin-kvm-2,KVM 2 vCPU 2 GB,2,2,40,1,12,12,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-10,spinservers,spin-kvm-32,KVM 32 vCPU 32 GB,32,32,500,1,89,89,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-10,spinservers,spin-kvm-4,KVM 4 vCPU 4 GB,4,4,80,1,29,29,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-10,spinservers,spin-kvm-6,KVM 6 vCPU 8 GB,6,8,120,1,39,39,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-10,spinservers,spin-kvm-8,KVM 8 vCPU 8 GB,8,8,160,1,45,45,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-11,spinservers,spin-kvm-12,KVM 12 vCPU 12 GB,12,12,160,1,62,62,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-11,spinservers,spin-kvm-16,KVM 16 vCPU 16 GB,16,16,320,1,74,74,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-11,spinservers,spin-kvm-16-32-hdd,KVM 16 vCPU 32 GB HDD,16,32,1000,1,79,79,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-11,spinservers,spin-kvm-16-48-hdd,KVM 16 vCPU 48 GB HDD,16,48,2000,1,89,89,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-11,spinservers,spin-kvm-2,KVM 2 vCPU 2 GB,2,2,40,1,12,12,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-11,spinservers,spin-kvm-32,KVM 32 vCPU 32 GB,32,32,500,1,89,89,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-11,spinservers,spin-kvm-4,KVM 4 vCPU 4 GB,4,4,80,1,29,29,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-11,spinservers,spin-kvm-6,KVM 6 vCPU 8 GB,6,8,120,1,39,39,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/
+2026-11-11,spinservers,spin-kvm-8,KVM 8 vCPU 8 GB,8,8,160,1,45,45,USD,0,https://www.spinservers.com/kvm-vps,page,https://stackrates.ai/hosting/spinservers/history/

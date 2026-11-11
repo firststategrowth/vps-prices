@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-07
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-14,servarica,servarica-fat-16,V3 KVM FAT Slice 16,16,32,480,1,58,58,USD,0,https://clients.servarica.com/store/v3-kvm-fat,page,https://stackrates.ai/hosting/servarica/history/
 2026-10-14,servarica,servarica-fat-2,V3 KVM FAT Slice 2,2,4,60,1,9,9,USD,0,https://clients.servarica.com/store/v3-kvm-fat,page,https://stackrates.ai/hosting/servarica/history/
@@ -100,3 +100,19 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-07,servarica,servarica-fat-2,V3 KVM FAT Slice 2,2,4,60,1,9,9,USD,0,https://clients.servarica.com/store/v3-kvm-fat,page,https://stackrates.ai/hosting/servarica/history/
 2026-11-07,servarica,servarica-fat-4,V3 KVM FAT Slice 4,4,8,120,1,16,16,USD,0,https://clients.servarica.com/store/v3-kvm-fat,page,https://stackrates.ai/hosting/servarica/history/
 2026-11-07,servarica,servarica-fat-8,V3 KVM FAT Slice 8,8,16,240,1,30,30,USD,0,https://clients.servarica.com/store/v3-kvm-fat,page,https://stackrates.ai/hosting/servarica/history/
+2026-11-08,servarica,servarica-fat-16,V3 KVM FAT Slice 16,16,32,480,1,58,58,USD,0,https://clients.servarica.com/store/v3-kvm-fat,page,https://stackrates.ai/hosting/servarica/history/
+2026-11-08,servarica,servarica-fat-2,V3 KVM FAT Slice 2,2,4,60,1,9,9,USD,0,https://clients.servarica.com/store/v3-kvm-fat,page,https://stackrates.ai/hosting/servarica/history/
+2026-11-08,servarica,servarica-fat-4,V3 KVM FAT Slice 4,4,8,120,1,16,16,USD,0,https://clients.servarica.com/store/v3-kvm-fat,page,https://stackrates.ai/hosting/servarica/history/
+2026-11-08,servarica,servarica-fat-8,V3 KVM FAT Slice 8,8,16,240,1,30,30,USD,0,https://clients.servarica.com/store/v3-kvm-fat,page,https://stackrates.ai/hosting/servarica/history/
+2026-11-09,servarica,servarica-fat-16,V3 KVM FAT Slice 16,16,32,480,1,58,58,USD,0,https://clients.servarica.com/store/v3-kvm-fat,page,https://stackrates.ai/hosting/servarica/history/
+2026-11-09,servarica,servarica-fat-2,V3 KVM FAT Slice 2,2,4,60,1,9,9,USD,0,https://clients.servarica.com/store/v3-kvm-fat,page,https://stackrates.ai/hosting/servarica/history/
+2026-11-09,servarica,servarica-fat-4,V3 KVM FAT Slice 4,4,8,120,1,16,16,USD,0,https://clients.servarica.com/store/v3-kvm-fat,page,https://stackrates.ai/hosting/servarica/history/
+2026-11-09,servarica,servarica-fat-8,V3 KVM FAT Slice 8,8,16,240,1,30,30,USD,0,https://clients.servarica.com/store/v3-kvm-fat,page,https://stackrates.ai/hosting/servarica/history/
+2026-11-10,servarica,servarica-fat-16,V3 KVM FAT Slice 16,16,32,480,1,58,58,USD,0,https://clients.servarica.com/store/v3-kvm-fat,page,https://stackrates.ai/hosting/servarica/history/
+2026-11-10,servarica,servarica-fat-2,V3 KVM FAT Slice 2,2,4,60,1,9,9,USD,0,https://clients.servarica.com/store/v3-kvm-fat,page,https://stackrates.ai/hosting/servarica/history/
+2026-11-10,servarica,servarica-fat-4,V3 KVM FAT Slice 4,4,8,120,1,16,16,USD,0,https://clients.servarica.com/store/v3-kvm-fat,page,https://stackrates.ai/hosting/servarica/history/
+2026-11-10,servarica,servarica-fat-8,V3 KVM FAT Slice 8,8,16,240,1,30,30,USD,0,https://clients.servarica.com/store/v3-kvm-fat,page,https://stackrates.ai/hosting/servarica/history/
+2026-11-11,servarica,servarica-fat-16,V3 KVM FAT Slice 16,16,32,480,1,58,58,USD,0,https://clients.servarica.com/store/v3-kvm-fat,page,https://stackrates.ai/hosting/servarica/history/
+2026-11-11,servarica,servarica-fat-2,V3 KVM FAT Slice 2,2,4,60,1,9,9,USD,0,https://clients.servarica.com/store/v3-kvm-fat,page,https://stackrates.ai/hosting/servarica/history/
+2026-11-11,servarica,servarica-fat-4,V3 KVM FAT Slice 4,4,8,120,1,16,16,USD,0,https://clients.servarica.com/store/v3-kvm-fat,page,https://stackrates.ai/hosting/servarica/history/
+2026-11-11,servarica,servarica-fat-8,V3 KVM FAT Slice 8,8,16,240,1,30,30,USD,0,https://clients.servarica.com/store/v3-kvm-fat,page,https://stackrates.ai/hosting/servarica/history/

@@ -1,0 +1,26 @@
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
+read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
+2026-11-08,veesp,veesp-vm-1,VM 1,1,1,20,1,5,5,USD,0,https://veesp.com/products/vps/,page,https://stackrates.ai/hosting/veesp/history/
+2026-11-08,veesp,veesp-vm-16,VM 16,6,16,320,1,80,80,USD,0,https://veesp.com/products/vps/,page,https://stackrates.ai/hosting/veesp/history/
+2026-11-08,veesp,veesp-vm-2,VM 2,1,2,40,1,10,10,USD,0,https://veesp.com/products/vps/,page,https://stackrates.ai/hosting/veesp/history/
+2026-11-08,veesp,veesp-vm-32,VM 32,8,32,640,1,160,160,USD,0,https://veesp.com/products/vps/,page,https://stackrates.ai/hosting/veesp/history/
+2026-11-08,veesp,veesp-vm-4,VM 4,2,4,80,1,20,20,USD,0,https://veesp.com/products/vps/,page,https://stackrates.ai/hosting/veesp/history/
+2026-11-08,veesp,veesp-vm-8,VM 8,4,8,160,1,40,40,USD,0,https://veesp.com/products/vps/,page,https://stackrates.ai/hosting/veesp/history/
+2026-11-09,veesp,veesp-vm-1,VM 1,1,1,20,1,5,5,USD,0,https://veesp.com/products/vps/,page,https://stackrates.ai/hosting/veesp/history/
+2026-11-09,veesp,veesp-vm-16,VM 16,6,16,320,1,80,80,USD,0,https://veesp.com/products/vps/,page,https://stackrates.ai/hosting/veesp/history/
+2026-11-09,veesp,veesp-vm-2,VM 2,1,2,40,1,10,10,USD,0,https://veesp.com/products/vps/,page,https://stackrates.ai/hosting/veesp/history/
+2026-11-09,veesp,veesp-vm-32,VM 32,8,32,640,1,160,160,USD,0,https://veesp.com/products/vps/,page,https://stackrates.ai/hosting/veesp/history/
+2026-11-09,veesp,veesp-vm-4,VM 4,2,4,80,1,20,20,USD,0,https://veesp.com/products/vps/,page,https://stackrates.ai/hosting/veesp/history/
+2026-11-09,veesp,veesp-vm-8,VM 8,4,8,160,1,40,40,USD,0,https://veesp.com/products/vps/,page,https://stackrates.ai/hosting/veesp/history/
+2026-11-10,veesp,veesp-vm-1,VM 1,1,1,20,1,5,5,USD,0,https://veesp.com/products/vps/,page,https://stackrates.ai/hosting/veesp/history/
+2026-11-10,veesp,veesp-vm-16,VM 16,6,16,320,1,80,80,USD,0,https://veesp.com/products/vps/,page,https://stackrates.ai/hosting/veesp/history/
+2026-11-10,veesp,veesp-vm-2,VM 2,1,2,40,1,10,10,USD,0,https://veesp.com/products/vps/,page,https://stackrates.ai/hosting/veesp/history/
+2026-11-10,veesp,veesp-vm-32,VM 32,8,32,640,1,160,160,USD,0,https://veesp.com/products/vps/,page,https://stackrates.ai/hosting/veesp/history/
+2026-11-10,veesp,veesp-vm-4,VM 4,2,4,80,1,20,20,USD,0,https://veesp.com/products/vps/,page,https://stackrates.ai/hosting/veesp/history/
+2026-11-10,veesp,veesp-vm-8,VM 8,4,8,160,1,40,40,USD,0,https://veesp.com/products/vps/,page,https://stackrates.ai/hosting/veesp/history/
+2026-11-11,veesp,veesp-vm-1,VM 1,1,1,20,1,5,5,USD,0,https://veesp.com/products/vps/,page,https://stackrates.ai/hosting/veesp/history/
+2026-11-11,veesp,veesp-vm-16,VM 16,6,16,320,1,80,80,USD,0,https://veesp.com/products/vps/,page,https://stackrates.ai/hosting/veesp/history/
+2026-11-11,veesp,veesp-vm-2,VM 2,1,2,40,1,10,10,USD,0,https://veesp.com/products/vps/,page,https://stackrates.ai/hosting/veesp/history/
+2026-11-11,veesp,veesp-vm-32,VM 32,8,32,640,1,160,160,USD,0,https://veesp.com/products/vps/,page,https://stackrates.ai/hosting/veesp/history/
+2026-11-11,veesp,veesp-vm-4,VM 4,2,4,80,1,20,20,USD,0,https://veesp.com/products/vps/,page,https://stackrates.ai/hosting/veesp/history/
+2026-11-11,veesp,veesp-vm-8,VM 8,4,8,160,1,40,40,USD,0,https://veesp.com/products/vps/,page,https://stackrates.ai/hosting/veesp/history/

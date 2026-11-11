@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-07
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-06,vexxhost,vexx-starter-1,v3-starter-1,1,2,10,1,7.5,7.5,USD,2,https://vexxhost.com/pricing/,manual,https://stackrates.ai/hosting/vexxhost/history/
 2026-11-06,vexxhost,vexx-starter-16,v3-starter-16,16,32,160,1,120,120,USD,2,https://vexxhost.com/pricing/,manual,https://stackrates.ai/hosting/vexxhost/history/
@@ -16,3 +16,35 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-07,vexxhost,vexx-starter-64,v3-starter-64,64,128,640,1,495,495,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
 2026-11-07,vexxhost,vexx-starter-8,v3-starter-8,8,16,80,1,60,60,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
 2026-11-07,vexxhost,vexx-starter-96,v3-starter-96,96,192,960,1,742,742,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-08,vexxhost,vexx-starter-1,v3-starter-1,1,2,10,1,7.5,7.5,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-08,vexxhost,vexx-starter-16,v3-starter-16,16,32,160,1,120,120,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-08,vexxhost,vexx-starter-2,v3-starter-2,2,4,20,1,15,15,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-08,vexxhost,vexx-starter-32,v3-starter-32,32,64,320,1,245,245,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-08,vexxhost,vexx-starter-4,v3-starter-4,4,8,40,1,30,30,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-08,vexxhost,vexx-starter-64,v3-starter-64,64,128,640,1,495,495,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-08,vexxhost,vexx-starter-8,v3-starter-8,8,16,80,1,60,60,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-08,vexxhost,vexx-starter-96,v3-starter-96,96,192,960,1,742,742,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-09,vexxhost,vexx-starter-1,v3-starter-1,1,2,10,1,7.5,7.5,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-09,vexxhost,vexx-starter-16,v3-starter-16,16,32,160,1,120,120,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-09,vexxhost,vexx-starter-2,v3-starter-2,2,4,20,1,15,15,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-09,vexxhost,vexx-starter-32,v3-starter-32,32,64,320,1,245,245,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-09,vexxhost,vexx-starter-4,v3-starter-4,4,8,40,1,30,30,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-09,vexxhost,vexx-starter-64,v3-starter-64,64,128,640,1,495,495,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-09,vexxhost,vexx-starter-8,v3-starter-8,8,16,80,1,60,60,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-09,vexxhost,vexx-starter-96,v3-starter-96,96,192,960,1,742,742,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-10,vexxhost,vexx-starter-1,v3-starter-1,1,2,10,1,7.5,7.5,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-10,vexxhost,vexx-starter-16,v3-starter-16,16,32,160,1,120,120,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-10,vexxhost,vexx-starter-2,v3-starter-2,2,4,20,1,15,15,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-10,vexxhost,vexx-starter-32,v3-starter-32,32,64,320,1,245,245,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-10,vexxhost,vexx-starter-4,v3-starter-4,4,8,40,1,30,30,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-10,vexxhost,vexx-starter-64,v3-starter-64,64,128,640,1,495,495,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-10,vexxhost,vexx-starter-8,v3-starter-8,8,16,80,1,60,60,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-10,vexxhost,vexx-starter-96,v3-starter-96,96,192,960,1,742,742,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-11,vexxhost,vexx-starter-1,v3-starter-1,1,2,10,1,7.5,7.5,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-11,vexxhost,vexx-starter-16,v3-starter-16,16,32,160,1,120,120,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-11,vexxhost,vexx-starter-2,v3-starter-2,2,4,20,1,15,15,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-11,vexxhost,vexx-starter-32,v3-starter-32,32,64,320,1,245,245,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-11,vexxhost,vexx-starter-4,v3-starter-4,4,8,40,1,30,30,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-11,vexxhost,vexx-starter-64,v3-starter-64,64,128,640,1,495,495,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-11,vexxhost,vexx-starter-8,v3-starter-8,8,16,80,1,60,60,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/
+2026-11-11,vexxhost,vexx-starter-96,v3-starter-96,96,192,960,1,742,742,USD,2,https://vexxhost.com/pricing/,page,https://stackrates.ai/hosting/vexxhost/history/

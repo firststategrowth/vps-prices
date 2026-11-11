@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-07
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-14,latitudesh,latitudesh-c3-small,c3.small.x86,6,32,800,1,190,190,USD,0,https://www.latitude.sh/pricing,page,https://stackrates.ai/hosting/latitudesh/history/
 2026-10-14,latitudesh,latitudesh-f4-small,f4.metal.small,12,96,1920,1,398,398,USD,0,https://www.latitude.sh/pricing,page,https://stackrates.ai/hosting/latitudesh/history/
@@ -65,3 +65,11 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-06,latitudesh,latitudesh-m4-small,m4.metal.small,12,48,1920,1,296,296,USD,0,https://www.latitude.sh/pricing,page,https://stackrates.ai/hosting/latitudesh/history/
 2026-11-07,latitudesh,latitudesh-f4-small,f4.metal.small,24,96,1920,1,398,398,USD,0,https://www.latitude.sh/pricing,page,https://stackrates.ai/hosting/latitudesh/history/
 2026-11-07,latitudesh,latitudesh-m4-small,m4.metal.small,12,48,1920,1,296,296,USD,0,https://www.latitude.sh/pricing,page,https://stackrates.ai/hosting/latitudesh/history/
+2026-11-08,latitudesh,latitudesh-f4-small,f4.metal.small,24,96,1920,1,398,398,USD,0,https://www.latitude.sh/pricing,page,https://stackrates.ai/hosting/latitudesh/history/
+2026-11-08,latitudesh,latitudesh-m4-small,m4.metal.small,12,48,1920,1,296,296,USD,0,https://www.latitude.sh/pricing,page,https://stackrates.ai/hosting/latitudesh/history/
+2026-11-09,latitudesh,latitudesh-f4-small,f4.metal.small,24,96,1920,1,398,398,USD,0,https://www.latitude.sh/pricing,page,https://stackrates.ai/hosting/latitudesh/history/
+2026-11-09,latitudesh,latitudesh-m4-small,m4.metal.small,12,48,1920,1,296,296,USD,0,https://www.latitude.sh/pricing,page,https://stackrates.ai/hosting/latitudesh/history/
+2026-11-10,latitudesh,latitudesh-f4-small,f4.metal.small,24,96,1920,1,398,398,USD,0,https://www.latitude.sh/pricing,page,https://stackrates.ai/hosting/latitudesh/history/
+2026-11-10,latitudesh,latitudesh-m4-small,m4.metal.small,12,48,1920,1,296,296,USD,0,https://www.latitude.sh/pricing,page,https://stackrates.ai/hosting/latitudesh/history/
+2026-11-11,latitudesh,latitudesh-f4-small,f4.metal.small,24,96,1920,1,398,398,USD,0,https://www.latitude.sh/pricing,page,https://stackrates.ai/hosting/latitudesh/history/
+2026-11-11,latitudesh,latitudesh-m4-small,m4.metal.small,12,48,1920,1,296,296,USD,0,https://www.latitude.sh/pricing,page,https://stackrates.ai/hosting/latitudesh/history/

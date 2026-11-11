@@ -1,0 +1,22 @@
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
+read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
+2026-11-08,strato,strato-vps-l,VPS L,4,8,240,1,22.33,20,EUR,0,https://www.strato.de/server/vps/,page,https://stackrates.ai/hosting/strato/history/
+2026-11-08,strato,strato-vps-m,VPS M,2,4,120,1,11.17,10,EUR,0,https://www.strato.de/server/vps/,page,https://stackrates.ai/hosting/strato/history/
+2026-11-08,strato,strato-vps-s,VPS S,1,2,60,1,4.47,4,EUR,0,https://www.strato.de/server/vps/,page,https://stackrates.ai/hosting/strato/history/
+2026-11-08,strato,strato-vps-xl,VPS XL,8,16,480,1,43.54,39,EUR,0,https://www.strato.de/server/vps/,page,https://stackrates.ai/hosting/strato/history/
+2026-11-08,strato,strato-vps-xxl,VPS XXL,12,24,720,1,62.52,56,EUR,0,https://www.strato.de/server/vps/,page,https://stackrates.ai/hosting/strato/history/
+2026-11-09,strato,strato-vps-l,VPS L,4,8,240,1,22.33,20,EUR,0,https://www.strato.de/server/vps/,page,https://stackrates.ai/hosting/strato/history/
+2026-11-09,strato,strato-vps-m,VPS M,2,4,120,1,11.17,10,EUR,0,https://www.strato.de/server/vps/,page,https://stackrates.ai/hosting/strato/history/
+2026-11-09,strato,strato-vps-s,VPS S,1,2,60,1,4.47,4,EUR,0,https://www.strato.de/server/vps/,page,https://stackrates.ai/hosting/strato/history/
+2026-11-09,strato,strato-vps-xl,VPS XL,8,16,480,1,43.54,39,EUR,0,https://www.strato.de/server/vps/,page,https://stackrates.ai/hosting/strato/history/
+2026-11-09,strato,strato-vps-xxl,VPS XXL,12,24,720,1,62.52,56,EUR,0,https://www.strato.de/server/vps/,page,https://stackrates.ai/hosting/strato/history/
+2026-11-10,strato,strato-vps-l,VPS L,4,8,240,1,22.39,20,EUR,0,https://www.strato.de/server/vps/,page,https://stackrates.ai/hosting/strato/history/
+2026-11-10,strato,strato-vps-m,VPS M,2,4,120,1,11.19,10,EUR,0,https://www.strato.de/server/vps/,page,https://stackrates.ai/hosting/strato/history/
+2026-11-10,strato,strato-vps-s,VPS S,1,2,60,1,4.48,4,EUR,0,https://www.strato.de/server/vps/,page,https://stackrates.ai/hosting/strato/history/
+2026-11-10,strato,strato-vps-xl,VPS XL,8,16,480,1,43.65,39,EUR,0,https://www.strato.de/server/vps/,page,https://stackrates.ai/hosting/strato/history/
+2026-11-10,strato,strato-vps-xxl,VPS XXL,12,24,720,1,62.68,56,EUR,0,https://www.strato.de/server/vps/,page,https://stackrates.ai/hosting/strato/history/
+2026-11-11,strato,strato-vps-l,VPS L,4,8,240,1,22.43,20,EUR,0,https://www.strato.de/server/vps/,page,https://stackrates.ai/hosting/strato/history/
+2026-11-11,strato,strato-vps-m,VPS M,2,4,120,1,11.21,10,EUR,0,https://www.strato.de/server/vps/,page,https://stackrates.ai/hosting/strato/history/
+2026-11-11,strato,strato-vps-s,VPS S,1,2,60,1,4.49,4,EUR,0,https://www.strato.de/server/vps/,page,https://stackrates.ai/hosting/strato/history/
+2026-11-11,strato,strato-vps-xl,VPS XL,8,16,480,1,43.73,39,EUR,0,https://www.strato.de/server/vps/,page,https://stackrates.ai/hosting/strato/history/
+2026-11-11,strato,strato-vps-xxl,VPS XXL,12,24,720,1,62.8,56,EUR,0,https://www.strato.de/server/vps/,page,https://stackrates.ai/hosting/strato/history/

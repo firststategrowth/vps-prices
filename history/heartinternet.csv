@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-07
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-06,heartinternet,heart-advanced,VPS Advanced,4,8,200,1,40.14,29.99,GBP,,https://www.heartinternet.uk/vps,manual,https://stackrates.ai/hosting/heartinternet/history/
 2026-11-06,heartinternet,heart-elite,VPS Elite,8,16,300,1,80.3,59.99,GBP,,https://www.heartinternet.uk/vps,manual,https://stackrates.ai/hosting/heartinternet/history/
@@ -10,3 +10,23 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-07,heartinternet,heart-lite,VPS Lite,1,2,75,1,12.03,8.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
 2026-11-07,heartinternet,heart-plus,VPS Plus,2,4,100,1,20.06,14.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
 2026-11-07,heartinternet,heart-premium,VPS Premium,6,12,250,1,53.53,39.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
+2026-11-08,heartinternet,heart-advanced,VPS Advanced,4,8,200,1,40.14,29.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
+2026-11-08,heartinternet,heart-elite,VPS Elite,8,16,300,1,80.3,59.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
+2026-11-08,heartinternet,heart-lite,VPS Lite,1,2,75,1,12.03,8.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
+2026-11-08,heartinternet,heart-plus,VPS Plus,2,4,100,1,20.06,14.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
+2026-11-08,heartinternet,heart-premium,VPS Premium,6,12,250,1,53.53,39.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
+2026-11-09,heartinternet,heart-advanced,VPS Advanced,4,8,200,1,40.14,29.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
+2026-11-09,heartinternet,heart-elite,VPS Elite,8,16,300,1,80.3,59.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
+2026-11-09,heartinternet,heart-lite,VPS Lite,1,2,75,1,12.03,8.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
+2026-11-09,heartinternet,heart-plus,VPS Plus,2,4,100,1,20.06,14.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
+2026-11-09,heartinternet,heart-premium,VPS Premium,6,12,250,1,53.53,39.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
+2026-11-10,heartinternet,heart-advanced,VPS Advanced,4,8,200,1,40.23,29.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
+2026-11-10,heartinternet,heart-elite,VPS Elite,8,16,300,1,80.48,59.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
+2026-11-10,heartinternet,heart-lite,VPS Lite,1,2,75,1,12.06,8.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
+2026-11-10,heartinternet,heart-plus,VPS Plus,2,4,100,1,20.11,14.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
+2026-11-10,heartinternet,heart-premium,VPS Premium,6,12,250,1,53.65,39.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
+2026-11-11,heartinternet,heart-advanced,VPS Advanced,4,8,200,1,40.26,29.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
+2026-11-11,heartinternet,heart-elite,VPS Elite,8,16,300,1,80.52,59.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
+2026-11-11,heartinternet,heart-lite,VPS Lite,1,2,75,1,12.07,8.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
+2026-11-11,heartinternet,heart-plus,VPS Plus,2,4,100,1,20.12,14.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
+2026-11-11,heartinternet,heart-premium,VPS Premium,6,12,250,1,53.68,39.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/

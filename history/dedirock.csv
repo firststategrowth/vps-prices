@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-07
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-14,dedirock,dedirock-essentials,KVM VPS Essentials,2,2,40,1,8.99,8.99,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
 2026-10-14,dedirock,dedirock-plus,KVM VPS Plus,4,4,100,1,12.99,12.99,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
@@ -135,3 +135,39 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-07,dedirock,dedirock-yearly-economy,Yearly Promo Economy,1,2,20,12,1.49,1.49,USD,0,https://dedirock.com/KVMSuperSale/,page,https://stackrates.ai/hosting/dedirock/history/
 2026-11-07,dedirock,dedirock-yearly-saver,Yearly Promo Saver,1,1,10,12,0.91,0.91,USD,0,https://dedirock.com/KVMSuperSale/,page,https://stackrates.ai/hosting/dedirock/history/
 2026-11-07,dedirock,dedirock-yearly-value,Yearly Promo Value,2,3,40,12,2.66,2.66,USD,0,https://dedirock.com/KVMSuperSale/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-08,dedirock,dedirock-essentials,KVM VPS Essentials,2,2,40,1,8.99,8.99,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-08,dedirock,dedirock-i9-core,i9 Dream Core,1,2,30,12,2.92,2.92,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-08,dedirock,dedirock-i9-plus,i9 Dream Plus,1,3,40,12,3.75,3.75,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-08,dedirock,dedirock-i9-power,i9 Dream Power,2,4,60,12,4.58,4.58,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-08,dedirock,dedirock-plus,KVM VPS Plus,4,4,100,1,12.99,12.99,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-08,dedirock,dedirock-starter,KVM VPS Starter,1,1,20,1,5.99,5.99,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-08,dedirock,dedirock-yearly-economy,Yearly Promo Economy,1,2,20,12,1.49,1.49,USD,0,https://dedirock.com/KVMSuperSale/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-08,dedirock,dedirock-yearly-saver,Yearly Promo Saver,1,1,10,12,0.91,0.91,USD,0,https://dedirock.com/KVMSuperSale/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-08,dedirock,dedirock-yearly-value,Yearly Promo Value,2,3,40,12,2.66,2.66,USD,0,https://dedirock.com/KVMSuperSale/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-09,dedirock,dedirock-essentials,KVM VPS Essentials,2,2,40,1,8.99,8.99,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-09,dedirock,dedirock-i9-core,i9 Dream Core,1,2,30,12,2.92,2.92,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-09,dedirock,dedirock-i9-plus,i9 Dream Plus,1,3,40,12,3.75,3.75,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-09,dedirock,dedirock-i9-power,i9 Dream Power,2,4,60,12,4.58,4.58,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-09,dedirock,dedirock-plus,KVM VPS Plus,4,4,100,1,12.99,12.99,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-09,dedirock,dedirock-starter,KVM VPS Starter,1,1,20,1,5.99,5.99,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-09,dedirock,dedirock-yearly-economy,Yearly Promo Economy,1,2,20,12,1.49,1.49,USD,0,https://dedirock.com/KVMSuperSale/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-09,dedirock,dedirock-yearly-saver,Yearly Promo Saver,1,1,10,12,0.91,0.91,USD,0,https://dedirock.com/KVMSuperSale/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-09,dedirock,dedirock-yearly-value,Yearly Promo Value,2,3,40,12,2.66,2.66,USD,0,https://dedirock.com/KVMSuperSale/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-10,dedirock,dedirock-essentials,KVM VPS Essentials,2,2,40,1,8.99,8.99,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-10,dedirock,dedirock-i9-core,i9 Dream Core,1,2,30,12,2.92,2.92,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-10,dedirock,dedirock-i9-plus,i9 Dream Plus,1,3,40,12,3.75,3.75,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-10,dedirock,dedirock-i9-power,i9 Dream Power,2,4,60,12,4.58,4.58,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-10,dedirock,dedirock-plus,KVM VPS Plus,4,4,100,1,12.99,12.99,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-10,dedirock,dedirock-starter,KVM VPS Starter,1,1,20,1,5.99,5.99,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-10,dedirock,dedirock-yearly-economy,Yearly Promo Economy,1,2,20,12,1.49,1.49,USD,0,https://dedirock.com/KVMSuperSale/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-10,dedirock,dedirock-yearly-saver,Yearly Promo Saver,1,1,10,12,0.91,0.91,USD,0,https://dedirock.com/KVMSuperSale/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-10,dedirock,dedirock-yearly-value,Yearly Promo Value,2,3,40,12,2.66,2.66,USD,0,https://dedirock.com/KVMSuperSale/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-11,dedirock,dedirock-essentials,KVM VPS Essentials,2,2,40,1,8.99,8.99,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-11,dedirock,dedirock-i9-core,i9 Dream Core,1,2,30,12,2.92,2.92,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-11,dedirock,dedirock-i9-plus,i9 Dream Plus,1,3,40,12,3.75,3.75,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-11,dedirock,dedirock-i9-power,i9 Dream Power,2,4,60,12,4.58,4.58,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-11,dedirock,dedirock-plus,KVM VPS Plus,4,4,100,1,12.99,12.99,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-11,dedirock,dedirock-starter,KVM VPS Starter,1,1,20,1,5.99,5.99,USD,0,https://dedirock.com/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-11,dedirock,dedirock-yearly-economy,Yearly Promo Economy,1,2,20,12,1.49,1.49,USD,0,https://dedirock.com/KVMSuperSale/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-11,dedirock,dedirock-yearly-saver,Yearly Promo Saver,1,1,10,12,0.91,0.91,USD,0,https://dedirock.com/KVMSuperSale/,page,https://stackrates.ai/hosting/dedirock/history/
+2026-11-11,dedirock,dedirock-yearly-value,Yearly Promo Value,2,3,40,12,2.66,2.66,USD,0,https://dedirock.com/KVMSuperSale/,page,https://stackrates.ai/hosting/dedirock/history/

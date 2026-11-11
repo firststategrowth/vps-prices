@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-07
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-11,vpsdime,vpsdime-12,Linux 12GB,4,12,60,1,14,14,USD,0,https://vpsdime.com/,page,https://stackrates.ai/hosting/vpsdime/history/
 2026-10-11,vpsdime,vpsdime-24,Linux 24GB,4,24,120,1,28,28,USD,0,https://vpsdime.com/,page,https://stackrates.ai/hosting/vpsdime/history/
@@ -112,3 +112,19 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-07,vpsdime,vpsdime-24,Linux 24GB,4,24,120,1,28,28,USD,0,https://vpsdime.com/,page,https://stackrates.ai/hosting/vpsdime/history/
 2026-11-07,vpsdime,vpsdime-4,Linux 4GB,2,4,20,1,5,5,USD,0,https://vpsdime.com/,page,https://stackrates.ai/hosting/vpsdime/history/
 2026-11-07,vpsdime,vpsdime-6,Linux 6GB,4,6,30,1,7,7,USD,0,https://vpsdime.com/,page,https://stackrates.ai/hosting/vpsdime/history/
+2026-11-08,vpsdime,vpsdime-12,Linux 12GB,4,12,60,1,14,14,USD,0,https://vpsdime.com/,page,https://stackrates.ai/hosting/vpsdime/history/
+2026-11-08,vpsdime,vpsdime-24,Linux 24GB,4,24,120,1,28,28,USD,0,https://vpsdime.com/,page,https://stackrates.ai/hosting/vpsdime/history/
+2026-11-08,vpsdime,vpsdime-4,Linux 4GB,2,4,20,1,5,5,USD,0,https://vpsdime.com/,page,https://stackrates.ai/hosting/vpsdime/history/
+2026-11-08,vpsdime,vpsdime-6,Linux 6GB,4,6,30,1,7,7,USD,0,https://vpsdime.com/,page,https://stackrates.ai/hosting/vpsdime/history/
+2026-11-09,vpsdime,vpsdime-12,Linux 12GB,4,12,60,1,14,14,USD,0,https://vpsdime.com/,page,https://stackrates.ai/hosting/vpsdime/history/
+2026-11-09,vpsdime,vpsdime-24,Linux 24GB,4,24,120,1,28,28,USD,0,https://vpsdime.com/,page,https://stackrates.ai/hosting/vpsdime/history/
+2026-11-09,vpsdime,vpsdime-4,Linux 4GB,2,4,20,1,5,5,USD,0,https://vpsdime.com/,page,https://stackrates.ai/hosting/vpsdime/history/
+2026-11-09,vpsdime,vpsdime-6,Linux 6GB,4,6,30,1,7,7,USD,0,https://vpsdime.com/,page,https://stackrates.ai/hosting/vpsdime/history/
+2026-11-10,vpsdime,vpsdime-12,Linux 12GB,4,12,60,1,14,14,USD,0,https://vpsdime.com/,page,https://stackrates.ai/hosting/vpsdime/history/
+2026-11-10,vpsdime,vpsdime-24,Linux 24GB,4,24,120,1,28,28,USD,0,https://vpsdime.com/,page,https://stackrates.ai/hosting/vpsdime/history/
+2026-11-10,vpsdime,vpsdime-4,Linux 4GB,2,4,20,1,5,5,USD,0,https://vpsdime.com/,page,https://stackrates.ai/hosting/vpsdime/history/
+2026-11-10,vpsdime,vpsdime-6,Linux 6GB,4,6,30,1,7,7,USD,0,https://vpsdime.com/,page,https://stackrates.ai/hosting/vpsdime/history/
+2026-11-11,vpsdime,vpsdime-12,Linux 12GB,4,12,60,1,14,14,USD,0,https://vpsdime.com/,page,https://stackrates.ai/hosting/vpsdime/history/
+2026-11-11,vpsdime,vpsdime-24,Linux 24GB,4,24,120,1,28,28,USD,0,https://vpsdime.com/,page,https://stackrates.ai/hosting/vpsdime/history/
+2026-11-11,vpsdime,vpsdime-4,Linux 4GB,2,4,20,1,5,5,USD,0,https://vpsdime.com/,page,https://stackrates.ai/hosting/vpsdime/history/
+2026-11-11,vpsdime,vpsdime-6,Linux 6GB,4,6,30,1,7,7,USD,0,https://vpsdime.com/,page,https://stackrates.ai/hosting/vpsdime/history/

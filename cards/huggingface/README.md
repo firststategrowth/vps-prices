@@ -11,7 +11,7 @@ tags:
 - price-index
 - time-series
 size_categories:
-- 1K<n<10K
+- 10K<n<100K
 configs:
 - config_name: prices
   data_files: "prices.csv"
@@ -19,6 +19,7 @@ configs:
   default: true
 - config_name: price_history
   data_files:
+  - "history/20i.csv"
   - "history/accuwebhosting.csv"
   - "history/advinservers.csv"
   - "history/akamai-linode.csv"
@@ -39,6 +40,7 @@ configs:
   - "history/dedirock.csv"
   - "history/digitalocean.csv"
   - "history/dreamhost.csv"
+  - "history/elementor.csv"
   - "history/ethernetservers.csv"
   - "history/evolutionhost.csv"
   - "history/evoxt.csv"
@@ -53,11 +55,15 @@ configs:
   - "history/hostcolor.csv"
   - "history/hosthatch.csv"
   - "history/hostingcom.csv"
+  - "history/hostingde.csv"
   - "history/hostinger.csv"
+  - "history/hostnamaste.csv"
   - "history/hostnoc.csv"
   - "history/hostodo.csv"
+  - "history/hostpapa.csv"
   - "history/hostus.csv"
   - "history/hostwinds.csv"
+  - "history/hyonix.csv"
   - "history/iniz.csv"
   - "history/interserver.csv"
   - "history/ionos.csv"
@@ -78,15 +84,23 @@ configs:
   - "history/netcup.csv"
   - "history/nocix.csv"
   - "history/ovhcloud.csv"
+  - "history/pawnhoster.csv"
   - "history/phoenixnap.csv"
   - "history/prohosting24.csv"
+  - "history/quickpacket.csv"
   - "history/racknerd.csv"
+  - "history/raiola.csv"
   - "history/ramnode.csv"
+  - "history/reliablesite.csv"
   - "history/scaleway.csv"
   - "history/securedragon.csv"
   - "history/servarica.csv"
+  - "history/serverhost.csv"
+  - "history/smokyhosts.csv"
   - "history/softshellweb.csv"
   - "history/spinservers.csv"
+  - "history/strato.csv"
+  - "history/swhosting.csv"
   - "history/tiernet.csv"
   - "history/time4vps.csv"
   - "history/ukhost4u.csv"
@@ -94,6 +108,7 @@ configs:
   - "history/ultravps.csv"
   - "history/ultrawebhosting.csv"
   - "history/upcloud.csv"
+  - "history/veesp.csv"
   - "history/vexxhost.csv"
   - "history/virtono.csv"
   - "history/vpsbg.csv"
@@ -117,19 +132,19 @@ configs:
 # StackRates VPS prices and monthly price index
 
 StackRates reads VPS and cloud server prices from each provider's own pricing page or price API every day and
-publishes every read. On 7 November 2026 the daily file has 582 orderable plans from 81 providers; the
-history holds 7,775 reads of 83 providers' plans over 34 read days, 5 October 2026 to 7 November 2026.
+publishes every read. On 11 November 2026 the daily file has 702 orderable plans from 98 providers; the
+history holds 10,257 reads of 98 providers' plans over 38 read days, 5 October 2026 to 11 November 2026.
 
-The newest index figure, as the site cites it: StackRates VPS price index, Nov 2026: 4 GB median $14/mo over 80 plans (441 plans in the index), read 7 Nov 2026, stackrates.ai/vps-price-index/
+The newest index figure, as the site cites it: StackRates VPS price index, Nov 2026: 4 GB median $14.02/mo over 93 plans with 4 GB (506 plans in the index), read 11 Nov 2026, stackrates.ai/vps-price-index/
 
 ## Files
 
 | Subset | File | Rows | What |
 |---|---|---:|---|
-| `prices` | `prices.csv` | 582 | today's orderable plans, read 7 November 2026 |
-| `price_history` | `history/<provider>.csv` | 7,775 | every price read, 5 October 2026 to 7 November 2026, one file per provider |
+| `prices` | `prices.csv` | 702 | today's orderable plans, read 11 November 2026 |
+| `price_history` | `history/<provider>.csv` | 10,257 | every price read, 5 October 2026 to 11 November 2026, one file per provider |
 | `price_index` | `index/vps-price-index.csv` | 2 | the monthly VPS price index: medians at 1, 4 and 8 GB of RAM |
-| `price_index_plans` | `index/vps-price-index-plans.csv` | 734 | every plan behind each month of the index |
+| `price_index_plans` | `index/vps-price-index-plans.csv` | 799 | every plan behind each month of the index |
 | `year_on_year` | `year-on-year.csv` | 128 | each plan against its October 2025 Wayback Machine capture |
 
 Every CSV opens with one line, `# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read <date>`, before
@@ -142,14 +157,14 @@ its header. Skip it: `pandas.read_csv(url, skiprows=1)`.
   providers print before VAT, US providers before sales tax. A public IPv4 address billed on top is its own column.
 - Euro and pound prices without the provider's own dollar price are converted at the European Central Bank reference
   rate: the read day's in the history, the latest in `prices.csv` (given in `fx` in `prices.json`).
-- 54 history rows carry a figure corrected after the read; `history/revisions.csv` lists each with the figure as read.
+- 86 history rows carry a figure corrected after the read; `history/revisions.csv` lists each with the figure as read.
 - Nothing before 5 October 2026 counts as a read. The year-on file compares Wayback Machine captures of the providers'
   pages from around October 2025, one capture per row (`archived_page`, `archived_on`).
 - The index method (which plans count, which price, the weighting) is in `index/vps-price-index.json` and at
   https://stackrates.ai/vps-price-index/
 
 ## Limits
-- 81 providers in today's file (83 in the history), not the whole market: the ones StackRates
+- 98 providers in today's file (98 in the history), not the whole market: the ones StackRates
   reads, listed in `history/README.md`.
 - The index's newest month runs to its last read day (`last_read`); its medians move when plans enter or leave, so
   read `change_pct_vs_prev_month` (the same plans in both months) for price moves.
@@ -167,12 +182,12 @@ its header. Skip it: `pandas.read_csv(url, skiprows=1)`.
 | `monthly_usd` | numeric | List price in US dollars a month. Providers that price in euros: the provider's own dollar table where one exists, else the euro price at the ECB reference rate (fx in prices.json). |
 | `billed_eur` | numeric | The euro list price (without VAT) for a provider that bills only in euros. |
 | `billed_gbp` | numeric | The pound list price for a provider that bills only in pounds. |
-| `vcpu` | numeric | Virtual CPUs as listed; empty when not stated (plans sold by visits). |
+| `vcpu` | numeric | Virtual CPUs as listed; empty when not stated (managed WordPress plans sold by visits or sites). |
 | `ram_gb` | numeric | RAM in GB as listed; empty when not stated. |
 | `storage_gb` | numeric | Disk in GB included in the price. |
 | `storage_type` | string | Disk type as listed (NVMe, SSD, HDD). |
 | `transfer_tb` | numeric | Monthly traffic allowance in TB; empty when unlimited under a fair-use policy or not stated. |
-| `monthly_visits` | numeric | Managed WordPress plans: monthly visits included. |
+| `monthly_visits` | numeric | Managed WordPress plans: monthly visits included; empty where the plan names none. |
 | `site_limit` | numeric | Managed WordPress plans: sites included. |
 | `cpu_type` | string | CPU type as listed (shared, dedicated, the processor family where stated). |
 | `excludes_vat` | boolean | true when the provider's page states the price before VAT. |
@@ -279,7 +294,7 @@ its header. Skip it: `pandas.read_csv(url, skiprows=1)`.
 ## Licence and citation
 CC BY 4.0: credit "StackRates (stackrates.ai)" with a link to https://stackrates.ai/data/.
 
-StackRates VPS price index, Nov 2026: 4 GB median $14/mo over 80 plans (441 plans in the index), read 7 Nov 2026, stackrates.ai/vps-price-index/
+StackRates VPS price index, Nov 2026: 4 GB median $14.02/mo over 93 plans with 4 GB (506 plans in the index), read 11 Nov 2026, stackrates.ai/vps-price-index/
 
 ```bibtex
 @misc{stackrates_vps_index_2026_11,
@@ -288,8 +303,8 @@ StackRates VPS price index, Nov 2026: 4 GB median $14/mo over 80 plans (441 plan
   year         = {2026},
   month        = {nov},
   howpublished = {\url{https://stackrates.ai/vps-price-index/}},
-  note         = {Data set, method 1, CC BY 4.0. 4 GB median \$14/mo over 80 plans (441 plans in the index); read 2026-11-07},
-  urldate      = {2026-11-07}
+  note         = {Data set, method 1, CC BY 4.0. 4 GB median \$14.02/mo over 93 plans with 4 GB (506 plans in the index); read 2026-11-11},
+  urldate      = {2026-11-11}
 }
 ```
 

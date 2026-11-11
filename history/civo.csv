@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-07
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-14,civo,civo-large,Large,4,8,100,1,43.45,43.45,USD,0,https://www.civo.com/pricing,page,https://stackrates.ai/hosting/civo/history/
 2026-10-14,civo,civo-medium,Medium,2,4,50,1,21.73,21.73,USD,0,https://www.civo.com/pricing,page,https://stackrates.ai/hosting/civo/history/
@@ -100,3 +100,19 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-07,civo,civo-medium,Medium,2,4,50,1,21.73,21.73,USD,0,https://www.civo.com/pricing,page,https://stackrates.ai/hosting/civo/history/
 2026-11-07,civo,civo-small,Small,1,2,25,1,10.86,10.86,USD,0,https://www.civo.com/pricing,page,https://stackrates.ai/hosting/civo/history/
 2026-11-07,civo,civo-xsmall,xSmall,1,1,25,1,5.43,5.43,USD,0,https://www.civo.com/pricing,page,https://stackrates.ai/hosting/civo/history/
+2026-11-08,civo,civo-large,Large,4,8,100,1,43.45,43.45,USD,0,https://www.civo.com/pricing,page,https://stackrates.ai/hosting/civo/history/
+2026-11-08,civo,civo-medium,Medium,2,4,50,1,21.73,21.73,USD,0,https://www.civo.com/pricing,page,https://stackrates.ai/hosting/civo/history/
+2026-11-08,civo,civo-small,Small,1,2,25,1,10.86,10.86,USD,0,https://www.civo.com/pricing,page,https://stackrates.ai/hosting/civo/history/
+2026-11-08,civo,civo-xsmall,xSmall,1,1,25,1,5.43,5.43,USD,0,https://www.civo.com/pricing,page,https://stackrates.ai/hosting/civo/history/
+2026-11-09,civo,civo-large,Large,4,8,100,1,43.45,43.45,USD,0,https://www.civo.com/pricing,page,https://stackrates.ai/hosting/civo/history/
+2026-11-09,civo,civo-medium,Medium,2,4,50,1,21.73,21.73,USD,0,https://www.civo.com/pricing,page,https://stackrates.ai/hosting/civo/history/
+2026-11-09,civo,civo-small,Small,1,2,25,1,10.86,10.86,USD,0,https://www.civo.com/pricing,page,https://stackrates.ai/hosting/civo/history/
+2026-11-09,civo,civo-xsmall,xSmall,1,1,25,1,5.43,5.43,USD,0,https://www.civo.com/pricing,page,https://stackrates.ai/hosting/civo/history/
+2026-11-10,civo,civo-large,Large,4,8,100,1,43.45,43.45,USD,0,https://www.civo.com/pricing,page,https://stackrates.ai/hosting/civo/history/
+2026-11-10,civo,civo-medium,Medium,2,4,50,1,21.73,21.73,USD,0,https://www.civo.com/pricing,page,https://stackrates.ai/hosting/civo/history/
+2026-11-10,civo,civo-small,Small,1,2,25,1,10.86,10.86,USD,0,https://www.civo.com/pricing,page,https://stackrates.ai/hosting/civo/history/
+2026-11-10,civo,civo-xsmall,xSmall,1,1,25,1,5.43,5.43,USD,0,https://www.civo.com/pricing,page,https://stackrates.ai/hosting/civo/history/
+2026-11-11,civo,civo-large,Large,4,8,100,1,43.45,43.45,USD,0,https://www.civo.com/pricing,page,https://stackrates.ai/hosting/civo/history/
+2026-11-11,civo,civo-medium,Medium,2,4,50,1,21.73,21.73,USD,0,https://www.civo.com/pricing,page,https://stackrates.ai/hosting/civo/history/
+2026-11-11,civo,civo-small,Small,1,2,25,1,10.86,10.86,USD,0,https://www.civo.com/pricing,page,https://stackrates.ai/hosting/civo/history/
+2026-11-11,civo,civo-xsmall,xSmall,1,1,25,1,5.43,5.43,USD,0,https://www.civo.com/pricing,page,https://stackrates.ai/hosting/civo/history/

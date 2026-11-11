@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-07
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-05,digitalocean,do-basic-05,Basic 512MB,1,0.5,10,1,4,4,USD,0,https://www.digitalocean.com/pricing/droplets,manual,https://stackrates.ai/hosting/digitalocean/history/
 2026-10-05,digitalocean,do-basic-1,Basic 1GB,1,1,25,1,6,6,USD,0,https://www.digitalocean.com/pricing/droplets,manual,https://stackrates.ai/hosting/digitalocean/history/
@@ -203,3 +203,31 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-07,digitalocean,do-basic-2-2,Basic 2GB / 2 vCPU,2,2,60,1,18,18,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
 2026-11-07,digitalocean,do-basic-4,Basic 4GB,2,4,80,1,24,24,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
 2026-11-07,digitalocean,do-basic-8,Basic 8GB,4,8,160,1,48,48,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-08,digitalocean,do-basic-05,Basic 512MB,1,0.5,10,1,4,4,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-08,digitalocean,do-basic-1,Basic 1GB,1,1,25,1,6,6,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-08,digitalocean,do-basic-16,Basic 16GB,8,16,320,1,96,96,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-08,digitalocean,do-basic-2,Basic 2GB,1,2,50,1,12,12,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-08,digitalocean,do-basic-2-2,Basic 2GB / 2 vCPU,2,2,60,1,18,18,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-08,digitalocean,do-basic-4,Basic 4GB,2,4,80,1,24,24,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-08,digitalocean,do-basic-8,Basic 8GB,4,8,160,1,48,48,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-09,digitalocean,do-basic-05,Basic 512MB,1,0.5,10,1,4,4,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-09,digitalocean,do-basic-1,Basic 1GB,1,1,25,1,6,6,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-09,digitalocean,do-basic-16,Basic 16GB,8,16,320,1,96,96,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-09,digitalocean,do-basic-2,Basic 2GB,1,2,50,1,12,12,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-09,digitalocean,do-basic-2-2,Basic 2GB / 2 vCPU,2,2,60,1,18,18,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-09,digitalocean,do-basic-4,Basic 4GB,2,4,80,1,24,24,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-09,digitalocean,do-basic-8,Basic 8GB,4,8,160,1,48,48,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-10,digitalocean,do-basic-05,Basic 512MB,1,0.5,10,1,4,4,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-10,digitalocean,do-basic-1,Basic 1GB,1,1,25,1,6,6,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-10,digitalocean,do-basic-16,Basic 16GB,8,16,320,1,96,96,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-10,digitalocean,do-basic-2,Basic 2GB,1,2,50,1,12,12,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-10,digitalocean,do-basic-2-2,Basic 2GB / 2 vCPU,2,2,60,1,18,18,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-10,digitalocean,do-basic-4,Basic 4GB,2,4,80,1,24,24,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-10,digitalocean,do-basic-8,Basic 8GB,4,8,160,1,48,48,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-11,digitalocean,do-basic-05,Basic 512MB,1,0.5,10,1,4,4,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-11,digitalocean,do-basic-1,Basic 1GB,1,1,25,1,6,6,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-11,digitalocean,do-basic-16,Basic 16GB,8,16,320,1,96,96,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-11,digitalocean,do-basic-2,Basic 2GB,1,2,50,1,12,12,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-11,digitalocean,do-basic-2-2,Basic 2GB / 2 vCPU,2,2,60,1,18,18,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-11,digitalocean,do-basic-4,Basic 4GB,2,4,80,1,24,24,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/
+2026-11-11,digitalocean,do-basic-8,Basic 8GB,4,8,160,1,48,48,USD,0,https://www.digitalocean.com/pricing/droplets,page,https://stackrates.ai/hosting/digitalocean/history/

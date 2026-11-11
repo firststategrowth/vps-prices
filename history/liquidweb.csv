@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-07
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-11,liquidweb,liquidweb-1,VPS 1 GB,1,1,30,1,5,5,USD,0,https://www.liquidweb.com/vps-hosting/,page,https://stackrates.ai/hosting/liquidweb/history/
 2026-10-11,liquidweb,liquidweb-16,VPS 16 GB,6,16,440,1,90,90,USD,0,https://www.liquidweb.com/vps-hosting/,page,https://stackrates.ai/hosting/liquidweb/history/
@@ -166,3 +166,111 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-07,liquidweb,lw-wp-pro-250,Pro WordPress 250 sites,,,1000,1,1749,1749,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
 2026-11-07,liquidweb,lw-wp-pro-50,Pro WordPress 50 sites,,,200,1,349,349,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
 2026-11-07,liquidweb,lw-wp-pro-500,Pro WordPress 500 sites,,,2000,1,3499,3499,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,liquidweb-16,VPS 16 GB,6,16,440,1,90,90,USD,0,https://www.liquidweb.com/vps-hosting/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,liquidweb-2,VPS 2 GB,1,2,60,1,11,11,USD,0,https://www.liquidweb.com/vps-hosting/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,liquidweb-32,VPS 32 GB,8,32,640,1,179,179,USD,0,https://www.liquidweb.com/vps-hosting/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,liquidweb-4,VPS 4 GB,2,4,80,1,17,17,USD,0,https://www.liquidweb.com/vps-hosting/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,liquidweb-8,VPS 8 GB,4,8,240,1,45,45,USD,0,https://www.liquidweb.com/vps-hosting/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,lw-mded-6226r,Managed dedicated Intel Xeon 6226R Single,16,64,1700,1,503.5,503.5,USD,0,https://www.liquidweb.com/dedicated-server-hosting/managed-servers/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,lw-mded-6226r-dual,Managed dedicated Intel Xeon 6226R Dual,32,128,3200,1,622.25,622.25,USD,0,https://www.liquidweb.com/dedicated-server-hosting/managed-servers/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,lw-mded-e2134,Managed dedicated Intel Xeon E-2134,4,12,383,1,163.25,163.25,USD,0,https://www.liquidweb.com/dedicated-server-hosting/managed-servers/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,lw-mded-e2246g,Managed dedicated Intel Xeon E-2246G,6,32,792,1,232,232,USD,0,https://www.liquidweb.com/dedicated-server-hosting/managed-servers/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,lw-mvps-16,Managed VPS 16 GB,6,16,440,1,153.75,153.75,USD,0,https://www.liquidweb.com/vps-hosting/managed-vps/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,lw-mvps-24,Managed VPS 24 GB,6,24,540,1,188.75,188.75,USD,0,https://www.liquidweb.com/vps-hosting/managed-vps/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,lw-mvps-4,Managed VPS 4 GB,2,4,80,1,76.25,76.25,USD,0,https://www.liquidweb.com/vps-hosting/managed-vps/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,lw-mvps-8,Managed VPS 8 GB,4,8,240,1,106,106,USD,0,https://www.liquidweb.com/vps-hosting/managed-vps/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,lw-wp-elite-1,Elite WordPress 1 site,,,40,1,29,29,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,lw-wp-elite-10,Elite WordPress 10 sites,,,80,1,119,119,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,lw-wp-elite-100,Elite WordPress 100 sites,,,800,1,849,849,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,lw-wp-elite-25,Elite WordPress 25 sites,,,200,1,279,279,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,lw-wp-elite-250,Elite WordPress 250 sites,,,2000,1,2199,2199,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,lw-wp-elite-50,Elite WordPress 50 sites,,,400,1,449,449,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,lw-wp-elite-500,Elite WordPress 500 sites,,,4000,1,4399,4399,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,lw-wp-pro-1,Pro WordPress 1 site,,,20,1,19,19,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,lw-wp-pro-10,Pro WordPress 10 sites,,,40,1,89,89,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,lw-wp-pro-100,Pro WordPress 100 sites,,,400,1,669,669,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,lw-wp-pro-25,Pro WordPress 25 sites,,,100,1,219,219,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,lw-wp-pro-250,Pro WordPress 250 sites,,,1000,1,1749,1749,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,lw-wp-pro-50,Pro WordPress 50 sites,,,200,1,349,349,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-08,liquidweb,lw-wp-pro-500,Pro WordPress 500 sites,,,2000,1,3499,3499,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,liquidweb-16,VPS 16 GB,6,16,440,1,90,90,USD,0,https://www.liquidweb.com/vps-hosting/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,liquidweb-2,VPS 2 GB,1,2,60,1,11,11,USD,0,https://www.liquidweb.com/vps-hosting/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,liquidweb-32,VPS 32 GB,8,32,640,1,179,179,USD,0,https://www.liquidweb.com/vps-hosting/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,liquidweb-4,VPS 4 GB,2,4,80,1,17,17,USD,0,https://www.liquidweb.com/vps-hosting/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,liquidweb-8,VPS 8 GB,4,8,240,1,45,45,USD,0,https://www.liquidweb.com/vps-hosting/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,lw-mded-6226r,Managed dedicated Intel Xeon 6226R Single,16,64,1700,1,503.5,503.5,USD,0,https://www.liquidweb.com/dedicated-server-hosting/managed-servers/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,lw-mded-6226r-dual,Managed dedicated Intel Xeon 6226R Dual,32,128,3200,1,622.25,622.25,USD,0,https://www.liquidweb.com/dedicated-server-hosting/managed-servers/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,lw-mded-e2134,Managed dedicated Intel Xeon E-2134,4,12,383,1,163.25,163.25,USD,0,https://www.liquidweb.com/dedicated-server-hosting/managed-servers/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,lw-mded-e2246g,Managed dedicated Intel Xeon E-2246G,6,32,792,1,232,232,USD,0,https://www.liquidweb.com/dedicated-server-hosting/managed-servers/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,lw-mvps-16,Managed VPS 16 GB,6,16,440,1,153.75,153.75,USD,0,https://www.liquidweb.com/vps-hosting/managed-vps/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,lw-mvps-24,Managed VPS 24 GB,6,24,540,1,188.75,188.75,USD,0,https://www.liquidweb.com/vps-hosting/managed-vps/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,lw-mvps-4,Managed VPS 4 GB,2,4,80,1,76.25,76.25,USD,0,https://www.liquidweb.com/vps-hosting/managed-vps/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,lw-mvps-8,Managed VPS 8 GB,4,8,240,1,106,106,USD,0,https://www.liquidweb.com/vps-hosting/managed-vps/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,lw-wp-elite-1,Elite WordPress 1 site,,,40,1,29,29,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,lw-wp-elite-10,Elite WordPress 10 sites,,,80,1,119,119,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,lw-wp-elite-100,Elite WordPress 100 sites,,,800,1,849,849,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,lw-wp-elite-25,Elite WordPress 25 sites,,,200,1,279,279,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,lw-wp-elite-250,Elite WordPress 250 sites,,,2000,1,2199,2199,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,lw-wp-elite-50,Elite WordPress 50 sites,,,400,1,449,449,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,lw-wp-elite-500,Elite WordPress 500 sites,,,4000,1,4399,4399,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,lw-wp-pro-1,Pro WordPress 1 site,,,20,1,19,19,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,lw-wp-pro-10,Pro WordPress 10 sites,,,40,1,89,89,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,lw-wp-pro-100,Pro WordPress 100 sites,,,400,1,669,669,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,lw-wp-pro-25,Pro WordPress 25 sites,,,100,1,219,219,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,lw-wp-pro-250,Pro WordPress 250 sites,,,1000,1,1749,1749,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,lw-wp-pro-50,Pro WordPress 50 sites,,,200,1,349,349,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-09,liquidweb,lw-wp-pro-500,Pro WordPress 500 sites,,,2000,1,3499,3499,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,liquidweb-16,VPS 16 GB,6,16,440,1,90,90,USD,0,https://www.liquidweb.com/vps-hosting/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,liquidweb-2,VPS 2 GB,1,2,60,1,11,11,USD,0,https://www.liquidweb.com/vps-hosting/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,liquidweb-32,VPS 32 GB,8,32,640,1,179,179,USD,0,https://www.liquidweb.com/vps-hosting/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,liquidweb-4,VPS 4 GB,2,4,80,1,17,17,USD,0,https://www.liquidweb.com/vps-hosting/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,liquidweb-8,VPS 8 GB,4,8,240,1,45,45,USD,0,https://www.liquidweb.com/vps-hosting/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,lw-mded-6226r,Managed dedicated Intel Xeon 6226R Single,16,64,1700,1,503.5,503.5,USD,0,https://www.liquidweb.com/dedicated-server-hosting/managed-servers/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,lw-mded-6226r-dual,Managed dedicated Intel Xeon 6226R Dual,32,128,3200,1,622.25,622.25,USD,0,https://www.liquidweb.com/dedicated-server-hosting/managed-servers/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,lw-mded-e2134,Managed dedicated Intel Xeon E-2134,4,12,383,1,163.25,163.25,USD,0,https://www.liquidweb.com/dedicated-server-hosting/managed-servers/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,lw-mded-e2246g,Managed dedicated Intel Xeon E-2246G,6,32,792,1,232,232,USD,0,https://www.liquidweb.com/dedicated-server-hosting/managed-servers/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,lw-mvps-16,Managed VPS 16 GB,6,16,440,1,153.75,153.75,USD,0,https://www.liquidweb.com/vps-hosting/managed-vps/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,lw-mvps-24,Managed VPS 24 GB,6,24,540,1,188.75,188.75,USD,0,https://www.liquidweb.com/vps-hosting/managed-vps/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,lw-mvps-4,Managed VPS 4 GB,2,4,80,1,76.25,76.25,USD,0,https://www.liquidweb.com/vps-hosting/managed-vps/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,lw-mvps-8,Managed VPS 8 GB,4,8,240,1,106,106,USD,0,https://www.liquidweb.com/vps-hosting/managed-vps/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,lw-wp-elite-1,Elite WordPress 1 site,,,40,1,29,29,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,lw-wp-elite-10,Elite WordPress 10 sites,,,80,1,119,119,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,lw-wp-elite-100,Elite WordPress 100 sites,,,800,1,849,849,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,lw-wp-elite-25,Elite WordPress 25 sites,,,200,1,279,279,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,lw-wp-elite-250,Elite WordPress 250 sites,,,2000,1,2199,2199,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,lw-wp-elite-50,Elite WordPress 50 sites,,,400,1,449,449,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,lw-wp-elite-500,Elite WordPress 500 sites,,,4000,1,4399,4399,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,lw-wp-pro-1,Pro WordPress 1 site,,,20,1,19,19,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,lw-wp-pro-10,Pro WordPress 10 sites,,,40,1,89,89,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,lw-wp-pro-100,Pro WordPress 100 sites,,,400,1,669,669,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,lw-wp-pro-25,Pro WordPress 25 sites,,,100,1,219,219,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,lw-wp-pro-250,Pro WordPress 250 sites,,,1000,1,1749,1749,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,lw-wp-pro-50,Pro WordPress 50 sites,,,200,1,349,349,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-10,liquidweb,lw-wp-pro-500,Pro WordPress 500 sites,,,2000,1,3499,3499,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,liquidweb-16,VPS 16 GB,6,16,440,1,90,90,USD,0,https://www.liquidweb.com/vps-hosting/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,liquidweb-2,VPS 2 GB,1,2,60,1,11,11,USD,0,https://www.liquidweb.com/vps-hosting/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,liquidweb-32,VPS 32 GB,8,32,640,1,179,179,USD,0,https://www.liquidweb.com/vps-hosting/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,liquidweb-4,VPS 4 GB,2,4,80,1,17,17,USD,0,https://www.liquidweb.com/vps-hosting/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,liquidweb-8,VPS 8 GB,4,8,240,1,45,45,USD,0,https://www.liquidweb.com/vps-hosting/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,lw-mded-6226r,Managed dedicated Intel Xeon 6226R Single,16,64,1700,1,503.5,503.5,USD,0,https://www.liquidweb.com/dedicated-server-hosting/managed-servers/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,lw-mded-6226r-dual,Managed dedicated Intel Xeon 6226R Dual,32,128,3200,1,622.25,622.25,USD,0,https://www.liquidweb.com/dedicated-server-hosting/managed-servers/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,lw-mded-e2134,Managed dedicated Intel Xeon E-2134,4,12,383,1,163.25,163.25,USD,0,https://www.liquidweb.com/dedicated-server-hosting/managed-servers/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,lw-mded-e2246g,Managed dedicated Intel Xeon E-2246G,6,32,792,1,232,232,USD,0,https://www.liquidweb.com/dedicated-server-hosting/managed-servers/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,lw-mvps-16,Managed VPS 16 GB,6,16,440,1,153.75,153.75,USD,0,https://www.liquidweb.com/vps-hosting/managed-vps/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,lw-mvps-24,Managed VPS 24 GB,6,24,540,1,188.75,188.75,USD,0,https://www.liquidweb.com/vps-hosting/managed-vps/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,lw-mvps-4,Managed VPS 4 GB,2,4,80,1,76.25,76.25,USD,0,https://www.liquidweb.com/vps-hosting/managed-vps/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,lw-mvps-8,Managed VPS 8 GB,4,8,240,1,106,106,USD,0,https://www.liquidweb.com/vps-hosting/managed-vps/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,lw-wp-elite-1,Elite WordPress 1 site,,,40,1,29,29,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,lw-wp-elite-10,Elite WordPress 10 sites,,,80,1,119,119,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,lw-wp-elite-100,Elite WordPress 100 sites,,,800,1,849,849,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,lw-wp-elite-25,Elite WordPress 25 sites,,,200,1,279,279,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,lw-wp-elite-250,Elite WordPress 250 sites,,,2000,1,2199,2199,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,lw-wp-elite-50,Elite WordPress 50 sites,,,400,1,449,449,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,lw-wp-elite-500,Elite WordPress 500 sites,,,4000,1,4399,4399,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,lw-wp-pro-1,Pro WordPress 1 site,,,20,1,19,19,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,lw-wp-pro-10,Pro WordPress 10 sites,,,40,1,89,89,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,lw-wp-pro-100,Pro WordPress 100 sites,,,400,1,669,669,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,lw-wp-pro-25,Pro WordPress 25 sites,,,100,1,219,219,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,lw-wp-pro-250,Pro WordPress 250 sites,,,1000,1,1749,1749,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,lw-wp-pro-50,Pro WordPress 50 sites,,,200,1,349,349,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/
+2026-11-11,liquidweb,lw-wp-pro-500,Pro WordPress 500 sites,,,2000,1,3499,3499,USD,0,https://www.liquidweb.com/wordpress-hosting/managed-wordpress/,page,https://stackrates.ai/hosting/liquidweb/history/

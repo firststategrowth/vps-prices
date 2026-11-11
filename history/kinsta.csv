@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-07
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-05,kinsta,kinsta-single-35k,Single 35k,,,10,1,35,35,USD,0,https://kinsta.com/plans/,page,https://stackrates.ai/hosting/kinsta/history/
 2026-10-05,kinsta,kinsta-single-65k,Single 65k,,,10,1,50,50,USD,0,https://kinsta.com/plans/,page,https://stackrates.ai/hosting/kinsta/history/
@@ -170,3 +170,18 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-07,kinsta,kinsta-wp-10,WP 10,,,40,1,225,225,USD,0,https://kinsta.com/plans/,page,https://stackrates.ai/hosting/kinsta/history/
 2026-11-07,kinsta,kinsta-wp-2,WP 2,,,20,1,70,70,USD,0,https://kinsta.com/plans/,page,https://stackrates.ai/hosting/kinsta/history/
 2026-11-07,kinsta,kinsta-wp-5,WP 5,,,30,1,115,115,USD,0,https://kinsta.com/plans/,page,https://stackrates.ai/hosting/kinsta/history/
+2026-11-08,kinsta,kinsta-single-35k,Single 35k,,,10,1,35,35,USD,0,https://kinsta.com/plans/,page,https://stackrates.ai/hosting/kinsta/history/
+2026-11-08,kinsta,kinsta-single-65k,Single 65k,,,10,1,50,50,USD,0,https://kinsta.com/plans/,page,https://stackrates.ai/hosting/kinsta/history/
+2026-11-08,kinsta,kinsta-wp-10,WP 10,,,40,1,225,225,USD,0,https://kinsta.com/plans/,page,https://stackrates.ai/hosting/kinsta/history/
+2026-11-08,kinsta,kinsta-wp-2,WP 2,,,20,1,70,70,USD,0,https://kinsta.com/plans/,page,https://stackrates.ai/hosting/kinsta/history/
+2026-11-08,kinsta,kinsta-wp-5,WP 5,,,30,1,115,115,USD,0,https://kinsta.com/plans/,page,https://stackrates.ai/hosting/kinsta/history/
+2026-11-09,kinsta,kinsta-single-35k,Single 35k,,,10,1,35,35,USD,0,https://kinsta.com/plans/,page,https://stackrates.ai/hosting/kinsta/history/
+2026-11-09,kinsta,kinsta-single-65k,Single 65k,,,10,1,50,50,USD,0,https://kinsta.com/plans/,page,https://stackrates.ai/hosting/kinsta/history/
+2026-11-09,kinsta,kinsta-wp-10,WP 10,,,40,1,225,225,USD,0,https://kinsta.com/plans/,page,https://stackrates.ai/hosting/kinsta/history/
+2026-11-09,kinsta,kinsta-wp-2,WP 2,,,20,1,70,70,USD,0,https://kinsta.com/plans/,page,https://stackrates.ai/hosting/kinsta/history/
+2026-11-09,kinsta,kinsta-wp-5,WP 5,,,30,1,115,115,USD,0,https://kinsta.com/plans/,page,https://stackrates.ai/hosting/kinsta/history/
+2026-11-11,kinsta,kinsta-single-35k,Single 35k,,,10,1,35,35,USD,0,https://kinsta.com/pricing/,page,https://stackrates.ai/hosting/kinsta/history/
+2026-11-11,kinsta,kinsta-single-65k,Single 65k,,,10,1,50,50,USD,0,https://kinsta.com/pricing/,page,https://stackrates.ai/hosting/kinsta/history/
+2026-11-11,kinsta,kinsta-wp-10,WP 10,,,40,1,225,225,USD,0,https://kinsta.com/pricing/,page,https://stackrates.ai/hosting/kinsta/history/
+2026-11-11,kinsta,kinsta-wp-2,WP 2,,,20,1,70,70,USD,0,https://kinsta.com/pricing/,page,https://stackrates.ai/hosting/kinsta/history/
+2026-11-11,kinsta,kinsta-wp-5,WP 5,,,30,1,115,115,USD,0,https://kinsta.com/pricing/,page,https://stackrates.ai/hosting/kinsta/history/

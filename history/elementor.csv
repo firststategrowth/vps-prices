@@ -1,0 +1,13 @@
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
+read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
+2026-11-11,elementor,elementor-cloud-10-sites,Host Cloud: 10 Sites,,,60,12,200,200,USD,0,https://elementor.com/hosting/,manual,https://stackrates.ai/hosting/elementor/history/
+2026-11-11,elementor,elementor-cloud-10gb,Host Cloud: 10GB,,,10,12,15,15,USD,0,https://elementor.com/hosting/,manual,https://stackrates.ai/hosting/elementor/history/
+2026-11-11,elementor,elementor-cloud-15-sites,Host Cloud: 15 Sites,,,70,12,250,250,USD,0,https://elementor.com/hosting/,manual,https://stackrates.ai/hosting/elementor/history/
+2026-11-11,elementor,elementor-cloud-175gb,Host Cloud: 175GB,,,40,12,150,150,USD,0,https://elementor.com/hosting/,manual,https://stackrates.ai/hosting/elementor/history/
+2026-11-11,elementor,elementor-cloud-20-sites,Host Cloud: 20 Sites,,,80,12,300,300,USD,0,https://elementor.com/hosting/,manual,https://stackrates.ai/hosting/elementor/history/
+2026-11-11,elementor,elementor-cloud-20gb,Host Cloud: 20GB,,,20,12,25,25,USD,0,https://elementor.com/hosting/,manual,https://stackrates.ai/hosting/elementor/history/
+2026-11-11,elementor,elementor-cloud-275gb,Host Cloud: 275GB,,,60,12,225,225,USD,0,https://elementor.com/hosting/,manual,https://stackrates.ai/hosting/elementor/history/
+2026-11-11,elementor,elementor-cloud-3-sites,Host Cloud: 3 Sites,,,40,12,35,35,USD,0,https://elementor.com/hosting/,manual,https://stackrates.ai/hosting/elementor/history/
+2026-11-11,elementor,elementor-cloud-5-sites,Host Cloud: 5 Sites,,,50,12,110,110,USD,0,https://elementor.com/hosting/,manual,https://stackrates.ai/hosting/elementor/history/
+2026-11-11,elementor,elementor-cloud-50gb,Host Cloud: 50GB,,,30,12,45,45,USD,0,https://elementor.com/hosting/,manual,https://stackrates.ai/hosting/elementor/history/
+2026-11-11,elementor,elementor-cloud-90gb,Host Cloud: 90GB,,,40,12,90,90,USD,0,https://elementor.com/hosting/,manual,https://stackrates.ai/hosting/elementor/history/

@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-07
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-14,mythicbeasts,mythicbeasts-vps-1,VPS 1,1,1,5,1,6.49,4.9,GBP,2.65,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
 2026-10-14,mythicbeasts,mythicbeasts-vps-2,VPS 2,1,2,10,1,10.33,7.8,GBP,2.65,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
@@ -100,3 +100,19 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-07,mythicbeasts,mythicbeasts-vps-2,VPS 2,1,2,10,1,10.44,7.8,GBP,2.68,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
 2026-11-07,mythicbeasts,mythicbeasts-vps-4,VPS 4,2,4,20,1,20.21,15.1,GBP,2.68,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
 2026-11-07,mythicbeasts,mythicbeasts-vps-8,VPS 8,2,8,40,1,37.75,28.2,GBP,2.68,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
+2026-11-08,mythicbeasts,mythicbeasts-vps-1,VPS 1,1,1,5,1,6.56,4.9,GBP,2.68,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
+2026-11-08,mythicbeasts,mythicbeasts-vps-2,VPS 2,1,2,10,1,10.44,7.8,GBP,2.68,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
+2026-11-08,mythicbeasts,mythicbeasts-vps-4,VPS 4,2,4,20,1,20.21,15.1,GBP,2.68,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
+2026-11-08,mythicbeasts,mythicbeasts-vps-8,VPS 8,2,8,40,1,37.75,28.2,GBP,2.68,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
+2026-11-09,mythicbeasts,mythicbeasts-vps-1,VPS 1,1,1,5,1,6.56,4.9,GBP,2.68,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
+2026-11-09,mythicbeasts,mythicbeasts-vps-2,VPS 2,1,2,10,1,10.44,7.8,GBP,2.68,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
+2026-11-09,mythicbeasts,mythicbeasts-vps-4,VPS 4,2,4,20,1,20.21,15.1,GBP,2.68,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
+2026-11-09,mythicbeasts,mythicbeasts-vps-8,VPS 8,2,8,40,1,37.75,28.2,GBP,2.68,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
+2026-11-10,mythicbeasts,mythicbeasts-vps-1,VPS 1,1,1,5,1,6.57,4.9,GBP,2.68,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
+2026-11-10,mythicbeasts,mythicbeasts-vps-2,VPS 2,1,2,10,1,10.46,7.8,GBP,2.68,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
+2026-11-10,mythicbeasts,mythicbeasts-vps-4,VPS 4,2,4,20,1,20.26,15.1,GBP,2.68,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
+2026-11-10,mythicbeasts,mythicbeasts-vps-8,VPS 8,2,8,40,1,37.83,28.2,GBP,2.68,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
+2026-11-11,mythicbeasts,mythicbeasts-vps-1,VPS 1,1,1,5,1,6.58,4.9,GBP,2.68,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
+2026-11-11,mythicbeasts,mythicbeasts-vps-2,VPS 2,1,2,10,1,10.47,7.8,GBP,2.68,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
+2026-11-11,mythicbeasts,mythicbeasts-vps-4,VPS 4,2,4,20,1,20.27,15.1,GBP,2.68,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
+2026-11-11,mythicbeasts,mythicbeasts-vps-8,VPS 8,2,8,40,1,37.85,28.2,GBP,2.68,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/

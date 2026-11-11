@@ -1,0 +1,9 @@
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-07
+read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
+2026-11-07,swhosting,swhosting-standard-l,Cloud Standard L,8,16,300,1,92.77,83.09,EUR,0,https://www.swhosting.com/en/cloud/standard,manual,https://stackrates.ai/hosting/swhosting/history/
+2026-11-07,swhosting,swhosting-standard-m,Cloud Standard M,4,8,200,1,52.36,46.9,EUR,0,https://www.swhosting.com/en/cloud/standard,manual,https://stackrates.ai/hosting/swhosting/history/
+2026-11-07,swhosting,swhosting-standard-s,Cloud Standard S,2,4,100,1,26.18,23.45,EUR,0,https://www.swhosting.com/en/cloud/standard,manual,https://stackrates.ai/hosting/swhosting/history/
+2026-11-07,swhosting,swhosting-standard-xs,Cloud Standard XS,1,2,20,1,9.5,8.51,EUR,0,https://www.swhosting.com/en/cloud/standard,manual,https://stackrates.ai/hosting/swhosting/history/
+2026-11-07,swhosting,swhosting-xtreme-l,Cloud Xtreme L,8,32,250,1,181.32,162.4,EUR,0,https://www.swhosting.com/en/cloud/xtreme,manual,https://stackrates.ai/hosting/swhosting/history/
+2026-11-07,swhosting,swhosting-xtreme-m,Cloud Xtreme M,4,16,200,1,101.41,90.83,EUR,0,https://www.swhosting.com/en/cloud/xtreme,manual,https://stackrates.ai/hosting/swhosting/history/
+2026-11-07,swhosting,swhosting-xtreme-s,Cloud Xtreme S,2,4,100,1,36.36,32.57,EUR,0,https://www.swhosting.com/en/cloud/xtreme,manual,https://stackrates.ai/hosting/swhosting/history/

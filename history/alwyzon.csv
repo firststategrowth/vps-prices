@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-07
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-14,alwyzon,alwyzon-e16,Virtual Server E16+ (G5),6,16,320,1,43.06,38.49,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
 2026-10-14,alwyzon,alwyzon-e4,Virtual Server E4+ (G5),2,4,120,1,12.86,11.49,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
@@ -150,3 +150,27 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-07,alwyzon,alwyzon-m,Virtual Server M (G3),4,8,160,1,14.5,12.99,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
 2026-11-07,alwyzon,alwyzon-s,Virtual Server S (G3),3,4,80,1,8.7,7.79,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
 2026-11-07,alwyzon,alwyzon-xs,Virtual Server XS (G3),2,2,40,1,5.01,4.49,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
+2026-11-08,alwyzon,alwyzon-e16,Virtual Server E16+ (G5),6,16,320,1,42.97,38.49,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
+2026-11-08,alwyzon,alwyzon-e4,Virtual Server E4+ (G5),2,4,120,1,12.83,11.49,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
+2026-11-08,alwyzon,alwyzon-e8,Virtual Server E8+ (G5),4,8,240,1,22.88,20.49,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
+2026-11-08,alwyzon,alwyzon-m,Virtual Server M (G3),4,8,160,1,14.5,12.99,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
+2026-11-08,alwyzon,alwyzon-s,Virtual Server S (G3),3,4,80,1,8.7,7.79,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
+2026-11-08,alwyzon,alwyzon-xs,Virtual Server XS (G3),2,2,40,1,5.01,4.49,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
+2026-11-09,alwyzon,alwyzon-e16,Virtual Server E16+ (G5),6,16,320,1,42.97,38.49,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
+2026-11-09,alwyzon,alwyzon-e4,Virtual Server E4+ (G5),2,4,120,1,12.83,11.49,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
+2026-11-09,alwyzon,alwyzon-e8,Virtual Server E8+ (G5),4,8,240,1,22.88,20.49,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
+2026-11-09,alwyzon,alwyzon-m,Virtual Server M (G3),4,8,160,1,14.5,12.99,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
+2026-11-09,alwyzon,alwyzon-s,Virtual Server S (G3),3,4,80,1,8.7,7.79,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
+2026-11-09,alwyzon,alwyzon-xs,Virtual Server XS (G3),2,2,40,1,5.01,4.49,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
+2026-11-10,alwyzon,alwyzon-e16,Virtual Server E16+ (G5),6,16,320,1,43.08,38.49,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
+2026-11-10,alwyzon,alwyzon-e4,Virtual Server E4+ (G5),2,4,120,1,12.86,11.49,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
+2026-11-10,alwyzon,alwyzon-e8,Virtual Server E8+ (G5),4,8,240,1,22.93,20.49,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
+2026-11-10,alwyzon,alwyzon-m,Virtual Server M (G3),4,8,160,1,14.54,12.99,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
+2026-11-10,alwyzon,alwyzon-s,Virtual Server S (G3),3,4,80,1,8.72,7.79,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
+2026-11-10,alwyzon,alwyzon-xs,Virtual Server XS (G3),2,2,40,1,5.03,4.49,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
+2026-11-11,alwyzon,alwyzon-e16,Virtual Server E16+ (G5),6,16,320,1,43.16,38.49,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
+2026-11-11,alwyzon,alwyzon-e4,Virtual Server E4+ (G5),2,4,120,1,12.88,11.49,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
+2026-11-11,alwyzon,alwyzon-e8,Virtual Server E8+ (G5),4,8,240,1,22.98,20.49,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
+2026-11-11,alwyzon,alwyzon-m,Virtual Server M (G3),4,8,160,1,14.57,12.99,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
+2026-11-11,alwyzon,alwyzon-s,Virtual Server S (G3),3,4,80,1,8.74,7.79,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/
+2026-11-11,alwyzon,alwyzon-xs,Virtual Server XS (G3),2,2,40,1,5.04,4.49,EUR,0,https://www.alwyzon.com/en/virtual-servers,page,https://stackrates.ai/hosting/alwyzon/history/

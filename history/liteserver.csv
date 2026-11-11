@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-07
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-14,liteserver,liteserver-16,NVME-16G,6,16,320,1,71.6,64,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
 2026-10-14,liteserver,liteserver-2,NVME-2G,2,2,40,1,8.95,8,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
@@ -100,3 +100,19 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-07,liteserver,liteserver-2,NVME-2G,2,2,40,1,8.93,8,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
 2026-11-07,liteserver,liteserver-4,NVME-4G,4,4,80,1,17.86,16,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
 2026-11-07,liteserver,liteserver-8,NVME-8G,4,8,160,1,35.73,32,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
+2026-11-08,liteserver,liteserver-16,NVME-16G,6,16,320,1,71.46,64,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
+2026-11-08,liteserver,liteserver-2,NVME-2G,2,2,40,1,8.93,8,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
+2026-11-08,liteserver,liteserver-4,NVME-4G,4,4,80,1,17.86,16,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
+2026-11-08,liteserver,liteserver-8,NVME-8G,4,8,160,1,35.73,32,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
+2026-11-09,liteserver,liteserver-16,NVME-16G,6,16,320,1,71.46,64,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
+2026-11-09,liteserver,liteserver-2,NVME-2G,2,2,40,1,8.93,8,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
+2026-11-09,liteserver,liteserver-4,NVME-4G,4,4,80,1,17.86,16,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
+2026-11-09,liteserver,liteserver-8,NVME-8G,4,8,160,1,35.73,32,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
+2026-11-10,liteserver,liteserver-16,NVME-16G,6,16,320,1,71.64,64,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
+2026-11-10,liteserver,liteserver-2,NVME-2G,2,2,40,1,8.95,8,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
+2026-11-10,liteserver,liteserver-4,NVME-4G,4,4,80,1,17.91,16,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
+2026-11-10,liteserver,liteserver-8,NVME-8G,4,8,160,1,35.82,32,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
+2026-11-11,liteserver,liteserver-16,NVME-16G,6,16,320,1,71.77,64,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
+2026-11-11,liteserver,liteserver-2,NVME-2G,2,2,40,1,8.97,8,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
+2026-11-11,liteserver,liteserver-4,NVME-4G,4,4,80,1,17.94,16,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
+2026-11-11,liteserver,liteserver-8,NVME-8G,4,8,160,1,35.88,32,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
