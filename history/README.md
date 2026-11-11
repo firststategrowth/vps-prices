@@ -20,7 +20,7 @@ Cite as: StackRates (2026). VPS price history, reads 2026-10-05 to 2026-11-11. h
 | provider | Provider slug, as in /data/prices.csv. |
 | plan_id | Plan identifier, stable across days; a plan the provider replaced gets a new id. |
 | plan_name | The provider's plan name as the catalogue stated it on the read day. |
-| vcpu | Virtual CPUs. Empty when the provider does not state it (managed plans sold on visits). |
+| vcpu | Virtual CPUs. Empty when the provider does not state it (managed plans sold on visits or sites). |
 | ram_gb | RAM in GB. Empty when not stated. |
 | disk_gb | Disk in GB included in the price. |
 | term_months | Billing term the price needs: 1 = month to month or hourly, 12 = paid yearly. |
