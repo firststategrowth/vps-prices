@@ -5,18 +5,18 @@ a month, read from the provider's own pricing page or price API on the date in `
 link in `source_url`. `price_source` says whether a row was read from the page, from the provider's
 price API, or by hand; rows read by hand can be a few days old.
 
-On 11 Nov 2026 the file has 707 plans from 97 providers. Plans the provider shows as sold out
+On 12 Nov 2026 the file has 702 plans from 97 providers. Plans the provider shows as sold out
 on that day are left out.
 
 Three things that change what you pay are in their own columns:
-- `ipv4_extra_usd`: what a public IPv4 address adds to `monthly_usd`. Scaleway ($4.09/mo), phoenixNAP ($5.11/mo), Mythic Beasts ($2.68/mo) and VEXXHOST ($2.00/mo) bill it on top. Hetzner and netcup print their prices with the address included; for them `monthly_usd` and, where present, `billed_eur` are the price without it, and `monthly_usd` + `ipv4_extra_usd` is what they print. A row of netcup with `ipv4_extra_usd` empty (6 netcup plans) includes the address in `monthly_usd` at no separate charge.
+- `ipv4_extra_usd`: what a public IPv4 address adds to `monthly_usd`. Scaleway ($4.06/mo), phoenixNAP ($5.11/mo), Mythic Beasts ($2.66/mo) and VEXXHOST ($2.00/mo) bill it on top. Hetzner and netcup print their prices with the address included; for them `monthly_usd` and, where present, `billed_eur` are the price without it, and `monthly_usd` + `ipv4_extra_usd` is what they print. A row of netcup with `ipv4_extra_usd` empty (6 netcup plans) includes the address in `monthly_usd` at no separate charge.
   Empty when the provider's page shows no separate charge.
 - `excludes_vat`: true when the provider's page states the price before VAT
 - `commitment_months`: above 1, the price needs a prepaid term (Hostinger KVM 1 is $6.49/mo paid
   24 months up front; it renews at a higher price, and renewal prices are not in this file)
 
 Providers that print euro prices keep the euro figure in `billed_eur`; it is converted at the latest
-European Central Bank reference rate (10 Nov 2026: 1 EUR = $1.1214; also in `fx` in prices.json). Webdock and Exoscale bill the same figures in US dollars, so a dollar account there pays less than `monthly_usd`.
+European Central Bank reference rate (11 Nov 2026: 1 EUR = $1.1127; also in `fx` in prices.json). Webdock and Exoscale bill the same figures in US dollars, so a dollar account there pays less than `monthly_usd`.
 Other providers that publish dollar prices are taken in dollars.
 
 The managed WordPress plans of Kinsta, Hosting.com, Liquid Web, KnownHost and Elementor Hosting are sold by monthly visits and sites (`monthly_visits`, `site_limit`), and those of 20i by sites, storage and transfer (`site_limit`, `storage_gb`, `transfer_tb`), not by size, so their `vcpu` and `ram_gb` are empty.

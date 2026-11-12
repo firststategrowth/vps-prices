@@ -132,7 +132,7 @@ configs:
 # StackRates VPS prices and monthly price index
 
 StackRates reads VPS and cloud server prices from each provider's own pricing page or price API every day and
-publishes every read. On 11 November 2026 the daily file has 707 orderable plans from 97 providers; the
+publishes every read. On 12 November 2026 the daily file has 702 orderable plans from 97 providers; the
 history holds 10,257 reads of 98 providers' plans over 38 read days, 5 October 2026 to 11 November 2026.
 
 The newest index figure, as the site cites it: StackRates VPS price index, Nov 2026: 4 GB median $14.02/mo over 93 plans with 4 GB (506 plans in the index), read 11 Nov 2026, stackrates.ai/vps-price-index/
@@ -141,7 +141,7 @@ The newest index figure, as the site cites it: StackRates VPS price index, Nov 2
 
 | Subset | File | Rows | What |
 |---|---|---:|---|
-| `prices` | `prices.csv` | 707 | today's orderable plans, read 11 November 2026 |
+| `prices` | `prices.csv` | 702 | today's orderable plans, read 12 November 2026 |
 | `price_history` | `history/<provider>.csv` | 10,257 | every price read, 5 October 2026 to 11 November 2026, one file per provider |
 | `price_index` | `index/vps-price-index.csv` | 2 | the monthly VPS price index: medians at 1, 4 and 8 GB of RAM |
 | `price_index_plans` | `index/vps-price-index-plans.csv` | 799 | every plan behind each month of the index |
