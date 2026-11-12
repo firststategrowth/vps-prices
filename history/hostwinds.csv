@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-10,hostwinds,hostwinds-1,Unmanaged SSD Cloud 1,1,1,30,1,4.99,4.99,USD,0,https://www.hostwinds.com/vps/unmanaged-linux,manual,https://stackrates.ai/hosting/hostwinds/history/
 2026-10-10,hostwinds,hostwinds-2,Unmanaged SSD Cloud 2,1,2,50,1,9.99,9.99,USD,0,https://www.hostwinds.com/vps/unmanaged-linux,manual,https://stackrates.ai/hosting/hostwinds/history/
@@ -165,3 +165,8 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-11,hostwinds,hostwinds-3,Unmanaged SSD Cloud 3,2,4,75,1,18.99,18.99,USD,0,https://www.hostwinds.com/vps/unmanaged-linux,page,https://stackrates.ai/hosting/hostwinds/history/
 2026-11-11,hostwinds,hostwinds-4,Unmanaged SSD Cloud 4,2,6,100,1,28.99,28.99,USD,0,https://www.hostwinds.com/vps/unmanaged-linux,page,https://stackrates.ai/hosting/hostwinds/history/
 2026-11-11,hostwinds,hostwinds-5,Unmanaged SSD Cloud 5,4,8,150,1,38.99,38.99,USD,0,https://www.hostwinds.com/vps/unmanaged-linux,page,https://stackrates.ai/hosting/hostwinds/history/
+2026-11-12,hostwinds,hostwinds-1,Unmanaged SSD Cloud 1,1,1,30,1,4.99,4.99,USD,0,https://www.hostwinds.com/vps/unmanaged-linux,page,https://stackrates.ai/hosting/hostwinds/history/
+2026-11-12,hostwinds,hostwinds-2,Unmanaged SSD Cloud 2,1,2,50,1,9.99,9.99,USD,0,https://www.hostwinds.com/vps/unmanaged-linux,page,https://stackrates.ai/hosting/hostwinds/history/
+2026-11-12,hostwinds,hostwinds-3,Unmanaged SSD Cloud 3,2,4,75,1,18.99,18.99,USD,0,https://www.hostwinds.com/vps/unmanaged-linux,page,https://stackrates.ai/hosting/hostwinds/history/
+2026-11-12,hostwinds,hostwinds-4,Unmanaged SSD Cloud 4,2,6,100,1,28.99,28.99,USD,0,https://www.hostwinds.com/vps/unmanaged-linux,page,https://stackrates.ai/hosting/hostwinds/history/
+2026-11-12,hostwinds,hostwinds-5,Unmanaged SSD Cloud 5,4,8,150,1,38.99,38.99,USD,0,https://www.hostwinds.com/vps/unmanaged-linux,page,https://stackrates.ai/hosting/hostwinds/history/

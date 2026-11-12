@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-05,upcloud,upcloud-starter-1,Starter 1GB,1,1,10,1,3.5,3.5,USD,0,https://upcloud.com/pricing/,manual,https://stackrates.ai/hosting/upcloud/history/
 2026-10-05,upcloud,upcloud-starter-2,Starter 2GB,1,2,20,1,7,7,USD,0,https://upcloud.com/pricing/,manual,https://stackrates.ai/hosting/upcloud/history/
@@ -165,3 +165,8 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-11,upcloud,upcloud-starter-4,Starter 4GB / 2 vCPU,2,4,30,1,14,14,USD,0,https://calc.upcloud.com/cloud-servers?currency=USD,page,https://stackrates.ai/hosting/upcloud/history/
 2026-11-11,upcloud,upcloud-starter-8,Starter 8GB / 2 vCPU,2,8,40,1,20,20,USD,0,https://calc.upcloud.com/cloud-servers?currency=USD,page,https://stackrates.ai/hosting/upcloud/history/
 2026-11-11,upcloud,upcloud-starter-8-4,Starter 8GB / 4 vCPU,4,8,40,1,24,24,USD,0,https://calc.upcloud.com/cloud-servers?currency=USD,page,https://stackrates.ai/hosting/upcloud/history/
+2026-11-12,upcloud,upcloud-starter-1,Starter 1GB,1,1,10,1,3.5,3.5,USD,0,https://calc.upcloud.com/cloud-servers?currency=USD,page,https://stackrates.ai/hosting/upcloud/history/
+2026-11-12,upcloud,upcloud-starter-2,Starter 2GB,1,2,20,1,7,7,USD,0,https://calc.upcloud.com/cloud-servers?currency=USD,page,https://stackrates.ai/hosting/upcloud/history/
+2026-11-12,upcloud,upcloud-starter-4,Starter 4GB / 2 vCPU,2,4,30,1,14,14,USD,0,https://calc.upcloud.com/cloud-servers?currency=USD,page,https://stackrates.ai/hosting/upcloud/history/
+2026-11-12,upcloud,upcloud-starter-8,Starter 8GB / 2 vCPU,2,8,40,1,20,20,USD,0,https://calc.upcloud.com/cloud-servers?currency=USD,page,https://stackrates.ai/hosting/upcloud/history/
+2026-11-12,upcloud,upcloud-starter-8-4,Starter 8GB / 4 vCPU,4,8,40,1,24,24,USD,0,https://calc.upcloud.com/cloud-servers?currency=USD,page,https://stackrates.ai/hosting/upcloud/history/

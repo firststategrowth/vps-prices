@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-15,webhosting24,webhosting24-muc-2,Munich 2 GB,1,2,40,3,6.53,5.83,EUR,0,https://www.webhosting24.com/vps/,page,https://stackrates.ai/hosting/webhosting24/history/
 2026-10-15,webhosting24,webhosting24-muc-4,Munich 4 GB,1,4,80,1,13.99,12.5,EUR,0,https://www.webhosting24.com/vps/,page,https://stackrates.ai/hosting/webhosting24/history/
@@ -192,3 +192,11 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-11,webhosting24,webhosting24-ny-2,USA / Asia-Pacific 2 GB,1,2,40,3,6.39,5.7,EUR,0,https://www.webhosting24.com/vps/,page,https://stackrates.ai/hosting/webhosting24/history/
 2026-11-11,webhosting24,webhosting24-ny-4,USA / Asia-Pacific 4 GB,4,4,80,1,13.46,12,EUR,0,https://www.webhosting24.com/vps/,page,https://stackrates.ai/hosting/webhosting24/history/
 2026-11-11,webhosting24,webhosting24-ny-8,USA / Asia-Pacific 8 GB,8,8,160,1,26.91,24,EUR,0,https://www.webhosting24.com/vps/,page,https://stackrates.ai/hosting/webhosting24/history/
+2026-11-12,webhosting24,webhosting24-muc-1,Munich 1 GB,1,1,20,6,3.25,2.92,EUR,0,https://www.webhosting24.com/vps/,page,https://stackrates.ai/hosting/webhosting24/history/
+2026-11-12,webhosting24,webhosting24-muc-2,Munich 2 GB,1,2,40,3,6.49,5.83,EUR,0,https://www.webhosting24.com/vps/,page,https://stackrates.ai/hosting/webhosting24/history/
+2026-11-12,webhosting24,webhosting24-muc-4,Munich 4 GB,1,4,80,1,13.91,12.5,EUR,0,https://www.webhosting24.com/vps/,page,https://stackrates.ai/hosting/webhosting24/history/
+2026-11-12,webhosting24,webhosting24-muc-8,Munich 8 GB,2,8,160,1,27.82,25,EUR,0,https://www.webhosting24.com/vps/,page,https://stackrates.ai/hosting/webhosting24/history/
+2026-11-12,webhosting24,webhosting24-ny-1,USA / Asia-Pacific 1 GB,1,1,20,6,3,2.7,EUR,0,https://www.webhosting24.com/vps/,page,https://stackrates.ai/hosting/webhosting24/history/
+2026-11-12,webhosting24,webhosting24-ny-2,USA / Asia-Pacific 2 GB,1,2,40,3,6.34,5.7,EUR,0,https://www.webhosting24.com/vps/,page,https://stackrates.ai/hosting/webhosting24/history/
+2026-11-12,webhosting24,webhosting24-ny-4,USA / Asia-Pacific 4 GB,4,4,80,1,13.35,12,EUR,0,https://www.webhosting24.com/vps/,page,https://stackrates.ai/hosting/webhosting24/history/
+2026-11-12,webhosting24,webhosting24-ny-8,USA / Asia-Pacific 8 GB,8,8,160,1,26.7,24,EUR,0,https://www.webhosting24.com/vps/,page,https://stackrates.ai/hosting/webhosting24/history/

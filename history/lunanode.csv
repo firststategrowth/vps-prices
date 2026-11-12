@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-11,lunanode,lunanode-m1s,m.1s,1,1,15,1,3.5,3.5,USD,0,https://dynamic.lunanode.com/info,page,https://stackrates.ai/hosting/lunanode/history/
 2026-10-11,lunanode,lunanode-s1,s.1,2,1,20,1,7,7,USD,0,https://dynamic.lunanode.com/info,page,https://stackrates.ai/hosting/lunanode/history/
@@ -192,3 +192,9 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-11,lunanode,lunanode-s2,s.2,4,2,35,1,14,14,USD,0,https://dynamic.lunanode.com/info,page,https://stackrates.ai/hosting/lunanode/history/
 2026-11-11,lunanode,lunanode-s4,s.4,6,4,70,1,28,28,USD,0,https://dynamic.lunanode.com/info,page,https://stackrates.ai/hosting/lunanode/history/
 2026-11-11,lunanode,lunanode-s8,s.8,8,8,125,1,56,56,USD,0,https://dynamic.lunanode.com/info,page,https://stackrates.ai/hosting/lunanode/history/
+2026-11-12,lunanode,lunanode-m1s,m.1s,1,1,15,1,3.5,3.5,USD,0,https://dynamic.lunanode.com/info,page,https://stackrates.ai/hosting/lunanode/history/
+2026-11-12,lunanode,lunanode-s1,s.1,2,1,20,1,7,7,USD,0,https://dynamic.lunanode.com/info,page,https://stackrates.ai/hosting/lunanode/history/
+2026-11-12,lunanode,lunanode-s16,s.16,10,16,250,1,100,100,USD,0,https://dynamic.lunanode.com/info,page,https://stackrates.ai/hosting/lunanode/history/
+2026-11-12,lunanode,lunanode-s2,s.2,4,2,35,1,14,14,USD,0,https://dynamic.lunanode.com/info,page,https://stackrates.ai/hosting/lunanode/history/
+2026-11-12,lunanode,lunanode-s4,s.4,6,4,70,1,28,28,USD,0,https://dynamic.lunanode.com/info,page,https://stackrates.ai/hosting/lunanode/history/
+2026-11-12,lunanode,lunanode-s8,s.8,8,8,125,1,56,56,USD,0,https://dynamic.lunanode.com/info,page,https://stackrates.ai/hosting/lunanode/history/

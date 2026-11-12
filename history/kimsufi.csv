@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-14,kimsufi,kimsufi-ks-1,KS-1,8,32,960,1,18.8,18.8,USD,0,https://www.kimsufi.com/en/,page,https://stackrates.ai/hosting/kimsufi/history/
 2026-10-14,kimsufi,kimsufi-ks-4,KS-4,8,16,900,1,18.8,18.8,USD,0,https://www.kimsufi.com/en/,page,https://stackrates.ai/hosting/kimsufi/history/
@@ -116,3 +116,7 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-11,kimsufi,kimsufi-ks-4,KS-4,8,16,900,1,18.8,18.8,USD,0,https://www.kimsufi.com/en/,page,https://stackrates.ai/hosting/kimsufi/history/
 2026-11-11,kimsufi,kimsufi-ks-b,KS-B,8,32,120,1,11.1,11.1,USD,0,https://www.kimsufi.com/en/,page,https://stackrates.ai/hosting/kimsufi/history/
 2026-11-11,kimsufi,kimsufi-ks-c,KS-C,12,32,120,1,13.3,13.3,USD,0,https://www.kimsufi.com/en/,page,https://stackrates.ai/hosting/kimsufi/history/
+2026-11-12,kimsufi,kimsufi-ks-1,KS-1,8,32,960,1,18.8,18.8,USD,0,https://www.kimsufi.com/en/,page,https://stackrates.ai/hosting/kimsufi/history/
+2026-11-12,kimsufi,kimsufi-ks-4,KS-4,8,16,900,1,18.8,18.8,USD,0,https://www.kimsufi.com/en/,page,https://stackrates.ai/hosting/kimsufi/history/
+2026-11-12,kimsufi,kimsufi-ks-b,KS-B,8,32,120,1,11.1,11.1,USD,0,https://www.kimsufi.com/en/,page,https://stackrates.ai/hosting/kimsufi/history/
+2026-11-12,kimsufi,kimsufi-ks-c,KS-C,12,32,120,1,13.3,13.3,USD,0,https://www.kimsufi.com/en/,page,https://stackrates.ai/hosting/kimsufi/history/

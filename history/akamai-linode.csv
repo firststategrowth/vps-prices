@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-05,akamai-linode,linode-2,Linode 2GB,1,2,50,1,12,12,USD,0,https://api.linode.com/v4/linode/types,api,https://stackrates.ai/hosting/akamai-linode/history/
 2026-10-05,akamai-linode,linode-4,Linode 4GB,2,4,80,1,24,24,USD,0,https://api.linode.com/v4/linode/types,api,https://stackrates.ai/hosting/akamai-linode/history/
@@ -216,3 +216,9 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-11,akamai-linode,linode-4,Linode 4GB,2,4,80,1,24,24,USD,0,https://api.linode.com/v4/linode/types,api,https://stackrates.ai/hosting/akamai-linode/history/
 2026-11-11,akamai-linode,linode-8,Linode 8GB,4,8,160,1,48,48,USD,0,https://api.linode.com/v4/linode/types,api,https://stackrates.ai/hosting/akamai-linode/history/
 2026-11-11,akamai-linode,linode-nanode-1,Nanode 1GB,1,1,25,1,5,5,USD,0,https://api.linode.com/v4/linode/types,api,https://stackrates.ai/hosting/akamai-linode/history/
+2026-11-12,akamai-linode,linode-16,Linode 16GB,6,16,320,1,96,96,USD,0,https://api.linode.com/v4/linode/types,api,https://stackrates.ai/hosting/akamai-linode/history/
+2026-11-12,akamai-linode,linode-2,Linode 2GB,1,2,50,1,12,12,USD,0,https://api.linode.com/v4/linode/types,api,https://stackrates.ai/hosting/akamai-linode/history/
+2026-11-12,akamai-linode,linode-32,Linode 32GB,8,32,640,1,192,192,USD,0,https://api.linode.com/v4/linode/types,api,https://stackrates.ai/hosting/akamai-linode/history/
+2026-11-12,akamai-linode,linode-4,Linode 4GB,2,4,80,1,24,24,USD,0,https://api.linode.com/v4/linode/types,api,https://stackrates.ai/hosting/akamai-linode/history/
+2026-11-12,akamai-linode,linode-8,Linode 8GB,4,8,160,1,48,48,USD,0,https://api.linode.com/v4/linode/types,api,https://stackrates.ai/hosting/akamai-linode/history/
+2026-11-12,akamai-linode,linode-nanode-1,Nanode 1GB,1,1,25,1,5,5,USD,0,https://api.linode.com/v4/linode/types,api,https://stackrates.ai/hosting/akamai-linode/history/

@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-06,bandwagonhost,bwh-kvm-160g,160G KVM,5,8,160,1,39.99,39.99,USD,0,https://bandwagonhost.com/cart.php,manual,https://stackrates.ai/hosting/bandwagonhost/history/
 2026-11-06,bandwagonhost,bwh-kvm-320g,320G KVM,6,16,320,1,79.99,79.99,USD,0,https://bandwagonhost.com/cart.php,manual,https://stackrates.ai/hosting/bandwagonhost/history/
@@ -24,3 +24,7 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-11,bandwagonhost,bwh-kvm-320g,320G KVM,6,16,320,1,79.99,79.99,USD,0,https://bandwagonhost.com/cart.php,page,https://stackrates.ai/hosting/bandwagonhost/history/
 2026-11-11,bandwagonhost,bwh-kvm-480g,480G KVM,7,24,480,1,119.99,119.99,USD,0,https://bandwagonhost.com/cart.php,page,https://stackrates.ai/hosting/bandwagonhost/history/
 2026-11-11,bandwagonhost,bwh-kvm-80g,80G KVM,4,4,80,1,19.99,19.99,USD,0,https://bandwagonhost.com/cart.php,page,https://stackrates.ai/hosting/bandwagonhost/history/
+2026-11-12,bandwagonhost,bwh-kvm-160g,160G KVM,5,8,160,1,39.99,39.99,USD,0,https://bandwagonhost.com/cart.php,page,https://stackrates.ai/hosting/bandwagonhost/history/
+2026-11-12,bandwagonhost,bwh-kvm-320g,320G KVM,6,16,320,1,79.99,79.99,USD,0,https://bandwagonhost.com/cart.php,page,https://stackrates.ai/hosting/bandwagonhost/history/
+2026-11-12,bandwagonhost,bwh-kvm-480g,480G KVM,7,24,480,1,119.99,119.99,USD,0,https://bandwagonhost.com/cart.php,page,https://stackrates.ai/hosting/bandwagonhost/history/
+2026-11-12,bandwagonhost,bwh-kvm-80g,80G KVM,4,4,80,1,19.99,19.99,USD,0,https://bandwagonhost.com/cart.php,page,https://stackrates.ai/hosting/bandwagonhost/history/

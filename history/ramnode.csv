@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-11,ramnode,ramnode-05,Standard 512MB,1,0.5,20,1,4,4,USD,0,https://www.ramnode.com/pricing/,page,https://stackrates.ai/hosting/ramnode/history/
 2026-10-11,ramnode,ramnode-1,Standard 1GB,1,1,40,1,5,5,USD,0,https://www.ramnode.com/pricing/,page,https://stackrates.ai/hosting/ramnode/history/
@@ -192,3 +192,9 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-11,ramnode,ramnode-2,Standard 2GB,2,2,80,1,10,10,USD,0,https://www.ramnode.com/pricing/,page,https://stackrates.ai/hosting/ramnode/history/
 2026-11-11,ramnode,ramnode-4,Standard 4GB,4,4,120,1,20,20,USD,0,https://www.ramnode.com/pricing/,page,https://stackrates.ai/hosting/ramnode/history/
 2026-11-11,ramnode,ramnode-8,Standard 8GB,4,8,180,1,40,40,USD,0,https://www.ramnode.com/pricing/,page,https://stackrates.ai/hosting/ramnode/history/
+2026-11-12,ramnode,ramnode-05,Standard 512MB,1,0.5,20,1,4,4,USD,0,https://www.ramnode.com/pricing/,page,https://stackrates.ai/hosting/ramnode/history/
+2026-11-12,ramnode,ramnode-1,Standard 1GB,1,1,40,1,5,5,USD,0,https://www.ramnode.com/pricing/,page,https://stackrates.ai/hosting/ramnode/history/
+2026-11-12,ramnode,ramnode-16,Standard 16GB,8,16,260,1,80,80,USD,0,https://www.ramnode.com/pricing/,page,https://stackrates.ai/hosting/ramnode/history/
+2026-11-12,ramnode,ramnode-2,Standard 2GB,2,2,80,1,10,10,USD,0,https://www.ramnode.com/pricing/,page,https://stackrates.ai/hosting/ramnode/history/
+2026-11-12,ramnode,ramnode-4,Standard 4GB,4,4,120,1,20,20,USD,0,https://www.ramnode.com/pricing/,page,https://stackrates.ai/hosting/ramnode/history/
+2026-11-12,ramnode,ramnode-8,Standard 8GB,4,8,180,1,40,40,USD,0,https://www.ramnode.com/pricing/,page,https://stackrates.ai/hosting/ramnode/history/

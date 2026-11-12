@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-06,iniz,iniz-uk-12g,UK-VPS-12G,4,12,180,1,64.25,48,GBP,0,https://iniz.com/vps,manual,https://stackrates.ai/hosting/iniz/history/
 2026-11-06,iniz,iniz-uk-16g,UK-VPS-16G,4,16,240,1,85.66,64,GBP,0,https://iniz.com/vps,manual,https://stackrates.ai/hosting/iniz/history/
@@ -42,3 +42,10 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-11,iniz,iniz-uk-4g,UK-VPS-4G,2,4,80,1,21.48,16,GBP,0,https://iniz.com/vps,page,https://stackrates.ai/hosting/iniz/history/
 2026-11-11,iniz,iniz-uk-6g,UK-VPS-6G,2,6,100,1,32.22,24,GBP,0,https://iniz.com/vps,page,https://stackrates.ai/hosting/iniz/history/
 2026-11-11,iniz,iniz-uk-8g,UK-VPS-8G,4,8,140,1,42.95,32,GBP,0,https://iniz.com/vps,page,https://stackrates.ai/hosting/iniz/history/
+2026-11-12,iniz,iniz-uk-12g,UK-VPS-12G,4,12,180,1,63.87,48,GBP,0,https://iniz.com/vps,page,https://stackrates.ai/hosting/iniz/history/
+2026-11-12,iniz,iniz-uk-16g,UK-VPS-16G,4,16,240,1,85.16,64,GBP,0,https://iniz.com/vps,page,https://stackrates.ai/hosting/iniz/history/
+2026-11-12,iniz,iniz-uk-1g,UK-VPS-1G,1,1,20,1,5.99,4.5,GBP,0,https://iniz.com/vps,page,https://stackrates.ai/hosting/iniz/history/
+2026-11-12,iniz,iniz-uk-2g,UK-VPS-2G,1,2,40,1,10.65,8,GBP,0,https://iniz.com/vps,page,https://stackrates.ai/hosting/iniz/history/
+2026-11-12,iniz,iniz-uk-4g,UK-VPS-4G,2,4,80,1,21.29,16,GBP,0,https://iniz.com/vps,page,https://stackrates.ai/hosting/iniz/history/
+2026-11-12,iniz,iniz-uk-6g,UK-VPS-6G,2,6,100,1,31.94,24,GBP,0,https://iniz.com/vps,page,https://stackrates.ai/hosting/iniz/history/
+2026-11-12,iniz,iniz-uk-8g,UK-VPS-8G,4,8,140,1,42.58,32,GBP,0,https://iniz.com/vps,page,https://stackrates.ai/hosting/iniz/history/

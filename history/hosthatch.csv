@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-10,hosthatch,hosthatch-12,NVMe 12 GB,4,12,50,1,12,12,USD,0,https://hosthatch.com/products,manual,https://stackrates.ai/hosting/hosthatch/history/
 2026-10-10,hosthatch,hosthatch-16,NVMe 16 GB,4,16,75,1,15,15,USD,0,https://hosthatch.com/products,manual,https://stackrates.ai/hosting/hosthatch/history/
@@ -165,3 +165,8 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-11,hosthatch,hosthatch-2,NVMe 2 GB,1,2,10,1,4,4,USD,0,https://hosthatch.com/products,page,https://stackrates.ai/hosting/hosthatch/history/
 2026-11-11,hosthatch,hosthatch-4,NVMe 4 GB,2,4,20,1,6,6,USD,0,https://hosthatch.com/products,page,https://stackrates.ai/hosting/hosthatch/history/
 2026-11-11,hosthatch,hosthatch-8,NVMe 8 GB,2,8,35,1,9,9,USD,0,https://hosthatch.com/products,page,https://stackrates.ai/hosting/hosthatch/history/
+2026-11-12,hosthatch,hosthatch-12,NVMe 12 GB,4,12,50,1,12,12,USD,0,https://hosthatch.com/products,page,https://stackrates.ai/hosting/hosthatch/history/
+2026-11-12,hosthatch,hosthatch-16,NVMe 16 GB,4,16,75,1,15,15,USD,0,https://hosthatch.com/products,page,https://stackrates.ai/hosting/hosthatch/history/
+2026-11-12,hosthatch,hosthatch-2,NVMe 2 GB,1,2,10,1,4,4,USD,0,https://hosthatch.com/products,page,https://stackrates.ai/hosting/hosthatch/history/
+2026-11-12,hosthatch,hosthatch-4,NVMe 4 GB,2,4,20,1,6,6,USD,0,https://hosthatch.com/products,page,https://stackrates.ai/hosting/hosthatch/history/
+2026-11-12,hosthatch,hosthatch-8,NVMe 8 GB,2,8,35,1,9,9,USD,0,https://hosthatch.com/products,page,https://stackrates.ai/hosting/hosthatch/history/

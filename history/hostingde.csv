@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-08,hostingde,hostingde-large,Cloud Server Large,4,8,120,1,14.4,12.9,EUR,0,https://hosting.de/server/,page,https://stackrates.ai/hosting/hostingde/history/
 2026-11-08,hostingde,hostingde-medium,Cloud Server Medium,2,4,80,1,7.7,6.9,EUR,0,https://hosting.de/server/,page,https://stackrates.ai/hosting/hostingde/history/
@@ -20,3 +20,8 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-11,hostingde,hostingde-small,Cloud Server Small,2,2,40,1,5.49,4.9,EUR,0,https://hosting.de/server/,page,https://stackrates.ai/hosting/hostingde/history/
 2026-11-11,hostingde,hostingde-xlarge,Cloud Server X-Large,6,16,240,1,22.32,19.9,EUR,0,https://hosting.de/server/,page,https://stackrates.ai/hosting/hostingde/history/
 2026-11-11,hostingde,hostingde-xxlarge,Cloud Server XX-Large,8,32,360,1,33.53,29.9,EUR,0,https://hosting.de/server/,page,https://stackrates.ai/hosting/hostingde/history/
+2026-11-12,hostingde,hostingde-large,Cloud Server Large,4,8,120,1,14.35,12.9,EUR,0,https://hosting.de/server/,page,https://stackrates.ai/hosting/hostingde/history/
+2026-11-12,hostingde,hostingde-medium,Cloud Server Medium,2,4,80,1,7.68,6.9,EUR,0,https://hosting.de/server/,page,https://stackrates.ai/hosting/hostingde/history/
+2026-11-12,hostingde,hostingde-small,Cloud Server Small,2,2,40,1,5.45,4.9,EUR,0,https://hosting.de/server/,page,https://stackrates.ai/hosting/hostingde/history/
+2026-11-12,hostingde,hostingde-xlarge,Cloud Server X-Large,6,16,240,1,22.14,19.9,EUR,0,https://hosting.de/server/,page,https://stackrates.ai/hosting/hostingde/history/
+2026-11-12,hostingde,hostingde-xxlarge,Cloud Server XX-Large,8,32,360,1,33.27,29.9,EUR,0,https://hosting.de/server/,page,https://stackrates.ai/hosting/hostingde/history/

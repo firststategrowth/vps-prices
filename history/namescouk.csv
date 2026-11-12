@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-11
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-06,namescouk,names-vps-l,Self-managed VPS L,8,16,500,1,85.65,63.99,GBP,,https://www.names.co.uk/servers/self-managed-vps-hosting,manual,https://stackrates.ai/hosting/namescouk/history/
 2026-11-06,namescouk,names-vps-m,Self-managed VPS M,4,8,300,1,53.53,39.99,GBP,,https://www.names.co.uk/servers/self-managed-vps-hosting,manual,https://stackrates.ai/hosting/namescouk/history/
@@ -24,3 +24,7 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-11,namescouk,names-vps-m,Self-managed VPS M,4,8,300,1,53.68,39.99,GBP,,https://www.names.co.uk/servers/self-managed-vps-hosting,page,https://stackrates.ai/hosting/namescouk/history/
 2026-11-11,namescouk,names-vps-s,Self-managed VPS S,2,4,150,1,29.52,21.99,GBP,,https://www.names.co.uk/servers/self-managed-vps-hosting,page,https://stackrates.ai/hosting/namescouk/history/
 2026-11-11,namescouk,names-vps-xs,Self-managed VPS XS,1,2,75,1,20.12,14.99,GBP,,https://www.names.co.uk/servers/self-managed-vps-hosting,page,https://stackrates.ai/hosting/namescouk/history/
+2026-11-12,namescouk,names-vps-l,Self-managed VPS L,8,16,500,1,85.15,63.99,GBP,,https://www.names.co.uk/servers/self-managed-vps-hosting,page,https://stackrates.ai/hosting/namescouk/history/
+2026-11-12,namescouk,names-vps-m,Self-managed VPS M,4,8,300,1,53.21,39.99,GBP,,https://www.names.co.uk/servers/self-managed-vps-hosting,page,https://stackrates.ai/hosting/namescouk/history/
+2026-11-12,namescouk,names-vps-s,Self-managed VPS S,2,4,150,1,29.26,21.99,GBP,,https://www.names.co.uk/servers/self-managed-vps-hosting,page,https://stackrates.ai/hosting/namescouk/history/
+2026-11-12,namescouk,names-vps-xs,Self-managed VPS XS,1,2,75,1,19.95,14.99,GBP,,https://www.names.co.uk/servers/self-managed-vps-hosting,page,https://stackrates.ai/hosting/namescouk/history/
