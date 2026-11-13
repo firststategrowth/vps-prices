@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-08,serverhost,serverhost-xeon-16gb,Xeon Linux VPS 16 GB,4,16,240,1,48,48,USD,0,https://serverhost.com/linux-vps.php,page,https://stackrates.ai/hosting/serverhost/history/
 2026-11-08,serverhost,serverhost-xeon-2gb,Xeon Linux VPS 2 GB,1,2,30,1,6,6,USD,0,https://serverhost.com/linux-vps.php,page,https://stackrates.ai/hosting/serverhost/history/
@@ -25,3 +25,8 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-12,serverhost,serverhost-xeon-32gb,Xeon Linux VPS 32 GB,5,32,480,1,96,96,USD,0,https://serverhost.com/linux-vps.php,page,https://stackrates.ai/hosting/serverhost/history/
 2026-11-12,serverhost,serverhost-xeon-4gb,Xeon Linux VPS 4 GB,2,4,60,1,12,12,USD,0,https://serverhost.com/linux-vps.php,page,https://stackrates.ai/hosting/serverhost/history/
 2026-11-12,serverhost,serverhost-xeon-64gb,Xeon Linux VPS 64 GB,6,64,960,1,192,192,USD,0,https://serverhost.com/linux-vps.php,page,https://stackrates.ai/hosting/serverhost/history/
+2026-11-13,serverhost,serverhost-xeon-16gb,Xeon Linux VPS 16 GB,4,16,240,1,48,48,USD,0,https://serverhost.com/linux-vps.php,page,https://stackrates.ai/hosting/serverhost/history/
+2026-11-13,serverhost,serverhost-xeon-2gb,Xeon Linux VPS 2 GB,1,2,30,1,6,6,USD,0,https://serverhost.com/linux-vps.php,page,https://stackrates.ai/hosting/serverhost/history/
+2026-11-13,serverhost,serverhost-xeon-32gb,Xeon Linux VPS 32 GB,5,32,480,1,96,96,USD,0,https://serverhost.com/linux-vps.php,page,https://stackrates.ai/hosting/serverhost/history/
+2026-11-13,serverhost,serverhost-xeon-4gb,Xeon Linux VPS 4 GB,2,4,60,1,12,12,USD,0,https://serverhost.com/linux-vps.php,page,https://stackrates.ai/hosting/serverhost/history/
+2026-11-13,serverhost,serverhost-xeon-64gb,Xeon Linux VPS 64 GB,6,64,960,1,192,192,USD,0,https://serverhost.com/linux-vps.php,page,https://stackrates.ai/hosting/serverhost/history/

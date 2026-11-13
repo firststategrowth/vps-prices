@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-08,smokyhosts,smokyhosts-buffalo-l,Size L VPS (Buffalo),2,8,80,1,15.95,15.95,USD,0,https://members.smokyhosts.com/cart.php?a=add&pid=173&currency=1,page,https://stackrates.ai/hosting/smokyhosts/history/
 2026-11-08,smokyhosts,smokyhosts-buffalo-m,Size M VPS (Buffalo),2,4,40,1,12.95,12.95,USD,0,https://members.smokyhosts.com/cart.php?a=add&pid=83&currency=1,page,https://stackrates.ai/hosting/smokyhosts/history/
@@ -25,3 +25,8 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-12,smokyhosts,smokyhosts-buffalo-s,Size S VPS (Buffalo),1,2,20,1,8.95,8.95,USD,0,https://members.smokyhosts.com/cart.php?a=add&pid=82&currency=1,page,https://stackrates.ai/hosting/smokyhosts/history/
 2026-11-12,smokyhosts,smokyhosts-buffalo-xl,Size XL VPS (Buffalo),4,16,160,1,25.95,25.95,USD,0,https://members.smokyhosts.com/cart.php?a=add&pid=174&currency=1,page,https://stackrates.ai/hosting/smokyhosts/history/
 2026-11-12,smokyhosts,smokyhosts-buffalo-xxl,Size XXL VPS (Buffalo),4,24,240,1,35.95,35.95,USD,0,https://members.smokyhosts.com/cart.php?a=add&pid=175&currency=1,page,https://stackrates.ai/hosting/smokyhosts/history/
+2026-11-13,smokyhosts,smokyhosts-buffalo-l,Size L VPS (Buffalo),2,8,80,1,15.95,15.95,USD,0,https://members.smokyhosts.com/cart.php?a=add&pid=173&currency=1,page,https://stackrates.ai/hosting/smokyhosts/history/
+2026-11-13,smokyhosts,smokyhosts-buffalo-m,Size M VPS (Buffalo),2,4,40,1,12.95,12.95,USD,0,https://members.smokyhosts.com/cart.php?a=add&pid=83&currency=1,page,https://stackrates.ai/hosting/smokyhosts/history/
+2026-11-13,smokyhosts,smokyhosts-buffalo-s,Size S VPS (Buffalo),1,2,20,1,8.95,8.95,USD,0,https://members.smokyhosts.com/cart.php?a=add&pid=82&currency=1,page,https://stackrates.ai/hosting/smokyhosts/history/
+2026-11-13,smokyhosts,smokyhosts-buffalo-xl,Size XL VPS (Buffalo),4,16,160,1,25.95,25.95,USD,0,https://members.smokyhosts.com/cart.php?a=add&pid=174&currency=1,page,https://stackrates.ai/hosting/smokyhosts/history/
+2026-11-13,smokyhosts,smokyhosts-buffalo-xxl,Size XXL VPS (Buffalo),4,24,240,1,35.95,35.95,USD,0,https://members.smokyhosts.com/cart.php?a=add&pid=175&currency=1,page,https://stackrates.ai/hosting/smokyhosts/history/

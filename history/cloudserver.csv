@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-14,cloudserver,cloudserver-1gb,Linux KVM 1GB,1,1,25,1,4,4,USD,0,https://www.cloudserver.net/linux-vps/,page,https://stackrates.ai/hosting/cloudserver/history/
 2026-10-14,cloudserver,cloudserver-2gb,Linux KVM 2GB,1,2,50,1,8,8,USD,0,https://www.cloudserver.net/linux-vps/,page,https://stackrates.ai/hosting/cloudserver/history/
@@ -112,3 +112,7 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-12,cloudserver,cloudserver-2gb,Linux KVM 2GB,1,2,50,1,8,8,USD,0,https://www.cloudserver.net/linux-vps/,page,https://stackrates.ai/hosting/cloudserver/history/
 2026-11-12,cloudserver,cloudserver-4gb,Linux KVM 4GB,2,4,75,1,15,15,USD,0,https://www.cloudserver.net/linux-vps/,page,https://stackrates.ai/hosting/cloudserver/history/
 2026-11-12,cloudserver,cloudserver-8gb,Linux KVM 8GB,4,8,150,1,30,30,USD,0,https://www.cloudserver.net/linux-vps/,page,https://stackrates.ai/hosting/cloudserver/history/
+2026-11-13,cloudserver,cloudserver-1gb,Linux KVM 1GB,1,1,25,1,4,4,USD,0,https://www.cloudserver.net/linux-vps/,page,https://stackrates.ai/hosting/cloudserver/history/
+2026-11-13,cloudserver,cloudserver-2gb,Linux KVM 2GB,1,2,50,1,8,8,USD,0,https://www.cloudserver.net/linux-vps/,page,https://stackrates.ai/hosting/cloudserver/history/
+2026-11-13,cloudserver,cloudserver-4gb,Linux KVM 4GB,2,4,75,1,15,15,USD,0,https://www.cloudserver.net/linux-vps/,page,https://stackrates.ai/hosting/cloudserver/history/
+2026-11-13,cloudserver,cloudserver-8gb,Linux KVM 8GB,4,8,150,1,30,30,USD,0,https://www.cloudserver.net/linux-vps/,page,https://stackrates.ai/hosting/cloudserver/history/

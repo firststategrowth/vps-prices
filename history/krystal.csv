@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-06,krystal,krystal-k1,K1 Basic VPS,1,1,25,1,13.39,10,GBP,0,https://krystal.io/cloud-vps,manual,https://stackrates.ai/hosting/krystal/history/
 2026-11-06,krystal,krystal-k2,K2 Plus VPS,1,2,75,1,30.79,23,GBP,0,https://krystal.io/cloud-vps,manual,https://stackrates.ai/hosting/krystal/history/
@@ -42,3 +42,9 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-12,krystal,krystal-k4,K4 Recommended,2,4,50,1,38.59,29,GBP,0,https://krystal.io/cloud-vps,page,https://stackrates.ai/hosting/krystal/history/
 2026-11-12,krystal,krystal-k5,K5 Premium VPS,4,8,250,1,121.09,91,GBP,0,https://krystal.io/cloud-vps,page,https://stackrates.ai/hosting/krystal/history/
 2026-11-12,krystal,krystal-k6,K6 Ultimate VPS,6,12,500,1,216.9,163,GBP,0,https://krystal.io/cloud-vps,page,https://stackrates.ai/hosting/krystal/history/
+2026-11-13,krystal,krystal-k1,K1 Basic VPS,1,1,25,1,13.26,10,GBP,0,https://krystal.io/cloud-vps,page,https://stackrates.ai/hosting/krystal/history/
+2026-11-13,krystal,krystal-k2,K2 Plus VPS,1,2,75,1,30.49,23,GBP,0,https://krystal.io/cloud-vps,page,https://stackrates.ai/hosting/krystal/history/
+2026-11-13,krystal,krystal-k3,K3 Minimum,1,2,25,1,17.23,13,GBP,0,https://krystal.io/cloud-vps,page,https://stackrates.ai/hosting/krystal/history/
+2026-11-13,krystal,krystal-k4,K4 Recommended,2,4,50,1,38.44,29,GBP,0,https://krystal.io/cloud-vps,page,https://stackrates.ai/hosting/krystal/history/
+2026-11-13,krystal,krystal-k5,K5 Premium VPS,4,8,250,1,120.63,91,GBP,0,https://krystal.io/cloud-vps,page,https://stackrates.ai/hosting/krystal/history/
+2026-11-13,krystal,krystal-k6,K6 Ultimate VPS,6,12,500,1,216.07,163,GBP,0,https://krystal.io/cloud-vps,page,https://stackrates.ai/hosting/krystal/history/

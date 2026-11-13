@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-14,crowncloud,crowncloud-nvme-1,KVM NVMe 1,1,1,30,1,7,7,USD,0,https://crowncloud.net/vps/nvme-plans,page,https://stackrates.ai/hosting/crowncloud/history/
 2026-10-14,crowncloud,crowncloud-nvme-2,KVM NVMe 2,2,2,60,1,14,14,USD,0,https://crowncloud.net/vps/nvme-plans,page,https://stackrates.ai/hosting/crowncloud/history/
@@ -180,3 +180,9 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-12,crowncloud,crowncloud-ssd-1,KVM SSD 1,1,1,25,1,5,5,USD,0,https://crowncloud.net/vps/ssd-plans,page,https://stackrates.ai/hosting/crowncloud/history/
 2026-11-12,crowncloud,crowncloud-ssd-2,KVM SSD 2,2,2,50,1,10,10,USD,0,https://crowncloud.net/vps/ssd-plans,page,https://stackrates.ai/hosting/crowncloud/history/
 2026-11-12,crowncloud,crowncloud-ssd-4,KVM SSD 4,4,4,100,1,20,20,USD,0,https://crowncloud.net/vps/ssd-plans,page,https://stackrates.ai/hosting/crowncloud/history/
+2026-11-13,crowncloud,crowncloud-nvme-1,KVM NVMe 1,1,1,30,1,7,7,USD,0,https://crowncloud.net/vps/nvme-plans,page,https://stackrates.ai/hosting/crowncloud/history/
+2026-11-13,crowncloud,crowncloud-nvme-2,KVM NVMe 2,2,2,60,1,14,14,USD,0,https://crowncloud.net/vps/nvme-plans,page,https://stackrates.ai/hosting/crowncloud/history/
+2026-11-13,crowncloud,crowncloud-ryzen-2,KVM Ryzen 2 (9950X),2,2,50,1,15,15,USD,0,https://crowncloud.net/vps/amd-ryzen-plans,page,https://stackrates.ai/hosting/crowncloud/history/
+2026-11-13,crowncloud,crowncloud-ssd-1,KVM SSD 1,1,1,25,1,5,5,USD,0,https://crowncloud.net/vps/ssd-plans,page,https://stackrates.ai/hosting/crowncloud/history/
+2026-11-13,crowncloud,crowncloud-ssd-2,KVM SSD 2,2,2,50,1,10,10,USD,0,https://crowncloud.net/vps/ssd-plans,page,https://stackrates.ai/hosting/crowncloud/history/
+2026-11-13,crowncloud,crowncloud-ssd-4,KVM SSD 4,4,4,100,1,20,20,USD,0,https://crowncloud.net/vps/ssd-plans,page,https://stackrates.ai/hosting/crowncloud/history/

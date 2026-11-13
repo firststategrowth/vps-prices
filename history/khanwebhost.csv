@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-29,khanwebhost,khanwebhost-ash1,VPS-Ash1,1,1,17,1,5,5,USD,0,https://khanwebhost.com/ashburn-kvm-vps.php,manual,https://stackrates.ai/hosting/khanwebhost/history/
 2026-10-29,khanwebhost,khanwebhost-ash12,VPS-Ash12,4,12,120,1,22,22,USD,0,https://khanwebhost.com/ashburn-kvm-vps.php,manual,https://stackrates.ai/hosting/khanwebhost/history/
@@ -559,3 +559,46 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-12,khanwebhost,khanwebhost-us4,VPS-US4,2,4,30,1,14,14,USD,0,https://khanwebhost.com/us-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
 2026-11-12,khanwebhost,khanwebhost-us6,VPS-US6,4,6,50,1,16.95,16.95,USD,0,https://khanwebhost.com/us-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
 2026-11-12,khanwebhost,khanwebhost-us8,VPS-US8,4,8,80,1,18.95,18.95,USD,0,https://khanwebhost.com/us-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-ash1,VPS-Ash1,1,1,17,1,5,5,USD,0,https://khanwebhost.com/ashburn-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-ash12,VPS-Ash12,4,12,120,1,22,22,USD,0,https://khanwebhost.com/ashburn-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-ash16,VPS-Ash16,6,16,150,1,25,25,USD,0,https://khanwebhost.com/ashburn-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-ash2,VPS-Ash2,2,2,20,1,6.95,6.95,USD,0,https://khanwebhost.com/ashburn-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-ash3,VPS-Ash3,2,3,25,1,12,12,USD,0,https://khanwebhost.com/ashburn-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-ash4,VPS-Ash4,2,4,30,1,14,14,USD,0,https://khanwebhost.com/ashburn-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-ash6,VPS-Ash6,4,6,80,1,16,16,USD,0,https://khanwebhost.com/ashburn-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-ash8,VPS-Ash8,4,8,100,1,18.95,18.95,USD,0,https://khanwebhost.com/ashburn-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-ca2,VPS-CA2,1,2,20,1,4,4,USD,0,https://khanwebhost.com/canada-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-ca2-v6,VPS-CA2 IPv6 only,1,2,20,1,3,3,USD,,https://khanwebhost.com/canada-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-ca4,VPS-CA4,2,4,50,1,7,7,USD,0,https://khanwebhost.com/canada-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-ca4-v6,VPS-CA4 IPv6 only,2,4,50,1,6,6,USD,,https://khanwebhost.com/canada-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-ca6,VPS-CA6,2,6,80,1,10,10,USD,0,https://khanwebhost.com/canada-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-in1,VPS-IN1,1,1,10,1,4,4,USD,0,https://khanwebhost.com/india-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-in2,VPS-IN2,1,2,20,1,6,6,USD,0,https://khanwebhost.com/india-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-in3,VPS-IN3,2,3,20,1,9,9,USD,0,https://khanwebhost.com/india-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-in4,VPS-IN4,3,4,30,1,12,12,USD,0,https://khanwebhost.com/india-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-in6,VPS-IN6,4,6,40,1,16,16,USD,0,https://khanwebhost.com/india-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-se16,VPS-SE16,8,16,200,1,34,34,USD,0,https://khanwebhost.com/sweden-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-se2,VPS-SE2,1,2,25,1,7,7,USD,0,https://khanwebhost.com/sweden-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-se4,VPS-SE4,2,4,50,1,10,10,USD,0,https://khanwebhost.com/sweden-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-se8,VPS-SE8,4,8,100,1,17,17,USD,0,https://khanwebhost.com/sweden-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-tr1,VPS-TR1,1,1,15,1,6,6,USD,0,https://khanwebhost.com/tr-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-tr2,VPS-TR2,1,2,35,1,8,8,USD,0,https://khanwebhost.com/tr-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-tr4,VPS-TR4,2,4,45,1,12,12,USD,0,https://khanwebhost.com/tr-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-tr6,VPS-TR6,3,6,80,1,18.99,18.99,USD,0,https://khanwebhost.com/tr-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-uk1,VPS-UK1,1,1,15,1,5,5,USD,0,https://khanwebhost.com/uk-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-uk16,VPS-UK16,6,16,200,1,30,30,USD,0,https://khanwebhost.com/uk-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-uk2,VPS-UK2,1,2,20,1,7,7,USD,0,https://khanwebhost.com/uk-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-uk3,VPS-UK3,2,3,25,1,9,9,USD,0,https://khanwebhost.com/uk-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-uk4,VPS-UK4,2,4,40,1,12.99,12.99,USD,0,https://khanwebhost.com/uk-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-uk5,VPS-UK5,3,5,50,1,13.99,13.99,USD,0,https://khanwebhost.com/uk-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-uk6,VPS-UK6,3,6,80,1,16.99,16.99,USD,0,https://khanwebhost.com/uk-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-uk8,VPS-UK8,4,8,100,1,21,21,USD,0,https://khanwebhost.com/uk-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-us1,VPS-US1,1,1,17,1,5,5,USD,0,https://khanwebhost.com/us-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-us12,VPS-US12,6,12,100,1,23.99,23.99,USD,0,https://khanwebhost.com/us-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-us16,VPS-US16,6,16,120,1,25,25,USD,0,https://khanwebhost.com/us-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-us2,VPS-US2,2,2,20,1,6.95,6.95,USD,0,https://khanwebhost.com/us-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-us3,VPS-US3,2,3,25,1,10,10,USD,0,https://khanwebhost.com/us-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-us32,VPS-US32,8,32,200,1,45.95,45.95,USD,0,https://khanwebhost.com/us-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-us4,VPS-US4,2,4,30,1,14,14,USD,0,https://khanwebhost.com/us-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-us6,VPS-US6,4,6,50,1,16.95,16.95,USD,0,https://khanwebhost.com/us-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/
+2026-11-13,khanwebhost,khanwebhost-us8,VPS-US8,4,8,80,1,18.95,18.95,USD,0,https://khanwebhost.com/us-kvm-vps.php,page,https://stackrates.ai/hosting/khanwebhost/history/

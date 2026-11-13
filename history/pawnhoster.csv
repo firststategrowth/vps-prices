@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-08,pawnhoster,pawnhoster-kvm-l,VPS KVM-L,4,8,100,1,20,20,USD,0,https://pawnhoster.com/vps-hosting,page,https://stackrates.ai/hosting/pawnhoster/history/
 2026-11-08,pawnhoster,pawnhoster-kvm-m,VPS KVM-M,2,4,50,1,10,10,USD,0,https://pawnhoster.com/vps-hosting,page,https://stackrates.ai/hosting/pawnhoster/history/
@@ -13,3 +13,6 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-12,pawnhoster,pawnhoster-kvm-l,VPS KVM-L,4,8,100,1,19,19,USD,0,https://pawnhoster.com/vps-hosting,page,https://stackrates.ai/hosting/pawnhoster/history/
 2026-11-12,pawnhoster,pawnhoster-kvm-m,VPS KVM-M,2,4,50,1,11,11,USD,0,https://pawnhoster.com/vps-hosting,page,https://stackrates.ai/hosting/pawnhoster/history/
 2026-11-12,pawnhoster,pawnhoster-kvm-s,VPS KVM-S,1,2,25,1,7,7,USD,0,https://pawnhoster.com/vps-hosting,page,https://stackrates.ai/hosting/pawnhoster/history/
+2026-11-13,pawnhoster,pawnhoster-kvm-l,VPS KVM-L,4,8,100,1,19,19,USD,0,https://pawnhoster.com/vps-hosting,page,https://stackrates.ai/hosting/pawnhoster/history/
+2026-11-13,pawnhoster,pawnhoster-kvm-m,VPS KVM-M,2,4,50,1,11,11,USD,0,https://pawnhoster.com/vps-hosting,page,https://stackrates.ai/hosting/pawnhoster/history/
+2026-11-13,pawnhoster,pawnhoster-kvm-s,VPS KVM-S,1,2,25,1,7,7,USD,0,https://pawnhoster.com/vps-hosting,page,https://stackrates.ai/hosting/pawnhoster/history/

@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-14,evoxt,evoxt-05,VM-0.5,1,0.5,5,1,2.99,2.99,USD,0,https://evoxt.com/pricing/,page,https://stackrates.ai/hosting/evoxt/history/
 2026-10-14,evoxt,evoxt-1,VM-1,1,2,20,1,5.99,5.99,USD,0,https://evoxt.com/pricing/,page,https://stackrates.ai/hosting/evoxt/history/
@@ -150,3 +150,8 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-12,evoxt,evoxt-2,VM-2,2,4,30,1,11.99,11.99,USD,0,https://evoxt.com/pricing/,page,https://stackrates.ai/hosting/evoxt/history/
 2026-11-12,evoxt,evoxt-4,VM-4,4,8,60,1,23.99,23.99,USD,0,https://evoxt.com/pricing/,page,https://stackrates.ai/hosting/evoxt/history/
 2026-11-12,evoxt,evoxt-8,VM-8,8,16,80,1,47.99,47.99,USD,0,https://evoxt.com/pricing/,page,https://stackrates.ai/hosting/evoxt/history/
+2026-11-13,evoxt,evoxt-05,VM-0.5,1,0.5,5,1,2.99,2.99,USD,0,https://evoxt.com/pricing/,page,https://stackrates.ai/hosting/evoxt/history/
+2026-11-13,evoxt,evoxt-1,VM-1,1,2,20,1,5.99,5.99,USD,0,https://evoxt.com/pricing/,page,https://stackrates.ai/hosting/evoxt/history/
+2026-11-13,evoxt,evoxt-2,VM-2,2,4,30,1,11.99,11.99,USD,0,https://evoxt.com/pricing/,page,https://stackrates.ai/hosting/evoxt/history/
+2026-11-13,evoxt,evoxt-4,VM-4,4,8,60,1,23.99,23.99,USD,0,https://evoxt.com/pricing/,page,https://stackrates.ai/hosting/evoxt/history/
+2026-11-13,evoxt,evoxt-8,VM-8,8,16,80,1,47.99,47.99,USD,0,https://evoxt.com/pricing/,page,https://stackrates.ai/hosting/evoxt/history/

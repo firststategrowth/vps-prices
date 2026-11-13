@@ -7,14 +7,14 @@
   "history": "https://stackrates.ai/data/history/",
   "license": "CC BY 4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
-  "source": "StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12",
+  "source": "StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13",
   "creator": {
     "name": "StackRates",
     "url": "https://stackrates.ai"
   },
-  "citation": "StackRates (2026). Monthly VPS price index, method 1, reads 2026-10-05 to 2026-11-12. https://stackrates.ai/data/index/vps-price-index.csv",
-  "temporal_coverage": "2026-10-05/2026-11-12",
-  "as_of": "2026-11-12",
+  "citation": "StackRates (2026). Monthly VPS price index, method 1, reads 2026-10-05 to 2026-11-13. https://stackrates.ai/data/index/vps-price-index.csv",
+  "temporal_coverage": "2026-10-05/2026-11-13",
+  "as_of": "2026-11-13",
   "method_version": "1",
   "method": {
     "version": "1",
@@ -24,7 +24,7 @@
     "plan_month_price": "Each plan counts once per month, at its latest read in that month, and only if that read meets the rules above: a plan the provider showed as sold out at its last read of the month is not counted that month. Plan facts (vCPU, RAM, disk, term, IPv4 fee) are the catalogue's on the read day; what the product is (managed hosting, a dedicated or bare-metal server, an IPv6-only or promotion-only plan, a plan whose pages do not state IPv4) is today's catalogue's word, since it does not change from day to day and later corrections apply to every day.",
     "composition": "The medians are levels over the plans counted that month, so they also move when plans enter or leave (a provider added, a plan sold out, a hand-read plan not re-read) and, for plans billed in euros or pounds, with the exchange rate. The change column compares like with like and is the figure to read for price moves; plans_entered and plans_left in the JSON give the composition change.",
     "medians": "median_usd_month_1gb, _4gb and _8gb are the medians of those prices over the plans with exactly 1, 4 or 8 GB of RAM; plans_1gb, _4gb and _8gb give how many plans each median is taken from. An even count takes the mean of the two middle prices.",
-    "weighting": "The headline medians are weighted by plan count: every plan counts once, so a provider that lists more plans at a size has more weight in that size's median (in 2026-11 KhanWebHost lists 41 of the 508 plans counted). The same medians with one vote per provider are published beside them: median_usd_month_1gb_per_provider, _4gb_ and _8gb_ take each provider's own median at that size first, then the median of those provider medians; providers_1gb, _4gb and _8gb give how many providers each is taken over. Where the two differ, the gap is how much the providers with many plans pull the headline figure. Statistical offices treat the seller as the first level of aggregation for the same reason: the Central Statistics Office (Ireland) builds its Wholesale Price Index from elementary aggregates that are \"a product group for a single respondent\" before weighting across respondents (CSO, Wholesale Price Index: Index Calculation Methodology), and the Office for National Statistics reviewed how web-scraped prices, where a retailer's listing count stands in for its weight, should be aggregated (ONS, APCP-T(17)04, Methods review for web scraped price indices, Advisory Panel on Consumer Prices (Technical), January 2017). The change column is per plan and is not affected.",
+    "weighting": "The headline medians are weighted by plan count: every plan counts once, so a provider that lists more plans at a size has more weight in that size's median (in 2026-11 KhanWebHost lists 41 of the 511 plans counted). The same medians with one vote per provider are published beside them: median_usd_month_1gb_per_provider, _4gb_ and _8gb_ take each provider's own median at that size first, then the median of those provider medians; providers_1gb, _4gb and _8gb give how many providers each is taken over. Where the two differ, the gap is how much the providers with many plans pull the headline figure. Statistical offices treat the seller as the first level of aggregation for the same reason: the Central Statistics Office (Ireland) builds its Wholesale Price Index from elementary aggregates that are \"a product group for a single respondent\" before weighting across respondents (CSO, Wholesale Price Index: Index Calculation Methodology), and the Office for National Statistics reviewed how web-scraped prices, where a retailer's listing count stands in for its weight, should be aggregated (ONS, APCP-T(17)04, Methods review for web scraped price indices, Advisory Panel on Consumer Prices (Technical), January 2017). The change column is per plan and is not affected.",
     "change": "change_pct_vs_prev_month is the median of the per-plan percentage changes between the plan's price in the previous month and in this month, over the plans counted in both months with the same vCPU, RAM, disk, term and billing currency. The change is computed in the currency the provider bills in, so a move in the exchange rate is never counted as a price change. plans_up, plans_down and plans_same count those plans.",
     "no_reads": "A month without reads has a row that says so and no figures; nothing is interpolated, and the next month has no change figure.",
     "partial_month": "The latest month is month to date and says so in note.",
@@ -83,29 +83,29 @@
     },
     {
       "month": "2026-11",
-      "plans_compared": 508,
+      "plans_compared": 511,
       "median_usd_month_1gb": 5,
       "median_usd_month_4gb": 14,
-      "median_usd_month_8gb": 27.3,
-      "median_usd_month_1gb_per_provider": 5.01,
+      "median_usd_month_8gb": 27.7,
+      "median_usd_month_1gb_per_provider": 5,
       "median_usd_month_4gb_per_provider": 16.5,
-      "median_usd_month_8gb_per_provider": 31.99,
+      "median_usd_month_8gb_per_provider": 31,
       "providers_1gb": 41,
       "providers_4gb": 74,
-      "providers_8gb": 65,
+      "providers_8gb": 66,
       "change_pct_vs_prev_month": 0,
       "plans_up": 0,
       "plans_down": 6,
-      "plans_same": 285,
+      "plans_same": 286,
       "method_version": "1",
       "plans_1gb": 49,
       "plans_4gb": 94,
-      "plans_8gb": 82,
-      "read_days": 12,
-      "last_read": "2026-11-12",
-      "note": "month to date: reads up to 2026-11-12; change: 291 plans read in both 2026-10 and 2026-11",
+      "plans_8gb": 83,
+      "read_days": 13,
+      "last_read": "2026-11-13",
+      "note": "month to date: reads up to 2026-11-13; change: 292 plans read in both 2026-10 and 2026-11",
       "stackrates_url": "https://stackrates.ai/vps-price-index/",
-      "plans_paired": 291,
+      "plans_paired": 292,
       "plans_left_out_spec_changed": 0,
       "movers": [
         {
@@ -165,6 +165,8 @@
         "extravm-3",
         "extravm-4",
         "extravm-5",
+        "extravm-6",
+        "extravm-8",
         "fdc-vps-h1",
         "fdc-vps-h2",
         "fdc-vps-h3",
@@ -353,13 +355,12 @@
         "vexx-starter-96"
       ],
       "plans_left": [
-        "cherry-vps6",
         "liquidweb-1"
       ]
     }
   ],
   "basket_size_by_month": {
     "2026-10": 293,
-    "2026-11": 508
+    "2026-11": 511
   }
 }

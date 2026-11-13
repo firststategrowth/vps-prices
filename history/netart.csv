@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-04,netart,netart-business,VPS Linux Business,2,4,50,1,50,50,USD,0,https://www.netart.com/us/vps/,page,https://stackrates.ai/hosting/netart/history/
 2026-11-04,netart,netart-elite,VPS Linux Elite,16,32,400,1,400,400,USD,0,https://www.netart.com/us/vps/,page,https://stackrates.ai/hosting/netart/history/
@@ -45,3 +45,8 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-12,netart,netart-max,VPS Linux Max,8,16,200,1,200,200,USD,0,https://www.netart.com/us/vps/,page,https://stackrates.ai/hosting/netart/history/
 2026-11-12,netart,netart-pro,VPS Linux Pro,4,8,100,1,100,100,USD,0,https://www.netart.com/us/vps/,page,https://stackrates.ai/hosting/netart/history/
 2026-11-12,netart,netart-start,VPS Linux Start,1,2,25,1,25,25,USD,0,https://www.netart.com/us/vps/,page,https://stackrates.ai/hosting/netart/history/
+2026-11-13,netart,netart-business,VPS Linux Business,2,4,50,1,50,50,USD,0,https://www.netart.com/us/vps/,page,https://stackrates.ai/hosting/netart/history/
+2026-11-13,netart,netart-elite,VPS Linux Elite,16,32,400,1,400,400,USD,0,https://www.netart.com/us/vps/,page,https://stackrates.ai/hosting/netart/history/
+2026-11-13,netart,netart-max,VPS Linux Max,8,16,200,1,200,200,USD,0,https://www.netart.com/us/vps/,page,https://stackrates.ai/hosting/netart/history/
+2026-11-13,netart,netart-pro,VPS Linux Pro,4,8,100,1,100,100,USD,0,https://www.netart.com/us/vps/,page,https://stackrates.ai/hosting/netart/history/
+2026-11-13,netart,netart-start,VPS Linux Start,1,2,25,1,25,25,USD,0,https://www.netart.com/us/vps/,page,https://stackrates.ai/hosting/netart/history/

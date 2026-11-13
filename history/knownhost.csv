@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-07,knownhost,kh-mded-4208-dual,Managed dedicated Dual Xeon Silver 4208,32,32,1480,1,286.25,286.25,USD,0,https://www.knownhost.com/managed-dedicated-servers,page,https://stackrates.ai/hosting/knownhost/history/
 2026-11-07,knownhost,kh-mded-4210-dual,Managed dedicated Dual Xeon Silver 4210,40,64,2960,1,361.25,361.25,USD,0,https://www.knownhost.com/managed-dedicated-servers,page,https://stackrates.ai/hosting/knownhost/history/
@@ -108,3 +108,21 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-12,knownhost,kh-wp-business,WordPress Business,,,100,1,19.95,19.95,USD,0,https://www.knownhost.com/wordpress-hosting,page,https://stackrates.ai/hosting/knownhost/history/
 2026-11-12,knownhost,kh-wp-corporate,WordPress Corporate,,,150,1,39.95,39.95,USD,0,https://www.knownhost.com/wordpress-hosting,page,https://stackrates.ai/hosting/knownhost/history/
 2026-11-12,knownhost,kh-wp-entry,WordPress Entry,,,50,1,11.95,11.95,USD,0,https://www.knownhost.com/wordpress-hosting,page,https://stackrates.ai/hosting/knownhost/history/
+2026-11-13,knownhost,kh-mded-4208-dual,Managed dedicated Dual Xeon Silver 4208,32,32,1480,1,286.25,286.25,USD,0,https://www.knownhost.com/managed-dedicated-servers,page,https://stackrates.ai/hosting/knownhost/history/
+2026-11-13,knownhost,kh-mded-4210-dual,Managed dedicated Dual Xeon Silver 4210,40,64,2960,1,361.25,361.25,USD,0,https://www.knownhost.com/managed-dedicated-servers,page,https://stackrates.ai/hosting/knownhost/history/
+2026-11-13,knownhost,kh-mded-4214-dual,Managed dedicated Dual Xeon Silver 4214,48,64,2960,1,376.25,376.25,USD,0,https://www.knownhost.com/managed-dedicated-servers,page,https://stackrates.ai/hosting/knownhost/history/
+2026-11-13,knownhost,kh-mded-5900x,Managed dedicated Ryzen 9 5900X,24,32,1000,1,251.25,251.25,USD,0,https://www.knownhost.com/managed-dedicated-servers,page,https://stackrates.ai/hosting/knownhost/history/
+2026-11-13,knownhost,kh-mded-7302p,Managed dedicated EPYC Rome 7302P,32,32,1960,1,296.25,296.25,USD,0,https://www.knownhost.com/managed-dedicated-servers,page,https://stackrates.ai/hosting/knownhost/history/
+2026-11-13,knownhost,kh-mded-7313p,Managed dedicated EPYC Milan 7313P,32,32,2960,1,311.25,311.25,USD,0,https://www.knownhost.com/managed-dedicated-servers,page,https://stackrates.ai/hosting/knownhost/history/
+2026-11-13,knownhost,kh-mded-7402p,Managed dedicated EPYC Rome 7402P,48,64,2960,1,371.25,371.25,USD,0,https://www.knownhost.com/managed-dedicated-servers,page,https://stackrates.ai/hosting/knownhost/history/
+2026-11-13,knownhost,kh-mded-e2236,Managed dedicated Xeon E-2236,12,16,1240,1,176.25,176.25,USD,0,https://www.knownhost.com/managed-dedicated-servers,page,https://stackrates.ai/hosting/knownhost/history/
+2026-11-13,knownhost,kh-mded-e2246g,Managed dedicated Xeon E-2246G,12,16,1240,1,186.25,186.25,USD,0,https://www.knownhost.com/managed-dedicated-servers,page,https://stackrates.ai/hosting/knownhost/history/
+2026-11-13,knownhost,kh-mded-e2288g,Managed dedicated Xeon E-2288G,16,16,1240,1,201.25,201.25,USD,0,https://www.knownhost.com/managed-dedicated-servers,page,https://stackrates.ai/hosting/knownhost/history/
+2026-11-13,knownhost,kh-mvps-basic,Managed VPS Basic,4,6,100,1,43.25,43.25,USD,0,https://www.knownhost.com/managed-vps,page,https://stackrates.ai/hosting/knownhost/history/
+2026-11-13,knownhost,kh-mvps-extreme,Managed VPS Extreme,16,16,500,1,143.25,143.25,USD,0,https://www.knownhost.com/managed-vps,page,https://stackrates.ai/hosting/knownhost/history/
+2026-11-13,knownhost,kh-mvps-premium,Managed VPS Premium,10,14,350,1,103.25,103.25,USD,0,https://www.knownhost.com/managed-vps,page,https://stackrates.ai/hosting/knownhost/history/
+2026-11-13,knownhost,kh-mvps-professional,Managed VPS Professional,8,12,300,1,83.25,83.25,USD,0,https://www.knownhost.com/managed-vps,page,https://stackrates.ai/hosting/knownhost/history/
+2026-11-13,knownhost,kh-mvps-standard,Managed VPS Standard,6,10,200,1,63.25,63.25,USD,0,https://www.knownhost.com/managed-vps,page,https://stackrates.ai/hosting/knownhost/history/
+2026-11-13,knownhost,kh-wp-business,WordPress Business,,,100,1,19.95,19.95,USD,0,https://www.knownhost.com/wordpress-hosting,page,https://stackrates.ai/hosting/knownhost/history/
+2026-11-13,knownhost,kh-wp-corporate,WordPress Corporate,,,150,1,39.95,39.95,USD,0,https://www.knownhost.com/wordpress-hosting,page,https://stackrates.ai/hosting/knownhost/history/
+2026-11-13,knownhost,kh-wp-entry,WordPress Entry,,,50,1,11.95,11.95,USD,0,https://www.knownhost.com/wordpress-hosting,page,https://stackrates.ai/hosting/knownhost/history/

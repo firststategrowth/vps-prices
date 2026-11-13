@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-14,exoscale,exoscale-large,Standard Large,4,8,10,1,77.37,69.15,EUR,0,https://www.exoscale.com/pricing/,api,https://stackrates.ai/hosting/exoscale/history/
 2026-10-14,exoscale,exoscale-medium,Standard Medium,2,4,10,1,39.25,35.08,EUR,0,https://www.exoscale.com/pricing/,api,https://stackrates.ai/hosting/exoscale/history/
@@ -133,3 +133,8 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-12,exoscale,exoscale-micro,Standard Micro,1,0.5,10,1,7.05,6.34,EUR,0,https://www.exoscale.com/pricing/,api,https://stackrates.ai/hosting/exoscale/history/
 2026-11-12,exoscale,exoscale-small,Standard Small,2,2,10,1,20.08,18.05,EUR,0,https://www.exoscale.com/pricing/,api,https://stackrates.ai/hosting/exoscale/history/
 2026-11-12,exoscale,exoscale-tiny,Standard Tiny,1,1,10,1,12.99,11.67,EUR,0,https://www.exoscale.com/pricing/,api,https://stackrates.ai/hosting/exoscale/history/
+2026-11-13,exoscale,exoscale-large,Standard Large,4,8,10,1,76.63,69.15,EUR,0,https://www.exoscale.com/pricing/,api,https://stackrates.ai/hosting/exoscale/history/
+2026-11-13,exoscale,exoscale-medium,Standard Medium,2,4,10,1,38.87,35.08,EUR,0,https://www.exoscale.com/pricing/,api,https://stackrates.ai/hosting/exoscale/history/
+2026-11-13,exoscale,exoscale-micro,Standard Micro,1,0.5,10,1,7.03,6.34,EUR,0,https://www.exoscale.com/pricing/,api,https://stackrates.ai/hosting/exoscale/history/
+2026-11-13,exoscale,exoscale-small,Standard Small,2,2,10,1,20,18.05,EUR,0,https://www.exoscale.com/pricing/,api,https://stackrates.ai/hosting/exoscale/history/
+2026-11-13,exoscale,exoscale-tiny,Standard Tiny,1,1,10,1,12.93,11.67,EUR,0,https://www.exoscale.com/pricing/,api,https://stackrates.ai/hosting/exoscale/history/

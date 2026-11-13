@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-03,databasemart,dbm-advanced,Advanced Linux VPS,10,28,320,1,43.99,43.99,USD,0,https://www.databasemart.com/vps-hosting/linux,page,https://stackrates.ai/hosting/databasemart/history/
 2026-11-03,databasemart,dbm-advanced-plus,Advanced Plus Linux VPS,16,32,400,1,63.99,63.99,USD,0,https://www.databasemart.com/vps-hosting/linux,page,https://stackrates.ai/hosting/databasemart/history/
@@ -70,3 +70,10 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-12,databasemart,dbm-express-plus,Express Plus Linux VPS,3,6,100,1,9.99,9.99,USD,0,https://www.databasemart.com/vps-hosting/linux,page,https://stackrates.ai/hosting/databasemart/history/
 2026-11-12,databasemart,dbm-pro,Professional Linux VPS,8,18,240,1,23.99,23.99,USD,0,https://www.databasemart.com/vps-hosting/linux,page,https://stackrates.ai/hosting/databasemart/history/
 2026-11-12,databasemart,dbm-pro-plus,Professional Plus Linux VPS,8,24,280,1,35.99,35.99,USD,0,https://www.databasemart.com/vps-hosting/linux,page,https://stackrates.ai/hosting/databasemart/history/
+2026-11-13,databasemart,dbm-advanced,Advanced Linux VPS,10,28,320,1,30.79,30.79,USD,0,https://www.databasemart.com/vps-hosting/linux,page,https://stackrates.ai/hosting/databasemart/history/
+2026-11-13,databasemart,dbm-advanced-plus,Advanced Plus Linux VPS,16,32,400,1,63.99,63.99,USD,0,https://www.databasemart.com/vps-hosting/linux,page,https://stackrates.ai/hosting/databasemart/history/
+2026-11-13,databasemart,dbm-basic,Basic Linux VPS,4,8,140,1,12.99,12.99,USD,0,https://www.databasemart.com/vps-hosting/linux,page,https://stackrates.ai/hosting/databasemart/history/
+2026-11-13,databasemart,dbm-basic-plus,Basic Plus Linux VPS,6,12,180,1,16.99,16.99,USD,0,https://www.databasemart.com/vps-hosting/linux,page,https://stackrates.ai/hosting/databasemart/history/
+2026-11-13,databasemart,dbm-express-plus,Express Plus Linux VPS,3,6,100,1,9.99,9.99,USD,0,https://www.databasemart.com/vps-hosting/linux,page,https://stackrates.ai/hosting/databasemart/history/
+2026-11-13,databasemart,dbm-pro,Professional Linux VPS,8,18,240,1,23.99,23.99,USD,0,https://www.databasemart.com/vps-hosting/linux,page,https://stackrates.ai/hosting/databasemart/history/
+2026-11-13,databasemart,dbm-pro-plus,Professional Plus Linux VPS,8,24,280,1,35.99,35.99,USD,0,https://www.databasemart.com/vps-hosting/linux,page,https://stackrates.ai/hosting/databasemart/history/

@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-10,hostinger,hostinger-1,KVM 1,1,4,50,24,6.49,6.49,USD,0,https://www.hostinger.com/vps-hosting,manual,https://stackrates.ai/hosting/hostinger/history/
 2026-10-10,hostinger,hostinger-2,KVM 2,2,8,100,24,8.99,8.99,USD,0,https://www.hostinger.com/vps-hosting,manual,https://stackrates.ai/hosting/hostinger/history/
@@ -116,3 +116,7 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-12,hostinger,hostinger-2,KVM 2,2,8,100,24,8.79,8.79,USD,0,https://www.hostinger.com/vps-hosting,page,https://stackrates.ai/hosting/hostinger/history/
 2026-11-12,hostinger,hostinger-4,KVM 4,4,16,200,24,12.99,12.99,USD,0,https://www.hostinger.com/vps-hosting,page,https://stackrates.ai/hosting/hostinger/history/
 2026-11-12,hostinger,hostinger-8,KVM 8,8,32,400,24,25.99,25.99,USD,0,https://www.hostinger.com/vps-hosting,page,https://stackrates.ai/hosting/hostinger/history/
+2026-11-13,hostinger,hostinger-1,KVM 1,1,4,50,24,6.49,6.49,USD,0,https://www.hostinger.com/vps-hosting,page,https://stackrates.ai/hosting/hostinger/history/
+2026-11-13,hostinger,hostinger-2,KVM 2,2,8,100,24,8.79,8.79,USD,0,https://www.hostinger.com/vps-hosting,page,https://stackrates.ai/hosting/hostinger/history/
+2026-11-13,hostinger,hostinger-4,KVM 4,4,16,200,24,12.99,12.99,USD,0,https://www.hostinger.com/vps-hosting,page,https://stackrates.ai/hosting/hostinger/history/
+2026-11-13,hostinger,hostinger-8,KVM 8,8,32,400,24,25.99,25.99,USD,0,https://www.hostinger.com/vps-hosting,page,https://stackrates.ai/hosting/hostinger/history/

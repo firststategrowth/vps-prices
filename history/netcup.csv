@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-11,netcup,netcup-vps-1000,VPS 1000 G12.5,4,8,128,1,15.14,13.51,EUR,0.56,https://www.netcup.com/en/server/vps/vps-1000-g12.5-iv-24m-eu,page,https://stackrates.ai/hosting/netcup/history/
 2026-10-11,netcup,netcup-vps-2000,VPS 2000 G12.5,8,16,256,1,28.59,25.51,EUR,0.56,https://www.netcup.com/en/server/vps/vps-2000-g12.5-iv-24m-eu,page,https://stackrates.ai/hosting/netcup/history/
@@ -168,3 +168,8 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-12,netcup,netcup-vps-4000,VPS 4000 G12.5,12,32,512,1,48.21,43.33,EUR,0.56,https://www.netcup.com/en/server/vps/vps-4000-g12.5-iv-24m-eu,page,https://stackrates.ai/hosting/netcup/history/
 2026-11-12,netcup,netcup-vps-500,VPS 500 G12.5,2,4,64,1,8.32,7.48,EUR,0.56,https://www.netcup.com/en/server/vps/vps-500-g12.5-iv-24m-eu,page,https://stackrates.ai/hosting/netcup/history/
 2026-11-12,netcup,netcup-vps-8000,VPS 8000 G12.5,16,64,1024,1,71.59,64.34,EUR,0.56,https://www.netcup.com/en/server/vps/vps-8000-g12.5-iv-24m-eu,page,https://stackrates.ai/hosting/netcup/history/
+2026-11-13,netcup,netcup-vps-1000,VPS 1000 G12.5,4,8,128,1,14.97,13.51,EUR,0.55,https://www.netcup.com/en/server/vps/vps-1000-g12.5-iv-24m-eu,page,https://stackrates.ai/hosting/netcup/history/
+2026-11-13,netcup,netcup-vps-2000,VPS 2000 G12.5,8,16,256,1,28.27,25.51,EUR,0.55,https://www.netcup.com/en/server/vps/vps-2000-g12.5-iv-24m-eu,page,https://stackrates.ai/hosting/netcup/history/
+2026-11-13,netcup,netcup-vps-4000,VPS 4000 G12.5,12,32,512,1,48.01,43.33,EUR,0.55,https://www.netcup.com/en/server/vps/vps-4000-g12.5-iv-24m-eu,page,https://stackrates.ai/hosting/netcup/history/
+2026-11-13,netcup,netcup-vps-500,VPS 500 G12.5,2,4,64,1,8.29,7.48,EUR,0.55,https://www.netcup.com/en/server/vps/vps-500-g12.5-iv-24m-eu,page,https://stackrates.ai/hosting/netcup/history/
+2026-11-13,netcup,netcup-vps-8000,VPS 8000 G12.5,16,64,1024,1,71.3,64.34,EUR,0.55,https://www.netcup.com/en/server/vps/vps-8000-g12.5-iv-24m-eu,page,https://stackrates.ai/hosting/netcup/history/

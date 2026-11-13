@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-06,hostnoc,hostnoc-l,HN-L,6,18,1000,1,30.75,30.75,USD,,https://www.hostnoc.com/linux-vps-hosting/,manual,https://stackrates.ai/hosting/hostnoc/history/
 2026-11-06,hostnoc,hostnoc-m,HN-M,8,24,400,1,24.99,24.99,USD,,https://www.hostnoc.com/linux-vps-hosting/,manual,https://stackrates.ai/hosting/hostnoc/history/
@@ -49,3 +49,10 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-12,hostnoc,hostnoc-ssd-2,HN-SSD II,3,8,400,1,14.9,14.9,USD,,https://www.hostnoc.com/linux-vps-hosting/,api,https://stackrates.ai/hosting/hostnoc/history/
 2026-11-12,hostnoc,hostnoc-xl,HN-XL,8,30,1200,1,35.75,35.75,USD,,https://www.hostnoc.com/linux-vps-hosting/,api,https://stackrates.ai/hosting/hostnoc/history/
 2026-11-12,hostnoc,hostnoc-xxl,HN-XXL,14,50,1400,1,50.65,50.65,USD,,https://www.hostnoc.com/linux-vps-hosting/,api,https://stackrates.ai/hosting/hostnoc/history/
+2026-11-13,hostnoc,hostnoc-l,HN-L,6,18,1000,1,30.75,30.75,USD,,https://www.hostnoc.com/linux-vps-hosting/,api,https://stackrates.ai/hosting/hostnoc/history/
+2026-11-13,hostnoc,hostnoc-m,HN-M,8,24,400,1,24.99,24.99,USD,,https://www.hostnoc.com/linux-vps-hosting/,api,https://stackrates.ai/hosting/hostnoc/history/
+2026-11-13,hostnoc,hostnoc-s,HN-S,6,12,200,1,20.99,20.99,USD,,https://www.hostnoc.com/linux-vps-hosting/,api,https://stackrates.ai/hosting/hostnoc/history/
+2026-11-13,hostnoc,hostnoc-ssd-1,HN-SSD I,2,4,300,1,12.75,12.75,USD,,https://www.hostnoc.com/linux-vps-hosting/,api,https://stackrates.ai/hosting/hostnoc/history/
+2026-11-13,hostnoc,hostnoc-ssd-2,HN-SSD II,3,8,400,1,14.9,14.9,USD,,https://www.hostnoc.com/linux-vps-hosting/,api,https://stackrates.ai/hosting/hostnoc/history/
+2026-11-13,hostnoc,hostnoc-xl,HN-XL,8,30,1200,1,35.75,35.75,USD,,https://www.hostnoc.com/linux-vps-hosting/,api,https://stackrates.ai/hosting/hostnoc/history/
+2026-11-13,hostnoc,hostnoc-xxl,HN-XXL,14,50,1400,1,50.65,50.65,USD,,https://www.hostnoc.com/linux-vps-hosting/,api,https://stackrates.ai/hosting/hostnoc/history/

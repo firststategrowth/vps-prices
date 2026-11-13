@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-05,cloudcone,cc-1,SSD VPS 1,2,1,30,12,2.33,2.33,USD,0,https://cloudcone.com/vps/,page,https://stackrates.ai/hosting/cloudcone/history/
 2026-10-05,cloudcone,cc-2,SSD VPS 2,4,2,60,12,3.83,3.83,USD,0,https://cloudcone.com/vps/,page,https://stackrates.ai/hosting/cloudcone/history/
@@ -156,3 +156,7 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-12,cloudcone,cc-2,SSD VPS 2,4,2,60,12,3.83,3.83,USD,0,https://cloudcone.com/vps/,page,https://stackrates.ai/hosting/cloudcone/history/
 2026-11-12,cloudcone,cc-3,SSD VPS 3,6,3,90,12,5.75,5.75,USD,0,https://cloudcone.com/vps/,page,https://stackrates.ai/hosting/cloudcone/history/
 2026-11-12,cloudcone,cc-4,SSD VPS 4,8,4,120,12,7.66,7.66,USD,0,https://cloudcone.com/vps/,page,https://stackrates.ai/hosting/cloudcone/history/
+2026-11-13,cloudcone,cc-1,SSD VPS 1,2,1,30,12,2.33,2.33,USD,0,https://cloudcone.com/vps/,page,https://stackrates.ai/hosting/cloudcone/history/
+2026-11-13,cloudcone,cc-2,SSD VPS 2,4,2,60,12,3.83,3.83,USD,0,https://cloudcone.com/vps/,page,https://stackrates.ai/hosting/cloudcone/history/
+2026-11-13,cloudcone,cc-3,SSD VPS 3,6,3,90,12,5.75,5.75,USD,0,https://cloudcone.com/vps/,page,https://stackrates.ai/hosting/cloudcone/history/
+2026-11-13,cloudcone,cc-4,SSD VPS 4,8,4,120,12,7.66,7.66,USD,0,https://cloudcone.com/vps/,page,https://stackrates.ai/hosting/cloudcone/history/

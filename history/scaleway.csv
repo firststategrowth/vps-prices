@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-11,scaleway,scaleway-dev1-l,DEV1-L,4,8,80,1,38.25,34.13,EUR,4.09,https://www.scaleway.com/en/pricing/virtual-instances/,api,https://stackrates.ai/hosting/scaleway/history/
 2026-10-11,scaleway,scaleway-dev1-m,DEV1-M,3,4,40,1,18.12,16.17,EUR,4.09,https://www.scaleway.com/en/pricing/virtual-instances/,api,https://stackrates.ai/hosting/scaleway/history/
@@ -165,3 +165,8 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-12,scaleway,scaleway-dev1-s,DEV1-S,2,2,20,1,8.09,7.27,EUR,4.06,https://www.scaleway.com/en/pricing/virtual-instances/,api,https://stackrates.ai/hosting/scaleway/history/
 2026-11-12,scaleway,scaleway-dev1-xl,DEV1-XL,4,12,120,1,57.64,51.8,EUR,4.06,https://www.scaleway.com/en/pricing/virtual-instances/,api,https://stackrates.ai/hosting/scaleway/history/
 2026-11-12,scaleway,scaleway-stardust1-s,STARDUST1-S,1,1,10,1,0.89,0.8,EUR,4.06,https://www.scaleway.com/en/pricing/virtual-instances/,api,https://stackrates.ai/hosting/scaleway/history/
+2026-11-13,scaleway,scaleway-dev1-l,DEV1-L,4,8,80,1,37.82,34.13,EUR,4.04,https://www.scaleway.com/en/pricing/virtual-instances/,api,https://stackrates.ai/hosting/scaleway/history/
+2026-11-13,scaleway,scaleway-dev1-m,DEV1-M,3,4,40,1,17.92,16.17,EUR,4.04,https://www.scaleway.com/en/pricing/virtual-instances/,api,https://stackrates.ai/hosting/scaleway/history/
+2026-11-13,scaleway,scaleway-dev1-s,DEV1-S,2,2,20,1,8.06,7.27,EUR,4.04,https://www.scaleway.com/en/pricing/virtual-instances/,api,https://stackrates.ai/hosting/scaleway/history/
+2026-11-13,scaleway,scaleway-dev1-xl,DEV1-XL,4,12,120,1,57.4,51.8,EUR,4.04,https://www.scaleway.com/en/pricing/virtual-instances/,api,https://stackrates.ai/hosting/scaleway/history/
+2026-11-13,scaleway,scaleway-stardust1-s,STARDUST1-S,1,1,10,1,0.89,0.8,EUR,4.04,https://www.scaleway.com/en/pricing/virtual-instances/,api,https://stackrates.ai/hosting/scaleway/history/

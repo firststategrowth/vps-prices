@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-08,reliablesite,reliablesite-epyc-4545p-128gb,AMD EPYC 4545P 128 GB,32,128,2000,1,299,299,USD,0,https://www.reliablesite.net/dedicated-servers,page,https://stackrates.ai/hosting/reliablesite/history/
 2026-11-08,reliablesite,reliablesite-epyc-4545p-256gb,AMD EPYC 4545P 256 GB,32,256,4000,1,549,549,USD,0,https://www.reliablesite.net/dedicated-servers,page,https://stackrates.ai/hosting/reliablesite/history/
@@ -20,3 +20,7 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-12,reliablesite,reliablesite-epyc-4545p-256gb,AMD EPYC 4545P 256 GB,32,256,4000,1,549,549,USD,0,https://www.reliablesite.net/dedicated-servers,page,https://stackrates.ai/hosting/reliablesite/history/
 2026-11-12,reliablesite,reliablesite-intel-special-32gb,Intel Special 32 GB,4,32,1000,1,49,49,USD,0,https://www.reliablesite.net/dedicated-servers,page,https://stackrates.ai/hosting/reliablesite/history/
 2026-11-12,reliablesite,reliablesite-ryzen-9950x-192gb,AMD Ryzen 9950X 192 GB,32,192,8000,1,549,549,USD,0,https://www.reliablesite.net/dedicated-servers,page,https://stackrates.ai/hosting/reliablesite/history/
+2026-11-13,reliablesite,reliablesite-epyc-4545p-128gb,AMD EPYC 4545P 128 GB,32,128,2000,1,299,299,USD,0,https://www.reliablesite.net/dedicated-servers,page,https://stackrates.ai/hosting/reliablesite/history/
+2026-11-13,reliablesite,reliablesite-epyc-4545p-256gb,AMD EPYC 4545P 256 GB,32,256,4000,1,549,549,USD,0,https://www.reliablesite.net/dedicated-servers,page,https://stackrates.ai/hosting/reliablesite/history/
+2026-11-13,reliablesite,reliablesite-intel-special-32gb,Intel Special 32 GB,4,32,1000,1,49,49,USD,0,https://www.reliablesite.net/dedicated-servers,page,https://stackrates.ai/hosting/reliablesite/history/
+2026-11-13,reliablesite,reliablesite-ryzen-9950x-192gb,AMD Ryzen 9950X 192 GB,32,192,8000,1,549,549,USD,0,https://www.reliablesite.net/dedicated-servers,page,https://stackrates.ai/hosting/reliablesite/history/

@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-12
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-10,kamatera,kamatera-basic,Basic,1,1,20,1,4,4,USD,0,https://www.kamatera.com/pricing/,manual,https://stackrates.ai/hosting/kamatera/history/
 2026-10-10,kamatera,kamatera-pro,Pro,2,4,20,1,39,39,USD,0,https://www.kamatera.com/pricing/,manual,https://stackrates.ai/hosting/kamatera/history/
@@ -102,3 +102,6 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-12,kamatera,kamatera-basic,Basic,1,1,20,1,4,4,USD,0,https://www.kamatera.com/pricing/,page,https://stackrates.ai/hosting/kamatera/history/
 2026-11-12,kamatera,kamatera-pro,Pro,2,4,20,1,39,39,USD,0,https://www.kamatera.com/pricing/,page,https://stackrates.ai/hosting/kamatera/history/
 2026-11-12,kamatera,kamatera-standard,Standard,2,2,20,1,25,25,USD,0,https://www.kamatera.com/pricing/,page,https://stackrates.ai/hosting/kamatera/history/
+2026-11-13,kamatera,kamatera-basic,Basic,1,1,20,1,4,4,USD,0,https://www.kamatera.com/pricing/,page,https://stackrates.ai/hosting/kamatera/history/
+2026-11-13,kamatera,kamatera-pro,Pro,2,4,20,1,39,39,USD,0,https://www.kamatera.com/pricing/,page,https://stackrates.ai/hosting/kamatera/history/
+2026-11-13,kamatera,kamatera-standard,Standard,2,2,20,1,25,25,USD,0,https://www.kamatera.com/pricing/,page,https://stackrates.ai/hosting/kamatera/history/
