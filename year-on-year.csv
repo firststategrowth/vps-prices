@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-14
 provider,plan_today,plan_oct_2025,vcpu,ram_gb,currency,price_oct_2025,price_spring_2026,price_today,change_pct,comparable,archived_page,archived_on,withdrawn_on,struck_oct_2025,struck_spring_2026,stackrates_url
 digitalocean,Basic 512MB,Basic 512 MiB / 1 vCPU / 10 GiB,1,0.5,USD,4,4,4,0,yes,https://web.archive.org/web/20251014151323/https://www.digitalocean.com/pricing/droplets,2025-10-14,,,,https://stackrates.ai/vps-prices-a-year-on/
 digitalocean,Basic 1GB,Basic 1 GiB / 1 vCPU / 25 GiB,1,1,USD,6,6,6,0,yes,https://web.archive.org/web/20251014151323/https://www.digitalocean.com/pricing/droplets,2025-10-14,,,,https://stackrates.ai/vps-prices-a-year-on/
