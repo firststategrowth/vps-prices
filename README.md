@@ -23,7 +23,7 @@ The managed WordPress plans of Kinsta, Hosting.com, Liquid Web, KnownHost and El
 
 ## Files
 - `prices.csv` and `prices.json`: today's plans
-- `changes.json`: dated list-price changes, each with its source (27 so far; a move in the exchange
+- `changes.json`: dated list-price changes, each with its source (31 so far; a move in the exchange
   rate is not a change)
 - `year-on-year.csv`: each provider's pricing page as the Wayback Machine archived it (19 Sep 2025 to 13 Dec 2025, most in October 2025;
   date per row in `archived_on`) against today's price, plan by plan, in the currency the provider prints
