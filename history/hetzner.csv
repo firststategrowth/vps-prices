@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-14
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-05,hetzner,hetzner-cpx22,CPX22,2,4,80,1,22.99,22.99,USD,0.5,https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/,manual,https://stackrates.ai/hosting/hetzner/history/
 2026-10-05,hetzner,hetzner-cpx32,CPX32,4,8,160,1,41.99,41.99,USD,0.5,https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/,manual,https://stackrates.ai/hosting/hetzner/history/
@@ -344,3 +344,13 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-13,hetzner,hetzner-cx33,CX33,4,8,80,1,9.99,9.99,USD,0.6,https://www.hetzner.com/cloud/cost-optimized/,api,https://stackrates.ai/hosting/hetzner/history/
 2026-11-13,hetzner,hetzner-cx43,CX43,8,16,160,1,18.49,18.49,USD,0.6,https://www.hetzner.com/cloud/cost-optimized/,api,https://stackrates.ai/hosting/hetzner/history/
 2026-11-13,hetzner,hetzner-cx53,CX53,16,32,320,1,34.99,34.99,USD,0.6,https://www.hetzner.com/cloud/cost-optimized/,api,https://stackrates.ai/hosting/hetzner/history/
+2026-11-14,hetzner,hetzner-cpx02,CPX02,1,1,20,1,5.99,5.99,USD,0.6,https://www.hetzner.com/cloud/regular-performance/,api,https://stackrates.ai/hosting/hetzner/history/
+2026-11-14,hetzner,hetzner-cpx12,CPX12,1,2,40,1,10.99,10.99,USD,0.6,https://www.hetzner.com/cloud/regular-performance/,api,https://stackrates.ai/hosting/hetzner/history/
+2026-11-14,hetzner,hetzner-cpx22,CPX22,2,4,80,1,19.49,19.49,USD,0.6,https://www.hetzner.com/cloud/regular-performance/,api,https://stackrates.ai/hosting/hetzner/history/
+2026-11-14,hetzner,hetzner-cpx32,CPX32,4,8,160,1,35.49,35.49,USD,0.6,https://www.hetzner.com/cloud/regular-performance/,api,https://stackrates.ai/hosting/hetzner/history/
+2026-11-14,hetzner,hetzner-cpx42,CPX42,8,16,320,1,69.49,69.49,USD,0.6,https://www.hetzner.com/cloud/regular-performance/,api,https://stackrates.ai/hosting/hetzner/history/
+2026-11-14,hetzner,hetzner-cpx62,CPX62,16,32,640,1,129.99,129.99,USD,0.6,https://www.hetzner.com/cloud/regular-performance/,api,https://stackrates.ai/hosting/hetzner/history/
+2026-11-14,hetzner,hetzner-cx23,CX23,2,4,40,1,6.49,6.49,USD,0.6,https://www.hetzner.com/cloud/cost-optimized/,api,https://stackrates.ai/hosting/hetzner/history/
+2026-11-14,hetzner,hetzner-cx33,CX33,4,8,80,1,9.99,9.99,USD,0.6,https://www.hetzner.com/cloud/cost-optimized/,api,https://stackrates.ai/hosting/hetzner/history/
+2026-11-14,hetzner,hetzner-cx43,CX43,8,16,160,1,18.49,18.49,USD,0.6,https://www.hetzner.com/cloud/cost-optimized/,api,https://stackrates.ai/hosting/hetzner/history/
+2026-11-14,hetzner,hetzner-cx53,CX53,16,32,320,1,34.99,34.99,USD,0.6,https://www.hetzner.com/cloud/cost-optimized/,api,https://stackrates.ai/hosting/hetzner/history/

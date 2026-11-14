@@ -1,10 +1,10 @@
 # StackRates price history
 
-Every price StackRates read for every plan, one file per provider, from 2026-10-05 to 2026-11-13 (UTC read dates).
-11477 rows, 734 plans, 98 providers. Licence CC BY 4.0.
+Every price StackRates read for every plan, one file per provider, from 2026-10-05 to 2026-11-14 (UTC read dates).
+12087 rows, 734 plans, 98 providers. Licence CC BY 4.0.
 Written by `app/frontend/scripts/data/build-history.mjs` from the dated record; method 1 (2026-11-06).
 
-Cite as: StackRates (2026). VPS price history, reads 2026-10-05 to 2026-11-13. https://stackrates.ai/data/history/
+Cite as: StackRates (2026). VPS price history, reads 2026-10-05 to 2026-11-14. https://stackrates.ai/data/history/
 
 ## Files
 
@@ -46,120 +46,120 @@ Prices are as the providers print them: most EU providers before VAT, US provide
 - A struck price at a provider that runs no sale (rule from 2026-11-07): where the provider's page shows a lower price beside a struck-through one with no months stated, and our Deals Desk finds no sale at that provider, price_usd_month and price_native are the price the page bills; the struck figure is not a reference price and is never a row's price. Until 2026-11-07 the run stored the struck figure, so those rows carry the billed figure as a reading-method correction, on every day the provider's page showed the struck figure beside it (from src/data/offer-log.json): Hivelocity pro.md.amd USD 20 to 15 from 2026-10-11, Database Mart Basic USD 12.99 to 9.74 and Professional USD 23.99 to 18.47 on 2026-11-04 to 2026-11-06, Advanced USD 43.99 to 30.79 from 2026-11-07. On the days outside those windows the page billed the higher figure itself, so Database Mart's moves on 2026-11-04 (cuts) and 2026-11-07 (rises for Basic and Professional, a cut for Advanced) are real price moves.
 - Plan facts (name, vCPU, RAM, disk, term, IPv4 fee) are the catalogue's on master at the end of the read day. What a plan is (IPv6 only, IPv4 not stated on the provider's pages) is today's catalogue's word for every day, so a later correction applies to the whole history.
 
-All rows by method: api 2155, manual 450, page 8872.
+All rows by method: api 2225, manual 450, page 9412.
 
 ## Coverage by provider
 
 | Slug | Provider | Plans | Rows | First read | Last read | Days read | Days without a read between first and last | Rows by method |
 |---|---|---:|---:|---|---|---:|---:|---|
-| 20i | 20i | 16 | 96 | 2026-11-08 | 2026-11-13 | 6 | 0 | page 96 |
+| 20i | 20i | 16 | 112 | 2026-11-08 | 2026-11-14 | 7 | 0 | page 112 |
 | accuwebhosting | AccuWebHosting | 4 | 4 | 2026-11-06 | 2026-11-06 | 1 | 0 | manual 4 |
-| advinservers | Advin Servers | 5 | 155 | 2026-10-14 | 2026-11-13 | 31 | 0 | api 155 |
-| akamai-linode | Akamai Cloud (Linode) | 6 | 228 | 2026-10-05 | 2026-11-13 | 40 | 0 | api 228 |
+| advinservers | Advin Servers | 5 | 160 | 2026-10-14 | 2026-11-14 | 32 | 0 | api 160 |
+| akamai-linode | Akamai Cloud (Linode) | 6 | 234 | 2026-10-05 | 2026-11-14 | 41 | 0 | api 234 |
 | alphavps | AlphaVPS | 21 | 63 | 2026-10-29 | 2026-11-06 | 3 | 6 | manual 63 |
-| alwyzon | Alwyzon | 6 | 186 | 2026-10-14 | 2026-11-13 | 31 | 0 | page 186 |
-| arubacloud | Aruba Cloud | 5 | 139 | 2026-10-14 | 2026-11-13 | 31 | 0 | page 139 |
-| atlanticnet | Atlantic.Net | 5 | 170 | 2026-10-11 | 2026-11-13 | 34 | 0 | page 170 |
-| aws-lightsail | AWS Lightsail | 11 | 404 | 2026-10-05 | 2026-11-13 | 40 | 0 | api 404 |
-| bandwagonhost | BandwagonHost | 4 | 32 | 2026-11-06 | 2026-11-13 | 8 | 0 | manual 4, page 28 |
-| cherryservers | Cherry Servers | 4 | 136 | 2026-10-11 | 2026-11-13 | 34 | 0 | page 136 |
-| civo | Civo | 4 | 124 | 2026-10-14 | 2026-11-13 | 31 | 0 | page 124 |
-| cloudcone | CloudCone | 4 | 160 | 2026-10-05 | 2026-11-13 | 40 | 0 | page 160 |
-| cloudserver | CloudServer | 4 | 116 | 2026-10-14 | 2026-11-13 | 29 | 2 | page 116 |
+| alwyzon | Alwyzon | 6 | 192 | 2026-10-14 | 2026-11-14 | 32 | 0 | page 192 |
+| arubacloud | Aruba Cloud | 5 | 142 | 2026-10-14 | 2026-11-14 | 32 | 0 | page 142 |
+| atlanticnet | Atlantic.Net | 5 | 175 | 2026-10-11 | 2026-11-14 | 35 | 0 | page 175 |
+| aws-lightsail | AWS Lightsail | 11 | 415 | 2026-10-05 | 2026-11-14 | 41 | 0 | api 415 |
+| bandwagonhost | BandwagonHost | 4 | 36 | 2026-11-06 | 2026-11-14 | 9 | 0 | manual 4, page 32 |
+| cherryservers | Cherry Servers | 4 | 140 | 2026-10-11 | 2026-11-14 | 35 | 0 | page 140 |
+| civo | Civo | 4 | 128 | 2026-10-14 | 2026-11-14 | 32 | 0 | page 128 |
+| cloudcone | CloudCone | 4 | 164 | 2026-10-05 | 2026-11-14 | 41 | 0 | page 164 |
+| cloudserver | CloudServer | 4 | 120 | 2026-10-14 | 2026-11-14 | 30 | 2 | page 120 |
 | cloudways | Cloudways | 9 | 18 | 2026-10-05 | 2026-11-01 | 3 | 25 | manual 18 |
-| contabo | Contabo | 6 | 204 | 2026-10-05 | 2026-11-13 | 35 | 5 | manual 4, page 200 |
-| crowncloud | CrownCloud | 6 | 186 | 2026-10-14 | 2026-11-13 | 31 | 0 | page 186 |
-| databasemart | Database Mart | 7 | 77 | 2026-11-03 | 2026-11-13 | 11 | 0 | page 77 |
-| dedirock | DediRock | 9 | 189 | 2026-10-14 | 2026-11-13 | 31 | 0 | manual 6, page 183 |
-| digitalocean | DigitalOcean | 7 | 245 | 2026-10-05 | 2026-11-13 | 35 | 5 | manual 7, page 238 |
-| dreamhost | DreamHost | 4 | 140 | 2026-10-10 | 2026-11-13 | 35 | 0 | manual 4, page 136 |
+| contabo | Contabo | 6 | 210 | 2026-10-05 | 2026-11-14 | 36 | 5 | manual 4, page 206 |
+| crowncloud | CrownCloud | 6 | 192 | 2026-10-14 | 2026-11-14 | 32 | 0 | page 192 |
+| databasemart | Database Mart | 7 | 84 | 2026-11-03 | 2026-11-14 | 12 | 0 | page 84 |
+| dedirock | DediRock | 9 | 198 | 2026-10-14 | 2026-11-14 | 32 | 0 | manual 6, page 192 |
+| digitalocean | DigitalOcean | 7 | 252 | 2026-10-05 | 2026-11-14 | 36 | 5 | manual 7, page 245 |
+| dreamhost | DreamHost | 4 | 144 | 2026-10-10 | 2026-11-14 | 36 | 0 | manual 4, page 140 |
 | elementor | Elementor Hosting | 11 | 11 | 2026-11-11 | 2026-11-11 | 1 | 0 | manual 11 |
-| ethernetservers | Ethernet Servers | 5 | 40 | 2026-11-06 | 2026-11-13 | 8 | 0 | manual 5, page 35 |
-| evolutionhost | Evolution Host | 7 | 56 | 2026-11-06 | 2026-11-13 | 8 | 0 | manual 7, page 49 |
-| evoxt | Evoxt | 5 | 155 | 2026-10-14 | 2026-11-13 | 31 | 0 | page 155 |
-| exoscale | Exoscale | 5 | 138 | 2026-10-14 | 2026-11-13 | 31 | 0 | api 137, manual 1 |
-| extravm | ExtraVM | 14 | 112 | 2026-11-06 | 2026-11-13 | 8 | 0 | manual 14, page 98 |
-| fdcservers | FDC Servers | 8 | 64 | 2026-11-06 | 2026-11-13 | 8 | 0 | manual 8, page 56 |
-| glesys | GleSYS | 5 | 40 | 2026-11-06 | 2026-11-13 | 8 | 0 | manual 5, page 35 |
-| greencloudvps | GreenCloudVPS | 5 | 175 | 2026-10-10 | 2026-11-13 | 35 | 0 | manual 5, page 170 |
-| heartinternet | Heart Internet | 5 | 40 | 2026-11-06 | 2026-11-13 | 8 | 0 | manual 5, page 35 |
-| hetzner | Hetzner | 10 | 344 | 2026-10-05 | 2026-11-13 | 35 | 5 | api 340, manual 4 |
-| hivelocity | Hivelocity | 4 | 136 | 2026-10-11 | 2026-11-13 | 34 | 0 | page 136 |
-| hostcolor | Host Color | 13 | 104 | 2026-11-06 | 2026-11-13 | 8 | 0 | manual 13, page 91 |
-| hosthatch | HostHatch | 5 | 175 | 2026-10-10 | 2026-11-13 | 35 | 0 | manual 5, page 170 |
-| hostingcom | Hosting.com | 8 | 164 | 2026-10-11 | 2026-11-13 | 34 | 0 | api 164 |
-| hostingde | hosting.de | 5 | 30 | 2026-11-08 | 2026-11-13 | 6 | 0 | page 30 |
-| hostinger | Hostinger | 4 | 120 | 2026-10-10 | 2026-11-13 | 30 | 5 | manual 4, page 116 |
-| hostnamaste | HostNamaste | 5 | 30 | 2026-11-08 | 2026-11-13 | 6 | 0 | page 30 |
-| hostnoc | HostNoc | 7 | 56 | 2026-11-06 | 2026-11-13 | 8 | 0 | api 49, manual 7 |
-| hostodo | Hostodo | 5 | 155 | 2026-10-14 | 2026-11-13 | 31 | 0 | page 155 |
+| ethernetservers | Ethernet Servers | 5 | 45 | 2026-11-06 | 2026-11-14 | 9 | 0 | manual 5, page 40 |
+| evolutionhost | Evolution Host | 7 | 63 | 2026-11-06 | 2026-11-14 | 9 | 0 | manual 7, page 56 |
+| evoxt | Evoxt | 5 | 160 | 2026-10-14 | 2026-11-14 | 32 | 0 | page 160 |
+| exoscale | Exoscale | 5 | 143 | 2026-10-14 | 2026-11-14 | 32 | 0 | api 142, manual 1 |
+| extravm | ExtraVM | 14 | 126 | 2026-11-06 | 2026-11-14 | 9 | 0 | manual 14, page 112 |
+| fdcservers | FDC Servers | 8 | 72 | 2026-11-06 | 2026-11-14 | 9 | 0 | manual 8, page 64 |
+| glesys | GleSYS | 5 | 45 | 2026-11-06 | 2026-11-14 | 9 | 0 | manual 5, page 40 |
+| greencloudvps | GreenCloudVPS | 5 | 180 | 2026-10-10 | 2026-11-14 | 36 | 0 | manual 5, page 175 |
+| heartinternet | Heart Internet | 5 | 45 | 2026-11-06 | 2026-11-14 | 9 | 0 | manual 5, page 40 |
+| hetzner | Hetzner | 10 | 354 | 2026-10-05 | 2026-11-14 | 36 | 5 | api 350, manual 4 |
+| hivelocity | Hivelocity | 4 | 140 | 2026-10-11 | 2026-11-14 | 35 | 0 | page 140 |
+| hostcolor | Host Color | 13 | 117 | 2026-11-06 | 2026-11-14 | 9 | 0 | manual 13, page 104 |
+| hosthatch | HostHatch | 5 | 180 | 2026-10-10 | 2026-11-14 | 36 | 0 | manual 5, page 175 |
+| hostingcom | Hosting.com | 8 | 172 | 2026-10-11 | 2026-11-14 | 35 | 0 | api 172 |
+| hostingde | hosting.de | 5 | 35 | 2026-11-08 | 2026-11-14 | 7 | 0 | page 35 |
+| hostinger | Hostinger | 4 | 124 | 2026-10-10 | 2026-11-14 | 31 | 5 | manual 4, page 120 |
+| hostnamaste | HostNamaste | 5 | 35 | 2026-11-08 | 2026-11-14 | 7 | 0 | page 35 |
+| hostnoc | HostNoc | 7 | 63 | 2026-11-06 | 2026-11-14 | 9 | 0 | api 56, manual 7 |
+| hostodo | Hostodo | 5 | 160 | 2026-10-14 | 2026-11-14 | 32 | 0 | page 160 |
 | hostpapa | HostPapa | 10 | 10 | 2026-11-11 | 2026-11-11 | 1 | 0 | manual 10 |
-| hostus | HostUS | 3 | 93 | 2026-10-14 | 2026-11-13 | 31 | 0 | page 93 |
-| hostwinds | Hostwinds | 5 | 175 | 2026-10-10 | 2026-11-13 | 35 | 0 | manual 5, page 170 |
-| hyonix | Hyonix | 9 | 54 | 2026-11-08 | 2026-11-13 | 6 | 0 | page 54 |
-| iniz | INIZ | 7 | 56 | 2026-11-06 | 2026-11-13 | 8 | 0 | manual 7, page 49 |
-| interserver | InterServer | 4 | 140 | 2026-10-05 | 2026-11-13 | 35 | 5 | page 140 |
+| hostus | HostUS | 3 | 96 | 2026-10-14 | 2026-11-14 | 32 | 0 | page 96 |
+| hostwinds | Hostwinds | 5 | 180 | 2026-10-10 | 2026-11-14 | 36 | 0 | manual 5, page 175 |
+| hyonix | Hyonix | 9 | 63 | 2026-11-08 | 2026-11-14 | 7 | 0 | page 63 |
+| iniz | INIZ | 7 | 63 | 2026-11-06 | 2026-11-14 | 9 | 0 | manual 7, page 56 |
+| interserver | InterServer | 4 | 144 | 2026-10-05 | 2026-11-14 | 36 | 5 | page 144 |
 | ionos | IONOS | 5 | 40 | 2026-10-10 | 2026-11-11 | 8 | 25 | manual 10, page 30 |
-| kamatera | Kamatera | 3 | 105 | 2026-10-10 | 2026-11-13 | 35 | 0 | manual 3, page 102 |
-| khanwebhost | KhanWebHost | 43 | 602 | 2026-10-29 | 2026-11-13 | 14 | 2 | manual 43, page 559 |
-| kimsufi | Kimsufi (OVHcloud) | 4 | 124 | 2026-10-14 | 2026-11-13 | 31 | 0 | page 124 |
-| kinsta | Kinsta | 5 | 195 | 2026-10-05 | 2026-11-13 | 39 | 1 | page 195 |
-| knownhost | KnownHost | 18 | 126 | 2026-11-07 | 2026-11-13 | 7 | 0 | page 126 |
-| krystal | Krystal | 6 | 48 | 2026-11-06 | 2026-11-13 | 8 | 0 | manual 6, page 42 |
-| latitudesh | Latitude.sh | 3 | 77 | 2026-10-14 | 2026-11-13 | 31 | 0 | page 77 |
-| liquidweb | Liquid Web | 28 | 328 | 2026-10-11 | 2026-11-13 | 34 | 0 | page 328 |
-| liteserver | LiteServer | 4 | 124 | 2026-10-14 | 2026-11-13 | 31 | 0 | page 124 |
-| lunanode | LunaNode | 6 | 204 | 2026-10-11 | 2026-11-13 | 34 | 0 | page 204 |
-| luxvps | Luxvps | 24 | 192 | 2026-11-06 | 2026-11-13 | 8 | 0 | manual 24, page 168 |
-| mythicbeasts | Mythic Beasts | 4 | 124 | 2026-10-14 | 2026-11-13 | 31 | 0 | page 124 |
-| namescouk | names.co.uk | 4 | 32 | 2026-11-06 | 2026-11-13 | 8 | 0 | manual 4, page 28 |
-| netart | NetArt | 5 | 50 | 2026-11-04 | 2026-11-13 | 10 | 0 | page 50 |
-| netcup | netcup | 11 | 173 | 2026-10-11 | 2026-11-13 | 33 | 1 | manual 12, page 161 |
+| kamatera | Kamatera | 3 | 108 | 2026-10-10 | 2026-11-14 | 36 | 0 | manual 3, page 105 |
+| khanwebhost | KhanWebHost | 43 | 645 | 2026-10-29 | 2026-11-14 | 15 | 2 | manual 43, page 602 |
+| kimsufi | Kimsufi (OVHcloud) | 4 | 128 | 2026-10-14 | 2026-11-14 | 32 | 0 | page 128 |
+| kinsta | Kinsta | 5 | 200 | 2026-10-05 | 2026-11-14 | 40 | 1 | page 200 |
+| knownhost | KnownHost | 18 | 144 | 2026-11-07 | 2026-11-14 | 8 | 0 | page 144 |
+| krystal | Krystal | 6 | 54 | 2026-11-06 | 2026-11-14 | 9 | 0 | manual 6, page 48 |
+| latitudesh | Latitude.sh | 3 | 79 | 2026-10-14 | 2026-11-14 | 32 | 0 | page 79 |
+| liquidweb | Liquid Web | 28 | 355 | 2026-10-11 | 2026-11-14 | 35 | 0 | page 355 |
+| liteserver | LiteServer | 4 | 128 | 2026-10-14 | 2026-11-14 | 32 | 0 | page 128 |
+| lunanode | LunaNode | 6 | 210 | 2026-10-11 | 2026-11-14 | 35 | 0 | page 210 |
+| luxvps | Luxvps | 24 | 216 | 2026-11-06 | 2026-11-14 | 9 | 0 | manual 24, page 192 |
+| mythicbeasts | Mythic Beasts | 4 | 128 | 2026-10-14 | 2026-11-14 | 32 | 0 | page 128 |
+| namescouk | names.co.uk | 4 | 36 | 2026-11-06 | 2026-11-14 | 9 | 0 | manual 4, page 32 |
+| netart | NetArt | 5 | 55 | 2026-11-04 | 2026-11-14 | 11 | 0 | page 55 |
+| netcup | netcup | 11 | 178 | 2026-10-11 | 2026-11-14 | 34 | 1 | manual 12, page 166 |
 | nocix | NOCIX | 29 | 29 | 2026-11-06 | 2026-11-06 | 1 | 0 | manual 29 |
-| ovhcloud | OVHcloud | 4 | 160 | 2026-10-05 | 2026-11-13 | 40 | 0 | api 160 |
-| pawnhoster | Pawnhoster | 3 | 16 | 2026-11-08 | 2026-11-13 | 6 | 0 | page 16 |
-| phoenixnap | phoenixNAP | 4 | 120 | 2026-10-14 | 2026-11-13 | 30 | 1 | page 120 |
-| prohosting24 | ProHosting24 | 6 | 48 | 2026-11-06 | 2026-11-13 | 8 | 0 | manual 6, page 42 |
-| quickpacket | QuickPacket | 27 | 162 | 2026-11-08 | 2026-11-13 | 6 | 0 | page 162 |
-| racknerd | RackNerd | 9 | 200 | 2026-10-05 | 2026-11-13 | 40 | 0 | manual 5, page 195 |
-| raiola | Raiola Networks | 4 | 24 | 2026-11-08 | 2026-11-13 | 6 | 0 | page 24 |
-| ramnode | RamNode | 6 | 204 | 2026-10-11 | 2026-11-13 | 34 | 0 | page 204 |
-| reliablesite | ReliableSite | 4 | 24 | 2026-11-08 | 2026-11-13 | 6 | 0 | page 24 |
-| scaleway | Scaleway | 5 | 170 | 2026-10-11 | 2026-11-13 | 34 | 0 | api 170 |
-| securedragon | Secure Dragon | 4 | 112 | 2026-10-15 | 2026-11-13 | 28 | 2 | page 112 |
-| servarica | ServaRica | 4 | 124 | 2026-10-14 | 2026-11-13 | 31 | 0 | page 124 |
-| serverhost | ServerHost | 5 | 30 | 2026-11-08 | 2026-11-13 | 6 | 0 | page 30 |
-| smokyhosts | SmokyHosts | 5 | 30 | 2026-11-08 | 2026-11-13 | 6 | 0 | page 30 |
-| softshellweb | SoftShellWeb | 7 | 56 | 2026-11-06 | 2026-11-13 | 8 | 0 | manual 7, page 49 |
-| spinservers | Spinservers | 9 | 72 | 2026-11-06 | 2026-11-13 | 8 | 0 | manual 9, page 63 |
-| strato | STRATO | 5 | 30 | 2026-11-08 | 2026-11-13 | 6 | 0 | page 30 |
+| ovhcloud | OVHcloud | 4 | 164 | 2026-10-05 | 2026-11-14 | 41 | 0 | api 164 |
+| pawnhoster | Pawnhoster | 3 | 19 | 2026-11-08 | 2026-11-14 | 7 | 0 | page 19 |
+| phoenixnap | phoenixNAP | 4 | 124 | 2026-10-14 | 2026-11-14 | 31 | 1 | page 124 |
+| prohosting24 | ProHosting24 | 6 | 54 | 2026-11-06 | 2026-11-14 | 9 | 0 | manual 6, page 48 |
+| quickpacket | QuickPacket | 27 | 189 | 2026-11-08 | 2026-11-14 | 7 | 0 | page 189 |
+| racknerd | RackNerd | 9 | 209 | 2026-10-05 | 2026-11-14 | 41 | 0 | manual 5, page 204 |
+| raiola | Raiola Networks | 4 | 28 | 2026-11-08 | 2026-11-14 | 7 | 0 | page 28 |
+| ramnode | RamNode | 6 | 210 | 2026-10-11 | 2026-11-14 | 35 | 0 | page 210 |
+| reliablesite | ReliableSite | 4 | 28 | 2026-11-08 | 2026-11-14 | 7 | 0 | page 28 |
+| scaleway | Scaleway | 5 | 175 | 2026-10-11 | 2026-11-14 | 35 | 0 | api 175 |
+| securedragon | Secure Dragon | 4 | 116 | 2026-10-15 | 2026-11-14 | 29 | 2 | page 116 |
+| servarica | ServaRica | 4 | 128 | 2026-10-14 | 2026-11-14 | 32 | 0 | page 128 |
+| serverhost | ServerHost | 5 | 35 | 2026-11-08 | 2026-11-14 | 7 | 0 | page 35 |
+| smokyhosts | SmokyHosts | 5 | 35 | 2026-11-08 | 2026-11-14 | 7 | 0 | page 35 |
+| softshellweb | SoftShellWeb | 7 | 63 | 2026-11-06 | 2026-11-14 | 9 | 0 | manual 7, page 56 |
+| spinservers | Spinservers | 9 | 81 | 2026-11-06 | 2026-11-14 | 9 | 0 | manual 9, page 72 |
+| strato | STRATO | 5 | 35 | 2026-11-08 | 2026-11-14 | 7 | 0 | page 35 |
 | swhosting | SW Hosting | 7 | 7 | 2026-11-07 | 2026-11-07 | 1 | 0 | manual 7 |
-| tiernet | Tier.Net | 7 | 56 | 2026-11-06 | 2026-11-13 | 8 | 0 | manual 7, page 49 |
+| tiernet | Tier.Net | 7 | 63 | 2026-11-06 | 2026-11-14 | 9 | 0 | manual 7, page 56 |
 | time4vps | Time4VPS | 9 | 18 | 2026-10-29 | 2026-11-01 | 2 | 2 | manual 18 |
-| ukhost4u | UKHost4u | 6 | 66 | 2026-11-03 | 2026-11-13 | 11 | 0 | page 66 |
-| ultahost | Ultahost | 4 | 32 | 2026-11-06 | 2026-11-13 | 8 | 0 | manual 4, page 28 |
-| ultravps | UltraVPS | 4 | 116 | 2026-10-15 | 2026-11-13 | 29 | 1 | page 116 |
-| ultrawebhosting | Ultra Web Hosting | 1 | 11 | 2026-11-03 | 2026-11-13 | 11 | 0 | page 11 |
-| upcloud | UpCloud | 5 | 175 | 2026-10-05 | 2026-11-13 | 35 | 5 | manual 5, page 170 |
-| veesp | Veesp | 6 | 36 | 2026-11-08 | 2026-11-13 | 6 | 0 | page 36 |
-| vexxhost | VEXXHOST | 8 | 64 | 2026-11-06 | 2026-11-13 | 8 | 0 | manual 8, page 56 |
-| virtono | Virtono | 4 | 124 | 2026-10-14 | 2026-11-13 | 31 | 0 | page 124 |
-| vpsbg | VPSBG | 9 | 72 | 2026-11-06 | 2026-11-13 | 8 | 0 | manual 9, page 63 |
-| vpsdime | VPSDime | 4 | 136 | 2026-10-11 | 2026-11-13 | 34 | 0 | page 136 |
-| vultr | Vultr | 9 | 348 | 2026-10-05 | 2026-11-13 | 40 | 0 | api 348 |
+| ukhost4u | UKHost4u | 6 | 72 | 2026-11-03 | 2026-11-14 | 12 | 0 | page 72 |
+| ultahost | Ultahost | 4 | 36 | 2026-11-06 | 2026-11-14 | 9 | 0 | manual 4, page 32 |
+| ultravps | UltraVPS | 4 | 120 | 2026-10-15 | 2026-11-14 | 30 | 1 | page 120 |
+| ultrawebhosting | Ultra Web Hosting | 1 | 12 | 2026-11-03 | 2026-11-14 | 12 | 0 | page 12 |
+| upcloud | UpCloud | 5 | 180 | 2026-10-05 | 2026-11-14 | 36 | 5 | manual 5, page 175 |
+| veesp | Veesp | 6 | 42 | 2026-11-08 | 2026-11-14 | 7 | 0 | page 42 |
+| vexxhost | VEXXHOST | 8 | 72 | 2026-11-06 | 2026-11-14 | 9 | 0 | manual 8, page 64 |
+| virtono | Virtono | 4 | 128 | 2026-10-14 | 2026-11-14 | 32 | 0 | page 128 |
+| vpsbg | VPSBG | 9 | 81 | 2026-11-06 | 2026-11-14 | 9 | 0 | manual 9, page 72 |
+| vpsdime | VPSDime | 4 | 140 | 2026-10-11 | 2026-11-14 | 35 | 0 | page 140 |
+| vultr | Vultr | 9 | 357 | 2026-10-05 | 2026-11-14 | 41 | 0 | api 357 |
 | webdock | Webdock | 3 | 96 | 2026-10-11 | 2026-11-11 | 32 | 0 | page 96 |
-| webhosting24 | Webhosting24 | 8 | 208 | 2026-10-15 | 2026-11-13 | 30 | 0 | manual 2, page 206 |
+| webhosting24 | Webhosting24 | 8 | 216 | 2026-10-15 | 2026-11-14 | 31 | 0 | manual 2, page 214 |
 | webhostinguk | WebHosting UK | 6 | 12 | 2026-11-03 | 2026-11-06 | 2 | 2 | manual 6, page 6 |
 
 ## Known gaps
 
-- Days from 2026-10-05 to 2026-11-13 with no read at all: none.
+- Days from 2026-10-05 to 2026-11-14 with no read at all: none.
 - Days with no api or page read (only hand reads, or none): none.
 - A plan that could not be read on a day has no row that day; its last good price is never copied forward here (the site's own daily snapshot, src/data/price-history.json, does carry it forward, and is not this file).
 - A move of more than 30% is held by the price run for review and is not a read until accepted.
 - Providers read by hand only have rows on the days they were read: AccuWebHosting (2026-11-06); AlphaVPS (2026-10-29, 2026-11-01, 2026-11-06); Cloudways (2026-10-05, 2026-10-11, 2026-11-01); Elementor Hosting (2026-11-11); HostPapa (2026-11-11); NOCIX (2026-11-06); SW Hosting (2026-11-07); Time4VPS (2026-10-29, 2026-11-01).
 - Days without a read between a provider's first and last read: CloudServer: 2026-11-04 to 2026-11-05; Contabo: 2026-10-06 to 2026-10-10; DigitalOcean: 2026-10-06 to 2026-10-10; Hetzner: 2026-10-06 to 2026-10-10; Hostinger: 2026-10-27 to 2026-10-31; InterServer: 2026-10-06 to 2026-10-10; IONOS: 2026-10-16 to 2026-11-06, 2026-11-08 to 2026-11-10; KhanWebHost: 2026-10-30 to 2026-10-31; Kinsta: 2026-11-10; netcup: 2026-10-21; phoenixNAP: 2026-11-05; Secure Dragon: 2026-10-28 to 2026-10-29; UltraVPS: 2026-10-22; UpCloud: 2026-10-06 to 2026-10-10; WebHosting UK: 2026-11-04 to 2026-11-05.
-- Providers with no read on 2026-11-13: IONOS (last read 2026-11-11); Webdock (last read 2026-11-11); WebHosting UK (last read 2026-11-06).
+- Providers with no read on 2026-11-14: IONOS (last read 2026-11-11); Webdock (last read 2026-11-11); WebHosting UK (last read 2026-11-06).
 - Plans with no rows in a provider's file before its first read date were not in the catalogue yet (providers were added from 2026-10-05 on).
 - Providers with no rows have a file with the header only.
 - Providers taken off the catalogue are not published: BuyVM (48 reads, 2026-10-11 to 2026-10-18); HostSailor (4 reads, 2026-10-14 to 2026-10-14). Mark-restricted providers are never published.
@@ -250,15 +250,15 @@ All rows by method: api 2155, manual 450, page 8872.
 | 2026-11-06 | dbm-pro | USD 23.99 | USD 18.47 | reading-method | 4a0ec4a3 the price the page bills is the plan's price at a provider the Deals Desk says runs no sale (black-friday-2026.json status none-today): the figure struck through beside it is not a reference price (Legal ruling 7 Nov 2026, rule 2.3; 16 CFR 233.1(a)), so storing it as the plan's price was a reading-method error; offer log databasemart|plan|dbm-pro, USD 18.47 beside a struck USD 23.99, started 4 Nov 2026, ended 7 Nov 2026 (USD 23.99 billed on 3 Nov and from 7 Nov: real price moves) |
 | 2026-11-06 | hivelocity-md | USD 20.00 | USD 15.00 | reading-method | 4a0ec4a3 the price the page bills is the plan's price at a provider the Deals Desk says runs no sale (black-friday-2026.json status none-today): the figure struck through beside it is not a reference price (Legal ruling 7 Nov 2026, rule 2.3; 16 CFR 233.1(a)), so storing it as the plan's price was a reading-method error; offer log hivelocity|vps|pro.md.amd|4|8|80, USD 15 beside a struck USD 20 since 11 Oct 2026 (the log's first day) |
 | 2026-11-06 | hivelocity-md | USD 20.00 | USD 20.00 | reverted | c6aac37a reverts 4a0ec4a3: MSA 2.2 ends the discount after the first term; $15 is the first-month price (Legal ruling 7 Nov 2026 evening) |
-| 2026-11-07 | dbm-advanced | USD 43.99 | USD 30.79 | reading-method | 4a0ec4a3 the price the page bills is the plan's price at a provider the Deals Desk says runs no sale (black-friday-2026.json status none-today): the figure struck through beside it is not a reference price (Legal ruling 7 Nov 2026, rule 2.3; 16 CFR 233.1(a)), so storing it as the plan's price was a reading-method error; offer log databasemart|plan|dbm-advanced, USD 30.79 beside a struck USD 43.99, started 7 Nov 2026 (USD 43.99 billed 3-6 Nov: a real cut on 7 Nov) |
+| 2026-11-07 | dbm-advanced | USD 43.99 | USD 30.79 | reading-method | 4a0ec4a3 the price the page bills is the plan's price at a provider the Deals Desk says runs no sale (black-friday-2026.json status none-today): the figure struck through beside it is not a reference price (Legal ruling 7 Nov 2026, rule 2.3; 16 CFR 233.1(a)), so storing it as the plan's price was a reading-method error; offer log databasemart|plan|dbm-advanced, USD 30.79 beside a struck USD 43.99, started 7 Nov 2026, ended 14 Nov 2026 (USD 43.99 billed 3-6 Nov and from 14 Nov: real price moves) |
 | 2026-11-07 | hivelocity-md | USD 20.00 | USD 15.00 | reading-method | 4a0ec4a3 the price the page bills is the plan's price at a provider the Deals Desk says runs no sale (black-friday-2026.json status none-today): the figure struck through beside it is not a reference price (Legal ruling 7 Nov 2026, rule 2.3; 16 CFR 233.1(a)), so storing it as the plan's price was a reading-method error; offer log hivelocity|vps|pro.md.amd|4|8|80, USD 15 beside a struck USD 20 since 11 Oct 2026 (the log's first day) |
 | 2026-11-07 | hivelocity-md | USD 20.00 | USD 20.00 | reverted | c6aac37a reverts 4a0ec4a3: MSA 2.2 ends the discount after the first term; $15 is the first-month price (Legal ruling 7 Nov 2026 evening) |
-| 2026-11-08 | dbm-advanced | USD 43.99 | USD 30.79 | reading-method | 4a0ec4a3 the price the page bills is the plan's price at a provider the Deals Desk says runs no sale (black-friday-2026.json status none-today): the figure struck through beside it is not a reference price (Legal ruling 7 Nov 2026, rule 2.3; 16 CFR 233.1(a)), so storing it as the plan's price was a reading-method error; offer log databasemart|plan|dbm-advanced, USD 30.79 beside a struck USD 43.99, started 7 Nov 2026 (USD 43.99 billed 3-6 Nov: a real cut on 7 Nov) |
-| 2026-11-09 | dbm-advanced | USD 43.99 | USD 30.79 | reading-method | 4a0ec4a3 the price the page bills is the plan's price at a provider the Deals Desk says runs no sale (black-friday-2026.json status none-today): the figure struck through beside it is not a reference price (Legal ruling 7 Nov 2026, rule 2.3; 16 CFR 233.1(a)), so storing it as the plan's price was a reading-method error; offer log databasemart|plan|dbm-advanced, USD 30.79 beside a struck USD 43.99, started 7 Nov 2026 (USD 43.99 billed 3-6 Nov: a real cut on 7 Nov) |
-| 2026-11-10 | dbm-advanced | USD 43.99 | USD 30.79 | reading-method | 4a0ec4a3 the price the page bills is the plan's price at a provider the Deals Desk says runs no sale (black-friday-2026.json status none-today): the figure struck through beside it is not a reference price (Legal ruling 7 Nov 2026, rule 2.3; 16 CFR 233.1(a)), so storing it as the plan's price was a reading-method error; offer log databasemart|plan|dbm-advanced, USD 30.79 beside a struck USD 43.99, started 7 Nov 2026 (USD 43.99 billed 3-6 Nov: a real cut on 7 Nov) |
-| 2026-11-11 | dbm-advanced | USD 43.99 | USD 30.79 | reading-method | 4a0ec4a3 the price the page bills is the plan's price at a provider the Deals Desk says runs no sale (black-friday-2026.json status none-today): the figure struck through beside it is not a reference price (Legal ruling 7 Nov 2026, rule 2.3; 16 CFR 233.1(a)), so storing it as the plan's price was a reading-method error; offer log databasemart|plan|dbm-advanced, USD 30.79 beside a struck USD 43.99, started 7 Nov 2026 (USD 43.99 billed 3-6 Nov: a real cut on 7 Nov) |
-| 2026-11-12 | dbm-advanced | USD 43.99 | USD 30.79 | reading-method | 4a0ec4a3 the price the page bills is the plan's price at a provider the Deals Desk says runs no sale (black-friday-2026.json status none-today): the figure struck through beside it is not a reference price (Legal ruling 7 Nov 2026, rule 2.3; 16 CFR 233.1(a)), so storing it as the plan's price was a reading-method error; offer log databasemart|plan|dbm-advanced, USD 30.79 beside a struck USD 43.99, started 7 Nov 2026 (USD 43.99 billed 3-6 Nov: a real cut on 7 Nov) |
-| 2026-11-13 | dbm-advanced | USD 43.99 | USD 30.79 | reading-method | 4a0ec4a3 the price the page bills is the plan's price at a provider the Deals Desk says runs no sale (black-friday-2026.json status none-today): the figure struck through beside it is not a reference price (Legal ruling 7 Nov 2026, rule 2.3; 16 CFR 233.1(a)), so storing it as the plan's price was a reading-method error; offer log databasemart|plan|dbm-advanced, USD 30.79 beside a struck USD 43.99, started 7 Nov 2026 (USD 43.99 billed 3-6 Nov: a real cut on 7 Nov) |
+| 2026-11-08 | dbm-advanced | USD 43.99 | USD 30.79 | reading-method | 4a0ec4a3 the price the page bills is the plan's price at a provider the Deals Desk says runs no sale (black-friday-2026.json status none-today): the figure struck through beside it is not a reference price (Legal ruling 7 Nov 2026, rule 2.3; 16 CFR 233.1(a)), so storing it as the plan's price was a reading-method error; offer log databasemart|plan|dbm-advanced, USD 30.79 beside a struck USD 43.99, started 7 Nov 2026, ended 14 Nov 2026 (USD 43.99 billed 3-6 Nov and from 14 Nov: real price moves) |
+| 2026-11-09 | dbm-advanced | USD 43.99 | USD 30.79 | reading-method | 4a0ec4a3 the price the page bills is the plan's price at a provider the Deals Desk says runs no sale (black-friday-2026.json status none-today): the figure struck through beside it is not a reference price (Legal ruling 7 Nov 2026, rule 2.3; 16 CFR 233.1(a)), so storing it as the plan's price was a reading-method error; offer log databasemart|plan|dbm-advanced, USD 30.79 beside a struck USD 43.99, started 7 Nov 2026, ended 14 Nov 2026 (USD 43.99 billed 3-6 Nov and from 14 Nov: real price moves) |
+| 2026-11-10 | dbm-advanced | USD 43.99 | USD 30.79 | reading-method | 4a0ec4a3 the price the page bills is the plan's price at a provider the Deals Desk says runs no sale (black-friday-2026.json status none-today): the figure struck through beside it is not a reference price (Legal ruling 7 Nov 2026, rule 2.3; 16 CFR 233.1(a)), so storing it as the plan's price was a reading-method error; offer log databasemart|plan|dbm-advanced, USD 30.79 beside a struck USD 43.99, started 7 Nov 2026, ended 14 Nov 2026 (USD 43.99 billed 3-6 Nov and from 14 Nov: real price moves) |
+| 2026-11-11 | dbm-advanced | USD 43.99 | USD 30.79 | reading-method | 4a0ec4a3 the price the page bills is the plan's price at a provider the Deals Desk says runs no sale (black-friday-2026.json status none-today): the figure struck through beside it is not a reference price (Legal ruling 7 Nov 2026, rule 2.3; 16 CFR 233.1(a)), so storing it as the plan's price was a reading-method error; offer log databasemart|plan|dbm-advanced, USD 30.79 beside a struck USD 43.99, started 7 Nov 2026, ended 14 Nov 2026 (USD 43.99 billed 3-6 Nov and from 14 Nov: real price moves) |
+| 2026-11-12 | dbm-advanced | USD 43.99 | USD 30.79 | reading-method | 4a0ec4a3 the price the page bills is the plan's price at a provider the Deals Desk says runs no sale (black-friday-2026.json status none-today): the figure struck through beside it is not a reference price (Legal ruling 7 Nov 2026, rule 2.3; 16 CFR 233.1(a)), so storing it as the plan's price was a reading-method error; offer log databasemart|plan|dbm-advanced, USD 30.79 beside a struck USD 43.99, started 7 Nov 2026, ended 14 Nov 2026 (USD 43.99 billed 3-6 Nov and from 14 Nov: real price moves) |
+| 2026-11-13 | dbm-advanced | USD 43.99 | USD 30.79 | reading-method | 4a0ec4a3 the price the page bills is the plan's price at a provider the Deals Desk says runs no sale (black-friday-2026.json status none-today): the figure struck through beside it is not a reference price (Legal ruling 7 Nov 2026, rule 2.3; 16 CFR 233.1(a)), so storing it as the plan's price was a reading-method error; offer log databasemart|plan|dbm-advanced, USD 30.79 beside a struck USD 43.99, started 7 Nov 2026, ended 14 Nov 2026 (USD 43.99 billed 3-6 Nov and from 14 Nov: real price moves) |
 
 Every other row matches the site's daily record (6866 rows checked; 139 rows are on days the daily record does not hold that plan).
 
@@ -269,7 +269,7 @@ Medians in USD per month, weighted by plan count (plan count in brackets), then 
 | Month | Plans | 1 GB | 4 GB | 8 GB | 1 GB, per provider | 4 GB, per provider | 8 GB, per provider | Change % | Up / down / same | Note |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---|---|
 | 2026-10 | 293 | 5.00 (37) | 14.00 (59) | 24.99 (51) | 5.00 (30) | 16.50 (46) | 28.69 (40) |  |  | first read 2026-10-05; first month: no earlier month to compare |
-| 2026-11 | 511 | 5.00 (49) | 14.00 (94) | 27.70 (83) | 5.00 (41) | 16.50 (74) | 31.00 (66) | 0.00 | 0 / 6 / 286 | month to date: reads up to 2026-11-13; change: 292 plans read in both 2026-10 and 2026-11 |
+| 2026-11 | 506 | 5.00 (49) | 14.00 (93) | 27.21 (82) | 5.00 (41) | 17.00 (73) | 31.99 (65) | 0.00 | 0 / 6 / 283 | month to date: reads up to 2026-11-14; change: 289 plans read in both 2026-10 and 2026-11 |
 
 ## Rebuild
 

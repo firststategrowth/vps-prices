@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-14
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-15,securedragon,securedragon-kvm-1,KVM_SSD_1GB,2,1,20,1,4.99,4.99,USD,0,https://securedragon.net/clients/index.php?rp=/store/kvm-ssd,page,https://stackrates.ai/hosting/securedragon/history/
 2026-10-15,securedragon,securedragon-kvm-2,KVM_SSD_2GB,4,2,40,1,9.99,9.99,USD,0,https://securedragon.net/clients/index.php?rp=/store/kvm-ssd,page,https://stackrates.ai/hosting/securedragon/history/
@@ -112,3 +112,7 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-13,securedragon,securedragon-kvm-2,KVM_SSD_2GB,4,2,40,1,9.99,9.99,USD,0,https://securedragon.net/clients/index.php?rp=/store/kvm-ssd,page,https://stackrates.ai/hosting/securedragon/history/
 2026-11-13,securedragon,securedragon-kvm-4,KVM_SSD_4GB,4,4,80,1,19.99,19.99,USD,0,https://securedragon.net/clients/index.php?rp=/store/kvm-ssd,page,https://stackrates.ai/hosting/securedragon/history/
 2026-11-13,securedragon,securedragon-kvm-8,KVM_SSD_8GB,6,8,160,1,39.99,39.99,USD,0,https://securedragon.net/clients/index.php?rp=/store/kvm-ssd,page,https://stackrates.ai/hosting/securedragon/history/
+2026-11-14,securedragon,securedragon-kvm-1,KVM_SSD_1GB,2,1,20,1,4.99,4.99,USD,0,https://securedragon.net/clients/index.php?rp=/store/kvm-ssd,page,https://stackrates.ai/hosting/securedragon/history/
+2026-11-14,securedragon,securedragon-kvm-2,KVM_SSD_2GB,4,2,40,1,9.99,9.99,USD,0,https://securedragon.net/clients/index.php?rp=/store/kvm-ssd,page,https://stackrates.ai/hosting/securedragon/history/
+2026-11-14,securedragon,securedragon-kvm-4,KVM_SSD_4GB,4,4,80,1,19.99,19.99,USD,0,https://securedragon.net/clients/index.php?rp=/store/kvm-ssd,page,https://stackrates.ai/hosting/securedragon/history/
+2026-11-14,securedragon,securedragon-kvm-8,KVM_SSD_8GB,6,8,160,1,39.99,39.99,USD,0,https://securedragon.net/clients/index.php?rp=/store/kvm-ssd,page,https://stackrates.ai/hosting/securedragon/history/

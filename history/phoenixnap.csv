@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-14
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-14,phoenixnap,phoenixnap-s0-d1-medium,s0.d1.medium,4,32,480,1,63.87,63.87,USD,5.11,https://phoenixnap.com/bare-metal-cloud/instances,page,https://stackrates.ai/hosting/phoenixnap/history/
 2026-10-14,phoenixnap,phoenixnap-s0-d1-small,s0.d1.small,4,16,480,1,50.87,50.87,USD,5.11,https://phoenixnap.com/bare-metal-cloud/instances,page,https://stackrates.ai/hosting/phoenixnap/history/
@@ -120,3 +120,7 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-13,phoenixnap,phoenixnap-s0-d1-small,s0.d1.small,8,16,480,1,50.87,50.87,USD,5.11,https://phoenixnap.com/bare-metal-cloud/instances,page,https://stackrates.ai/hosting/phoenixnap/history/
 2026-11-13,phoenixnap,phoenixnap-s1-c1-medium,s1.c1.medium,12,128,2000,1,147.87,147.87,USD,5.11,https://phoenixnap.com/bare-metal-cloud/instances,page,https://stackrates.ai/hosting/phoenixnap/history/
 2026-11-13,phoenixnap,phoenixnap-s1-c1-small,s1.c1.small,12,64,1000,1,88.87,88.87,USD,5.11,https://phoenixnap.com/bare-metal-cloud/instances,page,https://stackrates.ai/hosting/phoenixnap/history/
+2026-11-14,phoenixnap,phoenixnap-s0-d1-medium,s0.d1.medium,8,32,480,1,63.87,63.87,USD,5.11,https://phoenixnap.com/bare-metal-cloud/instances,page,https://stackrates.ai/hosting/phoenixnap/history/
+2026-11-14,phoenixnap,phoenixnap-s0-d1-small,s0.d1.small,8,16,480,1,50.87,50.87,USD,5.11,https://phoenixnap.com/bare-metal-cloud/instances,page,https://stackrates.ai/hosting/phoenixnap/history/
+2026-11-14,phoenixnap,phoenixnap-s1-c1-medium,s1.c1.medium,12,128,2000,1,147.87,147.87,USD,5.11,https://phoenixnap.com/bare-metal-cloud/instances,page,https://stackrates.ai/hosting/phoenixnap/history/
+2026-11-14,phoenixnap,phoenixnap-s1-c1-small,s1.c1.small,12,64,1000,1,88.87,88.87,USD,5.11,https://phoenixnap.com/bare-metal-cloud/instances,page,https://stackrates.ai/hosting/phoenixnap/history/

@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-14
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-14,advinservers,advin-premium-1,KVM Premium 1,2,4,64,1,6,6,USD,0,https://advinservers.com/vps,api,https://stackrates.ai/hosting/advinservers/history/
 2026-10-14,advinservers,advin-premium-3,KVM Premium 3,8,16,256,1,24,24,USD,0,https://advinservers.com/vps,api,https://stackrates.ai/hosting/advinservers/history/
@@ -155,3 +155,8 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-13,advinservers,advin-ryzen-2,KVM Ryzen 2,2,8,256,1,16,16,USD,0,https://advinservers.com/vps,api,https://stackrates.ai/hosting/advinservers/history/
 2026-11-13,advinservers,advin-standard-1,KVM Standard 1,4,8,64,1,8,8,USD,0,https://advinservers.com/vps,api,https://stackrates.ai/hosting/advinservers/history/
 2026-11-13,advinservers,advin-standard-2,KVM Standard 2,8,16,128,1,16,16,USD,0,https://advinservers.com/vps,api,https://stackrates.ai/hosting/advinservers/history/
+2026-11-14,advinservers,advin-premium-1,KVM Premium 1,2,4,64,1,6,6,USD,0,https://advinservers.com/vps,api,https://stackrates.ai/hosting/advinservers/history/
+2026-11-14,advinservers,advin-premium-3,KVM Premium 3,8,16,256,1,24,24,USD,0,https://advinservers.com/vps,api,https://stackrates.ai/hosting/advinservers/history/
+2026-11-14,advinservers,advin-ryzen-2,KVM Ryzen 2,2,8,256,1,16,16,USD,0,https://advinservers.com/vps,api,https://stackrates.ai/hosting/advinservers/history/
+2026-11-14,advinservers,advin-standard-1,KVM Standard 1,4,8,64,1,8,8,USD,0,https://advinservers.com/vps,api,https://stackrates.ai/hosting/advinservers/history/
+2026-11-14,advinservers,advin-standard-2,KVM Standard 2,8,16,128,1,16,16,USD,0,https://advinservers.com/vps,api,https://stackrates.ai/hosting/advinservers/history/

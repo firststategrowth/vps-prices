@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-14
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-05,ovhcloud,ovh-vps-1,VPS-1,2,4,40,1,5.35,5.35,USD,0,https://us.ovhcloud.com/vps/,api,https://stackrates.ai/hosting/ovhcloud/history/
 2026-10-05,ovhcloud,ovh-vps-2,VPS-2,4,8,75,1,10,10,USD,0,https://us.ovhcloud.com/vps/,api,https://stackrates.ai/hosting/ovhcloud/history/
@@ -160,3 +160,7 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-13,ovhcloud,ovh-vps-2,VPS-2,4,8,75,1,10,10,USD,0,https://us.ovhcloud.com/vps/,api,https://stackrates.ai/hosting/ovhcloud/history/
 2026-11-13,ovhcloud,ovh-vps-3,VPS-3,6,12,100,1,14.5,14.5,USD,0,https://us.ovhcloud.com/vps/,api,https://stackrates.ai/hosting/ovhcloud/history/
 2026-11-13,ovhcloud,ovh-vps-4,VPS-4,8,24,200,1,27.5,27.5,USD,0,https://us.ovhcloud.com/vps/,api,https://stackrates.ai/hosting/ovhcloud/history/
+2026-11-14,ovhcloud,ovh-vps-1,VPS-1,2,4,40,1,5.35,5.35,USD,0,https://us.ovhcloud.com/vps/,api,https://stackrates.ai/hosting/ovhcloud/history/
+2026-11-14,ovhcloud,ovh-vps-2,VPS-2,4,8,75,1,10,10,USD,0,https://us.ovhcloud.com/vps/,api,https://stackrates.ai/hosting/ovhcloud/history/
+2026-11-14,ovhcloud,ovh-vps-3,VPS-3,6,12,100,1,14.5,14.5,USD,0,https://us.ovhcloud.com/vps/,api,https://stackrates.ai/hosting/ovhcloud/history/
+2026-11-14,ovhcloud,ovh-vps-4,VPS-4,8,24,200,1,27.5,27.5,USD,0,https://us.ovhcloud.com/vps/,api,https://stackrates.ai/hosting/ovhcloud/history/

@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-14
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-08,raiola,raiola-vps-cloud-1,VPS Cloud 1,1,1,20,1,11.11,9.95,EUR,0,https://raiolanetworks.com/servidores-vps/,page,https://stackrates.ai/hosting/raiola/history/
 2026-11-08,raiola,raiola-vps-cloud-2,VPS Cloud 2,2,2,40,1,22.27,19.95,EUR,0,https://raiolanetworks.com/servidores-vps/,page,https://stackrates.ai/hosting/raiola/history/
@@ -24,3 +24,7 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-13,raiola,raiola-vps-cloud-2,VPS Cloud 2,2,2,40,1,22.11,19.95,EUR,0,https://raiolanetworks.com/servidores-vps/,page,https://stackrates.ai/hosting/raiola/history/
 2026-11-13,raiola,raiola-vps-cloud-3,VPS Cloud 3,4,4,60,1,33.19,29.95,EUR,0,https://raiolanetworks.com/servidores-vps/,page,https://stackrates.ai/hosting/raiola/history/
 2026-11-13,raiola,raiola-vps-cloud-4,VPS Cloud 4,6,8,100,1,66.43,59.95,EUR,0,https://raiolanetworks.com/servidores-vps/,page,https://stackrates.ai/hosting/raiola/history/
+2026-11-14,raiola,raiola-vps-cloud-1,VPS Cloud 1,1,1,20,1,11,9.95,EUR,0,https://raiolanetworks.com/servidores-vps/,page,https://stackrates.ai/hosting/raiola/history/
+2026-11-14,raiola,raiola-vps-cloud-2,VPS Cloud 2,2,2,40,1,22.05,19.95,EUR,0,https://raiolanetworks.com/servidores-vps/,page,https://stackrates.ai/hosting/raiola/history/
+2026-11-14,raiola,raiola-vps-cloud-3,VPS Cloud 3,4,4,60,1,33.1,29.95,EUR,0,https://raiolanetworks.com/servidores-vps/,page,https://stackrates.ai/hosting/raiola/history/
+2026-11-14,raiola,raiola-vps-cloud-4,VPS Cloud 4,6,8,100,1,66.26,59.95,EUR,0,https://raiolanetworks.com/servidores-vps/,page,https://stackrates.ai/hosting/raiola/history/

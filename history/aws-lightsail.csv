@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-14
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-05,aws-lightsail,lightsail-05,General 512MB,2,0.5,20,1,5,5,USD,0,https://aws.amazon.com/lightsail/pricing/,api,https://stackrates.ai/hosting/aws-lightsail/history/
 2026-10-05,aws-lightsail,lightsail-1,General 1GB,2,1,40,1,7,7,USD,0,https://aws.amazon.com/lightsail/pricing/,api,https://stackrates.ai/hosting/aws-lightsail/history/
@@ -404,3 +404,14 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-13,aws-lightsail,lightsail-co-8,Compute optimized 8GB,4,8,320,1,84,84,USD,0,https://aws.amazon.com/lightsail/pricing/,api,https://stackrates.ai/hosting/aws-lightsail/history/
 2026-11-13,aws-lightsail,lightsail-mo-16,Memory optimized 16GB,2,16,160,1,74,74,USD,0,https://aws.amazon.com/lightsail/pricing/,api,https://stackrates.ai/hosting/aws-lightsail/history/
 2026-11-13,aws-lightsail,lightsail-mo-32,Memory optimized 32GB,4,32,320,1,144,144,USD,0,https://aws.amazon.com/lightsail/pricing/,api,https://stackrates.ai/hosting/aws-lightsail/history/
+2026-11-14,aws-lightsail,lightsail-05,General 512MB,2,0.5,20,1,5,5,USD,0,https://aws.amazon.com/lightsail/pricing/,api,https://stackrates.ai/hosting/aws-lightsail/history/
+2026-11-14,aws-lightsail,lightsail-1,General 1GB,2,1,40,1,7,7,USD,0,https://aws.amazon.com/lightsail/pricing/,api,https://stackrates.ai/hosting/aws-lightsail/history/
+2026-11-14,aws-lightsail,lightsail-16,General 16GB,4,16,320,1,84,84,USD,0,https://aws.amazon.com/lightsail/pricing/,api,https://stackrates.ai/hosting/aws-lightsail/history/
+2026-11-14,aws-lightsail,lightsail-2,General 2GB,2,2,60,1,12,12,USD,0,https://aws.amazon.com/lightsail/pricing/,api,https://stackrates.ai/hosting/aws-lightsail/history/
+2026-11-14,aws-lightsail,lightsail-32,General 32GB,8,32,640,1,164,164,USD,0,https://aws.amazon.com/lightsail/pricing/,api,https://stackrates.ai/hosting/aws-lightsail/history/
+2026-11-14,aws-lightsail,lightsail-4,General 4GB,2,4,80,1,24,24,USD,0,https://aws.amazon.com/lightsail/pricing/,api,https://stackrates.ai/hosting/aws-lightsail/history/
+2026-11-14,aws-lightsail,lightsail-8,General 8GB,2,8,160,1,44,44,USD,0,https://aws.amazon.com/lightsail/pricing/,api,https://stackrates.ai/hosting/aws-lightsail/history/
+2026-11-14,aws-lightsail,lightsail-co-4,Compute optimized 4GB,2,4,160,1,42,42,USD,0,https://aws.amazon.com/lightsail/pricing/,api,https://stackrates.ai/hosting/aws-lightsail/history/
+2026-11-14,aws-lightsail,lightsail-co-8,Compute optimized 8GB,4,8,320,1,84,84,USD,0,https://aws.amazon.com/lightsail/pricing/,api,https://stackrates.ai/hosting/aws-lightsail/history/
+2026-11-14,aws-lightsail,lightsail-mo-16,Memory optimized 16GB,2,16,160,1,74,74,USD,0,https://aws.amazon.com/lightsail/pricing/,api,https://stackrates.ai/hosting/aws-lightsail/history/
+2026-11-14,aws-lightsail,lightsail-mo-32,Memory optimized 32GB,4,32,320,1,144,144,USD,0,https://aws.amazon.com/lightsail/pricing/,api,https://stackrates.ai/hosting/aws-lightsail/history/

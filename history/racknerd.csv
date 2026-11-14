@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-14
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-05,racknerd,rn-1,KVM 1GB,2,1,50,1,17.99,17.99,USD,0,https://www.racknerd.com/kvm-vps,page,https://stackrates.ai/hosting/racknerd/history/
 2026-10-05,racknerd,rn-2,KVM 2GB,3,2,75,1,20.59,20.59,USD,0,https://www.racknerd.com/kvm-vps,page,https://stackrates.ai/hosting/racknerd/history/
@@ -200,3 +200,12 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-13,racknerd,rn-special-4,KVM VPS Special 4 GB,3,4,60,12,5,5,USD,0,https://www.racknerd.com/specials/,page,https://stackrates.ai/hosting/racknerd/history/
 2026-11-13,racknerd,rn-special-6,KVM VPS Special 6 GB,6,6,100,12,7.5,7.5,USD,0,https://www.racknerd.com/specials/,page,https://stackrates.ai/hosting/racknerd/history/
 2026-11-13,racknerd,rn-special-8,KVM VPS Special 8 GB,7,8,150,12,10,10,USD,0,https://www.racknerd.com/specials/,page,https://stackrates.ai/hosting/racknerd/history/
+2026-11-14,racknerd,rn-1,KVM 1GB,2,1,50,1,17.99,17.99,USD,0,https://www.racknerd.com/kvm-vps,page,https://stackrates.ai/hosting/racknerd/history/
+2026-11-14,racknerd,rn-2,KVM 2GB,3,2,75,1,20.59,20.59,USD,0,https://www.racknerd.com/kvm-vps,page,https://stackrates.ai/hosting/racknerd/history/
+2026-11-14,racknerd,rn-4,KVM 4GB,4,4,130,1,24.59,24.59,USD,0,https://www.racknerd.com/kvm-vps,page,https://stackrates.ai/hosting/racknerd/history/
+2026-11-14,racknerd,rn-8,KVM 8GB,6,8,220,1,36.59,36.59,USD,0,https://www.racknerd.com/kvm-vps,page,https://stackrates.ai/hosting/racknerd/history/
+2026-11-14,racknerd,rn-special-1,KVM VPS Special 1 GB,1,1,20,12,1.83,1.83,USD,0,https://www.racknerd.com/specials/,page,https://stackrates.ai/hosting/racknerd/history/
+2026-11-14,racknerd,rn-special-2,KVM VPS Special 2 GB,2,2,35,12,3,3,USD,0,https://www.racknerd.com/specials/,page,https://stackrates.ai/hosting/racknerd/history/
+2026-11-14,racknerd,rn-special-4,KVM VPS Special 4 GB,3,4,60,12,5,5,USD,0,https://www.racknerd.com/specials/,page,https://stackrates.ai/hosting/racknerd/history/
+2026-11-14,racknerd,rn-special-6,KVM VPS Special 6 GB,6,6,100,12,7.5,7.5,USD,0,https://www.racknerd.com/specials/,page,https://stackrates.ai/hosting/racknerd/history/
+2026-11-14,racknerd,rn-special-8,KVM VPS Special 8 GB,7,8,150,12,10,10,USD,0,https://www.racknerd.com/specials/,page,https://stackrates.ai/hosting/racknerd/history/

@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-14
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-08,20i,20i-cloud-16xlarge,Managed Cloud 16X Large,32,96,1440,1,1338.49,999.99,GBP,,https://www.20i.com/managed-cloud-servers,page,https://stackrates.ai/hosting/20i/history/
 2026-11-08,20i,20i-cloud-2xlarge,Managed Cloud 2X Large,12,32,640,1,307.84,229.99,GBP,,https://www.20i.com/managed-cloud-servers,page,https://stackrates.ai/hosting/20i/history/
@@ -96,3 +96,19 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-13,20i,20i-wp-plan-4,WordPress Plan 4,,,50,1,198.84,150,GBP,,https://www.20i.com/wordpress-hosting,page,https://stackrates.ai/hosting/20i/history/
 2026-11-13,20i,20i-wp-plan-5,WordPress Plan 5,,,100,1,397.68,300,GBP,,https://www.20i.com/wordpress-hosting,page,https://stackrates.ai/hosting/20i/history/
 2026-11-13,20i,20i-wp-startup,WordPress Startup,,,10,1,13.26,10,GBP,,https://www.20i.com/wordpress-hosting,page,https://stackrates.ai/hosting/20i/history/
+2026-11-14,20i,20i-cloud-16xlarge,Managed Cloud 16X Large,32,96,1440,1,1322.69,999.99,GBP,,https://www.20i.com/managed-cloud-servers,page,https://stackrates.ai/hosting/20i/history/
+2026-11-14,20i,20i-cloud-2xlarge,Managed Cloud 2X Large,12,32,640,1,304.21,229.99,GBP,,https://www.20i.com/managed-cloud-servers,page,https://stackrates.ai/hosting/20i/history/
+2026-11-14,20i,20i-cloud-32xlarge,Managed Cloud 32X Large,48,128,1920,1,2116.31,1599.99,GBP,,https://www.20i.com/managed-cloud-servers,page,https://stackrates.ai/hosting/20i/history/
+2026-11-14,20i,20i-cloud-4xlarge,Managed Cloud 4X Large,16,32,640,1,529.07,399.99,GBP,,https://www.20i.com/managed-cloud-servers,page,https://stackrates.ai/hosting/20i/history/
+2026-11-14,20i,20i-cloud-8xlarge,Managed Cloud 8X Large,24,64,1280,1,925.88,699.99,GBP,,https://www.20i.com/managed-cloud-servers,page,https://stackrates.ai/hosting/20i/history/
+2026-11-14,20i,20i-cloud-large,Managed Cloud Large,4,8,160,1,105.8,79.99,GBP,,https://www.20i.com/managed-cloud-servers,page,https://stackrates.ai/hosting/20i/history/
+2026-11-14,20i,20i-cloud-medium,Managed Cloud Medium,2,4,80,1,52.89,39.99,GBP,,https://www.20i.com/managed-cloud-servers,page,https://stackrates.ai/hosting/20i/history/
+2026-11-14,20i,20i-cloud-micro,Managed Cloud Micro,1,1,25,1,13.21,9.99,GBP,,https://www.20i.com/managed-cloud-servers,page,https://stackrates.ai/hosting/20i/history/
+2026-11-14,20i,20i-cloud-small,Managed Cloud Small,1,2,50,1,26.44,19.99,GBP,,https://www.20i.com/managed-cloud-servers,page,https://stackrates.ai/hosting/20i/history/
+2026-11-14,20i,20i-cloud-xlarge,Managed Cloud X Large,8,16,320,1,158.71,119.99,GBP,,https://www.20i.com/managed-cloud-servers,page,https://stackrates.ai/hosting/20i/history/
+2026-11-14,20i,20i-wp-plan-1,WordPress Plan 1,,,10,1,26.45,20,GBP,,https://www.20i.com/wordpress-hosting,page,https://stackrates.ai/hosting/20i/history/
+2026-11-14,20i,20i-wp-plan-2,WordPress Plan 2,,,20,1,52.91,40,GBP,,https://www.20i.com/wordpress-hosting,page,https://stackrates.ai/hosting/20i/history/
+2026-11-14,20i,20i-wp-plan-3,WordPress Plan 3,,,40,1,105.82,80,GBP,,https://www.20i.com/wordpress-hosting,page,https://stackrates.ai/hosting/20i/history/
+2026-11-14,20i,20i-wp-plan-4,WordPress Plan 4,,,50,1,198.41,150,GBP,,https://www.20i.com/wordpress-hosting,page,https://stackrates.ai/hosting/20i/history/
+2026-11-14,20i,20i-wp-plan-5,WordPress Plan 5,,,100,1,396.81,300,GBP,,https://www.20i.com/wordpress-hosting,page,https://stackrates.ai/hosting/20i/history/
+2026-11-14,20i,20i-wp-startup,WordPress Startup,,,10,1,13.23,10,GBP,,https://www.20i.com/wordpress-hosting,page,https://stackrates.ai/hosting/20i/history/

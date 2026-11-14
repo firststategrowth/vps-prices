@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-14
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-06,ultahost,ultahost-basic,VPS Basic,1,1,30,1,6.89,6.89,USD,0,https://ultahost.com/vps-hosting,manual,https://stackrates.ai/hosting/ultahost/history/
 2026-11-06,ultahost,ultahost-business,VPS Business,2,2,50,1,12.29,12.29,USD,0,https://ultahost.com/vps-hosting,manual,https://stackrates.ai/hosting/ultahost/history/
@@ -32,3 +32,7 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-13,ultahost,ultahost-business,VPS Business,2,2,50,1,12.29,12.29,USD,0,https://ultahost.com/vps-hosting,page,https://stackrates.ai/hosting/ultahost/history/
 2026-11-13,ultahost,ultahost-enterprise,VPS Enterprise,4,6,100,1,25.89,25.89,USD,0,https://ultahost.com/vps-hosting,page,https://stackrates.ai/hosting/ultahost/history/
 2026-11-13,ultahost,ultahost-professional,VPS Professional,3,4,75,1,19.59,19.59,USD,0,https://ultahost.com/vps-hosting,page,https://stackrates.ai/hosting/ultahost/history/
+2026-11-14,ultahost,ultahost-basic,VPS Basic,1,1,30,1,6.89,6.89,USD,0,https://ultahost.com/vps-hosting,page,https://stackrates.ai/hosting/ultahost/history/
+2026-11-14,ultahost,ultahost-business,VPS Business,2,2,50,1,12.29,12.29,USD,0,https://ultahost.com/vps-hosting,page,https://stackrates.ai/hosting/ultahost/history/
+2026-11-14,ultahost,ultahost-enterprise,VPS Enterprise,4,6,100,1,25.89,25.89,USD,0,https://ultahost.com/vps-hosting,page,https://stackrates.ai/hosting/ultahost/history/
+2026-11-14,ultahost,ultahost-professional,VPS Professional,3,4,75,1,19.59,19.59,USD,0,https://ultahost.com/vps-hosting,page,https://stackrates.ai/hosting/ultahost/history/

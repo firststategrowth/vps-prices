@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-14
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-14,hostus,hostus-kvm-1,SSD KVM KVM-1,2,1,40,1,6.95,6.95,USD,0,https://my.hostus.us/store/ssd-kvm-vps,page,https://stackrates.ai/hosting/hostus/history/
 2026-10-14,hostus,hostus-kvm-2,SSD KVM KVM-2,2,2,60,1,10.95,10.95,USD,0,https://my.hostus.us/store/ssd-kvm-vps,page,https://stackrates.ai/hosting/hostus/history/
@@ -93,3 +93,6 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-13,hostus,hostus-kvm-1,KVM-1,2,1,40,1,6.95,6.95,USD,0,https://my.hostus.us/store/ssd-kvm-vps,page,https://stackrates.ai/hosting/hostus/history/
 2026-11-13,hostus,hostus-kvm-2,KVM-2,2,2,60,1,10.95,10.95,USD,0,https://my.hostus.us/store/ssd-kvm-vps,page,https://stackrates.ai/hosting/hostus/history/
 2026-11-13,hostus,hostus-kvm-4,KVM-4,4,4,90,1,22.95,22.95,USD,0,https://my.hostus.us/store/ssd-kvm-vps,page,https://stackrates.ai/hosting/hostus/history/
+2026-11-14,hostus,hostus-kvm-1,KVM-1,2,1,40,1,6.95,6.95,USD,0,https://my.hostus.us/store/ssd-kvm-vps,page,https://stackrates.ai/hosting/hostus/history/
+2026-11-14,hostus,hostus-kvm-2,KVM-2,2,2,60,1,10.95,10.95,USD,0,https://my.hostus.us/store/ssd-kvm-vps,page,https://stackrates.ai/hosting/hostus/history/
+2026-11-14,hostus,hostus-kvm-4,KVM-4,4,4,90,1,22.95,22.95,USD,0,https://my.hostus.us/store/ssd-kvm-vps,page,https://stackrates.ai/hosting/hostus/history/

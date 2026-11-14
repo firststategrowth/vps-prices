@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-14
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-10,dreamhost,dreamhost-16,Stack 16,4,16,250,1,34.99,34.99,USD,0,https://www.dreamhost.com/hosting/vps/,manual,https://stackrates.ai/hosting/dreamhost/history/
 2026-10-10,dreamhost,dreamhost-32,Stack 32,8,32,450,1,59.99,59.99,USD,0,https://www.dreamhost.com/hosting/vps/,manual,https://stackrates.ai/hosting/dreamhost/history/
@@ -140,3 +140,7 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-13,dreamhost,dreamhost-32,Stack 32,8,32,450,1,59.99,59.99,USD,0,https://www.dreamhost.com/hosting/vps/,page,https://stackrates.ai/hosting/dreamhost/history/
 2026-11-13,dreamhost,dreamhost-4,Stack 4,2,4,75,1,15.99,15.99,USD,0,https://www.dreamhost.com/hosting/vps/,page,https://stackrates.ai/hosting/dreamhost/history/
 2026-11-13,dreamhost,dreamhost-8,Stack 8,2,8,150,1,21.99,21.99,USD,0,https://www.dreamhost.com/hosting/vps/,page,https://stackrates.ai/hosting/dreamhost/history/
+2026-11-14,dreamhost,dreamhost-16,Stack 16,4,16,250,1,34.99,34.99,USD,0,https://www.dreamhost.com/hosting/vps/,page,https://stackrates.ai/hosting/dreamhost/history/
+2026-11-14,dreamhost,dreamhost-32,Stack 32,8,32,450,1,59.99,59.99,USD,0,https://www.dreamhost.com/hosting/vps/,page,https://stackrates.ai/hosting/dreamhost/history/
+2026-11-14,dreamhost,dreamhost-4,Stack 4,2,4,75,1,15.99,15.99,USD,0,https://www.dreamhost.com/hosting/vps/,page,https://stackrates.ai/hosting/dreamhost/history/
+2026-11-14,dreamhost,dreamhost-8,Stack 8,2,8,150,1,21.99,21.99,USD,0,https://www.dreamhost.com/hosting/vps/,page,https://stackrates.ai/hosting/dreamhost/history/

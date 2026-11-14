@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-14
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-06,hostcolor,hostcolor-ssd-1,SSD VPS 1,1,2,20,1,18.36,18.36,USD,0,https://accounts.hostcolor.com/store/ssd-vps/ssd-vps-1,manual,https://stackrates.ai/hosting/hostcolor/history/
 2026-11-06,hostcolor,hostcolor-ssd-2,SSD VPS 2,1,4,30,1,23.76,23.76,USD,0,https://accounts.hostcolor.com/store/ssd-vps/ssd-vps-2,manual,https://stackrates.ai/hosting/hostcolor/history/
@@ -104,3 +104,16 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-13,hostcolor,hostcolor-vds-8-16,VDS 8 Cores / 16 GB RAM / 200 GB SSD,8,16,200,1,99,99,USD,0,https://accounts.hostcolor.com/store/virtual-dedicated/8cores-16gb,page,https://stackrates.ai/hosting/hostcolor/history/
 2026-11-13,hostcolor,hostcolor-vds-8-32,VDS 8 Cores / 32 GB RAM / 400 GB SSD,8,32,400,1,109,109,USD,0,https://accounts.hostcolor.com/store/virtual-dedicated/8cores-32gb-ssd,page,https://stackrates.ai/hosting/hostcolor/history/
 2026-11-13,hostcolor,hostcolor-vds-8-64,VDS 8 Cores / 64 GB RAM / 800 GB SSD,8,64,800,1,119,119,USD,0,https://accounts.hostcolor.com/store/virtual-dedicated/8cores-64gb-ssd,page,https://stackrates.ai/hosting/hostcolor/history/
+2026-11-14,hostcolor,hostcolor-ssd-1,SSD VPS 1,1,2,20,1,18.36,18.36,USD,0,https://accounts.hostcolor.com/store/ssd-vps/ssd-vps-1,page,https://stackrates.ai/hosting/hostcolor/history/
+2026-11-14,hostcolor,hostcolor-ssd-2,SSD VPS 2,1,4,30,1,23.76,23.76,USD,0,https://accounts.hostcolor.com/store/ssd-vps/ssd-vps-2,page,https://stackrates.ai/hosting/hostcolor/history/
+2026-11-14,hostcolor,hostcolor-ssd-3,SSD VPS 3,2,4,40,1,34.56,34.56,USD,0,https://accounts.hostcolor.com/store/ssd-vps/ssd-vps-3,page,https://stackrates.ai/hosting/hostcolor/history/
+2026-11-14,hostcolor,hostcolor-ssd-4,SSD VPS 4,2,8,50,1,38.88,38.88,USD,0,https://accounts.hostcolor.com/store/ssd-vps/ssd-vps-4,page,https://stackrates.ai/hosting/hostcolor/history/
+2026-11-14,hostcolor,hostcolor-ssd-5,SSD VPS 5,4,16,60,1,79.95,79.95,USD,0,https://accounts.hostcolor.com/store/ssd-vps/ssd-vps-5,page,https://stackrates.ai/hosting/hostcolor/history/
+2026-11-14,hostcolor,hostcolor-ssd-6,SSD VPS 6,8,16,100,1,119.95,119.95,USD,0,https://accounts.hostcolor.com/store/ssd-vps/ssd-vps-6,page,https://stackrates.ai/hosting/hostcolor/history/
+2026-11-14,hostcolor,hostcolor-ssd-7,SSD VPS 7,16,32,200,1,209.95,209.95,USD,0,https://accounts.hostcolor.com/store/ssd-vps/ssd-vps-7,page,https://stackrates.ai/hosting/hostcolor/history/
+2026-11-14,hostcolor,hostcolor-vds-12-32,VDS 12 Cores / 32 GB RAM / 400 GB SSD,12,32,400,1,129,129,USD,0,https://accounts.hostcolor.com/store/virtual-dedicated/12cores-32gb-ssd,page,https://stackrates.ai/hosting/hostcolor/history/
+2026-11-14,hostcolor,hostcolor-vds-12-48,VDS 12 Cores / 48 GB RAM / 600 GB SSD,12,48,600,1,149,149,USD,0,https://accounts.hostcolor.com/store/virtual-dedicated/12cores-48gb-ssd,page,https://stackrates.ai/hosting/hostcolor/history/
+2026-11-14,hostcolor,hostcolor-vds-12-64,VDS 12 Cores / 64 GB RAM / 800 GB SSD,12,64,800,1,179,179,USD,0,https://accounts.hostcolor.com/store/virtual-dedicated/12cores-64gb-ssd,page,https://stackrates.ai/hosting/hostcolor/history/
+2026-11-14,hostcolor,hostcolor-vds-8-16,VDS 8 Cores / 16 GB RAM / 200 GB SSD,8,16,200,1,99,99,USD,0,https://accounts.hostcolor.com/store/virtual-dedicated/8cores-16gb,page,https://stackrates.ai/hosting/hostcolor/history/
+2026-11-14,hostcolor,hostcolor-vds-8-32,VDS 8 Cores / 32 GB RAM / 400 GB SSD,8,32,400,1,109,109,USD,0,https://accounts.hostcolor.com/store/virtual-dedicated/8cores-32gb-ssd,page,https://stackrates.ai/hosting/hostcolor/history/
+2026-11-14,hostcolor,hostcolor-vds-8-64,VDS 8 Cores / 64 GB RAM / 800 GB SSD,8,64,800,1,119,119,USD,0,https://accounts.hostcolor.com/store/virtual-dedicated/8cores-64gb-ssd,page,https://stackrates.ai/hosting/hostcolor/history/

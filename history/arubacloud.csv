@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-14
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-14,arubacloud,aruba-o1i1,VPS O1I1 (Starter),1,1,20,1,2.79,2.49,EUR,0,https://www.arubacloud.com/vps/,page,https://stackrates.ai/hosting/arubacloud/history/
 2026-10-14,arubacloud,aruba-o1i2,VPS O1I2 (Starter),1,2,40,1,5.02,4.49,EUR,0,https://www.arubacloud.com/vps/,page,https://stackrates.ai/hosting/arubacloud/history/
@@ -139,3 +139,6 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-13,arubacloud,aruba-o2a4,VPS O2A4,2,4,40,1,6.97,6.29,EUR,0,https://www.arubacloud.com/vps/,page,https://stackrates.ai/hosting/arubacloud/history/
 2026-11-13,arubacloud,aruba-o4a8,VPS O4A8,4,8,80,1,13.06,11.79,EUR,0,https://www.arubacloud.com/vps/,page,https://stackrates.ai/hosting/arubacloud/history/
 2026-11-13,arubacloud,aruba-o8a16,VPS O8A16,8,16,160,1,22.04,19.89,EUR,0,https://www.arubacloud.com/vps/,page,https://stackrates.ai/hosting/arubacloud/history/
+2026-11-14,arubacloud,aruba-o2a4,VPS O2A4,2,4,40,1,6.95,6.29,EUR,0,https://www.arubacloud.com/vps/,page,https://stackrates.ai/hosting/arubacloud/history/
+2026-11-14,arubacloud,aruba-o4a8,VPS O4A8,4,8,80,1,13.03,11.79,EUR,0,https://www.arubacloud.com/vps/,page,https://stackrates.ai/hosting/arubacloud/history/
+2026-11-14,arubacloud,aruba-o8a16,VPS O8A16,8,16,160,1,21.98,19.89,EUR,0,https://www.arubacloud.com/vps/,page,https://stackrates.ai/hosting/arubacloud/history/

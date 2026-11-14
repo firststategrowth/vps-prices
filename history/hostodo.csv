@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-13
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-14
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-14,hostodo,hostodo-16,EPYC-16G6C192GN,6,16,192,1,20,20,USD,0,https://hostodo.com/pricing,page,https://stackrates.ai/hosting/hostodo/history/
 2026-10-14,hostodo,hostodo-2,EPYC-2G1C32GN,2,2,32,1,3.5,3.5,USD,0,https://hostodo.com/pricing,page,https://stackrates.ai/hosting/hostodo/history/
@@ -155,3 +155,8 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-13,hostodo,hostodo-32,EPYC-32G8C288GN,8,32,300,1,36,36,USD,0,https://hostodo.com/pricing,page,https://stackrates.ai/hosting/hostodo/history/
 2026-11-13,hostodo,hostodo-4,EPYC-4G2C64GN,2,4,64,1,7,7,USD,0,https://hostodo.com/pricing,page,https://stackrates.ai/hosting/hostodo/history/
 2026-11-13,hostodo,hostodo-8,EPYC-8G3C128GN,3,8,128,1,9,9,USD,0,https://hostodo.com/pricing,page,https://stackrates.ai/hosting/hostodo/history/
+2026-11-14,hostodo,hostodo-16,EPYC-16G6C192GN,6,16,192,1,20,20,USD,0,https://hostodo.com/pricing,page,https://stackrates.ai/hosting/hostodo/history/
+2026-11-14,hostodo,hostodo-2,EPYC-2G1C32GN,2,2,32,1,3.5,3.5,USD,0,https://hostodo.com/pricing,page,https://stackrates.ai/hosting/hostodo/history/
+2026-11-14,hostodo,hostodo-32,EPYC-32G8C288GN,8,32,300,1,36,36,USD,0,https://hostodo.com/pricing,page,https://stackrates.ai/hosting/hostodo/history/
+2026-11-14,hostodo,hostodo-4,EPYC-4G2C64GN,2,4,64,1,7,7,USD,0,https://hostodo.com/pricing,page,https://stackrates.ai/hosting/hostodo/history/
+2026-11-14,hostodo,hostodo-8,EPYC-8G3C128GN,3,8,128,1,9,9,USD,0,https://hostodo.com/pricing,page,https://stackrates.ai/hosting/hostodo/history/
