@@ -95,8 +95,8 @@
       "providers_8gb": 65,
       "change_pct_vs_prev_month": 0,
       "plans_up": 0,
-      "plans_down": 6,
-      "plans_same": 283,
+      "plans_down": 0,
+      "plans_same": 289,
       "method_version": "1",
       "plans_1gb": 49,
       "plans_4gb": 93,
@@ -107,32 +107,7 @@
       "stackrates_url": "https://stackrates.ai/vps-price-index/",
       "plans_paired": 289,
       "plans_left_out_spec_changed": 0,
-      "movers": [
-        {
-          "plan_id": "hetzner-cpx22",
-          "change_pct": -14.84
-        },
-        {
-          "plan_id": "hetzner-cpx62",
-          "change_pct": -14.97
-        },
-        {
-          "plan_id": "hetzner-cpx42",
-          "change_pct": -15.14
-        },
-        {
-          "plan_id": "hetzner-cpx32",
-          "change_pct": -15.26
-        },
-        {
-          "plan_id": "hetzner-cpx12",
-          "change_pct": -17.74
-        },
-        {
-          "plan_id": "hetzner-cpx02",
-          "change_pct": -18.54
-        }
-      ],
+      "movers": [],
       "plans_entered": [
         "accuweb-edge",
         "accuweb-peak",

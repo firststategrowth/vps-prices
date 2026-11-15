@@ -132,7 +132,7 @@ configs:
 # StackRates VPS prices and monthly price index
 
 StackRates reads VPS and cloud server prices from each provider's own pricing page or price API every day and
-publishes every read. On 15 November 2026 the daily file has 698 orderable plans from 97 providers; the
+publishes every read. On 15 November 2026 the daily file has 707 orderable plans from 97 providers; the
 history holds 12,087 reads of 98 providers' plans over 41 read days, 5 October 2026 to 14 November 2026.
 
 The newest index figure, as the site cites it: StackRates VPS price index, Nov 2026: 4 GB median $14/mo over 93 plans with 4 GB (506 plans in the index), read 14 Nov 2026, stackrates.ai/vps-price-index/
@@ -141,7 +141,7 @@ The newest index figure, as the site cites it: StackRates VPS price index, Nov 2
 
 | Subset | File | Rows | What |
 |---|---|---:|---|
-| `prices` | `prices.csv` | 698 | today's orderable plans, read 15 November 2026 |
+| `prices` | `prices.csv` | 707 | today's orderable plans, read 15 November 2026 |
 | `price_history` | `history/<provider>.csv` | 12,087 | every price read, 5 October 2026 to 14 November 2026, one file per provider |
 | `price_index` | `index/vps-price-index.csv` | 2 | the monthly VPS price index: medians at 1, 4 and 8 GB of RAM |
 | `price_index_plans` | `index/vps-price-index-plans.csv` | 799 | every plan behind each month of the index |
@@ -157,7 +157,7 @@ its header. Skip it: `pandas.read_csv(url, skiprows=1)`.
   providers print before VAT, US providers before sales tax. A public IPv4 address billed on top is its own column.
 - Euro and pound prices without the provider's own dollar price are converted at the European Central Bank reference
   rate: the read day's in the history, the latest in `prices.csv` (given in `fx` in `prices.json`).
-- 88 history rows carry a figure corrected after the read; `history/revisions.csv` lists each with the figure as read.
+- 112 history rows carry a figure corrected after the read; `history/revisions.csv` lists each with the figure as read.
 - Nothing before 5 October 2026 counts as a read. The year-on file compares Wayback Machine captures of the providers'
   pages from around October 2025, one capture per row (`archived_page`, `archived_on`).
 - The index method (which plans count, which price, the weighting) is in `index/vps-price-index.json` and at

@@ -194,60 +194,6 @@
   },
   {
     "date": "2026-11-11",
-    "provider": "hetzner",
-    "planId": "hetzner-cpx02",
-    "planName": "CPX02",
-    "oldUsd": 7.49,
-    "newUsd": 5.99,
-    "source": "https://www.hetzner.com/cloud/regular-performance/"
-  },
-  {
-    "date": "2026-11-11",
-    "provider": "hetzner",
-    "planId": "hetzner-cpx12",
-    "planName": "CPX12",
-    "oldUsd": 13.49,
-    "newUsd": 10.99,
-    "source": "https://www.hetzner.com/cloud/regular-performance/"
-  },
-  {
-    "date": "2026-11-11",
-    "provider": "hetzner",
-    "planId": "hetzner-cpx22",
-    "planName": "CPX22",
-    "oldUsd": 22.99,
-    "newUsd": 19.49,
-    "source": "https://www.hetzner.com/cloud/regular-performance/"
-  },
-  {
-    "date": "2026-11-11",
-    "provider": "hetzner",
-    "planId": "hetzner-cpx32",
-    "planName": "CPX32",
-    "oldUsd": 41.99,
-    "newUsd": 35.49,
-    "source": "https://www.hetzner.com/cloud/regular-performance/"
-  },
-  {
-    "date": "2026-11-11",
-    "provider": "hetzner",
-    "planId": "hetzner-cpx42",
-    "planName": "CPX42",
-    "oldUsd": 81.99,
-    "newUsd": 69.49,
-    "source": "https://www.hetzner.com/cloud/regular-performance/"
-  },
-  {
-    "date": "2026-11-11",
-    "provider": "hetzner",
-    "planId": "hetzner-cpx62",
-    "planName": "CPX62",
-    "oldUsd": 152.99,
-    "newUsd": 129.99,
-    "source": "https://www.hetzner.com/cloud/regular-performance/"
-  },
-  {
-    "date": "2026-11-11",
     "provider": "pawnhoster",
     "planId": "pawnhoster-kvm-s",
     "planName": "VPS KVM-S",
@@ -294,5 +240,185 @@
     "newUsd": 44.79,
     "source": "https://www.databasemart.com/vps-hosting/linux",
     "note": "The page now says \"Advanced Plus Linux VPS: $63.99 /mo on 24 months\"; the plan note does not. Update the note."
+  },
+  {
+    "date": "2026-11-15",
+    "provider": "nocix",
+    "planId": "nocix-261",
+    "planName": "AMD Legacy Quadcore",
+    "oldUsd": 22,
+    "newUsd": 20,
+    "source": "https://www.nocix.net/dedicated/",
+    "note": "Read by hand on NOCIX's dedicated server page on 15 Nov 2026: \"Deploy Now - $20.00 / month\" (last read $22.00 on 6 Nov 2026). No sale wording on the page."
+  },
+  {
+    "date": "2026-11-15",
+    "provider": "nocix",
+    "planId": "nocix-286",
+    "planName": "AMD Legacy Sexcore",
+    "oldUsd": 25,
+    "newUsd": 22,
+    "source": "https://www.nocix.net/dedicated/",
+    "note": "Read by hand on NOCIX's dedicated server page on 15 Nov 2026: \"Deploy Now - $22.00 / month\" (last read $25.00 on 6 Nov 2026). No sale wording on the page."
+  },
+  {
+    "date": "2026-11-15",
+    "provider": "nocix",
+    "planId": "nocix-374",
+    "planName": "Dual Opteron 6128 480GB SSD + 3TB HDD",
+    "oldUsd": 45,
+    "newUsd": 39,
+    "source": "https://www.nocix.net/dedicated/",
+    "note": "Read by hand on NOCIX's dedicated server page on 15 Nov 2026: \"Deploy Now - $39.00 / month\" (last read $45.00 on 6 Nov 2026). No sale wording on the page."
+  },
+  {
+    "date": "2026-11-15",
+    "provider": "nocix",
+    "planId": "nocix-332",
+    "planName": "Dual Xeon 5150 120GB SSD + 1TB",
+    "oldUsd": 25,
+    "newUsd": 24,
+    "source": "https://www.nocix.net/dedicated/",
+    "note": "Read by hand on NOCIX's dedicated server page on 15 Nov 2026: \"Deploy Now - $24.00 / month\" (last read $25.00 on 6 Nov 2026). No sale wording on the page."
+  },
+  {
+    "date": "2026-11-15",
+    "provider": "nocix",
+    "planId": "nocix-365",
+    "planName": "Dual Xeon 5420 240GB SSD + 2TB",
+    "oldUsd": 39,
+    "newUsd": 25,
+    "source": "https://www.nocix.net/dedicated/",
+    "note": "Read by hand on NOCIX's dedicated server page on 15 Nov 2026: \"Deploy Now - $25.00 / month\" (last read $39.00 on 6 Nov 2026). No sale wording on the page."
+  },
+  {
+    "date": "2026-11-15",
+    "provider": "nocix",
+    "planId": "nocix-369",
+    "planName": "Dual Xeon 5520 240GB SSD + 4TB",
+    "oldUsd": 54,
+    "newUsd": 35,
+    "source": "https://www.nocix.net/dedicated/",
+    "note": "Read by hand on NOCIX's dedicated server page on 15 Nov 2026: \"Deploy Now - $35.00 / month\" (last read $54.00 on 6 Nov 2026). No sale wording on the page."
+  },
+  {
+    "date": "2026-11-15",
+    "provider": "nocix",
+    "planId": "nocix-327",
+    "planName": "Xeon E3-1270v2 480GB SSD + 4TB",
+    "oldUsd": 59,
+    "newUsd": 49,
+    "source": "https://www.nocix.net/dedicated/",
+    "note": "Read by hand on NOCIX's dedicated server page on 15 Nov 2026: \"Deploy Now - $49.00 / month\" (last read $59.00 on 6 Nov 2026). No sale wording on the page."
+  },
+  {
+    "date": "2026-11-15",
+    "provider": "nocix",
+    "planId": "nocix-370",
+    "planName": "Dual Xeon 5639 1TB SSD",
+    "oldUsd": 64,
+    "newUsd": 49,
+    "source": "https://www.nocix.net/dedicated/",
+    "note": "Read by hand on NOCIX's dedicated server page on 15 Nov 2026: \"Deploy Now - $49.00 / month\" (last read $64.00 on 6 Nov 2026). No sale wording on the page."
+  },
+  {
+    "date": "2026-11-15",
+    "provider": "nocix",
+    "planId": "nocix-371",
+    "planName": "Dual Xeon 5650 1TB SSD + 3TB HDD",
+    "oldUsd": 69,
+    "newUsd": 54,
+    "source": "https://www.nocix.net/dedicated/",
+    "note": "Read by hand on NOCIX's dedicated server page on 15 Nov 2026: \"Deploy Now - $54.00 / month\" (last read $69.00 on 6 Nov 2026). No sale wording on the page."
+  },
+  {
+    "date": "2026-11-15",
+    "provider": "nocix",
+    "planId": "nocix-272",
+    "planName": "Dual Xeon E5-2670 96GB 960GB SSD",
+    "oldUsd": 64,
+    "newUsd": 59,
+    "source": "https://www.nocix.net/dedicated/",
+    "note": "Read by hand on NOCIX's dedicated server page on 15 Nov 2026: \"Deploy Now - $59.00 / month\" (last read $64.00 on 6 Nov 2026). No sale wording on the page."
+  },
+  {
+    "date": "2026-11-15",
+    "provider": "nocix",
+    "planId": "nocix-280",
+    "planName": "Dual Xeon E5-2670 96GB 2x480GB SSD",
+    "oldUsd": 64,
+    "newUsd": 59,
+    "source": "https://www.nocix.net/dedicated/",
+    "note": "Read by hand on NOCIX's dedicated server page on 15 Nov 2026: \"Deploy Now - $59.00 / month\" (last read $64.00 on 6 Nov 2026). No sale wording on the page."
+  },
+  {
+    "date": "2026-11-15",
+    "provider": "nocix",
+    "planId": "nocix-484",
+    "planName": "Dual Xeon E5-2650L v4 64GB + 120GB SSD + 1TB HDD",
+    "oldUsd": 129,
+    "newUsd": 99,
+    "source": "https://www.nocix.net/dedicated/",
+    "note": "Read by hand on NOCIX's dedicated server page on 15 Nov 2026: \"Deploy Now - $99.00 / month\" (last read $129.00 on 6 Nov 2026). No sale wording on the page."
+  },
+  {
+    "date": "2026-11-15",
+    "provider": "nocix",
+    "planId": "nocix-499",
+    "planName": "Dual Xeon E5-2697v4 128GB + 120GB SSD + 1TB HDD",
+    "oldUsd": 149,
+    "newUsd": 119,
+    "source": "https://www.nocix.net/dedicated/",
+    "note": "Read by hand on NOCIX's dedicated server page on 15 Nov 2026: \"Deploy Now - $119.00 / month\" (last read $149.00 on 6 Nov 2026). No sale wording on the page."
+  },
+  {
+    "date": "2026-11-15",
+    "provider": "nocix",
+    "planId": "nocix-478",
+    "planName": "Dual Xeon E5-2697v4 128GB + 120GB SSD + 2TB HDD",
+    "oldUsd": 159,
+    "newUsd": 129,
+    "source": "https://www.nocix.net/dedicated/",
+    "note": "Read by hand on NOCIX's dedicated server page on 15 Nov 2026: \"Deploy Now - $129.00 / month\" (last read $159.00 on 6 Nov 2026). No sale wording on the page."
+  },
+  {
+    "date": "2026-11-15",
+    "provider": "nocix",
+    "planId": "nocix-502",
+    "planName": "Dual Xeon E5-2697v4 128GB + 240GB NVMe + 2TB HDD",
+    "oldUsd": 169,
+    "newUsd": 139,
+    "source": "https://www.nocix.net/dedicated/",
+    "note": "Read by hand on NOCIX's dedicated server page on 15 Nov 2026: \"Deploy Now - $139.00 / month\" (last read $169.00 on 6 Nov 2026). No sale wording on the page."
+  },
+  {
+    "date": "2026-11-15",
+    "provider": "nocix",
+    "planId": "nocix-254",
+    "planName": "i5-750",
+    "oldUsd": 25,
+    "newUsd": 22,
+    "source": "https://www.nocix.net/dedicated/",
+    "note": "Read by hand on NOCIX's dedicated server page on 15 Nov 2026: \"Deploy Now - $22.00 / month\" (last read $25.00 on 6 Nov 2026). No sale wording on the page."
+  },
+  {
+    "date": "2026-11-15",
+    "provider": "nocix",
+    "planId": "nocix-179",
+    "planName": "I7-2600",
+    "oldUsd": 29,
+    "newUsd": 25,
+    "source": "https://www.nocix.net/dedicated/",
+    "note": "Read by hand on NOCIX's dedicated server page on 15 Nov 2026: \"Deploy Now - $25.00 / month\" (last read $29.00 on 6 Nov 2026). No sale wording on the page."
+  },
+  {
+    "date": "2026-11-15",
+    "provider": "nocix",
+    "planId": "nocix-318",
+    "planName": "i7-4790",
+    "oldUsd": 39,
+    "newUsd": 35,
+    "source": "https://www.nocix.net/dedicated/",
+    "note": "Read by hand on NOCIX's dedicated server page on 15 Nov 2026: \"Deploy Now - $35.00 / month\" (last read $39.00 on 6 Nov 2026). No sale wording on the page."
   }
 ]
