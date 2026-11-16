@@ -132,19 +132,19 @@ configs:
 # StackRates VPS prices and monthly price index
 
 StackRates reads VPS and cloud server prices from each provider's own pricing page or price API every day and
-publishes every read. On 16 November 2026 the daily file has 702 orderable plans from 96 providers; the
-history holds 12,792 reads of 98 providers' plans over 42 read days, 5 October 2026 to 15 November 2026.
+publishes every read. On 16 November 2026 the daily file has 710 orderable plans from 97 providers; the
+history holds 13,463 reads of 98 providers' plans over 43 read days, 5 October 2026 to 16 November 2026.
 
-The newest index figure, as the site cites it: StackRates VPS price index, Nov 2026: 4 GB median $14/mo over 93 plans with 4 GB (503 plans in the index), read 15 Nov 2026, stackrates.ai/vps-price-index/
+The newest index figure, as the site cites it: StackRates VPS price index, Nov 2026: 4 GB median $14/mo over 94 plans with 4 GB (508 plans in the index), read 16 Nov 2026, stackrates.ai/vps-price-index/
 
 ## Files
 
 | Subset | File | Rows | What |
 |---|---|---:|---|
-| `prices` | `prices.csv` | 702 | today's orderable plans, read 16 November 2026 |
-| `price_history` | `history/<provider>.csv` | 12,792 | every price read, 5 October 2026 to 15 November 2026, one file per provider |
+| `prices` | `prices.csv` | 710 | today's orderable plans, read 16 November 2026 |
+| `price_history` | `history/<provider>.csv` | 13,463 | every price read, 5 October 2026 to 16 November 2026, one file per provider |
 | `price_index` | `index/vps-price-index.csv` | 2 | the monthly VPS price index: medians at 1, 4 and 8 GB of RAM |
-| `price_index_plans` | `index/vps-price-index-plans.csv` | 796 | every plan behind each month of the index |
+| `price_index_plans` | `index/vps-price-index-plans.csv` | 801 | every plan behind each month of the index |
 | `year_on_year` | `year-on-year.csv` | 128 | each plan against its October 2025 Wayback Machine capture |
 
 Every CSV opens with one line, `# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read <date>`, before
@@ -164,7 +164,7 @@ its header. Skip it: `pandas.read_csv(url, skiprows=1)`.
   https://stackrates.ai/vps-price-index/
 
 ## Limits
-- 96 providers in today's file (98 in the history), not the whole market: the ones StackRates
+- 97 providers in today's file (98 in the history), not the whole market: the ones StackRates
   reads, listed in `history/README.md`.
 - The index's newest month runs to its last read day (`last_read`); its medians move when plans enter or leave, so
   read `change_pct_vs_prev_month` (the same plans in both months) for price moves.
@@ -294,7 +294,7 @@ its header. Skip it: `pandas.read_csv(url, skiprows=1)`.
 ## Licence and citation
 CC BY 4.0: credit "StackRates (stackrates.ai)" with a link to https://stackrates.ai/data/.
 
-StackRates VPS price index, Nov 2026: 4 GB median $14/mo over 93 plans with 4 GB (503 plans in the index), read 15 Nov 2026, stackrates.ai/vps-price-index/
+StackRates VPS price index, Nov 2026: 4 GB median $14/mo over 94 plans with 4 GB (508 plans in the index), read 16 Nov 2026, stackrates.ai/vps-price-index/
 
 ```bibtex
 @misc{stackrates_vps_index_2026_11,
@@ -303,8 +303,8 @@ StackRates VPS price index, Nov 2026: 4 GB median $14/mo over 93 plans with 4 GB
   year         = {2026},
   month        = {nov},
   howpublished = {\url{https://stackrates.ai/vps-price-index/}},
-  note         = {Data set, method 1, CC BY 4.0. 4 GB median \$14/mo over 93 plans with 4 GB (503 plans in the index); read 2026-11-15},
-  urldate      = {2026-11-15}
+  note         = {Data set, method 1, CC BY 4.0. 4 GB median \$14/mo over 94 plans with 4 GB (508 plans in the index); read 2026-11-16},
+  urldate      = {2026-11-16}
 }
 ```
 

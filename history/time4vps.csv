@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-01
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-16
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-29,time4vps,time4vps-linux-1,Linux 1,1,1,10,3,3.33,2.99,EUR,,https://www.time4vps.com/linux-vps/,manual,https://stackrates.ai/hosting/time4vps/history/
 2026-10-29,time4vps,time4vps-linux-16,Linux 16,4,16,200,1,38.94,34.99,EUR,,https://www.time4vps.com/linux-vps/,manual,https://stackrates.ai/hosting/time4vps/history/
@@ -18,3 +18,12 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-01,time4vps,time4vps-linux-48,Linux 48,12,48,600,1,268.12,239.99,EUR,,https://www.time4vps.com/linux-vps/,manual,https://stackrates.ai/hosting/time4vps/history/
 2026-11-01,time4vps,time4vps-linux-64,Linux 64,16,64,800,1,536.24,479.99,EUR,,https://www.time4vps.com/linux-vps/,manual,https://stackrates.ai/hosting/time4vps/history/
 2026-11-01,time4vps,time4vps-linux-8,Linux 8,3,8,100,1,22.33,19.99,EUR,,https://www.time4vps.com/linux-vps/,manual,https://stackrates.ai/hosting/time4vps/history/
+2026-11-16,time4vps,time4vps-linux-1,Linux 1,1,1,10,3,3.3,2.99,EUR,,https://www.time4vps.com/linux-vps/,manual,https://stackrates.ai/hosting/time4vps/history/
+2026-11-16,time4vps,time4vps-linux-16,Linux 16,4,16,200,1,38.67,34.99,EUR,,https://www.time4vps.com/linux-vps/,manual,https://stackrates.ai/hosting/time4vps/history/
+2026-11-16,time4vps,time4vps-linux-2,Linux 2,1,2,25,1,8.83,7.99,EUR,,https://www.time4vps.com/linux-vps/,manual,https://stackrates.ai/hosting/time4vps/history/
+2026-11-16,time4vps,time4vps-linux-24,Linux 24,6,24,300,1,71.83,64.99,EUR,,https://www.time4vps.com/linux-vps/,manual,https://stackrates.ai/hosting/time4vps/history/
+2026-11-16,time4vps,time4vps-linux-32,Linux 32,8,32,400,1,142.56,128.99,EUR,,https://www.time4vps.com/linux-vps/,manual,https://stackrates.ai/hosting/time4vps/history/
+2026-11-16,time4vps,time4vps-linux-4,Linux 4,2,4,50,1,14.36,12.99,EUR,,https://www.time4vps.com/linux-vps/,manual,https://stackrates.ai/hosting/time4vps/history/
+2026-11-16,time4vps,time4vps-linux-48,Linux 48,12,48,600,1,265.24,239.99,EUR,,https://www.time4vps.com/linux-vps/,manual,https://stackrates.ai/hosting/time4vps/history/
+2026-11-16,time4vps,time4vps-linux-64,Linux 64,16,64,800,1,530.48,479.99,EUR,,https://www.time4vps.com/linux-vps/,manual,https://stackrates.ai/hosting/time4vps/history/
+2026-11-16,time4vps,time4vps-linux-8,Linux 8,3,8,100,1,22.09,19.99,EUR,,https://www.time4vps.com/linux-vps/,manual,https://stackrates.ai/hosting/time4vps/history/
