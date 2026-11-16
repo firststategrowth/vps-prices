@@ -3,7 +3,7 @@
   "license": "CC BY 4.0",
   "attribution": "StackRates (https://stackrates.ai/data/)",
   "source": "StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-16",
-  "generated_at": "2026-11-16T07:30:59.960Z",
+  "generated_at": "2026-11-16T11:14:17.898Z",
   "last_manual_capture": "2026-11-16",
   "note": "Each row carries the date and method its price was read. Prices are provider list prices in USD per month; a provider that bills in euros has its euro price in billed_eur, one that bills in pounds its pound price in billed_gbp, converted at the ECB rate in fx (usdPerGbp is the ECB cross rate). ipv4_extra_usd is what a public IPv4 address adds to monthly_usd: Hetzner and netcup print their prices with the address included (monthly_usd + ipv4_extra_usd is the printed price), and every other provider with an ipv4_extra_usd bills it on top of the price it prints. Confirm at source_url before buying. Only plans that can be ordered today: plans the provider shows as sold out, and automatic prices not re-read for 7 days, are left out.",
   "fx": {
@@ -12748,7 +12748,7 @@
       "id": "extravm-2",
       "provider": "extravm",
       "provider_name": "ExtraVM",
-      "name": "KVM NVMe VPS 2 GB (Dallas)",
+      "name": "KVM NVMe VPS 2 GB",
       "monthly_usd": 8,
       "billed_eur": null,
       "billed_gbp": null,
