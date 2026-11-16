@@ -5,8 +5,8 @@ a month, read from the provider's own pricing page or price API on the date in `
 link in `source_url`. `price_source` says whether a row was read from the page, from the provider's
 price API, or by hand; rows read by hand can be a few days old.
 
-On 15 Nov 2026 the file has 705 plans from 96 providers. Plans the provider shows as sold out
-on that day are left out.
+On 16 Nov 2026 the file has 693 plans from 95 providers. Plans the provider shows as sold out
+on that day are left out. So are prices not re-read for more than 7 days.
 
 Three things that change what you pay are in their own columns:
 - `ipv4_extra_usd`: what a public IPv4 address adds to `monthly_usd`. Scaleway ($4.03/mo), phoenixNAP ($5.11/mo), Mythic Beasts ($2.65/mo) and VEXXHOST ($2.00/mo) bill it on top. Hetzner and netcup print their prices with the address included; for them `monthly_usd` and, where present, `billed_eur` are the price without it, and `monthly_usd` + `ipv4_extra_usd` is what they print. A row of netcup with `ipv4_extra_usd` empty (6 netcup plans) includes the address in `monthly_usd` at no separate charge.
