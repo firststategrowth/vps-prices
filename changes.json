@@ -420,5 +420,14 @@
     "newUsd": 35,
     "source": "https://www.nocix.net/dedicated/",
     "note": "Read by hand on NOCIX's dedicated server page on 15 Nov 2026: \"Deploy Now - $35.00 / month\" (last read $39.00 on 6 Nov 2026). No sale wording on the page."
+  },
+  {
+    "date": "2026-11-17",
+    "provider": "databasemart",
+    "planId": "dbm-advanced-plus",
+    "planName": "Advanced Plus Linux VPS",
+    "oldUsd": 44.79,
+    "newUsd": 63.99,
+    "source": "https://www.databasemart.com/vps-hosting/linux"
   }
 ]
