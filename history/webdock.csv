@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-16
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-17
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-11,webdock,webdock-advanced,VPS Advanced,1,2,15,1,4.82,4.3,EUR,0,https://webdock.io/en/pricing,page,https://stackrates.ai/hosting/webdock/history/
 2026-10-11,webdock,webdock-essential,VPS Essential,1,2,15,1,2.41,2.15,EUR,0,https://webdock.io/en/pricing,page,https://stackrates.ai/hosting/webdock/history/
@@ -102,3 +102,6 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-16,webdock,webdock-advanced,VPS Advanced,1,2,15,1,4.75,4.3,EUR,0,https://webdock.io/en/pricing,page,https://stackrates.ai/hosting/webdock/history/
 2026-11-16,webdock,webdock-essential,VPS Essential,1,2,15,1,2.38,2.15,EUR,0,https://webdock.io/en/pricing,page,https://stackrates.ai/hosting/webdock/history/
 2026-11-16,webdock,webdock-pro,VPS Pro,6,10,40,1,21.66,19.6,EUR,0,https://webdock.io/en/pricing,page,https://stackrates.ai/hosting/webdock/history/
+2026-11-17,webdock,webdock-advanced,VPS Advanced,1,2,15,1,4.74,4.3,EUR,0,https://webdock.io/en/pricing,page,https://stackrates.ai/hosting/webdock/history/
+2026-11-17,webdock,webdock-essential,VPS Essential,1,2,15,1,2.37,2.15,EUR,0,https://webdock.io/en/pricing,page,https://stackrates.ai/hosting/webdock/history/
+2026-11-17,webdock,webdock-pro,VPS Pro,6,10,40,1,21.59,19.6,EUR,0,https://webdock.io/en/pricing,page,https://stackrates.ai/hosting/webdock/history/
