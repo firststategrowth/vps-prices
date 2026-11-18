@@ -438,5 +438,185 @@
     "oldUsd": 4.5,
     "newUsd": 5,
     "source": "https://extravm.com/vps"
+  },
+  {
+    "date": "2026-11-18",
+    "provider": "raff",
+    "planId": "raff-win-std-1-2",
+    "planName": "Windows Standard 1 vCPU / 2 GB",
+    "oldUsd": 22.99,
+    "newUsd": 19.99,
+    "source": "https://rafftechnologies.com/pricing"
+  },
+  {
+    "date": "2026-11-18",
+    "provider": "raff",
+    "planId": "raff-win-std-2-4",
+    "planName": "Windows Standard 2 vCPU / 4 GB",
+    "oldUsd": 29.99,
+    "newUsd": 26.99,
+    "source": "https://rafftechnologies.com/pricing"
+  },
+  {
+    "date": "2026-11-18",
+    "provider": "raff",
+    "planId": "raff-win-std-2-6",
+    "planName": "Windows Standard 2 vCPU / 6 GB",
+    "oldUsd": 34.99,
+    "newUsd": 31.99,
+    "source": "https://rafftechnologies.com/pricing"
+  },
+  {
+    "date": "2026-11-18",
+    "provider": "raff",
+    "planId": "raff-win-std-4-8",
+    "planName": "Windows Standard 4 vCPU / 8 GB",
+    "oldUsd": 39.99,
+    "newUsd": 48.99,
+    "source": "https://rafftechnologies.com/pricing"
+  },
+  {
+    "date": "2026-11-18",
+    "provider": "raff",
+    "planId": "raff-win-std-4-12",
+    "planName": "Windows Standard 4 vCPU / 12 GB",
+    "oldUsd": 49.99,
+    "newUsd": 58.99,
+    "source": "https://rafftechnologies.com/pricing"
+  },
+  {
+    "date": "2026-11-18",
+    "provider": "raff",
+    "planId": "raff-win-biz-1-2",
+    "planName": "Windows Business 1 vCPU / 2 GB",
+    "oldUsd": 28.99,
+    "newUsd": 25.99,
+    "source": "https://rafftechnologies.com/pricing"
+  },
+  {
+    "date": "2026-11-18",
+    "provider": "raff",
+    "planId": "raff-win-biz-2-2",
+    "planName": "Windows Business 2 vCPU / 2 GB",
+    "oldUsd": 32.99,
+    "newUsd": 29.99,
+    "source": "https://rafftechnologies.com/pricing"
+  },
+  {
+    "date": "2026-11-18",
+    "provider": "raff",
+    "planId": "raff-win-biz-2-4",
+    "planName": "Windows Business 2 vCPU / 4 GB",
+    "oldUsd": 37.99,
+    "newUsd": 34.99,
+    "source": "https://rafftechnologies.com/pricing"
+  },
+  {
+    "date": "2026-11-18",
+    "provider": "raff",
+    "planId": "raff-win-biz-2-6",
+    "planName": "Windows Business 2 vCPU / 6 GB",
+    "oldUsd": 42.99,
+    "newUsd": 39.99,
+    "source": "https://rafftechnologies.com/pricing"
+  },
+  {
+    "date": "2026-11-18",
+    "provider": "raff",
+    "planId": "raff-win-biz-4-4",
+    "planName": "Windows Business 4 vCPU / 4 GB",
+    "oldUsd": 44.99,
+    "newUsd": 53.99,
+    "source": "https://rafftechnologies.com/pricing"
+  },
+  {
+    "date": "2026-11-18",
+    "provider": "raff",
+    "planId": "raff-win-biz-4-8",
+    "planName": "Windows Business 4 vCPU / 8 GB",
+    "oldUsd": 55.99,
+    "newUsd": 64.99,
+    "source": "https://rafftechnologies.com/pricing"
+  },
+  {
+    "date": "2026-11-18",
+    "provider": "raff",
+    "planId": "raff-win-biz-4-12",
+    "planName": "Windows Business 4 vCPU / 12 GB",
+    "oldUsd": 64.99,
+    "newUsd": 73.99,
+    "source": "https://rafftechnologies.com/pricing"
+  },
+  {
+    "date": "2026-11-18",
+    "provider": "raff",
+    "planId": "raff-win-biz-8-32",
+    "planName": "Windows Business 8 vCPU / 32 GB",
+    "oldUsd": 152.99,
+    "newUsd": 185.99,
+    "source": "https://rafftechnologies.com/pricing"
+  },
+  {
+    "date": "2026-11-18",
+    "provider": "raff",
+    "planId": "raff-win-std-8-16",
+    "planName": "Windows Standard 8 vCPU / 16 GB",
+    "oldUsd": 64.99,
+    "newUsd": 97.99,
+    "source": "https://rafftechnologies.com/pricing"
+  },
+  {
+    "date": "2026-11-18",
+    "provider": "raff",
+    "planId": "raff-win-std-8-32",
+    "planName": "Windows Standard 8 vCPU / 32 GB",
+    "oldUsd": 94.99,
+    "newUsd": 127.99,
+    "source": "https://rafftechnologies.com/pricing"
+  },
+  {
+    "date": "2026-11-18",
+    "provider": "raff",
+    "planId": "raff-win-std-16-32",
+    "planName": "Windows Standard 16 vCPU / 32 GB",
+    "oldUsd": 114.99,
+    "newUsd": 195.99,
+    "source": "https://rafftechnologies.com/pricing"
+  },
+  {
+    "date": "2026-11-18",
+    "provider": "raff",
+    "planId": "raff-win-biz-8-8",
+    "planName": "Windows Business 8 vCPU / 8 GB",
+    "oldUsd": 69.99,
+    "newUsd": 102.99,
+    "source": "https://rafftechnologies.com/pricing"
+  },
+  {
+    "date": "2026-11-18",
+    "provider": "raff",
+    "planId": "raff-win-biz-8-16",
+    "planName": "Windows Business 8 vCPU / 16 GB",
+    "oldUsd": 91.99,
+    "newUsd": 124.99,
+    "source": "https://rafftechnologies.com/pricing"
+  },
+  {
+    "date": "2026-11-18",
+    "provider": "raff",
+    "planId": "raff-win-biz-16-16",
+    "planName": "Windows Business 16 vCPU / 16 GB",
+    "oldUsd": 127.99,
+    "newUsd": 208.99,
+    "source": "https://rafftechnologies.com/pricing"
+  },
+  {
+    "date": "2026-11-18",
+    "provider": "raff",
+    "planId": "raff-win-biz-16-32",
+    "planName": "Windows Business 16 vCPU / 32 GB",
+    "oldUsd": 189.99,
+    "newUsd": 270.99,
+    "source": "https://rafftechnologies.com/pricing"
   }
 ]
