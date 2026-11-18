@@ -429,5 +429,14 @@
     "oldUsd": 44.79,
     "newUsd": 63.99,
     "source": "https://www.databasemart.com/vps-hosting/linux"
+  },
+  {
+    "date": "2026-11-18",
+    "provider": "extravm",
+    "planId": "extravm-1",
+    "planName": "KVM NVMe VPS 1 GB",
+    "oldUsd": 4.5,
+    "newUsd": 5,
+    "source": "https://extravm.com/vps"
   }
 ]
