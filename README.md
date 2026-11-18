@@ -5,7 +5,7 @@ a month, read from the provider's own pricing page or price API on the date in `
 link in `source_url`. `price_source` says whether a row was read from the page, from the provider's
 price API, or by hand; rows read by hand can be a few days old.
 
-On 18 Nov 2026 the file has 759 plans from 97 providers. Plans the provider shows as sold out
+On 18 Nov 2026 the file has 766 plans from 98 providers. Plans the provider shows as sold out
 on that day are left out.
 
 Three things that change what you pay are in their own columns:
@@ -33,12 +33,12 @@ The managed WordPress plans of Kinsta, Hosting.com, Liquid Web, KnownHost and El
 - `index/vps-price-index.csv` (method in `index/vps-price-index.json`): the monthly VPS price index, the median
   regular monthly price of unmanaged VPS plans with 1, 4 and 8 GB of RAM, October 2026 to November 2026;
   `index/vps-price-index-plans.csv` lists every plan behind each month. The same files as https://stackrates.ai/vps-price-index/
-- `history/<provider>.csv`: every price read from 5 October 2026 to 17 November 2026, one row per plan per read day,
-  99 providers, 14,150 rows; columns, provenance and gaps in `history/README.md`
+- `history/<provider>.csv`: every price read from 5 October 2026 to 18 November 2026, one row per plan per read day,
+  99 providers, 14,837 rows; columns, provenance and gaps in `history/README.md`
 - `cards/`: dataset cards for Hugging Face and Kaggle, rebuilt with the data
 
 ## Cite it
-StackRates VPS price index, Nov 2026: 4 GB median $15.99/mo over 101 plans with 4 GB (561 plans in the index), read 17 Nov 2026, stackrates.ai/vps-price-index/
+StackRates VPS price index, Nov 2026: 4 GB median $15.99/mo over 103 plans with 4 GB (564 plans in the index), read 18 Nov 2026, stackrates.ai/vps-price-index/
 
 APA and BibTeX: https://stackrates.ai/vps-price-index/#index-cite; this repository: StackRates (2026). VPS prices, read
 daily [Data set]. https://github.com/firststategrowth/vps-prices

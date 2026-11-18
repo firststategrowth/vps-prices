@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-17
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-18
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-14,exoscale,exoscale-large,Standard Large,4,8,10,1,77.37,69.15,EUR,0,https://www.exoscale.com/pricing/,api,https://stackrates.ai/hosting/exoscale/history/
 2026-10-14,exoscale,exoscale-medium,Standard Medium,2,4,10,1,39.25,35.08,EUR,0,https://www.exoscale.com/pricing/,api,https://stackrates.ai/hosting/exoscale/history/
@@ -158,3 +158,8 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-17,exoscale,exoscale-micro,Standard Micro,1,0.5,10,1,6.98,6.34,EUR,0,https://www.exoscale.com/pricing/,api,https://stackrates.ai/hosting/exoscale/history/
 2026-11-17,exoscale,exoscale-small,Standard Small,2,2,10,1,19.88,18.05,EUR,0,https://www.exoscale.com/pricing/,api,https://stackrates.ai/hosting/exoscale/history/
 2026-11-17,exoscale,exoscale-tiny,Standard Tiny,1,1,10,1,12.85,11.67,EUR,0,https://www.exoscale.com/pricing/,api,https://stackrates.ai/hosting/exoscale/history/
+2026-11-18,exoscale,exoscale-large,Standard Large,4,8,10,1,75.99,69.15,EUR,0,https://www.exoscale.com/pricing/,api,https://stackrates.ai/hosting/exoscale/history/
+2026-11-18,exoscale,exoscale-medium,Standard Medium,2,4,10,1,38.55,35.08,EUR,0,https://www.exoscale.com/pricing/,api,https://stackrates.ai/hosting/exoscale/history/
+2026-11-18,exoscale,exoscale-micro,Standard Micro,1,0.5,10,1,6.97,6.34,EUR,0,https://www.exoscale.com/pricing/,api,https://stackrates.ai/hosting/exoscale/history/
+2026-11-18,exoscale,exoscale-small,Standard Small,2,2,10,1,19.84,18.05,EUR,0,https://www.exoscale.com/pricing/,api,https://stackrates.ai/hosting/exoscale/history/
+2026-11-18,exoscale,exoscale-tiny,Standard Tiny,1,1,10,1,12.82,11.67,EUR,0,https://www.exoscale.com/pricing/,api,https://stackrates.ai/hosting/exoscale/history/

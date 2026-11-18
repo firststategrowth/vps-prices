@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-17
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-18
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-11,netcup,netcup-vps-1000,VPS 1000 G12.5,4,8,128,1,15.14,13.51,EUR,0.56,https://www.netcup.com/en/server/vps/vps-1000-g12.5-iv-24m-eu,page,https://stackrates.ai/hosting/netcup/history/
 2026-10-11,netcup,netcup-vps-2000,VPS 2000 G12.5,8,16,256,1,28.59,25.51,EUR,0.56,https://www.netcup.com/en/server/vps/vps-2000-g12.5-iv-24m-eu,page,https://stackrates.ai/hosting/netcup/history/
@@ -211,3 +211,14 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-17,netcup,netcup-vps-lite-4,VPS Lite 4 G12.5s,16,32,640,1,28.56,25.93,EUR,0,https://www.netcup.com/en/server/vps/vps-lite-4-g12.5s-iv-1m,page,https://stackrates.ai/hosting/netcup/history/
 2026-11-17,netcup,netcup-vps-nano,VPS nano G11.5s,2,2,60,6,3.41,3.1,EUR,0,https://www.netcup.com/en/server/vps/vps-nano-g11.5s-iv-6m-nue,page,https://stackrates.ai/hosting/netcup/history/
 2026-11-17,netcup,netcup-vps-pico,VPS pico G11.5s,1,1,30,12,2.04,1.85,EUR,0,https://www.netcup.com/en/server/vps/vps-pico-g11.5s-iv-12m-nue,page,https://stackrates.ai/hosting/netcup/history/
+2026-11-18,netcup,netcup-vps-1000,VPS 1000 G12.5,4,8,128,1,14.85,13.51,EUR,0.55,https://www.netcup.com/en/server/vps/vps-1000-g12.5-iv-24m-eu,page,https://stackrates.ai/hosting/netcup/history/
+2026-11-18,netcup,netcup-vps-2000,VPS 2000 G12.5,8,16,256,1,28.03,25.51,EUR,0.55,https://www.netcup.com/en/server/vps/vps-2000-g12.5-iv-24m-eu,page,https://stackrates.ai/hosting/netcup/history/
+2026-11-18,netcup,netcup-vps-4000,VPS 4000 G12.5,12,32,512,1,47.62,43.33,EUR,0.55,https://www.netcup.com/en/server/vps/vps-4000-g12.5-iv-24m-eu,page,https://stackrates.ai/hosting/netcup/history/
+2026-11-18,netcup,netcup-vps-500,VPS 500 G12.5,2,4,64,1,8.22,7.48,EUR,0.55,https://www.netcup.com/en/server/vps/vps-500-g12.5-iv-24m-eu,page,https://stackrates.ai/hosting/netcup/history/
+2026-11-18,netcup,netcup-vps-8000,VPS 8000 G12.5,16,64,1024,1,70.7,64.34,EUR,0.55,https://www.netcup.com/en/server/vps/vps-8000-g12.5-iv-24m-eu,page,https://stackrates.ai/hosting/netcup/history/
+2026-11-18,netcup,netcup-vps-lite-1,VPS Lite 1 G12.5s,2,4,80,6,5.41,4.92,EUR,0,https://www.netcup.com/en/server/vps/vps-lite-1-g12.5s-iv-6m,page,https://stackrates.ai/hosting/netcup/history/
+2026-11-18,netcup,netcup-vps-lite-2,VPS Lite 2 G12.5s,4,8,160,3,8.77,7.98,EUR,0,https://www.netcup.com/en/server/vps/vps-lite-2-g12.5s-iv-3m,page,https://stackrates.ai/hosting/netcup/history/
+2026-11-18,netcup,netcup-vps-lite-3,VPS Lite 3 G12.5s,8,16,320,2,15.38,14,EUR,0,https://www.netcup.com/en/server/vps/vps-lite-3-g12.5s-iv-2m,page,https://stackrates.ai/hosting/netcup/history/
+2026-11-18,netcup,netcup-vps-lite-4,VPS Lite 4 G12.5s,16,32,640,1,28.49,25.93,EUR,0,https://www.netcup.com/en/server/vps/vps-lite-4-g12.5s-iv-1m,page,https://stackrates.ai/hosting/netcup/history/
+2026-11-18,netcup,netcup-vps-nano,VPS nano G11.5s,2,2,60,6,3.41,3.1,EUR,0,https://www.netcup.com/en/server/vps/vps-nano-g11.5s-iv-6m-nue,page,https://stackrates.ai/hosting/netcup/history/
+2026-11-18,netcup,netcup-vps-pico,VPS pico G11.5s,1,1,30,12,2.03,1.85,EUR,0,https://www.netcup.com/en/server/vps/vps-pico-g11.5s-iv-12m-nue,page,https://stackrates.ai/hosting/netcup/history/
