@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-18
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-19
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-11-17,raff,raff-co-1-2,Cost-Optimized 1 vCPU / 2 GB,1,2,25,1,4.99,4.99,USD,0,https://rafftechnologies.com/pricing,manual,https://stackrates.ai/hosting/raff/history/
 2026-11-17,raff,raff-co-12-24,Cost-Optimized 12 vCPU / 24 GB,12,24,120,1,69.99,69.99,USD,0,https://rafftechnologies.com/pricing,manual,https://stackrates.ai/hosting/raff/history/
@@ -114,3 +114,60 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-18,raff,raff-win-std-4-8,Windows Standard 4 vCPU / 8 GB,4,8,60,1,39.99,39.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
 2026-11-18,raff,raff-win-std-8-16,Windows Standard 8 vCPU / 16 GB,8,16,100,1,64.99,64.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
 2026-11-18,raff,raff-win-std-8-32,Windows Standard 8 vCPU / 32 GB,8,32,120,1,94.99,94.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-co-1-2,Cost-Optimized 1 vCPU / 2 GB,1,2,25,1,4.99,4.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-co-12-24,Cost-Optimized 12 vCPU / 24 GB,12,24,120,1,69.99,69.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-co-16-32,Cost-Optimized 16 vCPU / 32 GB,16,32,160,1,89.99,89.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-co-2-2,Cost-Optimized 2 vCPU / 2 GB,2,2,25,1,6.99,6.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-co-2-4,Cost-Optimized 2 vCPU / 4 GB,2,4,30,1,9.99,9.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-co-2-8,Cost-Optimized 2 vCPU / 8 GB,2,8,40,1,16.99,16.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-co-4-16,Cost-Optimized 4 vCPU / 16 GB,4,16,70,1,31.99,31.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-co-4-4,Cost-Optimized 4 vCPU / 4 GB,4,4,35,1,13.99,13.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-co-4-8,Cost-Optimized 4 vCPU / 8 GB,4,8,50,1,19.99,19.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-co-8-16,Cost-Optimized 8 vCPU / 16 GB,8,16,80,1,39.99,39.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-co-8-32,Cost-Optimized 8 vCPU / 32 GB,8,32,120,1,69.99,69.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-co-8-8,Cost-Optimized 8 vCPU / 8 GB,8,8,60,1,27.99,27.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-cpu-1-1,CPU-Optimized 1 vCPU / 1 GB,1,1,25,1,15.99,15.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-cpu-1-2,CPU-Optimized 1 vCPU / 2 GB,1,2,50,1,18.99,18.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-cpu-16-16,CPU-Optimized 16 vCPU / 16 GB,16,16,200,1,240.99,240.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-cpu-16-32,CPU-Optimized 16 vCPU / 32 GB,16,32,360,1,288.99,288.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-cpu-2-2,CPU-Optimized 2 vCPU / 2 GB,2,2,50,1,30.99,30.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-cpu-2-4,CPU-Optimized 2 vCPU / 4 GB,2,4,80,1,36.99,36.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-cpu-4-4,CPU-Optimized 4 vCPU / 4 GB,4,4,80,1,60.99,60.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-cpu-4-8,CPU-Optimized 4 vCPU / 8 GB,4,8,120,1,72.99,72.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-cpu-8-16,CPU-Optimized 8 vCPU / 16 GB,8,16,180,1,144.99,144.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-cpu-8-32,CPU-Optimized 8 vCPU / 32 GB,8,32,240,1,192.99,192.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-cpu-8-8,CPU-Optimized 8 vCPU / 8 GB,8,8,120,1,120.99,120.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-gp-1-1,General Purpose 1 vCPU / 1 GB,1,1,25,1,4.99,4.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-gp-1-2,General Purpose 1 vCPU / 2 GB,1,2,50,1,8.99,8.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-gp-12-24,General Purpose 12 vCPU / 24 GB,12,24,320,1,109.99,109.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-gp-16-16,General Purpose 16 vCPU / 16 GB,16,16,240,1,103.99,103.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-gp-16-32,General Purpose 16 vCPU / 32 GB,16,32,320,1,139.99,139.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-gp-2-2,General Purpose 2 vCPU / 2 GB,2,2,40,1,12.99,12.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-gp-2-4,General Purpose 2 vCPU / 4 GB,2,4,80,1,17.99,17.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-gp-2-8,General Purpose 2 vCPU / 8 GB,2,8,160,1,27.99,27.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-gp-4-16,General Purpose 4 vCPU / 16 GB,4,16,240,1,55.99,55.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-gp-4-4,General Purpose 4 vCPU / 4 GB,4,4,80,1,24.99,24.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-gp-4-8,General Purpose 4 vCPU / 8 GB,4,8,160,1,33.99,33.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-gp-8-16,General Purpose 8 vCPU / 16 GB,8,16,240,1,71.99,71.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-gp-8-32,General Purpose 8 vCPU / 32 GB,8,32,320,1,119.99,119.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-gp-8-8,General Purpose 8 vCPU / 8 GB,8,8,160,1,48.99,48.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-win-biz-1-2,Windows Business 1 vCPU / 2 GB,1,2,50,1,25.99,25.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-win-biz-16-16,Windows Business 16 vCPU / 16 GB,16,16,200,1,208.99,208.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-win-biz-16-32,Windows Business 16 vCPU / 32 GB,16,32,360,1,270.99,270.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-win-biz-2-2,Windows Business 2 vCPU / 2 GB,2,2,50,1,29.99,29.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-win-biz-2-4,Windows Business 2 vCPU / 4 GB,2,4,80,1,34.99,34.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-win-biz-2-6,Windows Business 2 vCPU / 6 GB,2,6,100,1,39.99,39.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-win-biz-4-12,Windows Business 4 vCPU / 12 GB,4,12,150,1,73.99,73.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-win-biz-4-4,Windows Business 4 vCPU / 4 GB,4,4,80,1,53.99,53.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-win-biz-4-8,Windows Business 4 vCPU / 8 GB,4,8,120,1,64.99,64.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-win-biz-8-16,Windows Business 8 vCPU / 16 GB,8,16,180,1,124.99,124.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-win-biz-8-32,Windows Business 8 vCPU / 32 GB,8,32,240,1,185.99,185.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-win-biz-8-8,Windows Business 8 vCPU / 8 GB,8,8,120,1,102.99,102.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-win-std-1-2,Windows Standard 1 vCPU / 2 GB,1,2,50,1,19.99,19.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-win-std-16-32,Windows Standard 16 vCPU / 32 GB,16,32,160,1,195.99,195.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-win-std-2-4,Windows Standard 2 vCPU / 4 GB,2,4,50,1,26.99,26.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-win-std-2-6,Windows Standard 2 vCPU / 6 GB,2,6,60,1,31.99,31.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-win-std-4-12,Windows Standard 4 vCPU / 12 GB,4,12,80,1,58.99,58.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-win-std-4-8,Windows Standard 4 vCPU / 8 GB,4,8,60,1,48.99,48.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-win-std-8-16,Windows Standard 8 vCPU / 16 GB,8,16,100,1,97.99,97.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
+2026-11-19,raff,raff-win-std-8-32,Windows Standard 8 vCPU / 32 GB,8,32,120,1,127.99,127.99,USD,0,https://rafftechnologies.com/pricing,api,https://stackrates.ai/hosting/raff/history/
