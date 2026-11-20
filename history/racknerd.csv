@@ -258,4 +258,8 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-20,racknerd,rn-2,KVM 2GB,3,2,75,1,20.59,20.59,USD,0,https://www.racknerd.com/kvm-vps,page,https://stackrates.ai/hosting/racknerd/history/
 2026-11-20,racknerd,rn-4,KVM 4GB,4,4,130,1,24.59,24.59,USD,0,https://www.racknerd.com/kvm-vps,page,https://stackrates.ai/hosting/racknerd/history/
 2026-11-20,racknerd,rn-8,KVM 8GB,6,8,220,1,36.59,36.59,USD,0,https://www.racknerd.com/kvm-vps,page,https://stackrates.ai/hosting/racknerd/history/
-2026-11-20,racknerd,rn-special-1,KVM VPS Special 1 GB,1,1,20,12,1.33,1.33,USD,0,https://www.racknerd.com/specials/,page,https://stackrates.ai/hosting/racknerd/history/
+2026-11-20,racknerd,rn-bf-1,Black Friday 1 GB KVM VPS,1,1,20,12,1.33,1.33,USD,0,https://www.racknerd.com/BlackFriday/,page,https://stackrates.ai/hosting/racknerd/history/
+2026-11-20,racknerd,rn-bf-2-5,Black Friday 2.5 GB KVM VPS,2,2.5,30,12,2.33,2.33,USD,0,https://www.racknerd.com/BlackFriday/,page,https://stackrates.ai/hosting/racknerd/history/
+2026-11-20,racknerd,rn-bf-4,Black Friday 4 GB KVM VPS,4,4,60,12,4,4,USD,0,https://www.racknerd.com/BlackFriday/,page,https://stackrates.ai/hosting/racknerd/history/
+2026-11-20,racknerd,rn-bf-6,Black Friday 6 GB KVM VPS,6,6,85,12,6.25,6.25,USD,0,https://www.racknerd.com/BlackFriday/,page,https://stackrates.ai/hosting/racknerd/history/
+2026-11-20,racknerd,rn-bf-8,Black Friday 8 GB KVM VPS,6,8,140,12,7.92,7.92,USD,0,https://www.racknerd.com/BlackFriday/,page,https://stackrates.ai/hosting/racknerd/history/

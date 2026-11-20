@@ -618,14 +618,5 @@
     "oldUsd": 189.99,
     "newUsd": 270.99,
     "source": "https://rafftechnologies.com/pricing"
-  },
-  {
-    "date": "2026-11-20",
-    "provider": "racknerd",
-    "planId": "rn-special-1",
-    "planName": "KVM VPS Special 1 GB",
-    "oldUsd": 1.83,
-    "newUsd": 1.33,
-    "source": "https://www.racknerd.com/specials/"
   }
 ]

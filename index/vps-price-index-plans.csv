@@ -750,7 +750,12 @@ month,plan_id,provider,read_date,vcpu,ram_gb,disk_gb,term_months,price_usd_month
 2026-11,rn-2,racknerd,2026-11-20,3,2,75,1,20.59,20.59,USD,0,https://stackrates.ai/hosting/racknerd/history/
 2026-11,rn-4,racknerd,2026-11-20,4,4,130,1,24.59,24.59,USD,0,https://stackrates.ai/hosting/racknerd/history/
 2026-11,rn-8,racknerd,2026-11-20,6,8,220,1,36.59,36.59,USD,0,https://stackrates.ai/hosting/racknerd/history/
-2026-11,rn-special-1,racknerd,2026-11-20,1,1,20,12,1.33,1.33,USD,,https://stackrates.ai/hosting/racknerd/history/
+2026-11,rn-bf-1,racknerd,2026-11-20,1,1,20,12,1.33,1.33,USD,,https://stackrates.ai/hosting/racknerd/history/
+2026-11,rn-bf-2-5,racknerd,2026-11-20,2,2.5,30,12,2.33,2.33,USD,,https://stackrates.ai/hosting/racknerd/history/
+2026-11,rn-bf-4,racknerd,2026-11-20,4,4,60,12,4,4,USD,,https://stackrates.ai/hosting/racknerd/history/
+2026-11,rn-bf-6,racknerd,2026-11-20,6,6,85,12,6.25,6.25,USD,,https://stackrates.ai/hosting/racknerd/history/
+2026-11,rn-bf-8,racknerd,2026-11-20,6,8,140,12,7.92,7.92,USD,,https://stackrates.ai/hosting/racknerd/history/
+2026-11,rn-special-1,racknerd,2026-11-19,1,1,20,12,1.83,1.83,USD,,https://stackrates.ai/hosting/racknerd/history/
 2026-11,rn-special-2,racknerd,2026-11-19,2,2,35,12,3,3,USD,,https://stackrates.ai/hosting/racknerd/history/
 2026-11,rn-special-4,racknerd,2026-11-19,3,4,60,12,5,5,USD,,https://stackrates.ai/hosting/racknerd/history/
 2026-11,rn-special-6,racknerd,2026-11-19,6,6,100,12,7.5,7.5,USD,,https://stackrates.ai/hosting/racknerd/history/

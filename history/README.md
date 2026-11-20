@@ -1,7 +1,7 @@
 # StackRates price history
 
 Every price StackRates read for every plan, one file per provider, from 2026-10-05 to 2026-11-20 (UTC read dates).
-16202 rows, 807 plans, 99 providers. Licence CC BY 4.0.
+16206 rows, 812 plans, 99 providers. Licence CC BY 4.0.
 Written by `app/frontend/scripts/data/build-history.mjs` from the dated record; method 1 (2026-11-06).
 
 Cite as: StackRates (2026). VPS price history, reads 2026-10-05 to 2026-11-20. https://stackrates.ai/data/history/
@@ -46,7 +46,7 @@ Prices are as the providers print them: most EU providers before VAT, US provide
 - A struck price at a provider that runs no sale (rule from 2026-11-07): where the provider's page shows a lower price beside a struck-through one with no months stated, and our Deals Desk finds no sale at that provider, price_usd_month and price_native are the price the page bills; the struck figure is not a reference price and is never a row's price. Until 2026-11-07 the run stored the struck figure, so those rows carry the billed figure as a reading-method correction, on every day the provider's page showed the struck figure beside it (from src/data/offer-log.json): Hivelocity pro.md.amd USD 20 to 15 from 2026-10-11, Database Mart Basic USD 12.99 to 9.74 and Professional USD 23.99 to 18.47 on 2026-11-04 to 2026-11-06, Advanced USD 43.99 to 30.79 from 2026-11-07. On the days outside those windows the page billed the higher figure itself, so Database Mart's moves on 2026-11-04 (cuts) and 2026-11-07 (rises for Basic and Professional, a cut for Advanced) are real price moves.
 - Plan facts (name, vCPU, RAM, disk, term, IPv4 fee) are the catalogue's on master at the end of the read day. What a plan is (IPv6 only, IPv4 not stated on the provider's pages) is today's catalogue's word for every day, so a later correction applies to the whole history.
 
-All rows by method: api 2816, manual 623, page 12763.
+All rows by method: api 2816, manual 623, page 12767.
 
 ## Coverage by provider
 
@@ -121,7 +121,7 @@ All rows by method: api 2816, manual 623, page 12763.
 | phoenixnap | phoenixNAP | 4 | 148 | 2026-10-14 | 2026-11-20 | 37 | 1 | page 148 |
 | prohosting24 | ProHosting24 | 6 | 90 | 2026-11-06 | 2026-11-20 | 15 | 0 | manual 6, page 84 |
 | quickpacket | QuickPacket | 27 | 351 | 2026-11-08 | 2026-11-20 | 13 | 0 | page 351 |
-| racknerd | RackNerd | 9 | 259 | 2026-10-05 | 2026-11-20 | 47 | 0 | manual 5, page 254 |
+| racknerd | RackNerd | 14 | 263 | 2026-10-05 | 2026-11-20 | 47 | 0 | manual 5, page 258 |
 | raff | Raff Technologies | 57 | 228 | 2026-11-17 | 2026-11-20 | 4 | 0 | api 171, manual 57 |
 | raiola | Raiola Networks | 4 | 52 | 2026-11-08 | 2026-11-20 | 13 | 0 | page 52 |
 | ramnode | RamNode | 6 | 246 | 2026-10-11 | 2026-11-20 | 41 | 0 | page 246 |
@@ -168,7 +168,7 @@ All rows by method: api 2816, manual 623, page 12763.
 
 ## Corrected rows
 
-62 rows carry a figure the team corrected after the read: 18 in place in the site's own daily record, with a dated commit that says why (kind `daily-record`); 44 because the way the price was read changed while the provider's price did not (kind `reading-method`: the provider's printed price was the same on both reads; the earlier row takes the figure the later method gives). 28 more rows were corrected that way and then restored to the figure as read (kind `reverted`: revisions.csv keeps both entries for each). The row shows the corrected figure, and a corrected figure is never counted as a price move; /data/history/revisions.csv lists each one with the figure as read, the commit that corrected it and its kind (`daily-record`, `reading-method`, or `reverted` for a correction undone, where the row shows the figure as read again).
+62 rows carry a figure the team corrected after the read: 18 in place in the site's own daily record, with a dated commit that says why (kind `daily-record`); 44 because the way the price was read changed while the provider's price did not (kind `reading-method`: the provider's printed price was the same on both reads; the earlier row takes the figure the later method gives). 28 more rows were corrected that way and then restored to the figure as read (kind `reverted`: revisions.csv keeps both entries for each). 1 more row was taken out because it was no read of the plan (kind `not-a-read`: the page read that day no longer showed the plan; revisions.csv keeps the figure as stored and why). The row shows the corrected figure, and a corrected figure is never counted as a price move; /data/history/revisions.csv lists each one with the figure as read, the commit that corrected it and its kind (`daily-record`, `reading-method`, `reverted` for a correction undone, where the row shows the figure as read again, or `not-a-read` for a row taken out).
 
 | Read date | Plan | As read | As corrected | Kind | Corrected by |
 |---|---|---|---|---|---|
@@ -290,6 +290,7 @@ All rows by method: api 2816, manual 623, page 12763.
 | 2026-11-15 | hetzner-cpx32 | USD 35.49 | USD 41.99 | reading-method | b4ebbdc2 the plan's price is Hetzner's Germany price (Falkenstein, Nuremberg); the reader took the lowest over Germany and Helsinki, so from 11 Nov 2026 it stored the Helsinki price (Hetzner cut Helsinki only, by 15%, on 10 Nov 2026); the Germany price, USD 41.99, did not change |
 | 2026-11-15 | hetzner-cpx42 | USD 69.49 | USD 81.99 | reading-method | b4ebbdc2 the plan's price is Hetzner's Germany price (Falkenstein, Nuremberg); the reader took the lowest over Germany and Helsinki, so from 11 Nov 2026 it stored the Helsinki price (Hetzner cut Helsinki only, by 15%, on 10 Nov 2026); the Germany price, USD 81.99, did not change |
 | 2026-11-15 | hetzner-cpx62 | USD 129.99 | USD 152.99 | reading-method | b4ebbdc2 the plan's price is Hetzner's Germany price (Falkenstein, Nuremberg); the reader took the lowest over Germany and Helsinki, so from 11 Nov 2026 it stored the Helsinki price (Hetzner cut Helsinki only, by 15%, on 10 Nov 2026); the Germany price, USD 152.99, did not change |
+| 2026-11-20 | rn-special-1 | USD 1.33 | none: not a read, row taken out (last read 2026-11-19) | not-a-read | 09cacef9 not a read of this plan: since 20 Nov 2026 RackNerd's specials page (https://www.racknerd.com/specials/) opens its Black Friday page, so the figure stored that day was the price of a Black Friday plan (1 GB: USD 15.98 a year, USD 1.33 a month), not of this special; the special's last read is 19 Nov 2026 (1 GB: USD 21.99 a year, USD 1.83 a month), and the row is taken out |
 
 Every other row matches the site's daily record (6866 rows checked; 139 rows are on days the daily record does not hold that plan).
 
@@ -300,7 +301,7 @@ Medians in USD per month, weighted by plan count (plan count in brackets), then 
 | Month | Plans | 1 GB | 4 GB | 8 GB | 1 GB, per provider | 4 GB, per provider | 8 GB, per provider | Change % | Up / down / same | Note |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---|---|
 | 2026-10 | 293 | 5.00 (37) | 14.00 (59) | 24.99 (51) | 5.00 (30) | 16.50 (46) | 28.69 (40) |  |  | first read 2026-10-05; first month: no earlier month to compare |
-| 2026-11 | 571 | 5.00 (52) | 15.99 (103) | 28.50 (94) | 5.00 (43) | 17.00 (75) | 31.99 (67) | 0.00 | 0 / 0 / 291 | month to date: reads up to 2026-11-20; change: 291 plans read in both 2026-10 and 2026-11 |
+| 2026-11 | 576 | 5.00 (53) | 15.50 (104) | 28.00 (95) | 5.00 (43) | 17.00 (75) | 31.99 (67) | 0.00 | 0 / 0 / 291 | month to date: reads up to 2026-11-20; change: 291 plans read in both 2026-10 and 2026-11 |
 
 ## Rebuild
 
@@ -323,4 +324,5 @@ From app/frontend:
 - 2026-11-07: a struck price at a provider that runs no sale is not a price (Legal ruling 7 Nov 2026, rule 2.3; 16 CFR 233.1(a)). 33 rows carry the billed figure as reading-method corrections: Hivelocity pro.md.amd USD 20 to 15 (27 rows from 2026-10-11), Database Mart Basic USD 12.99 to 9.74 and Professional USD 23.99 to 18.47 (3 rows each, 2026-11-04 to 2026-11-06); Database Mart Advanced USD 43.99 to 30.79 applies from 2026-11-07, that day's rows included. Database Mart's cuts on 2026-11-04 are now price moves. The index's medians and its 0 rose, 0 fell are unchanged (Hivelocity pro.md.amd is USD 15 in both months; Database Mart was first read in November). The same day, the 2026-11-06 hand reads of AlphaVPS and netcup re-priced at the 2026-11-06 ECB rate (1.1165; they had the 2026-11-05 rate, 1.1224): netcup pico USD 2.08 to 2.07.
 - 2026-11-07: the daily step for 2026-11-07, run before the evening price run: 361 rows of that day's reads at 56 providers, and the catalogue's hand reads of 2026-11-06 at 23 providers (198 rows, read_method manual; 22 of them get their first file, and Known Host its first with that day's reads), which had reached the catalogue between two daily runs. November's basket goes from 300 to 448 plans; its 8 GB median moves from 24.00 to 27.91 and the per-provider 8 GB median from 27.50 to 31.99 because the plans counted differ, not because a price moved: none of the 285 plans read in both months changed its price.
 - 2026-11-07: Hivelocity pro.md.amd restored to USD 20 on its 28 rows from 2026-10-11 (kind `reverted` in revisions.csv, beside the earlier reading-method entries, which stay). Its agreement ends discounts after the first term and renews a monthly order at its list price (MSA 2.2, read 2026-11-07), so USD 20 is the price and USD 15 a first-month price; the 4a0ec4a3 correction to USD 15 earlier that day was wrong. The index's medians and its 0 rose, 0 fell are unchanged (pro.md.amd is USD 20 in both months).
+- 2026-11-21: RackNerd KVM VPS Special 1 GB's row of 2026-11-20 (USD 1.33) taken out, kind `not-a-read` in revisions.csv. From 2026-11-20 RackNerd's specials page (https://www.racknerd.com/specials/) opens its Black Friday page, so the price run stored the Black Friday 1 GB plan's USD 15.98 a year (USD 1.33 a month) as the old special's price, a fall from USD 1.83 that never happened. The special was last read on 2026-11-19 at USD 1.83 a month (USD 21.99 a year) and is no longer listed; any later row of the five specials is taken out the same way. November's basket prices rn-special-1 at its 2026-11-19 read again; the medians are unchanged.
 - 2026-11-15: Hetzner CPX02, CPX12, CPX22, CPX32, CPX42 and CPX62 back to their Germany prices on their rows from 2026-11-11 (24 rows, kind `reading-method`): Hetzner cut its Helsinki prices only, by 15%, on 2026-11-10, and the reader took the lowest price over Germany and Helsinki, so it stored the Helsinki price. The Germany price did not change. November's index goes from 6 fell to 0 rose, 0 fell; its medians are unchanged.

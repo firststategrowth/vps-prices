@@ -1,4 +1,4 @@
 # Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-20
 month,plans_compared,median_usd_month_1gb,median_usd_month_4gb,median_usd_month_8gb,change_pct_vs_prev_month,plans_up,plans_down,plans_same,method_version,plans_1gb,plans_4gb,plans_8gb,read_days,last_read,note,median_usd_month_1gb_per_provider,median_usd_month_4gb_per_provider,median_usd_month_8gb_per_provider,providers_1gb,providers_4gb,providers_8gb,stackrates_url
 2026-10,293,5,14,24.99,,,,,1,37,59,51,27,2026-10-31,first read 2026-10-05; first month: no earlier month to compare,5,16.5,28.69,30,46,40,https://stackrates.ai/vps-price-index/
-2026-11,571,5,15.99,28.5,0,0,0,291,1,52,103,94,20,2026-11-20,month to date: reads up to 2026-11-20; change: 291 plans read in both 2026-10 and 2026-11,5,17,31.99,43,75,67,https://stackrates.ai/vps-price-index/
+2026-11,576,5,15.5,28,0,0,0,291,1,53,104,95,20,2026-11-20,month to date: reads up to 2026-11-20; change: 291 plans read in both 2026-10 and 2026-11,5,17,31.99,43,75,67,https://stackrates.ai/vps-price-index/

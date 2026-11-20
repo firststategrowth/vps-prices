@@ -72,11 +72,11 @@ rn-1,racknerd,RackNerd,KVM 1GB,17.99,,,2,1,50,RAID-10 SSD,1,,,vCore (Intel Xeon)
 rn-2,racknerd,RackNerd,KVM 2GB,20.59,,,3,2,75,RAID-10 SSD,2,,,vCore (Intel Xeon),false,,false,,,false,,false,2026-11-20,page,https://www.racknerd.com/kvm-vps,https://stackrates.ai/hosting/racknerd/
 rn-4,racknerd,RackNerd,KVM 4GB,24.59,,,4,4,130,RAID-10 SSD,3,,,vCore (Intel Xeon),false,,false,,,false,,false,2026-11-20,page,https://www.racknerd.com/kvm-vps,https://stackrates.ai/hosting/racknerd/
 rn-8,racknerd,RackNerd,KVM 8GB,36.59,,,6,8,220,RAID-10 SSD,5,,,vCore (Intel Xeon),false,,false,,,false,,false,2026-11-20,page,https://www.racknerd.com/kvm-vps,https://stackrates.ai/hosting/racknerd/
-rn-special-1,racknerd,RackNerd,KVM VPS Special 1 GB,1.33,,,1,1,20,RAID-10 SSD,3,,,vCore (KVM),false,,false,,12,false,,false,2026-11-20,page,https://www.racknerd.com/specials/,https://stackrates.ai/hosting/racknerd/
-rn-special-2,racknerd,RackNerd,KVM VPS Special 2 GB,3,,,2,2,35,RAID-10 SSD,5,,,vCore (KVM),false,,false,,12,false,,false,2026-11-19,page,https://www.racknerd.com/specials/,https://stackrates.ai/hosting/racknerd/
-rn-special-4,racknerd,RackNerd,KVM VPS Special 4 GB,5,,,3,4,60,RAID-10 SSD,7,,,vCore (KVM),false,,false,,12,false,,false,2026-11-19,page,https://www.racknerd.com/specials/,https://stackrates.ai/hosting/racknerd/
-rn-special-6,racknerd,RackNerd,KVM VPS Special 6 GB,7.5,,,6,6,100,RAID-10 SSD,12,,,vCore (KVM),false,,false,,12,false,,false,2026-11-19,page,https://www.racknerd.com/specials/,https://stackrates.ai/hosting/racknerd/
-rn-special-8,racknerd,RackNerd,KVM VPS Special 8 GB,10,,,7,8,150,RAID-10 SSD,20,,,vCore (KVM),false,,false,,12,false,,false,2026-11-19,page,https://www.racknerd.com/specials/,https://stackrates.ai/hosting/racknerd/
+rn-bf-1,racknerd,RackNerd,Black Friday 1 GB KVM VPS,1.33,,,1,1,20,SSD,3,,,vCPU (KVM),false,,false,,12,false,,false,2026-11-20,page,https://www.racknerd.com/BlackFriday/,https://stackrates.ai/hosting/racknerd/
+rn-bf-2-5,racknerd,RackNerd,Black Friday 2.5 GB KVM VPS,2.33,,,2,2.5,30,SSD,6,,,vCPU (KVM),false,,false,,12,false,,false,2026-11-20,page,https://www.racknerd.com/BlackFriday/,https://stackrates.ai/hosting/racknerd/
+rn-bf-4,racknerd,RackNerd,Black Friday 4 GB KVM VPS,4,,,4,4,60,SSD,10,,,vCPU (KVM),false,,false,,12,false,,false,2026-11-20,page,https://www.racknerd.com/BlackFriday/,https://stackrates.ai/hosting/racknerd/
+rn-bf-6,racknerd,RackNerd,Black Friday 6 GB KVM VPS,6.25,,,6,6,85,SSD,15,,,vCPU (KVM),false,,false,,12,false,,false,2026-11-20,page,https://www.racknerd.com/BlackFriday/,https://stackrates.ai/hosting/racknerd/
+rn-bf-8,racknerd,RackNerd,Black Friday 8 GB KVM VPS,7.92,,,6,8,140,SSD,20,,,vCPU (KVM),false,,false,,12,false,,false,2026-11-20,page,https://www.racknerd.com/BlackFriday/,https://stackrates.ai/hosting/racknerd/
 is-1,interserver,InterServer,1 slice,3,,,1,2,40,SSD,2,,,vCPU (KVM),false,,false,,,false,,false,2026-11-20,page,https://www.interserver.net/vps/,https://stackrates.ai/hosting/interserver/
 is-2,interserver,InterServer,2 slices,6,,,1,4,80,SSD,4,,,vCPU (KVM),false,,false,,,false,,false,2026-11-20,page,https://www.interserver.net/vps/,https://stackrates.ai/hosting/interserver/
 is-4,interserver,InterServer,4 slices,12,,,2,8,160,SSD,8,,,vCPU (KVM),false,,false,,,false,,false,2026-11-20,page,https://www.interserver.net/vps/,https://stackrates.ai/hosting/interserver/
