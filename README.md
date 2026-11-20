@@ -16,7 +16,7 @@ Three things that change what you pay are in their own columns:
   24 months up front; it renews at a higher price, and renewal prices are not in this file)
 
 Providers that print euro prices keep the euro figure in `billed_eur`; it is converted at the latest
-European Central Bank reference rate (19 Nov 2026: 1 EUR = $1.0992; also in `fx` in prices.json). Webdock and Exoscale bill the same figures in US dollars, so a dollar account there pays less than `monthly_usd`.
+European Central Bank reference rate (20 Nov 2026: 1 EUR = $1.099; also in `fx` in prices.json). Webdock and Exoscale bill the same figures in US dollars, so a dollar account there pays less than `monthly_usd`.
 Other providers that publish dollar prices are taken in dollars.
 
 The managed WordPress plans of Kinsta, Hosting.com, Liquid Web, KnownHost and Elementor Hosting are sold by monthly visits and sites (`monthly_visits`, `site_limit`), and those of 20i by sites, storage and transfer (`site_limit`, `storage_gb`, `transfer_tb`), not by size, so their `vcpu` and `ram_gb` are empty.

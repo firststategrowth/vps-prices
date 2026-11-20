@@ -148,7 +148,7 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-19,mythicbeasts,mythicbeasts-vps-2,VPS 2,1,2,10,1,10.27,7.8,GBP,2.63,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
 2026-11-19,mythicbeasts,mythicbeasts-vps-4,VPS 4,2,4,20,1,19.88,15.1,GBP,2.63,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
 2026-11-19,mythicbeasts,mythicbeasts-vps-8,VPS 8,2,8,40,1,37.13,28.2,GBP,2.63,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
-2026-11-20,mythicbeasts,mythicbeasts-vps-1,VPS 1,1,1,5,1,6.44,4.9,GBP,2.63,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
-2026-11-20,mythicbeasts,mythicbeasts-vps-2,VPS 2,1,2,10,1,10.26,7.8,GBP,2.63,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
-2026-11-20,mythicbeasts,mythicbeasts-vps-4,VPS 4,2,4,20,1,19.86,15.1,GBP,2.63,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
-2026-11-20,mythicbeasts,mythicbeasts-vps-8,VPS 8,2,8,40,1,37.09,28.2,GBP,2.63,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
+2026-11-20,mythicbeasts,mythicbeasts-vps-1,VPS 1,1,1,5,1,6.43,4.9,GBP,2.63,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
+2026-11-20,mythicbeasts,mythicbeasts-vps-2,VPS 2,1,2,10,1,10.24,7.8,GBP,2.63,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
+2026-11-20,mythicbeasts,mythicbeasts-vps-4,VPS 4,2,4,20,1,19.82,15.1,GBP,2.63,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/
+2026-11-20,mythicbeasts,mythicbeasts-vps-8,VPS 8,2,8,40,1,37.01,28.2,GBP,2.63,https://www.mythic-beasts.com/order/vps,page,https://stackrates.ai/hosting/mythicbeasts/history/

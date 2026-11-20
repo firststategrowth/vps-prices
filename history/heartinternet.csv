@@ -70,4 +70,4 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-19,heartinternet,heart-lite,VPS Lite,1,2,75,1,11.84,8.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
 2026-11-19,heartinternet,heart-plus,VPS Plus,2,4,100,1,19.74,14.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
 2026-11-19,heartinternet,heart-premium,VPS Premium,6,12,250,1,52.66,39.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
-2026-11-20,heartinternet,heart-lite,VPS Lite,1,2,75,1,11.82,8.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/
+2026-11-20,heartinternet,heart-lite,VPS Lite,1,2,75,1,11.8,8.99,GBP,,https://www.heartinternet.uk/vps,page,https://stackrates.ai/hosting/heartinternet/history/

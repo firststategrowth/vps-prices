@@ -56,7 +56,7 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-19,namescouk,names-vps-m,Self-managed VPS M,4,8,300,1,52.66,39.99,GBP,,https://www.names.co.uk/servers/self-managed-vps-hosting,page,https://stackrates.ai/hosting/namescouk/history/
 2026-11-19,namescouk,names-vps-s,Self-managed VPS S,2,4,150,1,28.96,21.99,GBP,,https://www.names.co.uk/servers/self-managed-vps-hosting,page,https://stackrates.ai/hosting/namescouk/history/
 2026-11-19,namescouk,names-vps-xs,Self-managed VPS XS,1,2,75,1,19.74,14.99,GBP,,https://www.names.co.uk/servers/self-managed-vps-hosting,page,https://stackrates.ai/hosting/namescouk/history/
-2026-11-20,namescouk,names-vps-l,Self-managed VPS L,8,16,500,1,84.15,63.99,GBP,,https://www.names.co.uk/servers/self-managed-vps-hosting,page,https://stackrates.ai/hosting/namescouk/history/
-2026-11-20,namescouk,names-vps-m,Self-managed VPS M,4,8,300,1,52.59,39.99,GBP,,https://www.names.co.uk/servers/self-managed-vps-hosting,page,https://stackrates.ai/hosting/namescouk/history/
-2026-11-20,namescouk,names-vps-s,Self-managed VPS S,2,4,150,1,28.92,21.99,GBP,,https://www.names.co.uk/servers/self-managed-vps-hosting,page,https://stackrates.ai/hosting/namescouk/history/
-2026-11-20,namescouk,names-vps-xs,Self-managed VPS XS,1,2,75,1,19.71,14.99,GBP,,https://www.names.co.uk/servers/self-managed-vps-hosting,page,https://stackrates.ai/hosting/namescouk/history/
+2026-11-20,namescouk,names-vps-l,Self-managed VPS L,8,16,500,1,83.99,63.99,GBP,,https://www.names.co.uk/servers/self-managed-vps-hosting,page,https://stackrates.ai/hosting/namescouk/history/
+2026-11-20,namescouk,names-vps-m,Self-managed VPS M,4,8,300,1,52.49,39.99,GBP,,https://www.names.co.uk/servers/self-managed-vps-hosting,page,https://stackrates.ai/hosting/namescouk/history/
+2026-11-20,namescouk,names-vps-s,Self-managed VPS S,2,4,150,1,28.86,21.99,GBP,,https://www.names.co.uk/servers/self-managed-vps-hosting,page,https://stackrates.ai/hosting/namescouk/history/
+2026-11-20,namescouk,names-vps-xs,Self-managed VPS XS,1,2,75,1,19.67,14.99,GBP,,https://www.names.co.uk/servers/self-managed-vps-hosting,page,https://stackrates.ai/hosting/namescouk/history/

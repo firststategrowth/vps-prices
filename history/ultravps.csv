@@ -141,6 +141,6 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-19,ultravps,ultravps-cloud-30,Cloud-30,2,2,30,6,4.15,3.78,EUR,0,https://www.ultravps.eu/en/vps/,page,https://stackrates.ai/hosting/ultravps/history/
 2026-11-19,ultravps,ultravps-cloud-50,Cloud-50,2,4,50,3,8.29,7.56,EUR,0,https://www.ultravps.eu/en/vps/,page,https://stackrates.ai/hosting/ultravps/history/
 2026-11-20,ultravps,ultravps-cloud-100,Cloud-100,4,8,100,3,16.63,15.13,EUR,0,https://www.ultravps.eu/en/vps/,page,https://stackrates.ai/hosting/ultravps/history/
-2026-11-20,ultravps,ultravps-cloud-200,Cloud-200,4,16,200,1,26.79,24.37,EUR,0,https://www.ultravps.eu/en/vps/,page,https://stackrates.ai/hosting/ultravps/history/
+2026-11-20,ultravps,ultravps-cloud-200,Cloud-200,4,16,200,1,26.78,24.37,EUR,0,https://www.ultravps.eu/en/vps/,page,https://stackrates.ai/hosting/ultravps/history/
 2026-11-20,ultravps,ultravps-cloud-30,Cloud-30,2,2,30,6,4.15,3.78,EUR,0,https://www.ultravps.eu/en/vps/,page,https://stackrates.ai/hosting/ultravps/history/
 2026-11-20,ultravps,ultravps-cloud-50,Cloud-50,2,4,50,3,8.31,7.56,EUR,0,https://www.ultravps.eu/en/vps/,page,https://stackrates.ai/hosting/ultravps/history/

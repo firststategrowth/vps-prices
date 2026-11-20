@@ -84,9 +84,9 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-19,krystal,krystal-k4,K4 Recommended,2,4,50,1,38.19,29,GBP,0,https://krystal.io/cloud-vps,page,https://stackrates.ai/hosting/krystal/history/
 2026-11-19,krystal,krystal-k5,K5 Premium VPS,4,8,250,1,119.83,91,GBP,0,https://krystal.io/cloud-vps,page,https://stackrates.ai/hosting/krystal/history/
 2026-11-19,krystal,krystal-k6,K6 Ultimate VPS,6,12,500,1,214.64,163,GBP,0,https://krystal.io/cloud-vps,page,https://stackrates.ai/hosting/krystal/history/
-2026-11-20,krystal,krystal-k1,K1 Basic VPS,1,1,25,1,13.15,10,GBP,0,https://krystal.io/cloud-vps,page,https://stackrates.ai/hosting/krystal/history/
-2026-11-20,krystal,krystal-k2,K2 Plus VPS,1,2,75,1,30.25,23,GBP,0,https://krystal.io/cloud-vps,page,https://stackrates.ai/hosting/krystal/history/
-2026-11-20,krystal,krystal-k3,K3 Minimum,1,2,25,1,17.1,13,GBP,0,https://krystal.io/cloud-vps,page,https://stackrates.ai/hosting/krystal/history/
-2026-11-20,krystal,krystal-k4,K4 Recommended,2,4,50,1,38.14,29,GBP,0,https://krystal.io/cloud-vps,page,https://stackrates.ai/hosting/krystal/history/
-2026-11-20,krystal,krystal-k5,K5 Premium VPS,4,8,250,1,119.67,91,GBP,0,https://krystal.io/cloud-vps,page,https://stackrates.ai/hosting/krystal/history/
-2026-11-20,krystal,krystal-k6,K6 Ultimate VPS,6,12,500,1,214.36,163,GBP,0,https://krystal.io/cloud-vps,page,https://stackrates.ai/hosting/krystal/history/
+2026-11-20,krystal,krystal-k1,K1 Basic VPS,1,1,25,1,13.13,10,GBP,0,https://krystal.io/cloud-vps,page,https://stackrates.ai/hosting/krystal/history/
+2026-11-20,krystal,krystal-k2,K2 Plus VPS,1,2,75,1,30.19,23,GBP,0,https://krystal.io/cloud-vps,page,https://stackrates.ai/hosting/krystal/history/
+2026-11-20,krystal,krystal-k3,K3 Minimum,1,2,25,1,17.06,13,GBP,0,https://krystal.io/cloud-vps,page,https://stackrates.ai/hosting/krystal/history/
+2026-11-20,krystal,krystal-k4,K4 Recommended,2,4,50,1,38.06,29,GBP,0,https://krystal.io/cloud-vps,page,https://stackrates.ai/hosting/krystal/history/
+2026-11-20,krystal,krystal-k5,K5 Premium VPS,4,8,250,1,119.44,91,GBP,0,https://krystal.io/cloud-vps,page,https://stackrates.ai/hosting/krystal/history/
+2026-11-20,krystal,krystal-k6,K6 Ultimate VPS,6,12,500,1,213.94,163,GBP,0,https://krystal.io/cloud-vps,page,https://stackrates.ai/hosting/krystal/history/
