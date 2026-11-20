@@ -133,7 +133,7 @@ configs:
 # StackRates VPS prices and monthly price index
 
 StackRates reads VPS and cloud server prices from each provider's own pricing page or price API every day and
-publishes every read. On 19 November 2026 the daily file has 769 orderable plans from 98 providers; the
+publishes every read. On 20 November 2026 the daily file has 770 orderable plans from 99 providers; the
 history holds 15,524 reads of 99 providers' plans over 46 read days, 5 October 2026 to 19 November 2026.
 
 The newest index figure, as the site cites it: StackRates VPS price index, Nov 2026: 4 GB median $15.99/mo over 102 plans with 4 GB (567 plans in the index), read 19 Nov 2026, stackrates.ai/vps-price-index/
@@ -142,7 +142,7 @@ The newest index figure, as the site cites it: StackRates VPS price index, Nov 2
 
 | Subset | File | Rows | What |
 |---|---|---:|---|
-| `prices` | `prices.csv` | 769 | today's orderable plans, read 19 November 2026 |
+| `prices` | `prices.csv` | 770 | today's orderable plans, read 20 November 2026 |
 | `price_history` | `history/<provider>.csv` | 15,524 | every price read, 5 October 2026 to 19 November 2026, one file per provider |
 | `price_index` | `index/vps-price-index.csv` | 2 | the monthly VPS price index: medians at 1, 4 and 8 GB of RAM |
 | `price_index_plans` | `index/vps-price-index-plans.csv` | 860 | every plan behind each month of the index |
@@ -165,7 +165,7 @@ its header. Skip it: `pandas.read_csv(url, skiprows=1)`.
   https://stackrates.ai/vps-price-index/
 
 ## Limits
-- 98 providers in today's file (99 in the history), not the whole market: the ones StackRates
+- 99 providers in today's file (99 in the history), not the whole market: the ones StackRates
   reads, listed in `history/README.md`.
 - The index's newest month runs to its last read day (`last_read`); its medians move when plans enter or leave, so
   read `change_pct_vs_prev_month` (the same plans in both months) for price moves.
