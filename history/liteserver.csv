@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-19
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-20
 read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_month,price_native,currency,ipv4_extra_usd,source_url,read_method,stackrates_url
 2026-10-14,liteserver,liteserver-16,NVME-16G,6,16,320,1,71.6,64,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
 2026-10-14,liteserver,liteserver-2,NVME-2G,2,2,40,1,8.95,8,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
@@ -148,3 +148,7 @@ read_date,provider,plan_id,plan_name,vcpu,ram_gb,disk_gb,term_months,price_usd_m
 2026-11-19,liteserver,liteserver-2,NVME-2G,2,2,40,1,8.77,8,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
 2026-11-19,liteserver,liteserver-4,NVME-4G,4,4,80,1,17.55,16,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
 2026-11-19,liteserver,liteserver-8,NVME-8G,4,8,160,1,35.1,32,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
+2026-11-20,liteserver,liteserver-16,NVME-16G,6,16,320,1,70.35,64,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
+2026-11-20,liteserver,liteserver-2,NVME-2G,2,2,40,1,8.79,8,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
+2026-11-20,liteserver,liteserver-4,NVME-4G,4,4,80,1,17.59,16,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
+2026-11-20,liteserver,liteserver-8,NVME-8G,4,8,160,1,35.17,32,EUR,0,https://clients.liteserver.nl/index.php?rp=/store/nvme-ssd-vps,page,https://stackrates.ai/hosting/liteserver/history/
