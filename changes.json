@@ -618,5 +618,14 @@
     "oldUsd": 189.99,
     "newUsd": 270.99,
     "source": "https://rafftechnologies.com/pricing"
+  },
+  {
+    "date": "2026-11-21",
+    "provider": "databasemart",
+    "planId": "dbm-advanced-plus",
+    "planName": "Advanced Plus Linux VPS",
+    "oldUsd": 63.99,
+    "newUsd": 42.87,
+    "source": "https://www.databasemart.com/vps-hosting/linux"
   }
 ]
