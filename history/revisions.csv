@@ -1,4 +1,4 @@
-# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-20
+# Source: StackRates, https://stackrates.ai/data/, CC BY 4.0, read 2026-11-21
 read_date,provider,plan_id,price_as_read,price_as_corrected,corrected_by,stackrates_url,kind
 2026-10-05,cloudcone,cc-4,USD 7.67,USD 7.66,"d0f213a4 Merge data-fix-entry-price (c62bee2, with origin/master) into graphics-v2: printed price parts, CloudCone, the price study, email opt-in",https://stackrates.ai/hosting/cloudcone/history/,daily-record
 2026-10-05,contabo,contabo-vps-12,USD 35.40,USD 30.00,"778f2ac3 Price corrections: Contabo without Indian GST, UpCloud's own USD prices, Hetzner IPv4 $0.60",https://stackrates.ai/hosting/contabo/history/,daily-record
